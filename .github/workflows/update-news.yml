@@ -2,8 +2,8 @@ name: Update market news
 
 on:
   schedule:
-    - cron: "0 */3 * * *"
-  workflow_dispatch:
+    - cron: "0 */3 * * *"   # every 3 hours
+  workflow_dispatch:         # lets you run it manually from the Actions tab
 
 permissions:
   contents: write
@@ -19,11 +19,11 @@ jobs:
       - name: Generate news.json
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: gemini-flash-latest
+          GEMINI_MODEL: gemini-2.5-flash
         run: python scripts/update_news.py
       - name: Commit changes
         run: |
           git config user.name "bigman-bot"
           git config user.email "bot@users.noreply.github.com"
           git add news.json
-          git diff --cached --quiet || (git commit -m "Update market news" && git push)
+          git diff --cached --quiet || (git commit -m "Update market news" && (git push || (git pull --rebase -X theirs && git push)))
