@@ -1,0 +1,12 @@
+{
+  "updated": "2026-10-26T00:00+00:00",
+  "summary": "Sample content. Once you add your API key and run the workflow, this section updates itself with the latest market summary.",
+  "outlook": [
+    {"pair": "EUR/USD", "bias": "Neutral", "reason": "Sample text until the first automatic update."},
+    {"pair": "GBP/USD", "bias": "Neutral", "reason": "Sample text until the first automatic update."},
+    {"pair": "USD/JPY", "bias": "Neutral", "reason": "Sample text until the first automatic update."},
+    {"pair": "XAU/USD (Gold)", "bias": "Neutral", "reason": "Sample text until the first automatic update."}
+  ],
+  "watch": ["Waiting for first automatic update"],
+  "headlines": []
+}
