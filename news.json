@@ -1,12 +1,74 @@
 {
-  "updated": "2026-10-26T00:00+00:00",
-  "summary": "Sample content. Once you add your API key and run the workflow, this section updates itself with the latest market summary.",
+  "updated": "2026-10-26T21:04+00:00",
+  "summary": "Global currency markets are currently reacting to a firming U.S. dollar, supported by safe-haven flows as artificial intelligence jitters weigh on risk sentiment. Meanwhile, the euro and British pound are facing downward pressure ahead of upcoming central bank decisions and domestic fiscal updates. Traders are closely monitoring Treasury yields and broader risk-off dynamics as major central bank meetings approach.",
   "outlook": [
-    {"pair": "EUR/USD", "bias": "Neutral", "reason": "Sample text until the first automatic update."},
-    {"pair": "GBP/USD", "bias": "Neutral", "reason": "Sample text until the first automatic update."},
-    {"pair": "USD/JPY", "bias": "Neutral", "reason": "Sample text until the first automatic update."},
-    {"pair": "XAU/USD (Gold)", "bias": "Neutral", "reason": "Sample text until the first automatic update."}
+    {
+      "pair": "EUR/USD",
+      "bias": "Bearish",
+      "reason": "The euro slips as a rebounding dollar and AI-driven risk aversion weigh on the common currency."
+    },
+    {
+      "pair": "GBP/USD",
+      "bias": "Bearish",
+      "reason": "The pound faces downward pressure as a firm dollar and broader risk-off selling weigh on currencies."
+    },
+    {
+      "pair": "USD/JPY",
+      "bias": "Neutral",
+      "reason": "The pair is expected to remain range-bound amid upcoming central bank decisions and conflicting safe-haven flows."
+    },
+    {
+      "pair": "XAU/USD",
+      "bias": "Bullish",
+      "reason": "Declining Treasury yields and broader market uncertainty are fueling a haven bid that supports gold."
+    }
   ],
-  "watch": ["Waiting for first automatic update"],
-  "headlines": []
+  "watch": [
+    "Upcoming Federal Reserve interest rate decision",
+    "Upcoming Bank of Japan rate decision",
+    "UK Budget announcements led by Chancellor John Healey",
+    "Anthropic's blockbuster share listing and IPO prospectus"
+  ],
+  "headlines": [
+    {
+      "source": "Investing.com",
+      "title": "Dollar rebounds as euro slips ahead of key central bank decisions",
+      "link": "https://www.investing.com/news/forex-news/asia-fx-muted-yuan-at-4yr-high-dollar-drifts-lower-ahead-of-cbankpacked-week-4971383"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Brazil’s real weakens 12% as Lula wins reelection",
+      "link": "https://www.investing.com/news/forex-news/brazils-real-weakens-12-as-lula-wins-reelection-93CH-4972631"
+    },
+    {
+      "source": "Investing.com",
+      "title": "U.S.  yields hover near 3-week lows as ahead of Fed decision",
+      "link": "https://www.investing.com/news/forex-news/french-yields-retreat-from-2002-highs-as-moodys-holds-ecb-in-focus-4971656"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Sterling today: Pound slips as dollar holds firm ahead of Fed decision",
+      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-as-dollar-holds-firm-ahead-of-fed-decision-4971754"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Dollar steadies as AI jitters spur yen gains and weigh on euro",
+      "link": "https://www.investing.com/news/forex-news/asia-fx-steadies-as-oil-surge-weighs-on-risk-appetite-yen-holds-gains-4967999"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Treasury yields set for third weekly drop as AI worries fuel haven bid",
+      "link": "https://www.investing.com/news/forex-news/german-yields-hit-2month-lows-as-french-debt-costs-spike-4968247"
+    },
+    {
+      "source": "Investing.com",
+      "title": "India 40-year bond yield hits highest level since 2018",
+      "link": "https://www.investing.com/news/forex-news/india-40year-bond-yield-hits-highest-level-since-2018-93CH-4968714"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Citi expects USD/JPY to remain range-bound amid BoJ’s rate decision",
+      "link": "https://www.investing.com/news/forex-news/citi-expects-usdjpy-to-remain-rangebound-amid-bojs-rate-decision-93CH-4968564"
+    }
+  ]
 }
