@@ -3,195 +3,214 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Big Man Capital</title>
+<title>BigMan Capital</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--navy:#0a1224;--char:#1a1f2b;--gold:#c9a24b;--gold2:#e8c978;--text:#eef1f7;--mute:#9aa6bd;--line:rgba(201,162,75,.22);--up:#4fd18b;--down:#ff6b6b;color-scheme:dark;box-sizing:border-box}
+:root{--navy:#0a1224;--char:#1a1f2b;--gold:#c9a24b;--gold2:#e8c978;--text:#eef1f7;--mute:#9aa6bd;--line:rgba(201,162,75,.25);--up:#4fd18b;--down:#ff6b6b;color-scheme:dark;box-sizing:border-box}
 *,*::before,*::after{box-sizing:inherit}
-html{scroll-behavior:smooth;scroll-padding-top:80px}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
 body{margin:0;background:var(--navy);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.6;overflow-x:hidden}
-.bg{position:fixed;inset:0;z-index:-1;background:radial-gradient(1200px 700px at 80% -10%,#1b2d55 0,transparent 60%),radial-gradient(900px 600px at -10% 40%,#16213d 0,transparent 55%),var(--navy)}
-.orb{position:absolute;border-radius:50%;filter:blur(90px);opacity:.28;animation:drift 18s ease-in-out infinite alternate}
-.o1{width:380px;height:380px;background:var(--gold);top:8%;left:62%}
-.o2{width:320px;height:320px;background:#3b5ba5;top:55%;left:-5%;animation-delay:-6s}
+[hidden]{display:none!important}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;margin:0;line-height:1.05}
+.bg{position:fixed;inset:0;z-index:-1;background:radial-gradient(1200px 700px at 80% -10%,#1b2d55,transparent 60%),radial-gradient(900px 600px at -10% 40%,#16213d,transparent 55%),var(--navy)}
+#cv{position:absolute;inset:0;opacity:.4}
+.orb{position:absolute;border-radius:50%;filter:blur(90px);opacity:.25;animation:drift 18s ease-in-out infinite alternate}
+.o1{width:380px;height:380px;background:var(--gold);top:8%;left:62%}.o2{width:320px;height:320px;background:#3b5ba5;top:55%;left:-5%}
 @keyframes drift{to{transform:translate(-60px,50px) scale(1.15)}}
-h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;margin:0;line-height:1.1}
-nav{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:14px 5vw;background:rgba(10,18,36,.72);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
-.logo{font-family:"Cormorant Garamond",Georgia,serif;font-size:1.5rem;font-weight:700;color:var(--gold2);letter-spacing:.5px;text-decoration:none}
-.links{display:flex;gap:22px}
-.links a{color:var(--mute);text-decoration:none;font-size:.92rem;transition:color .2s}
-.links a:hover{color:var(--gold2)}
-@media(max-width:860px){.links{display:none}}
-section{padding:90px 5vw;max-width:1180px;margin:0 auto}
-.hero{min-height:88vh;display:flex;flex-direction:column;justify-content:center}
+#prog{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--gold),var(--gold2));z-index:50}
+nav{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:12px 5vw;background:rgba(10,18,36,.78);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.logo{font-family:"Cormorant Garamond",Georgia,serif;font-size:clamp(1.8rem,5vw,2.4rem);font-weight:700;text-decoration:none;color:var(--text);letter-spacing:.5px}
+.logo b,.gt{background:linear-gradient(90deg,var(--gold),var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.links{display:flex;gap:20px}.links a{color:var(--mute);text-decoration:none;font-size:.9rem;transition:color .2s}.links a:hover{color:var(--gold2)}
+@media(max-width:900px){.links{display:none}}
+section,.pg{padding:80px 5vw;max-width:1180px;margin:0 auto}
+.hero{min-height:92vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
 .tag{color:var(--gold);letter-spacing:3px;font-size:.78rem;text-transform:uppercase}
-h1{font-size:clamp(2.8rem,8vw,5.6rem);font-weight:700;margin:14px 0 18px}
-h1 span{background:linear-gradient(90deg,var(--gold),var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent}
-.lead{max-width:620px;color:var(--mute);font-size:1.12rem}
-.cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:32px}
-.btn{display:inline-block;padding:14px 28px;border-radius:999px;font-weight:600;text-decoration:none;font-size:.95rem;border:1px solid var(--gold);transition:transform .25s,box-shadow .25s;animation:float 4s ease-in-out infinite}
-.btn.gold{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#1a1405;box-shadow:0 10px 30px rgba(201,162,75,.28)}
-.btn.ghost{color:var(--gold2);background:transparent;animation-delay:-2s}
-.btn:hover{transform:translateY(-4px) scale(1.04);box-shadow:0 16px 40px rgba(201,162,75,.4)}
+.wm{font-size:clamp(3.6rem,15vw,9.5rem);font-weight:700;margin:16px 0 10px;letter-spacing:-1px;text-shadow:0 0 60px rgba(201,162,75,.25)}
+.wm span{display:block;font-size:.42em;letter-spacing:.45em;color:var(--text);margin-top:6px;text-indent:.45em}
+.hero h2{font-size:clamp(1.4rem,4vw,2.2rem);color:var(--gold2);font-weight:600}
+.lead{max-width:640px;color:var(--mute);font-size:1.1rem;margin:16px auto 0}
+.cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px;justify-content:center}
+.btn{display:inline-block;padding:14px 28px;border-radius:999px;font-weight:600;text-decoration:none;font-size:.95rem;border:1px solid var(--gold);cursor:pointer;transition:transform .25s,box-shadow .25s;animation:float 4s ease-in-out infinite;font-family:inherit}
+.btn.gold{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#1a1405;box-shadow:0 10px 30px rgba(201,162,75,.3)}
+.btn.ghost{color:var(--gold2);background:rgba(10,18,36,.4);animation-delay:-2s}
+.btn:hover{transform:translateY(-4px) scale(1.04);box-shadow:0 16px 40px rgba(201,162,75,.45)}
 @keyframes float{50%{translate:0 -6px}}
-h2{font-size:clamp(2rem,5vw,3.2rem);margin:10px 0 14px}
-.sub{color:var(--mute);max-width:640px;margin-bottom:40px}
+.mq{overflow:hidden;border-block:1px solid var(--line);background:rgba(26,31,43,.5);padding:12px 0;white-space:nowrap}
+.mq div{display:inline-block;animation:mq 30s linear infinite;color:var(--gold2);letter-spacing:3px;font-size:.85rem}
+@keyframes mq{to{transform:translateX(-50%)}}
+h2.h{font-size:clamp(2rem,5vw,3.2rem);margin:10px 0 14px}
+.sub{color:var(--mute);max-width:640px;margin-bottom:34px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
-.card{background:linear-gradient(160deg,rgba(26,31,43,.85),rgba(16,27,51,.7));border:1px solid var(--line);border-radius:20px;padding:28px;transition:transform .3s,border-color .3s,box-shadow .3s}
-.card:hover{transform:translateY(-8px);border-color:var(--gold);box-shadow:0 20px 50px rgba(0,0,0,.45)}
-.ic{font-size:1.9rem;margin-bottom:12px}
-.card h3{font-size:1.6rem;color:var(--gold2);margin-bottom:8px}
-.card p{margin:0;color:var(--mute);font-size:.95rem}
-.stats{display:flex;flex-wrap:wrap;gap:40px;margin-top:40px}
-.stats b{display:block;font-family:"Cormorant Garamond",Georgia,serif;font-size:2.6rem;color:var(--gold2)}
-.stats small{color:var(--mute)}
-/* Market Pulse */
-.pulse{background:linear-gradient(160deg,rgba(26,31,43,.9),rgba(16,27,51,.75));border:1px solid var(--gold);border-radius:24px;padding:32px;box-shadow:0 30px 80px rgba(0,0,0,.45)}
-.live{display:inline-flex;align-items:center;gap:8px;font-size:.8rem;color:var(--mute)}
-.live i{width:9px;height:9px;border-radius:50%;background:var(--up);animation:pulse 1.8s infinite}
-@keyframes pulse{50%{opacity:.25}}
-.pulse .sum{font-size:1.08rem;margin:16px 0 26px}
+.card{display:block;color:inherit;text-decoration:none;background:linear-gradient(160deg,rgba(26,31,43,.88),rgba(16,27,51,.72));border:1px solid var(--line);border-radius:20px;padding:28px;transition:transform .3s,border-color .3s,box-shadow .3s}
+a.card:hover,.card:hover{transform:translateY(-8px);border-color:var(--gold);box-shadow:0 20px 50px rgba(0,0,0,.45)}
+.ic{font-size:2rem;margin-bottom:10px}.card h3{font-size:1.6rem;color:var(--gold2);margin-bottom:8px}.card p{margin:0;color:var(--mute);font-size:.95rem}
+.more{display:inline-block;margin-top:14px;color:var(--gold2);font-weight:600;font-size:.9rem}
+.stats{display:flex;flex-wrap:wrap;gap:40px;margin-top:30px}.stats b{display:block;font-family:"Cormorant Garamond",serif;font-size:3rem;color:var(--gold2)}.stats small{color:var(--mute)}
+.pulse,.cbox,.calc{background:linear-gradient(160deg,rgba(26,31,43,.92),rgba(16,27,51,.78));border:1px solid var(--gold);border-radius:24px;padding:30px;box-shadow:0 30px 80px rgba(0,0,0,.45)}
+.live{display:inline-flex;align-items:center;gap:8px;font-size:.8rem;color:var(--mute)}.live i{width:9px;height:9px;border-radius:50%;background:var(--up);animation:pl 1.8s infinite}@keyframes pl{50%{opacity:.25}}
+.sum{font-size:1.06rem;margin:14px 0 24px}
 .pairs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
-.pair{border:1px solid var(--line);border-radius:14px;padding:16px;background:rgba(10,18,36,.55)}
-.pair b{font-size:1.05rem}
+.pair{border:1px solid var(--line);border-radius:14px;padding:16px;background:rgba(10,18,36,.55)}.pair p{margin:8px 0 0;color:var(--mute);font-size:.88rem}
 .badge{float:right;font-size:.75rem;font-weight:600;padding:3px 10px;border-radius:999px;border:1px solid}
 .Bullish{color:var(--up)}.Bearish{color:var(--down)}.Neutral{color:var(--gold2)}
-.pair p{margin:8px 0 0;color:var(--mute);font-size:.88rem}
-.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;margin-top:26px}
-.cols h4{margin:0 0 8px;color:var(--gold2);font-size:.95rem;letter-spacing:1px;text-transform:uppercase}
-.cols ul{margin:0;padding-left:18px;color:var(--mute);font-size:.92rem}
-.cols a{color:var(--mute);text-decoration:none}.cols a:hover{color:var(--gold2)}
-.note{margin-top:22px;font-size:.78rem;color:var(--mute)}
-/* Journal */
-.frame{border:1px solid var(--gold);border-radius:20px;overflow:hidden;background:var(--char);box-shadow:0 30px 80px rgba(0,0,0,.5)}
-.bar{display:flex;justify-content:space-between;align-items:center;padding:12px 18px;border-bottom:1px solid var(--line);font-size:.85rem;color:var(--mute)}
-.bar a{color:var(--gold2);text-decoration:none}
-iframe{width:100%;height:78vh;min-height:520px;border:0;display:block;background:#fff}
-footer{text-align:center;padding:50px 5vw calc(70px + env(safe-area-inset-bottom,0px));color:var(--mute);font-size:.82rem;border-top:1px solid var(--line)}
-footer p{max-width:720px;margin:10px auto 0}
-.fade{opacity:0;transform:translateY(28px);transition:opacity .8s,transform .8s}
-.fade.in{opacity:1;transform:none}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;margin-top:24px}.cols h4{margin:0 0 8px;color:var(--gold2);font-size:.9rem;letter-spacing:1px;text-transform:uppercase}
+.cols ul{margin:0;padding-left:18px;color:var(--mute);font-size:.92rem}.cols a{color:var(--mute);text-decoration:none}
+.note{margin-top:20px;font-size:.78rem;color:var(--mute)}
+input,textarea{width:100%;background:rgba(10,18,36,.7);border:1px solid var(--line);border-radius:12px;color:var(--text);padding:12px 14px;font:inherit;margin-bottom:12px}
+input:focus,textarea:focus{outline:none;border-color:var(--gold)}
+.calc{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;align-items:end}.calc label{font-size:.8rem;color:var(--mute)}.calc input{margin:4px 0 0}
+.res{grid-column:1/-1;font-size:1.1rem;color:var(--gold2);border-top:1px solid var(--line);padding-top:14px}
+.jf{position:relative;border:1px solid var(--gold);border-radius:20px;overflow:hidden;background:var(--char);box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.jf iframe{width:100%;height:76vh;min-height:500px;border:0;display:block;background:#fff}
+.fab{position:absolute;right:18px;bottom:18px;z-index:3;border:0;border-radius:999px;padding:14px 24px;font:600 .95rem Inter,sans-serif;cursor:pointer;color:#1a1405;background:linear-gradient(135deg,var(--gold),var(--gold2));box-shadow:0 0 0 0 rgba(232,201,120,.6),0 12px 34px rgba(0,0,0,.5);animation:ring 2.4s infinite}
+@keyframes ring{70%{box-shadow:0 0 0 18px rgba(232,201,120,0),0 12px 34px rgba(0,0,0,.5)}100%{box-shadow:0 0 0 0 rgba(232,201,120,0),0 12px 34px rgba(0,0,0,.5)}}
+#ov{position:fixed;inset:0;z-index:100;background:var(--navy)}#ov iframe{width:100%;height:100%;border:0;background:#fff}
+#ov .fab{position:fixed;top:calc(14px + env(safe-area-inset-top,0px));bottom:auto;animation:none}
+details{border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin-bottom:12px;background:rgba(26,31,43,.6)}summary{cursor:pointer;font-weight:600;color:var(--gold2)}details p{color:var(--mute);margin:10px 0 0}
+.wa{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:30;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;font-size:1.6rem;text-decoration:none;background:linear-gradient(135deg,var(--gold),var(--gold2));box-shadow:0 12px 34px rgba(0,0,0,.5);animation:float 3.5s ease-in-out infinite}
+.back{color:var(--gold2);text-decoration:none;font-size:.9rem}
+.st{font-size:clamp(2.4rem,7vw,4.4rem);margin:12px 0}.pg h2{font-size:2.2rem;margin:44px 0 18px}
+.num{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,var(--gold),var(--gold2));color:#1a1405;font-weight:700;margin-bottom:12px}
+.tick{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}.tick li{padding:14px 18px 14px 44px;border:1px solid var(--line);border-radius:14px;position:relative;background:rgba(26,31,43,.6)}.tick li::before{content:"✦";position:absolute;left:16px;color:var(--gold)}
+.cbox{margin-top:44px}.cbox h2{margin:0 0 8px!important}.cbox .cta{justify-content:flex-start}
+footer{text-align:center;padding:50px 5vw 90px;color:var(--mute);font-size:.82rem;border-top:1px solid var(--line)}footer p{max-width:720px;margin:10px auto 0}
+.fade{opacity:0;transform:translateY(28px);transition:opacity .8s,transform .8s}.fade.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
 </head>
 <body>
-<div class="bg"><div class="orb o1"></div><div class="orb o2"></div></div>
-<nav>
-<a class="logo" href="#top">Big Man Capital</a>
-<div class="links"><a href="#about">About</a><a href="#services">Services</a><a href="#pulse">Market Pulse</a><a href="#automations">Automations</a><a href="#resources">Resources</a><a href="#journal">Journal</a><a href="#contact">Contact</a></div>
-</nav>
+<div id="prog"></div>
+<div class="bg"><canvas id="cv"></canvas><div class="orb o1"></div><div class="orb o2"></div></div>
+<nav><a class="logo" href="#top"><b>BigMan</b> Capital</a>
+<div class="links"><a href="#about">About</a><a href="#services">Services</a><a href="#pulse">Market Pulse</a><a href="#tools">Tools</a><a href="#journal">Journal</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div></nav>
 
+<div id="home">
 <section class="hero" id="top">
 <div class="tag">Forex · Funds · Education</div>
-<h1>Trade with <span>confidence.</span><br>Grow with discipline.</h1>
-<p class="lead">Big Man Capital manages client funds in the forex market and equips traders with coaching, mentorship, automated trading tools and a professional journal.</p>
+<h1 class="wm gt">BigMan<span>CAPITAL</span></h1>
+<h2>Trade with confidence. Grow with discipline.</h2>
+<p class="lead">We manage client funds in the forex market and equip traders with coaching, mentorship, automated tools and a professional journal.</p>
 <div class="cta"><a class="btn gold" href="#services">Explore Services</a><a class="btn ghost" href="#pulse">Live Market Pulse</a></div>
-<div class="stats"><div><b>5</b><small>Core services</small></div><div><b>24/5</b><small>Market focus</small></div><div><b>1</b><small>Disciplined process</small></div></div>
 </section>
+<div class="mq"><div id="mq"></div></div>
 
 <section id="about" class="fade">
-<div class="tag">About us</div>
-<h2>Calm decisions. Serious capital.</h2>
-<p class="sub">We are a forex trading company built on risk management, patience and transparency. We trade client funds with a structured process, and we teach traders to build the same discipline through our programs and tools.</p>
+<div class="tag">About us</div><h2 class="h">Calm decisions. Serious capital.</h2>
+<p class="sub">BigMan Capital is a forex trading company built on risk management, patience and transparency. We trade client funds with a structured process, and teach traders to build the same discipline.</p>
+<div class="stats"><div><b class="cnt" data-n="5">0</b><small>Core services</small></div><div><b class="cnt" data-n="24" data-s="/5">0</b><small>Market coverage</small></div><div><b class="cnt" data-n="100" data-s="%">0</b><small>Risk-first approach</small></div></div>
 </section>
 
 <section id="services" class="fade">
-<div class="tag">Services</div>
-<h2>Everything a trader needs</h2>
-<p class="sub">From managed accounts to hands-on mentorship, one company, one standard.</p>
-<div class="grid">
-<div class="card"><div class="ic">💼</div><h3>Account Management</h3><p>We trade your funds in the forex market with strict risk controls and clear reporting.</p></div>
-<div class="card"><div class="ic">🎓</div><h3>Trading Classes</h3><p>Structured lessons that take you from the basics to a complete, tested strategy.</p></div>
-<div class="card"><div class="ic">🧭</div><h3>Coaching</h3><p>Focused sessions on your execution, psychology and consistency.</p></div>
-<div class="card"><div class="ic">🤝</div><h3>Mentorship</h3><p>Ongoing guidance from an experienced trader as you grow your account.</p></div>
-</div>
+<div class="tag">Services</div><h2 class="h">Everything a trader needs</h2>
+<p class="sub">Tap any service to see how it works and how we deliver it.</p>
+<div class="grid" id="sgrid"></div>
 </section>
 
 <section id="pulse" class="fade">
-<div class="tag">AI Market Pulse</div>
-<h2>What’s moving the markets</h2>
+<div class="tag">AI Market Pulse</div><h2 class="h">What’s moving the markets</h2>
 <p class="sub">Our AI reads the latest financial headlines several times a day, summarizes them and shares what to expect.</p>
-<div class="pulse">
-<span class="live"><i></i><span id="upd">Loading…</span></span>
-<p class="sum" id="sum"></p>
-<div class="pairs" id="pairs"></div>
-<div class="cols">
-<div><h4>Watch today</h4><ul id="watch"></ul></div>
-<div><h4>Top headlines</h4><ul id="heads"></ul></div>
-</div>
-<p class="note">AI-generated market commentary for information only. It is not financial advice or a guarantee of results. Forex trading is high risk.</p>
-</div>
+<div class="pulse"><span class="live"><i></i><span id="upd">Loading…</span></span>
+<p class="sum" id="sum"></p><div class="pairs" id="pairs"></div>
+<div class="cols"><div><h4>Watch today</h4><ul id="watch"></ul></div><div><h4>Top headlines</h4><ul id="heads"></ul></div></div>
+<p class="note">AI-generated commentary for information only. It is not financial advice or a guarantee of results. Forex trading is high risk.</p></div>
 </section>
 
-<section id="automations" class="fade">
-<div class="tag">Automations</div>
-<h2>Trading software &amp; Expert Advisors</h2>
-<p class="sub">Automated tools built for the markets we trade, including gold. Browse, purchase or download them here. Payments will be enabled soon.</p>
-<div class="grid">
-<div class="card"><div class="ic">⚙️</div><h3>Expert Advisors</h3><p>MT5 EAs with built-in risk controls and trailing logic.</p></div>
-<div class="card"><div class="ic">📈</div><h3>Indicators</h3><p>Clean chart tools that highlight sweeps, reversals and key levels.</p></div>
-<div class="card"><div class="ic">⬇️</div><h3>Downloads</h3><p>Get your purchased tools instantly from your account.</p><a class="btn ghost" style="margin-top:16px;animation:none" href="#contact">Coming soon</a></div>
-</div>
-</section>
-
-<section id="resources" class="fade">
-<div class="tag">Resources</div>
-<h2>Learn. Prepare. Improve.</h2>
-<p class="sub">Free and member resources to sharpen your edge.</p>
-<div class="grid">
-<div class="card"><div class="ic">📚</div><h3>Guides</h3><p>Step-by-step material on risk, entries and trade management.</p></div>
-<div class="card"><div class="ic">🗓️</div><h3>Market Notes</h3><p>Weekly outlooks and key levels to watch.</p></div>
-<div class="card"><div class="ic">🛠️</div><h3>Tools</h3><p>Position size calculators and checklists.</p></div>
-</div>
+<section id="tools" class="fade">
+<div class="tag">Free tool</div><h2 class="h">Position size calculator</h2>
+<p class="sub">Work out the right lot size before every trade. Risk first, always.</p>
+<div class="calc">
+<div><label>Account balance ($)</label><input id="c1" type="number" value="1000"></div>
+<div><label>Risk per trade (%)</label><input id="c2" type="number" value="1" step="0.1"></div>
+<div><label>Stop loss (pips)</label><input id="c3" type="number" value="20"></div>
+<div><label>Pip value per lot ($)</label><input id="c4" type="number" value="10"></div>
+<div class="res" id="cres"></div></div>
 </section>
 
 <section id="journal" class="fade">
-<div class="tag">Trading Journal</div>
-<h2>Journal every trade</h2>
-<p class="sub">Log your trades, review your performance and stay accountable, right inside Big Man Capital.</p>
-<div class="frame">
-<div class="bar"><span>Big Man Trading Journal</span><a href="https://bigmanlegacy95-sys.github.io/Trade-journal/" target="_blank" rel="noopener">Open in new tab ↗</a></div>
-<iframe src="https://bigmanlegacy95-sys.github.io/Trade-journal/" title="Trading Journal" loading="lazy"></iframe>
-</div>
+<div class="tag">Trading Journal</div><h2 class="h">Journal every trade</h2>
+<p class="sub">Log your trades, review your performance and stay accountable, right inside BigMan Capital.</p>
+<div class="jf"><iframe src="https://bigmanlegacy95-sys.github.io/Trade-journal/" title="Trading Journal" loading="lazy"></iframe>
+<button class="fab" id="jo">⤢ Open Full Screen</button></div>
+</section>
+
+<section id="faq" class="fade">
+<div class="tag">FAQ</div><h2 class="h">Questions, answered</h2>
+<details><summary>Do you guarantee profits?</summary><p>No. Forex trading carries high risk and results are never guaranteed. We focus on strict risk management and full transparency.</p></details>
+<details><summary>How do I get started?</summary><p>Choose a service, tap WhatsApp or Email, and a message is already written for you. Just send it and we will reply.</p></details>
+<details><summary>Which markets do you trade and teach?</summary><p>Major forex pairs and gold, using the MetaTrader 5 platform.</p></details>
+<details><summary>Can I pay online?</summary><p>Online payments are coming soon. For now, we arrange everything directly with you through chat.</p></details>
 </section>
 
 <section id="contact" class="fade" style="text-align:center">
-<div class="tag">Contact</div>
-<h2>Let’s build your trading future</h2>
-<p class="sub" style="margin:0 auto 30px">Ready to start with account management, coaching or our tools? Reach out today.</p>
-<!-- REPLACE the two # links below with your WhatsApp link (https://wa.me/254XXXXXXXXX) and email (mailto:you@domain.com) -->
-<div class="cta" style="justify-content:center"><a class="btn gold" href="#">Message on WhatsApp</a><a class="btn ghost" href="#">Send an Email</a></div>
+<div class="tag">Contact</div><h2 class="h">Let’s build your trading future</h2>
+<p class="sub" style="margin:0 auto 26px">bigman.support@gmail.com · +254 729 393 153</p>
+<div class="cta" id="cta"></div>
 </section>
+</div>
 
-<footer>
-<div class="logo">Big Man Capital</div>
+<main id="svc" class="pg" hidden></main>
+
+<footer><div class="logo"><b>BigMan</b> Capital</div>
 <p>Risk warning: forex trading carries a high level of risk and may not be suitable for everyone. Past performance does not guarantee future results. Only trade with money you can afford to lose.</p>
-<p>© 2026 Big Man Capital. All rights reserved.</p>
-</footer>
+<p>© 2026 BigMan Capital. All rights reserved.</p></footer>
+
+<a class="wa" id="wafab" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
+<div id="ov" hidden><button class="fab" style="right:150px" id="jn">↗ New Tab</button><button class="fab" id="jc">✕ Close</button><iframe src="" title="Trading Journal full screen"></iframe></div>
 
 <script>
-const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('in')}),{threshold:.12});
-document.querySelectorAll('.fade').forEach(el=>io.observe(el));
-
-function el(tag,cls,text){const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e}
-fetch('news.json?'+Date.now()).then(r=>r.json()).then(d=>{
-  const t=new Date(d.updated);
-  document.getElementById('upd').textContent='Updated '+(isNaN(t)?'recently':t.toLocaleString([], {dateStyle:'medium',timeStyle:'short'}));
-  document.getElementById('sum').textContent=d.summary||'';
-  const pairs=document.getElementById('pairs');
-  (d.outlook||[]).forEach(o=>{
-    const bias=['Bullish','Bearish','Neutral'].includes(o.bias)?o.bias:'Neutral';
-    const c=el('div','pair');
-    c.append(el('span','badge '+bias,bias),el('b','',o.pair),el('p','',o.reason));
-    pairs.append(c);
-  });
-  (d.watch||[]).forEach(w=>document.getElementById('watch').append(el('li','',w)));
-  (d.headlines||[]).forEach(h=>{
-    const li=el('li'),a=el('a','',h.title+' ('+h.source+')');
-    if(/^https?:\/\//.test(h.link)){a.href=h.link;a.target='_blank';a.rel='noopener'}
-    li.append(a);document.getElementById('heads').append(li);
-  });
-}).catch(()=>{document.getElementById('upd').textContent='Market Pulse will appear here soon.'});
+const PH="254729393153",EM="bigmancapital.support@gmail.com",TIK="",JL="https://bigmanlegacy95-sys.github.io/Trade-journal/";
+const $=i=>document.getElementById(i);
+const S={
+account:{ic:"💼",t:"Account Management",tag:"Professional trading on your account, with full transparency",intro:"Let our team trade the forex market on your behalf using a disciplined, risk-first process. You stay informed with regular reports and always know where your account stands.",steps:[["Free consultation","We learn your goals, capital and comfort with risk."],["Agreement & setup","We agree on clear terms and set up your trading account with your chosen broker."],["We trade","We execute our strategy with strict risk limits on every trade."],["Reports & review","You receive regular performance updates and can ask questions any time."]],get:["Risk-managed trading","Regular performance reports","A direct line to your account manager","Clear terms with no hidden surprises"]},
+classes:{ic:"🎓",t:"Trading Classes",tag:"Learn forex step by step",intro:"Structured lessons that take you from the basics to a complete, tested strategy. Learn at your own pace with practical examples from live markets.",steps:[["Choose your level","Beginner, intermediate or advanced."],["Join the lessons","Attend live sessions or watch recordings anytime."],["Practise on demo","Apply each lesson on a risk-free demo account."],["Get feedback","We review your progress and answer your questions."]],get:["Beginner to advanced curriculum","Strategy and risk management","Practice assignments","Access to our trading journal"]},
+coaching:{ic:"🧭",t:"Coaching",tag:"One-on-one focus on your results",intro:"Personal coaching for traders who want to fix their mistakes and become consistent. We work on your execution, your psychology and your plan.",steps:[["Discovery call","Tell us where you are stuck."],["Review your trading","We study your trades and find the patterns."],["Personal action plan","A clear plan built around your goals."],["Regular check-ins","We keep you accountable and adjust as you grow."]],get:["Personalised feedback on your trades","Psychology and discipline training","A custom trading plan","Journal reviews"]},
+mentorship:{ic:"🤝",t:"Mentorship",tag:"Learn alongside a working trader",intro:"Long-term guidance from an experienced trader. Ideal if you want someone beside you as you grow your skills and your account.",steps:[["Apply","Share your experience level and goals."],["Set your roadmap","We map out milestones together."],["Ongoing guidance","Regular sessions and live market walkthroughs."],["Grow independent","We help you become a confident, self-reliant trader."]],get:["Ongoing access to your mentor","Live market walkthroughs","Accountability and support","A clear growth roadmap"]},
+automations:{ic:"⚙️",t:"Trading Automations",tag:"Expert Advisors and indicators for the markets we trade",intro:"Automated tools built for forex and gold on MetaTrader 5, with built-in risk controls. Use them to save time and trade with more discipline.",steps:[["Choose a tool","Pick the Expert Advisor or indicator that fits your style."],["Get set up","We guide you through installation."],["Test on demo","Run it on a demo account first."],["Go live carefully","Start small with risk limits."]],get:["MT5 Expert Advisors","Custom indicators","Setup guidance","Updates and support"]}};
+const wa=m=>`https://wa.me/${PH}?text=${encodeURIComponent(m)}`;
+const gm="Hello BigMan Capital 👋\nI’d like to know more about your services.";
+$("wafab").href=wa(gm);
+$("cta").innerHTML=`<a class="btn gold" target="_blank" rel="noopener" href="${wa(gm)}">💬 WhatsApp us</a><a class="btn ghost" href="mailto:${EM}">✉️ Email us</a>`+(TIK?`<a class="btn ghost" target="_blank" rel="noopener" href="https://www.tiktok.com/@${TIK}">🎵 TikTok</a>`:"");
+$("sgrid").innerHTML=Object.keys(S).map(k=>`<a class="card" href="#/service/${k}"><div class="ic">${S[k].ic}</div><h3>${S[k].t}</h3><p>${S[k].tag}</p><span class="more">Learn more →</span></a>`).join("");
+$("mq").innerHTML=("EUR/USD  ✦  GBP/USD  ✦  USD/JPY  ✦  XAU/USD  ✦  AUD/USD  ✦  USD/CAD  ✦  ").repeat(8);
+function showSvc(k){const s=S[k];$("home").hidden=true;$("svc").hidden=false;document.title=s.t+" | BigMan Capital";
+$("svc").innerHTML=`<a class="back" href="#services">← All services</a><div class="tag" style="margin-top:22px">${s.tag}</div><h1 class="st gt">${s.ic} ${s.t}</h1><p class="lead" style="margin-left:0">${s.intro}</p>
+<h2>How it works</h2><div class="grid">${s.steps.map((x,i)=>`<div class="card"><div class="num">${i+1}</div><h3>${x[0]}</h3><p>${x[1]}</p></div>`).join("")}</div>
+<h2>What you get</h2><ul class="tick">${s.get.map(g=>`<li>${g}</li>`).join("")}</ul>
+<div class="cbox"><h2>Interested in ${s.t}?</h2><p class="sub">Add your name if you like. We write the message for you.</p>
+<input id="nm" placeholder="Your name (optional)"><textarea id="nt" rows="2" placeholder="Anything to add? (optional)"></textarea>
+<div class="cta"><a id="w" class="btn gold" target="_blank" rel="noopener">💬 WhatsApp us</a><a id="e" class="btn ghost">✉️ Email us</a>${TIK?`<a class="btn ghost" target="_blank" rel="noopener" href="https://www.tiktok.com/@${TIK}">🎵 TikTok</a>`:""}</div></div>`;
+const u=()=>{const n=$("nm").value.trim(),t=$("nt").value.trim(),m=`Hello BigMan Capital 👋\n\nI’m interested in your ${s.t} service.`+(n?`\nMy name: ${n}`:"")+(t?`\nDetails: ${t}`:"")+"\n\nPlease share how to get started. Thank you!";
+$("w").href=wa(m);$("e").href=`mailto:${EM}?subject=${encodeURIComponent("Inquiry: "+s.t)}&body=${encodeURIComponent(m)}`};
+$("nm").oninput=$("nt").oninput=u;u();scrollTo(0,0)}
+function route(){const m=location.hash.match(/^#\/service\/(\w+)/);
+if(m&&S[m[1]])return showSvc(m[1]);
+$("home").hidden=false;$("svc").hidden=true;document.title="BigMan Capital";
+const t=location.hash.length>1&&document.querySelector(location.hash);if(t)setTimeout(()=>t.scrollIntoView(),30)}
+addEventListener("hashchange",route);route();
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add("in");if(x.target.querySelector(".cnt"))x.target.querySelectorAll(".cnt").forEach(cnt)}}),{threshold:.12});
+document.querySelectorAll(".fade").forEach(el=>io.observe(el));
+function cnt(el){if(el.dataset.d)return;el.dataset.d=1;const n=+el.dataset.n,s=el.dataset.s||"";let i=0;const t=setInterval(()=>{i+=Math.ceil(n/40);if(i>=n){i=n;clearInterval(t)}el.textContent=i+s},30)}
+addEventListener("scroll",()=>{$("prog").style.width=(scrollY/(document.documentElement.scrollHeight-innerHeight)*100)+"%"});
+const calc=()=>{const b=+$("c1").value,r=+$("c2").value,sl=+$("c3").value,pv=+$("c4").value,rk=b*r/100;$("cres").textContent=sl&&pv?`Risk: $${rk.toFixed(2)}  →  Lot size: ${(rk/(sl*pv)).toFixed(2)}`:"Fill in all fields"};
+["c1","c2","c3","c4"].forEach(i=>$(i).oninput=calc);calc();
+$("jo").onclick=()=>{$("ov").hidden=false;$("ov").querySelector("iframe").src=JL;document.body.style.overflow="hidden"};
+$("jc").onclick=()=>{$("ov").hidden=true;document.body.style.overflow=""};
+$("jn").onclick=()=>open(JL,"_blank","noopener");
+const cv=$("cv"),cx=cv.getContext("2d");let W,H,cs=[],p,off=0;
+function rs(){W=cv.width=innerWidth;H=cv.height=innerHeight}rs();addEventListener("resize",rs);p=H*.55;
+function nc(){const o=p,c=o+(Math.random()-.5)*34;p=Math.min(H*.8,Math.max(H*.25,c));return{o,c,h:Math.max(o,c)+Math.random()*14,l:Math.min(o,c)-Math.random()*14}}
+for(let i=0;i<Math.ceil(W/18)+3;i++)cs.push(nc());
+function draw(){cx.clearRect(0,0,W,H);off+=.35;if(off>=18){off=0;cs.shift();cs.push(nc())}
+cs.forEach((k,i)=>{const x=i*18-off;cx.strokeStyle=cx.fillStyle=k.c<k.o?"rgba(232,201,120,.7)":"rgba(120,150,220,.55)";cx.beginPath();cx.moveTo(x+6,k.h);cx.lineTo(x+6,k.l);cx.stroke();cx.fillRect(x+2,Math.min(k.o,k.c),8,Math.abs(k.c-k.o)||1)});requestAnimationFrame(draw)}draw();
+const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e};
+fetch("news.json?"+Date.now()).then(r=>r.json()).then(d=>{const t=new Date(d.updated);
+$("upd").textContent="Updated "+(isNaN(t)?"recently":t.toLocaleString([],{dateStyle:"medium",timeStyle:"short"}));$("sum").textContent=d.summary||"";
+(d.outlook||[]).forEach(o=>{const b=["Bullish","Bearish","Neutral"].includes(o.bias)?o.bias:"Neutral",c=el("div","pair");c.append(el("span","badge "+b,b),el("b","",o.pair),el("p","",o.reason));$("pairs").append(c)});
+(d.watch||[]).forEach(w=>$("watch").append(el("li","",w)));
+(d.headlines||[]).forEach(h=>{const li=el("li"),a=el("a","",h.title+" ("+h.source+")");if(/^https?:\/\//.test(h.link)){a.href=h.link;a.target="_blank";a.rel="noopener"}li.append(a);$("heads").append(li)})
+}).catch(()=>{$("upd").textContent="Market Pulse will appear here soon."});
 </script>
 </body>
 </html>
