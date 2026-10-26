@@ -78,6 +78,14 @@ details{border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin
 footer{text-align:center;padding:50px 5vw 90px;color:var(--mute);font-size:.82rem;border-top:1px solid var(--line)}footer p{max-width:720px;margin:10px auto 0}
 .fade{opacity:0;transform:translateY(28px);transition:opacity .8s,transform .8s}.fade.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+.tabs{display:flex;gap:8px;overflow-x:auto;margin:18px 0 22px;padding-bottom:4px}.tabs button,.seg button{flex:none;border:1px solid var(--line);background:rgba(10,18,36,.6);color:var(--mute);padding:9px 18px;border-radius:999px;font:500 .88rem Inter,sans-serif;cursor:pointer;transition:.2s}.tabs button.on,.seg button.on{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#1a1405;border-color:transparent}
+.seg{display:flex;gap:8px;margin-bottom:18px}.tw{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:.9rem}th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}th{color:var(--gold2);font-weight:600}
+.sr{display:grid;grid-template-columns:54px 1fr 70px;gap:12px;align-items:center;margin-bottom:12px}.sc{font-weight:600}.sv{text-align:right;color:var(--mute);font-size:.85rem}
+.st2{height:12px;border-radius:99px;background:rgba(255,255,255,.07);overflow:hidden}.sf{display:block;height:100%;border-radius:99px}.sf.pos{background:linear-gradient(90deg,#2f9e68,var(--up))}.sf.neg{background:linear-gradient(90deg,#c24b4b,var(--down))}
+.cot{margin-bottom:16px}.cb{height:10px;border-radius:99px;background:var(--down);overflow:hidden;margin:6px 0 4px}.cb span{display:block;height:100%;background:var(--up)}.cot small{color:var(--mute)}
+.ev{padding:10px 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:2px;font-size:.92rem}.ev b{color:var(--gold2);font-size:.85rem}.ev span{color:var(--mute)}
+.ses{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:50px}.sch{display:flex;flex-direction:column;padding:16px;border:1px solid var(--line);border-radius:16px;background:rgba(26,31,43,.7);position:relative}.sch i{position:absolute;top:16px;right:16px;width:10px;height:10px;border-radius:50%;background:#5b6579}.sch.op{border-color:var(--up)}.sch.op i{background:var(--up);animation:pl 1.8s infinite}.sch small{color:var(--mute)}
+.soon{display:inline-block;font-size:.72rem;letter-spacing:2px;text-transform:uppercase;padding:4px 12px;border-radius:999px;border:1px solid var(--gold);color:var(--gold2);margin-bottom:12px}
 </style>
 </head>
 <body>
@@ -109,15 +117,22 @@ footer{text-align:center;padding:50px 5vw 90px;color:var(--mute);font-size:.82re
 </section>
 
 <section id="pulse" class="fade">
-<div class="tag">AI Market Pulse</div><h2 class="h">What’s moving the markets</h2>
-<p class="sub">Our AI reads the latest financial headlines several times a day, summarizes them and shares what to expect.</p>
+<div class="tag">AI Market Pulse</div><h2 class="h">Market intelligence</h2>
+<p class="sub">News, fundamentals, technicals, COT positioning and currency strength in one place, refreshed automatically.</p>
 <div class="pulse"><span class="live"><i></i><span id="upd">Loading…</span></span>
-<p class="sum" id="sum"></p><div class="pairs" id="pairs"></div>
-<div class="cols"><div><h4>Watch today</h4><ul id="watch"></ul></div><div><h4>Top headlines</h4><ul id="heads"></ul></div></div>
-<p class="note">AI-generated commentary for information only. It is not financial advice or a guarantee of results. Forex trading is high risk.</p></div>
+<div class="tabs" id="tabs"><button class="on" data-t="t1">Overview</button><button data-t="t2">Fundamentals</button><button data-t="t3">Technical</button><button data-t="t4">COT</button><button data-t="t5">Strength</button><button data-t="t6">Options</button></div>
+<div class="tp" id="t1"><p class="sum" id="sum"></p><div class="pairs" id="pairs"></div>
+<div class="cols"><div><h4>Watch today</h4><ul id="watch"></ul></div><div><h4>Top headlines</h4><ul id="heads"></ul></div></div></div>
+<div class="tp" id="t2" hidden><p class="sum" id="fund"></p><div class="cols"><div><h4>High-impact events</h4><div id="cal"></div></div></div></div>
+<div class="tp" id="t3" hidden><p class="sum" id="tview"></p><div class="tw"><table id="ttab"></table></div></div>
+<div class="tp" id="t4" hidden><p class="sum" id="cview"></p><div id="cotl"></div><p class="note">COT = weekly CFTC report on large speculators (non-commercial) in futures. Released Fridays for the Tuesday before.</p></div>
+<div class="tp" id="t5" hidden><div class="seg" id="seg"><button data-w="1">1D</button><button class="on" data-w="5">5D</button><button data-w="20">20D</button></div><div id="str"></div><p class="note">Currency strength = each major’s move against the others over the period.</p></div>
+<div class="tp" id="t6" hidden><p class="sum"><span class="soon">Coming soon</span><br>Options positioning and implied volatility will be added here.</p></div>
+<p class="note">AI-generated commentary and data for information only. It is not financial advice or a guarantee of results. Forex trading is high risk.</p></div>
 </section>
 
 <section id="tools" class="fade">
+<div class="tag">Live</div><h2 class="h">Market sessions</h2><div class="ses" id="ses"></div>
 <div class="tag">Free tool</div><h2 class="h">Position size calculator</h2>
 <p class="sub">Work out the right lot size before every trade. Risk first, always.</p>
 <div class="calc">
@@ -127,6 +142,14 @@ footer{text-align:center;padding:50px 5vw 90px;color:var(--mute);font-size:.82re
 <div><label>Pip value per lot ($)</label><input id="c4" type="number" value="10"></div>
 <div class="res" id="cres"></div></div>
 </section>
+
+<section id="library" class="fade">
+<div class="tag">Library</div><h2 class="h">Books &amp; downloads</h2>
+<p class="sub">New resources are on the way.</p>
+<div class="grid">
+<div class="card"><span class="soon">Coming soon</span><div class="ic">📘</div><h3>The BigMan Forex Book</h3><p>Our complete guide to trading forex with discipline. Be the first to know when it launches.</p><a class="btn ghost" id="bk" target="_blank" rel="noopener" style="margin-top:16px;animation:none">Notify me</a></div>
+<div class="card"><span class="soon">Coming soon</span><div class="ic">⬇️</div><h3>EAs &amp; Indicators</h3><p>Download our Expert Advisors and indicators right from this page.</p><a class="btn ghost" href="#/service/automations" style="margin-top:16px;animation:none">Learn more</a></div>
+</div></section>
 
 <section id="journal" class="fade">
 <div class="tag">Trading Journal</div><h2 class="h">Journal every trade</h2>
@@ -145,7 +168,7 @@ footer{text-align:center;padding:50px 5vw 90px;color:var(--mute);font-size:.82re
 
 <section id="contact" class="fade" style="text-align:center">
 <div class="tag">Contact</div><h2 class="h">Let’s build your trading future</h2>
-<p class="sub" style="margin:0 auto 26px">bigman.support@gmail.com · +254 729 393 153</p>
+<p class="sub" style="margin:0 auto 26px">bigmancapital.support@gmail.com · +254 729 393 153 · TikTok @bigman.forex.trading</p>
 <div class="cta" id="cta"></div>
 </section>
 </div>
@@ -160,7 +183,7 @@ footer{text-align:center;padding:50px 5vw 90px;color:var(--mute);font-size:.82re
 <div id="ov" hidden><button class="fab" style="right:150px" id="jn">↗ New Tab</button><button class="fab" id="jc">✕ Close</button><iframe src="" title="Trading Journal full screen"></iframe></div>
 
 <script>
-const PH="254729393153",EM="bigmancapital.support@gmail.com",TIK="",JL="https://bigmanlegacy95-sys.github.io/Trade-journal/";
+const PH="254729393153",EM="bigmancapital.support@gmail.com",TIK="bigman.forex.trading",JL="https://bigmanlegacy95-sys.github.io/Trade-journal/";
 const $=i=>document.getElementById(i);
 const S={
 account:{ic:"💼",t:"Account Management",tag:"Professional trading on your account, with full transparency",intro:"Let our team trade the forex market on your behalf using a disciplined, risk-first process. You stay informed with regular reports and always know where your account stands.",steps:[["Free consultation","We learn your goals, capital and comfort with risk."],["Agreement & setup","We agree on clear terms and set up your trading account with your chosen broker."],["We trade","We execute our strategy with strict risk limits on every trade."],["Reports & review","You receive regular performance updates and can ask questions any time."]],get:["Risk-managed trading","Regular performance reports","A direct line to your account manager","Clear terms with no hidden surprises"]},
@@ -170,7 +193,7 @@ mentorship:{ic:"🤝",t:"Mentorship",tag:"Learn alongside a working trader",intr
 automations:{ic:"⚙️",t:"Trading Automations",tag:"Expert Advisors and indicators for the markets we trade",intro:"Automated tools built for forex and gold on MetaTrader 5, with built-in risk controls. Use them to save time and trade with more discipline.",steps:[["Choose a tool","Pick the Expert Advisor or indicator that fits your style."],["Get set up","We guide you through installation."],["Test on demo","Run it on a demo account first."],["Go live carefully","Start small with risk limits."]],get:["MT5 Expert Advisors","Custom indicators","Setup guidance","Updates and support"]}};
 const wa=m=>`https://wa.me/${PH}?text=${encodeURIComponent(m)}`;
 const gm="Hello BigMan Capital 👋\nI’d like to know more about your services.";
-$("wafab").href=wa(gm);
+$("wafab").href=wa(gm);$("bk").href=wa("Hello BigMan Capital 👋\nPlease notify me when The BigMan Forex Book is released.");
 $("cta").innerHTML=`<a class="btn gold" target="_blank" rel="noopener" href="${wa(gm)}">💬 WhatsApp us</a><a class="btn ghost" href="mailto:${EM}">✉️ Email us</a>`+(TIK?`<a class="btn ghost" target="_blank" rel="noopener" href="https://www.tiktok.com/@${TIK}">🎵 TikTok</a>`:"");
 $("sgrid").innerHTML=Object.keys(S).map(k=>`<a class="card" href="#/service/${k}"><div class="ic">${S[k].ic}</div><h3>${S[k].t}</h3><p>${S[k].tag}</p><span class="more">Learn more →</span></a>`).join("");
 $("mq").innerHTML=("EUR/USD  ✦  GBP/USD  ✦  USD/JPY  ✦  XAU/USD  ✦  AUD/USD  ✦  USD/CAD  ✦  ").repeat(8);
@@ -198,18 +221,43 @@ const calc=()=>{const b=+$("c1").value,r=+$("c2").value,sl=+$("c3").value,pv=+$(
 $("jo").onclick=()=>{$("ov").hidden=false;$("ov").querySelector("iframe").src=JL;document.body.style.overflow="hidden"};
 $("jc").onclick=()=>{$("ov").hidden=true;document.body.style.overflow=""};
 $("jn").onclick=()=>open(JL,"_blank","noopener");
-const cv=$("cv"),cx=cv.getContext("2d");let W,H,cs=[],p,off=0;
-function rs(){W=cv.width=innerWidth;H=cv.height=innerHeight}rs();addEventListener("resize",rs);p=H*.55;
-function nc(){const o=p,c=o+(Math.random()-.5)*34;p=Math.min(H*.8,Math.max(H*.25,c));return{o,c,h:Math.max(o,c)+Math.random()*14,l:Math.min(o,c)-Math.random()*14}}
-for(let i=0;i<Math.ceil(W/18)+3;i++)cs.push(nc());
-function draw(){cx.clearRect(0,0,W,H);off+=.35;if(off>=18){off=0;cs.shift();cs.push(nc())}
-cs.forEach((k,i)=>{const x=i*18-off;cx.strokeStyle=cx.fillStyle=k.c<k.o?"rgba(232,201,120,.7)":"rgba(120,150,220,.55)";cx.beginPath();cx.moveTo(x+6,k.h);cx.lineTo(x+6,k.l);cx.stroke();cx.fillRect(x+2,Math.min(k.o,k.c),8,Math.abs(k.c-k.o)||1)});requestAnimationFrame(draw)}draw();
+const cv=$("cv"),cx=cv.getContext("2d"),ST=18,rm=matchMedia("(prefers-reduced-motion:reduce)").matches;let W,H,cs,cur,py,al,hold,fr=0;
+function nw(){const o=py,t=Math.min(H*.82,Math.max(H*.22,o+(Math.random()-.5)*70));return{o,c:o,h:o,l:o,t,n:0}}
+function init(){cs=[];py=H*.6;al=1;hold=0;cur=nw()}
+function tick(){if(hold){hold--;if(hold<40)al=hold/40;if(!hold)init();return}
+const k=cur,f=++k.n/20;k.c=k.o+(k.t-k.o)*f+(Math.random()-.5)*16*(1-f);k.h=Math.max(k.h,k.c);k.l=Math.min(k.l,k.c);
+if(k.n>=20){k.c=k.t;k.h=Math.max(k.h,k.c)+Math.random()*9;k.l=Math.min(k.l,k.c)-Math.random()*9;cs.push(k);py=k.c;cur=nw();if((cs.length+1)*ST>W)hold=140}}
+function rs(){W=cv.width=innerWidth;H=cv.height=innerHeight;init();if(rm)while(!hold)tick()}
+function cd(k,i){const x=i*ST+4;cx.strokeStyle=cx.fillStyle=k.c<k.o?"rgba(232,201,120,.75)":"rgba(120,150,220,.6)";cx.beginPath();cx.moveTo(x+6,k.h);cx.lineTo(x+6,k.l);cx.stroke();cx.fillRect(x+2,Math.min(k.o,k.c),8,Math.abs(k.c-k.o)||1)}
+function draw(){cx.clearRect(0,0,W,H);cx.globalAlpha=al;cs.forEach(cd);cd(cur,cs.length);cx.setLineDash([4,6]);cx.strokeStyle="rgba(232,201,120,.35)";cx.beginPath();cx.moveTo(0,cur.c);cx.lineTo(W,cur.c);cx.stroke();cx.setLineDash([]);cx.globalAlpha=1;
+if(!rm){if(++fr%2==0)tick();requestAnimationFrame(draw)}}
+addEventListener("resize",rs);rs();draw();
+const SS=[["Sydney","Australia/Sydney",7,16],["Tokyo","Asia/Tokyo",9,18],["London","Europe/London",8,17],["New York","America/New_York",8,17]];
+function ses(){$("ses").innerHTML=SS.map(([n,z,a,b])=>{const p=new Intl.DateTimeFormat("en-US",{timeZone:z,hour:"numeric",hour12:false,weekday:"short"}).formatToParts(new Date()),h=+p.find(x=>x.type==="hour").value%24,d=p.find(x=>x.type==="weekday").value,o=h>=a&&h<b&&d!=="Sat"&&d!=="Sun";return`<div class="sch ${o?"op":""}"><i></i><b>${n}</b><small>${o?"Open":"Closed"}</small></div>`}).join("")}
+ses();setInterval(ses,60000);
 const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e};
-fetch("news.json?"+Date.now()).then(r=>r.json()).then(d=>{const t=new Date(d.updated);
+const $q=s=>document.querySelectorAll(s);let MK={};
+$q("#tabs button").forEach(b=>b.onclick=()=>{$q("#tabs button").forEach(x=>x.classList.toggle("on",x===b));$q(".tp").forEach(q=>q.hidden=q.id!==b.dataset.t)});
+function str(w){const b=$("str");b.textContent="";const m=(MK.strength||{})[w];if(!m){b.textContent="Strength data will appear after the next update.";return}
+const e=Object.entries(m).sort((a,b)=>b[1]-a[1]),mx=Math.max(...e.map(x=>Math.abs(x[1])))||1;
+e.forEach(([c,v])=>{const r=el("div","sr"),t=el("div","st2"),f=el("span","sf "+(v>=0?"pos":"neg"));f.style.width=Math.abs(v)/mx*100+"%";t.append(f);r.append(el("span","sc",c),t,el("span","sv",(v>0?"+":"")+v.toFixed(2)+"%"));b.append(r)})}
+$q("#seg button").forEach(b=>b.onclick=()=>{$q("#seg button").forEach(x=>x.classList.toggle("on",x===b));str(b.dataset.w)});
+fetch("news.json?"+Date.now()).then(r=>r.json()).then(d=>{MK=d.market||{};const t=new Date(d.updated);
 $("upd").textContent="Updated "+(isNaN(t)?"recently":t.toLocaleString([],{dateStyle:"medium",timeStyle:"short"}));$("sum").textContent=d.summary||"";
 (d.outlook||[]).forEach(o=>{const b=["Bullish","Bearish","Neutral"].includes(o.bias)?o.bias:"Neutral",c=el("div","pair");c.append(el("span","badge "+b,b),el("b","",o.pair),el("p","",o.reason));$("pairs").append(c)});
 (d.watch||[]).forEach(w=>$("watch").append(el("li","",w)));
-(d.headlines||[]).forEach(h=>{const li=el("li"),a=el("a","",h.title+" ("+h.source+")");if(/^https?:\/\//.test(h.link)){a.href=h.link;a.target="_blank";a.rel="noopener"}li.append(a);$("heads").append(li)})
+(d.headlines||[]).forEach(h=>{const li=el("li"),a=el("a","",h.title+" ("+h.source+")");if(/^https?:\/\//.test(h.link)){a.href=h.link;a.target="_blank";a.rel="noopener"}li.append(a);$("heads").append(li)});
+$("fund").textContent=d.fundamentals||"Fundamental analysis will appear after the next update.";
+const cal=$("cal");(MK.calendar||[]).forEach(e=>{const r=el("div","ev");r.append(el("b","",new Date(e.date).toLocaleString([],{weekday:"short",hour:"2-digit",minute:"2-digit"})+" · "+e.country),el("span","",e.title+(e.forecast?"  | Forecast "+e.forecast:"")+(e.previous?"  | Prev "+e.previous:"")));cal.append(r)});
+if(!cal.children.length)cal.textContent="The economic calendar will appear after the next update.";
+$("tview").textContent=d.technical_view||"";
+const tt=$("ttab"),row=(t,a)=>{const r=el("tr");a.forEach(x=>r.append(el(t,"",x)));tt.append(r)};
+if((MK.technical||[]).length){row("th",["Pair","Price","Trend","RSI","Support","Resistance"]);MK.technical.forEach(x=>row("td",[x.pair,x.price,(x.trend=="Uptrend"?"▲ ":x.trend=="Downtrend"?"▼ ":"● ")+x.trend,x.rsi,x.support,x.resistance]))}else $("tview").textContent="Technical data will appear after the next update.";
+$("cview").textContent=d.cot_view||"";
+const cl=$("cotl");(MK.cot||[]).forEach(x=>{const r=el("div","cot"),bar=el("div","cb"),f=el("span");f.style.width=(x.pct_long??50)+"%";bar.append(f);
+r.append(el("b","",x.name+"  Net "+x.net.toLocaleString()+(x.change==null?"":"  ("+(x.change>=0?"▲ +":"▼ -")+Math.abs(x.change).toLocaleString()+" w/w)")),bar,el("small","","Long "+x.pct_long+"% · report date "+x.date));cl.append(r)});
+if(!cl.children.length)$("cview").textContent="COT data will appear after the next update.";
+str(5)
 }).catch(()=>{$("upd").textContent="Market Pulse will appear here soon."});
 </script>
 </body>
