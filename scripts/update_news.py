@@ -58,14 +58,14 @@ def candidate_models():
                 names.append(m["name"].split("/", 1)[1])
     except Exception as e:
         print(f"Could not list models: {e}", file=sys.stderr)
-    bad = ("image", "tts", "live", "audio", "embedding", "lite", "exp", "thinking", "vision", "robotics", "computer", "gemma", "learnlm")
+    bad = ("image", "tts", "live", "audio", "embedding", "exp", "thinking", "vision", "robotics", "computer", "gemma", "learnlm")
     good = [n for n in names if "flash" in n and not any(b in n for b in bad)]
     good.sort(reverse=True)
     good.sort(key=lambda n: "latest" not in n)
     cands = ([PREFERRED] if PREFERRED in names else []) + good
     cands = list(dict.fromkeys(cands)) or ["gemini-flash-latest", "gemini-2.5-flash"]
-    print("Models to try:", cands[:4])
-    return cands[:4]
+    print("Models to try:", cands[:8])
+    return cands[:8]
 
 
 def ask_ai(items):
@@ -95,7 +95,7 @@ HEADLINES:
             print(f"Model {model} failed: HTTP {e.code} {e.read()[:300]!r}", file=sys.stderr)
         except Exception as e:
             print(f"Model {model} failed: {e}", file=sys.stderr)
-        time.sleep(3)
+        time.sleep(10)
     raise SystemExit("All AI models failed; keeping the old news.json")
 
 
