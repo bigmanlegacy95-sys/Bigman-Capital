@@ -19,7 +19,7 @@ jobs:
       - name: Generate news.json
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: gemini-2.5-flash
+          GEMINI_MODEL: gemini-flash-latest
         run: python scripts/update_news.py
       - name: Commit changes
         run: |
