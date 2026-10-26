@@ -1,13 +1,14 @@
 """Fetch forex headlines, ask Google Gemini (free tier) for a summary + outlook, save news.json.
-Runs on GitHub Actions. Needs env var GEMINI_API_KEY. No extra packages required."""
-import os, re, json, sys, time, datetime, urllib.request, xml.etree.ElementTree as ET
+Auto-detects a working Gemini model, so model renames can't break it. Needs env GEMINI_API_KEY."""
+import os, re, json, sys, time, datetime, urllib.request, urllib.error, xml.etree.ElementTree as ET
 
 KEY = os.environ["GEMINI_API_KEY"]
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")  # change in the workflow if Google renames it
+PREFERRED = os.environ.get("GEMINI_MODEL", "").strip()
+BASE = "https://generativelanguage.googleapis.com/v1beta"
 FEEDS = [
-    ("FXStreet", "https://www.fxstreet.com/rss/news"),
     ("Investing.com", "https://www.investing.com/rss/news_1.rss"),
     ("BBC Business", "https://feeds.bbci.co.uk/news/business/rss.xml"),
+    ("CNBC", "https://www.cnbc.com/id/10000664/device/rss/rss.html"),
 ]
 PAIRS = ["EUR/USD", "GBP/USD", "USD/JPY", "XAU/USD (Gold)"]
 
@@ -38,6 +39,35 @@ def get_headlines():
     return items
 
 
+def api(path, body=None):
+    headers = {"x-goog-api-key": KEY}
+    data = None
+    if body is not None:
+        data = json.dumps(body).encode()
+        headers["Content-Type"] = "application/json"
+    req = urllib.request.Request(BASE + path, data=data, headers=headers)
+    with urllib.request.urlopen(req, timeout=60) as r:
+        return json.loads(r.read())
+
+
+def candidate_models():
+    names = []
+    try:
+        for m in api("/models?pageSize=100").get("models", []):
+            if "generateContent" in m.get("supportedGenerationMethods", []):
+                names.append(m["name"].split("/", 1)[1])
+    except Exception as e:
+        print(f"Could not list models: {e}", file=sys.stderr)
+    bad = ("image", "tts", "live", "audio", "embedding", "lite", "exp", "thinking", "vision", "robotics", "computer", "gemma", "learnlm")
+    good = [n for n in names if "flash" in n and not any(b in n for b in bad)]
+    good.sort(reverse=True)
+    good.sort(key=lambda n: "latest" not in n)
+    cands = ([PREFERRED] if PREFERRED in names else []) + good
+    cands = list(dict.fromkeys(cands)) or ["gemini-flash-latest", "gemini-2.5-flash"]
+    print("Models to try:", cands[:4])
+    return cands[:4]
+
+
 def ask_ai(items):
     lines = "\n".join(f"- [{i['source']}] {i['title']}: {i['summary']}" for i in items)
     prompt = f"""You are a forex market analyst writing for a trading company website.
@@ -50,21 +80,23 @@ Base everything only on the headlines. Be calm and measured. Do not promise outc
 
 HEADLINES:
 {lines}"""
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
-    body = json.dumps({
+    body = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3},
-    }).encode()
-    req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json", "x-goog-api-key": KEY})
-    for attempt in range(3):
+    }
+    for model in candidate_models():
         try:
-            with urllib.request.urlopen(req, timeout=60) as r:
-                data = json.loads(r.read())
-            return json.loads(data["candidates"][0]["content"]["parts"][0]["text"])
+            data = api(f"/models/{model}:generateContent", body)
+            text = data["candidates"][0]["content"]["parts"][0]["text"]
+            text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M).strip()
+            print("Success with model:", model)
+            return json.loads(text)
+        except urllib.error.HTTPError as e:
+            print(f"Model {model} failed: HTTP {e.code} {e.read()[:300]!r}", file=sys.stderr)
         except Exception as e:
-            print(f"AI attempt {attempt + 1} failed: {e}", file=sys.stderr)
-            time.sleep(5 * (attempt + 1))
-    raise SystemExit("AI request failed; keeping the old news.json")
+            print(f"Model {model} failed: {e}", file=sys.stderr)
+        time.sleep(3)
+    raise SystemExit("All AI models failed; keeping the old news.json")
 
 
 def main():
