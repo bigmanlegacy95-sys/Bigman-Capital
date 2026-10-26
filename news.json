@@ -1,33 +1,33 @@
 {
-  "updated": "2026-10-26T21:04+00:00",
-  "summary": "Global currency markets are currently reacting to a firming U.S. dollar, supported by safe-haven flows as artificial intelligence jitters weigh on risk sentiment. Meanwhile, the euro and British pound are facing downward pressure ahead of upcoming central bank decisions and domestic fiscal updates. Traders are closely monitoring Treasury yields and broader risk-off dynamics as major central bank meetings approach.",
+  "updated": "2026-10-26T21:24+00:00",
+  "summary": "Foreign exchange markets are primarily driven by a firming U.S. dollar, which is supported by upcoming central bank decisions and safe-haven demand prompted by AI sector jitters. Meanwhile, the euro and British pound have both slipped against the greenback amid broader risk-off sentiment in the wider markets. Focus remains heavily on upcoming monetary policy announcements and Treasury yield movements.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The euro slips as a rebounding dollar and AI-driven risk aversion weigh on the common currency."
+      "reason": "The euro is slipping as the dollar rebounds and AI-driven risk-off sentiment weighs on the currency."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bearish",
-      "reason": "The pound faces downward pressure as a firm dollar and broader risk-off selling weigh on currencies."
+      "reason": "The pound is edging lower as a firm dollar and a broader risk-off sell-off pressure the currency."
     },
     {
       "pair": "USD/JPY",
       "bias": "Neutral",
-      "reason": "The pair is expected to remain range-bound amid upcoming central bank decisions and conflicting safe-haven flows."
+      "reason": "The dollar is steadying while AI jitters spur safe-haven yen gains, leaving the pair generally range-bound ahead of BoJ decisions."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Declining Treasury yields and broader market uncertainty are fueling a haven bid that supports gold."
+      "reason": "Treasury yields hovering near multi-week lows and AI-related worries are fueling safe-haven demand."
     }
   ],
   "watch": [
-    "Upcoming Federal Reserve interest rate decision",
-    "Upcoming Bank of Japan rate decision",
-    "UK Budget announcements led by Chancellor John Healey",
-    "Anthropic's blockbuster share listing and IPO prospectus"
+    "Upcoming Federal Reserve decision",
+    "Key central bank policy announcements",
+    "U.S. Treasury yield movements",
+    "Anthropic share listing and IPO market developments"
   ],
   "headlines": [
     {
