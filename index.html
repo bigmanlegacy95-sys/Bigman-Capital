@@ -89,6 +89,7 @@ footer{text-align:center;padding:50px 5vw 90px;color:var(--mute);font-size:.82re
 .tvt{height:78px;overflow:hidden;border-block:1px solid var(--line);background:rgba(26,31,43,.5)}.tvbox{height:580px;border:1px solid var(--gold);border-radius:20px;overflow:hidden;background:var(--char)}.tradingview-widget-container,.tradingview-widget-container__widget{height:100%;width:100%}
 .soon.ok{border-color:var(--up);color:var(--up)}.pl{display:block;color:var(--mute);margin-top:10px}
 dialog{background:var(--char);color:var(--text);border:1px solid var(--gold);border-radius:24px;padding:30px;width:min(92vw,640px);max-height:88vh;overflow:auto}dialog::backdrop{background:rgba(5,8,16,.82);backdrop-filter:blur(6px)}dialog h2{font-size:2.2rem;margin:6px 0}dialog h3{color:var(--gold2);margin:22px 0 8px;font-size:1.4rem}.dx{float:right;width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:none;color:var(--text);cursor:pointer}.inst{color:var(--mute);padding-left:20px}.inst li{margin-bottom:6px}
+.at{font-size:2.2rem;color:var(--gold2);margin:6px 0 10px}.tkbox{display:flex;justify-content:center;margin-bottom:24px;min-height:200px}.bl{color:var(--mute);padding-left:18px;font-size:.9rem}
 </style>
 </head>
 <body>
@@ -110,7 +111,7 @@ dialog{background:var(--char);color:var(--text);border:1px solid var(--gold);bor
 <section id="about" class="fade">
 <div class="tag">About us</div><h2 class="h">Calm decisions. Serious capital.</h2>
 <p class="sub">BigMan Capital is a forex trading company built on risk management, patience and transparency. We trade client funds with a structured process, and teach traders to build the same discipline.</p>
-<div class="stats"><div><b class="cnt" data-n="5">0</b><small>Core services</small></div><div><b class="cnt" data-n="24" data-s="/5">0</b><small>Market coverage</small></div><div><b class="cnt" data-n="100" data-s="%">0</b><small>Risk-first approach</small></div></div>
+<div class="stats"><div><b class="cnt" data-n="6">0</b><small>Core services</small></div><div><b class="cnt" data-n="24" data-s="/5">0</b><small>Market coverage</small></div><div><b class="cnt" data-n="100" data-s="%">0</b><small>Risk-first approach</small></div></div>
 </section>
 
 <section id="services" class="fade">
@@ -132,6 +133,12 @@ dialog{background:var(--char);color:var(--text);border:1px solid var(--gold);bor
 <div class="tp" id="t5" hidden><div class="seg" id="seg"><button data-w="1">1D</button><button class="on" data-w="5">5D</button><button data-w="20">20D</button></div><div id="str"></div><p class="note">Currency strength = each major’s move against the others over the period.</p></div>
 <div class="tp" id="t6" hidden><p class="sum"><span class="soon">Coming soon</span><br>Options positioning and implied volatility will be added here.</p></div>
 <p class="note">AI-generated commentary and data for information only. It is not financial advice or a guarantee of results. Forex trading is high risk.</p></div>
+</section>
+
+<section id="brief" class="fade">
+<div class="tag">Daily Brief</div><h2 class="h">Today’s market brief</h2>
+<div class="pulse"><div id="art">Loading…</div></div>
+<div class="seg" id="arch" style="flex-wrap:wrap;margin-top:18px"></div>
 </section>
 
 <section id="live" class="fade">
@@ -166,12 +173,26 @@ dialog{background:var(--char);color:var(--text);border:1px solid var(--gold);bor
 <button class="fab" id="jo">⤢ Open Full Screen</button></div>
 </section>
 
+<section id="tiktok" class="fade">
+<div class="tag">TikTok</div><h2 class="h">Follow @bigman.forex.trading</h2>
+<p class="sub">Daily trading lessons and market ideas.</p>
+<div class="tkbox" id="tkbox"></div>
+<div class="cta" style="justify-content:flex-start"><a class="btn gold" target="_blank" rel="noopener" href="https://www.tiktok.com/@bigman.forex.trading">Follow on TikTok</a></div>
+</section>
+
 <section id="faq" class="fade">
 <div class="tag">FAQ</div><h2 class="h">Questions, answered</h2>
 <details><summary>Do you guarantee profits?</summary><p>No. Forex trading carries high risk and results are never guaranteed. We focus on strict risk management and full transparency.</p></details>
 <details><summary>How do I get started?</summary><p>Choose a service, tap WhatsApp or Email, and a message is already written for you. Just send it and we will reply.</p></details>
 <details><summary>Which markets do you trade and teach?</summary><p>Major forex pairs and gold, using the MetaTrader 5 platform.</p></details>
 <details><summary>Can I pay online?</summary><p>Online payments are coming soon. For now, we arrange everything directly with you through chat.</p></details>
+</section>
+
+<section id="brokers" class="fade" hidden>
+<div class="tag">Partner brokers</div><h2 class="h">Open your trading account</h2>
+<p class="sub">Brokers we recommend. Opening an account through our links may earn us a commission at no extra cost to you.</p>
+<div class="grid" id="bgrid"></div>
+<p class="note">Check that any broker is licensed in your country before depositing. Trading involves risk.</p>
 </section>
 
 <section id="contact" class="fade" style="text-align:center">
@@ -199,7 +220,8 @@ account:{ic:"💼",t:"Account Management",tag:"Professional trading on your acco
 classes:{ic:"🎓",t:"Trading Classes",tag:"Learn forex step by step",intro:"Structured lessons that take you from the basics to a complete, tested strategy. Learn at your own pace with practical examples from live markets.",steps:[["Choose your level","Beginner, intermediate or advanced."],["Join the lessons","Attend live sessions or watch recordings anytime."],["Practise on demo","Apply each lesson on a risk-free demo account."],["Get feedback","We review your progress and answer your questions."]],get:["Beginner to advanced curriculum","Strategy and risk management","Practice assignments","Access to our trading journal"]},
 coaching:{ic:"🧭",t:"Coaching",tag:"One-on-one focus on your results",intro:"Personal coaching for traders who want to fix their mistakes and become consistent. We work on your execution, your psychology and your plan.",steps:[["Discovery call","Tell us where you are stuck."],["Review your trading","We study your trades and find the patterns."],["Personal action plan","A clear plan built around your goals."],["Regular check-ins","We keep you accountable and adjust as you grow."]],get:["Personalised feedback on your trades","Psychology and discipline training","A custom trading plan","Journal reviews"]},
 mentorship:{ic:"🤝",t:"Mentorship",tag:"Learn alongside a working trader",intro:"Long-term guidance from an experienced trader. Ideal if you want someone beside you as you grow your skills and your account.",steps:[["Apply","Share your experience level and goals."],["Set your roadmap","We map out milestones together."],["Ongoing guidance","Regular sessions and live market walkthroughs."],["Grow independent","We help you become a confident, self-reliant trader."]],get:["Ongoing access to your mentor","Live market walkthroughs","Accountability and support","A clear growth roadmap"]},
-automations:{ic:"⚙️",t:"Trading Automations",tag:"Expert Advisors and indicators for the markets we trade",intro:"Automated tools built for forex and gold on MetaTrader 5, with built-in risk controls. Use them to save time and trade with more discipline.",steps:[["Choose a tool","Pick the Expert Advisor or indicator that fits your style."],["Get set up","We guide you through installation."],["Test on demo","Run it on a demo account first."],["Go live carefully","Start small with risk limits."]],get:["MT5 Expert Advisors","Custom indicators","Setup guidance","Updates and support"]}};
+automations:{ic:"⚙️",t:"Trading Automations",tag:"Expert Advisors and indicators for the markets we trade",intro:"Automated tools built for forex and gold on MetaTrader 5, with built-in risk controls. Use them to save time and trade with more discipline.",steps:[["Choose a tool","Pick the Expert Advisor or indicator that fits your style."],["Get set up","We guide you through installation."],["Test on demo","Run it on a demo account first."],["Go live carefully","Start small with risk limits."]],get:["MT5 Expert Advisors","Custom indicators","Setup guidance","Updates and support"]},
+prop:{ic:"🏆",t:"Prop Firm Pathway",tag:"Trade a funded account with a plan",intro:"Prop firms give you capital to trade after you pass an evaluation. We help you prepare with the right strategy, risk rules and mindset so you can pass the challenge and keep the account. Passing is never guaranteed.",steps:[["Skills check","We review your strategy and results to see if you are ready."],["Challenge plan","We build a risk plan around the firm’s profit target, daily loss and drawdown limits."],["Guided attempt","Trade the evaluation with coaching, journaling and weekly reviews."],["Funded and scaling","Protect the account, withdraw profits and scale up responsibly."]],get:["A personal challenge risk plan","Daily loss and drawdown tracking","Trade reviews with your journal","Psychology and discipline coaching","Help comparing prop firm rules"]}};
 const wa=m=>`https://wa.me/${PH}?text=${encodeURIComponent(m)}`;
 const gm="Hello BigMan Capital 👋\nI’d like to know more about your services.";
 $("wafab").href=wa(gm);
@@ -250,7 +272,7 @@ function str(w){const b=$("str");b.textContent="";const m=(MK.strength||{})[w];i
 const e=Object.entries(m).sort((a,b)=>b[1]-a[1]),mx=Math.max(...e.map(x=>Math.abs(x[1])))||1;
 e.forEach(([c,v])=>{const r=el("div","sr"),t=el("div","st2"),f=el("span","sf "+(v>=0?"pos":"neg"));f.style.width=Math.abs(v)/mx*100+"%";t.append(f);r.append(el("span","sc",c),t,el("span","sv",(v>0?"+":"")+v.toFixed(2)+"%"));b.append(r)})}
 $q("#seg button").forEach(b=>b.onclick=()=>{$q("#seg button").forEach(x=>x.classList.toggle("on",x===b));str(b.dataset.w)});
-fetch("news.json?"+Date.now()).then(r=>r.json()).then(d=>{MK=d.market||{};const t=new Date(d.updated);
+fetch("news.json?"+Date.now()).then(r=>r.json()).then(d=>{MK=d.market||{};AR=d.articles||[];showBrief();const t=new Date(d.updated);
 $("upd").textContent="Updated "+(isNaN(t)?"recently":t.toLocaleString([],{dateStyle:"medium",timeStyle:"short"}));$("sum").textContent=d.summary||"";
 (d.outlook||[]).forEach(o=>{const b=["Bullish","Bearish","Neutral"].includes(o.bias)?o.bias:"Neutral",c=el("div","pair");c.append(el("span","badge "+b,b),el("b","",o.pair),el("p","",o.reason));$("pairs").append(c)});
 (d.watch||[]).forEach(w=>$("watch").append(el("li","",w)));
@@ -294,6 +316,14 @@ const live=k=>tv($("tvbox"),TVW[k][0],TVW[k][1]);
 $q("#lseg button").forEach(b=>b.onclick=()=>{$q("#lseg button").forEach(x=>x.classList.toggle("on",x===b));live(b.dataset.k)});
 new IntersectionObserver((e,o)=>{if(e[0].isIntersecting){live("chart");o.disconnect()}},{rootMargin:"300px"}).observe($("live"));
 tv($("tvt"),"ticker-tape",{symbols:[{proName:"OANDA:XAUUSD",title:"Gold"},{proName:"FX:EURUSD",title:"EUR/USD"},{proName:"FX:GBPUSD",title:"GBP/USD"},{proName:"FX:USDJPY",title:"USD/JPY"},{proName:"FX:AUDUSD",title:"AUD/USD"},{proName:"FX:USDCAD",title:"USD/CAD"}],showSymbolLogo:false,colorTheme:"dark",isTransparent:true,displayMode:"adaptive",locale:"en"});
+
+let AR=[];
+function showBrief(i=0){const b=$("art"),a=AR[i];if(!a){b.textContent="Daily briefs will start appearing soon.";return}
+b.textContent="";b.append(el("small","",new Date(a.date).toLocaleDateString([],{dateStyle:"long",timeZone:"UTC"})),el("h3","at",a.title),el("p","sum",a.intro));
+(a.sections||[]).forEach(s=>b.append(el("h4","",s.h),el("p","",s.p)));b.append(el("p","note","AI-generated market commentary for information only. Not financial advice. Forex trading is high risk."));
+const r=$("arch");r.textContent="";AR.slice(0,8).forEach((x,j)=>{const t=el("button",j==i?"on":"",new Date(x.date).toLocaleDateString([],{month:"short",day:"numeric",timeZone:"UTC"}));t.onclick=()=>showBrief(j);r.append(t)})}
+new IntersectionObserver((e,o)=>{if(e[0].isIntersecting){const q=el("blockquote","tiktok-embed"),s=el("section"),a=el("a","","@"+TIK);a.href="https://www.tiktok.com/@"+TIK+"?refer=creator_embed";a.target="_blank";s.append(a);q.append(s);q.setAttribute("cite","https://www.tiktok.com/@"+TIK);q.setAttribute("data-unique-id",TIK);q.setAttribute("data-embed-type","creator");q.style.cssText="max-width:780px;min-width:288px";$("tkbox").append(q);const sc=document.createElement("script");sc.async=true;sc.src="https://www.tiktok.com/embed.js";document.body.append(sc);o.disconnect()}},{rootMargin:"300px"}).observe($("tiktok"));
+fetch("brokers.json?"+Date.now()).then(r=>r.json()).then(B=>{if(!B.length)return;B.forEach(b=>{const c=el("div","card");c.append(el("h3","",b.name),el("p","",b.tag||""));if((b.features||[]).length){const u=el("ul","bl");b.features.forEach(f=>u.append(el("li","",f)));c.append(u)}if(/^https?:\/\//.test(b.link)){const a=el("a","btn gold","Open account");a.href=b.link;a.target="_blank";a.rel="noopener sponsored";a.style.cssText="margin-top:16px;animation:none";c.append(a)}$("bgrid").append(c)});$("brokers").hidden=false}).catch(()=>{});
 </script>
 </body>
 </html>
