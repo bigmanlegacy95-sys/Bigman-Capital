@@ -89,7 +89,7 @@ footer{text-align:center;padding:50px 5vw 90px;color:var(--mute);font-size:.82re
 .tvt{height:78px;overflow:hidden;border-block:1px solid var(--line);background:rgba(26,31,43,.5)}.tvbox{height:580px;border:1px solid var(--gold);border-radius:20px;overflow:hidden;background:var(--char)}.tradingview-widget-container,.tradingview-widget-container__widget{height:100%;width:100%}
 .soon.ok{border-color:var(--up);color:var(--up)}.pl{display:block;color:var(--mute);margin-top:10px}
 dialog{background:var(--char);color:var(--text);border:1px solid var(--gold);border-radius:24px;padding:30px;width:min(92vw,640px);max-height:88vh;overflow:auto}dialog::backdrop{background:rgba(5,8,16,.82);backdrop-filter:blur(6px)}dialog h2{font-size:2.2rem;margin:6px 0}dialog h3{color:var(--gold2);margin:22px 0 8px;font-size:1.4rem}.dx{float:right;width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:none;color:var(--text);cursor:pointer}.inst{color:var(--mute);padding-left:20px}.inst li{margin-bottom:6px}
-.at{font-size:2.2rem;color:var(--gold2);margin:6px 0 10px}.tkbox{display:flex;justify-content:center;margin-bottom:24px;min-height:200px}.bl{color:var(--mute);padding-left:18px;font-size:.9rem}
+.at{font-size:2.2rem;color:var(--gold2);margin:6px 0 10px}.tkbox{margin-bottom:24px}.tkcard{display:flex;align-items:center;gap:18px;padding:24px;max-width:640px;border:1px solid var(--gold);border-radius:24px;background:linear-gradient(160deg,rgba(26,31,43,.92),rgba(16,27,51,.78))}.tkav{flex:none;width:72px;height:72px;border-radius:50%;display:grid;place-items:center;font:700 1.7rem "Cormorant Garamond",serif;color:#1a1405;background:linear-gradient(135deg,var(--gold),var(--gold2))}.tkcard b{font-size:1.15rem}.tkcard p{margin:4px 0 0;color:var(--mute);font-size:.92rem}.bl{color:var(--mute);padding-left:18px;font-size:.9rem}
 </style>
 </head>
 <body>
@@ -176,7 +176,7 @@ dialog{background:var(--char);color:var(--text);border:1px solid var(--gold);bor
 <section id="tiktok" class="fade">
 <div class="tag">TikTok</div><h2 class="h">Follow @bigman.forex.trading</h2>
 <p class="sub">Daily trading lessons and market ideas.</p>
-<div class="tkbox" id="tkbox"></div>
+<div class="tkbox"><div class="tkcard"><div class="tkav">BM</div><div><b>@bigman.forex.trading</b><p>Trading lessons, market ideas and prop firm tips. Follow us so you never miss a video.</p></div></div></div>
 <div class="cta" style="justify-content:flex-start"><a class="btn gold" target="_blank" rel="noopener" href="https://www.tiktok.com/@bigman.forex.trading">Follow on TikTok</a></div>
 </section>
 
@@ -322,7 +322,6 @@ function showBrief(i=0){const b=$("art"),a=AR[i];if(!a){b.textContent="Daily bri
 b.textContent="";b.append(el("small","",new Date(a.date).toLocaleDateString([],{dateStyle:"long",timeZone:"UTC"})),el("h3","at",a.title),el("p","sum",a.intro));
 (a.sections||[]).forEach(s=>b.append(el("h4","",s.h),el("p","",s.p)));b.append(el("p","note","AI-generated market commentary for information only. Not financial advice. Forex trading is high risk."));
 const r=$("arch");r.textContent="";AR.slice(0,8).forEach((x,j)=>{const t=el("button",j==i?"on":"",new Date(x.date).toLocaleDateString([],{month:"short",day:"numeric",timeZone:"UTC"}));t.onclick=()=>showBrief(j);r.append(t)})}
-new IntersectionObserver((e,o)=>{if(e[0].isIntersecting){const q=el("blockquote","tiktok-embed"),s=el("section"),a=el("a","","@"+TIK);a.href="https://www.tiktok.com/@"+TIK+"?refer=creator_embed";a.target="_blank";s.append(a);q.append(s);q.setAttribute("cite","https://www.tiktok.com/@"+TIK);q.setAttribute("data-unique-id",TIK);q.setAttribute("data-embed-type","creator");q.style.cssText="max-width:780px;min-width:288px";$("tkbox").append(q);const sc=document.createElement("script");sc.async=true;sc.src="https://www.tiktok.com/embed.js";document.body.append(sc);o.disconnect()}},{rootMargin:"300px"}).observe($("tiktok"));
 fetch("brokers.json?"+Date.now()).then(r=>r.json()).then(B=>{if(!B.length)return;B.forEach(b=>{const c=el("div","card");c.append(el("h3","",b.name),el("p","",b.tag||""));if((b.features||[]).length){const u=el("ul","bl");b.features.forEach(f=>u.append(el("li","",f)));c.append(u)}if(/^https?:\/\//.test(b.link)){const a=el("a","btn gold","Open account");a.href=b.link;a.target="_blank";a.rel="noopener sponsored";a.style.cssText="margin-top:16px;animation:none";c.append(a)}$("bgrid").append(c)});$("brokers").hidden=false}).catch(()=>{});
 </script>
 </body>
