@@ -1,126 +1,126 @@
 {
-  "updated": "2026-10-27T12:31+00:00",
-  "summary": "Global markets are currently driven by a strengthening U.S. dollar, supported by ongoing AI-related tech momentum and safe-haven flows ahead of upcoming central bank decisions. Meanwhile, the euro faces downward pressure from regional political concerns, and the British pound hovers cautiously as traders await the upcoming UK annual budget release. Treasury yields remain near multi-week lows, reflecting broader cautious sentiment in anticipation of monetary policy updates.",
+  "updated": "2026-10-27T15:39+00:00",
+  "summary": "Global foreign exchange markets are currently reacting to a mix of shifting central bank expectations, lingering geopolitical concerns, and technological sector developments. The U.S. dollar is finding underlying support as markets navigate upcoming rate decisions from the Federal Reserve and Bank of Canada. Meanwhile, the euro faces ongoing pressure from French political worries, and the British pound remains subdued ahead of the upcoming UK budget announcement.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The euro trips on regional political worries while a firm dollar weighs heavily on the pair."
+      "reason": "The euro continues to slip under the weight of regional political concerns and a firming U.S. dollar."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "The pound dips slightly on a firm dollar as markets await the looming UK budget announcement."
+      "reason": "Sterling trades cautiously sideways as market participants weigh domestic budget uncertainty against a resilient greenback."
     },
     {
       "pair": "USD/JPY",
-      "bias": "Bullish",
-      "reason": "AI-related safe-haven demand and general dollar resilience support the currency pair."
+      "bias": "Neutral",
+      "reason": "The pair consolidates within a sideways range as broader AI-related market jitters offer occasional safe-haven support to the yen."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Strong net-long positioning and persistent haven bids keep gold supported despite dollar strength."
+      "reason": "Gold retains a strong net long positioning backdrop as markets hover near multi-week Treasury lows ahead of key monetary policy decisions."
     }
   ],
   "watch": [
-    "U.S. Federal Funds Rate Decision",
+    "Federal Reserve Interest Rate Decision",
+    "Bank of Canada Rate Decision and Monetary Policy Report",
     "UK Annual Budget Release",
-    "BOC Rate Statement and Overnight Rate",
-    "RBNZ Rate Statement"
+    "RBNZ Rate Statement and Official Cash Rate"
   ],
-  "fundamentals": "The macroeconomic landscape is shaped by shifting expectations surrounding upcoming central bank decisions in the U.S., Canada, and New Zealand, alongside fiscal policy events like the UK budget. AI sector developments and tech stock movements continue to heavily influence market risk sentiment and capital flows. Additionally, Treasury yields hovering near multi-week lows highlight ongoing caution among institutional investors.",
-  "technical_view": "EUR/USD sits in a clear downtrend with an RSI of 37.4, testing support near 1.1177. GBP/USD and USD/JPY remain range-bound with neutral RSI readings, indicating consolidation ahead of major macro catalysts.",
-  "cot_view": "COT positioning shows heavy net-short sentiment for EUR and GBP, contrasting with a massive net-long position in Gold and a moderately net-long stance for the USD index. JPY also maintains a net-long majority amongst speculators.",
+  "fundamentals": "Macroeconomic drivers are heavily influenced by impending monetary policy decisions from major central banks like the Federal Reserve and Bank of Canada, alongside domestic fiscal events such as the upcoming UK budget. Treasury yields hovering near multi-week lows reflect investor anticipation regarding future rate paths. Geopolitical tensions, discussions surrounding global trade, and shifting sentiment within the technology and artificial intelligence sectors continue to shape broader risk appetite across currency markets.",
+  "technical_view": "EUR/USD remains in a downtrend near support at 1.115 with an RSI of 44.9, while GBP/USD displays a sideways pattern around 1.3328 with an elevated RSI of 69.2. USD/JPY trades sideways at 157.82, holding near the middle of its recent range.",
+  "cot_view": "Commitments of Traders data shows continued heavy net short positioning in EUR, GBP, and CAD, highlighting prevailing bearish sentiment against those currencies. Conversely, Gold maintains a dominant net long positioning structure with over 86% of positions held long, underscoring solid underlying market conviction.",
   "market": {
     "strength": {
       "1": {
-        "EUR": 0.1,
-        "GBP": -0.01,
+        "EUR": -0.28,
+        "GBP": -0.09,
         "AUD": 0.17,
-        "NZD": 0.03,
-        "JPY": -0.27,
-        "CAD": -0.09,
-        "CHF": -0.07,
-        "USD": 0.14
+        "NZD": 0.45,
+        "JPY": -0.17,
+        "CAD": 0.1,
+        "CHF": -0.24,
+        "USD": 0.06
       },
       "5": {
-        "EUR": -0.48,
-        "GBP": -0.02,
-        "AUD": 0.4,
-        "NZD": 0.01,
-        "JPY": 0.35,
+        "EUR": -0.6,
+        "GBP": -0.16,
+        "AUD": 0.65,
+        "NZD": 0.4,
+        "JPY": 0.17,
         "CAD": 0.18,
-        "CHF": -0.29,
-        "USD": -0.15
+        "CHF": -0.62,
+        "USD": -0.02
       },
       "20": {
-        "EUR": -1.73,
-        "GBP": 0.58,
-        "AUD": -0.05,
-        "NZD": 0.14,
-        "JPY": -0.42,
-        "CAD": 0.92,
-        "CHF": 0.62,
-        "USD": -0.06
+        "EUR": -1.96,
+        "GBP": 0.45,
+        "AUD": 0.24,
+        "NZD": 0.67,
+        "JPY": -0.6,
+        "CAD": 0.96,
+        "CHF": 0.4,
+        "USD": -0.16
       }
     },
     "technical": [
       {
         "pair": "EUR/USD",
-        "price": 1.11881,
+        "price": 1.115,
         "trend": "Downtrend",
-        "rsi": 37.4,
-        "support": 1.11771,
+        "rsi": 44.9,
+        "support": 1.115,
         "resistance": 1.1355
       },
       {
         "pair": "GBP/USD",
-        "price": 1.33476,
+        "price": 1.3328,
         "trend": "Sideways",
-        "rsi": 59.6,
+        "rsi": 69.2,
         "support": 1.32008,
         "resistance": 1.34018
       },
       {
         "pair": "USD/JPY",
-        "price": 157.45,
+        "price": 157.82,
         "trend": "Sideways",
-        "rsi": 42.4,
+        "rsi": 45.4,
         "support": 156.8,
         "resistance": 158.6
       },
       {
         "pair": "AUD/USD",
-        "price": 0.70244,
+        "price": 0.70319,
         "trend": "Sideways",
-        "rsi": 55.6,
+        "rsi": 61.4,
         "support": 0.69109,
         "resistance": 0.70338
       },
       {
         "pair": "USD/CAD",
-        "price": 1.4028,
+        "price": 1.4023,
         "trend": "Sideways",
-        "rsi": 21.1,
+        "rsi": 20.2,
         "support": 1.3995,
         "resistance": 1.4262
       },
       {
         "pair": "USD/CHF",
-        "price": 0.82615,
+        "price": 0.82861,
         "trend": "Sideways",
-        "rsi": 42.1,
+        "rsi": 42.3,
         "support": 0.82204,
         "resistance": 0.83528
       },
       {
         "pair": "NZD/USD",
-        "price": 0.56805,
+        "price": 0.57029,
         "trend": "Sideways",
-        "rsi": 64.9,
+        "rsi": 75.4,
         "support": 0.55891,
-        "resistance": 0.56925
+        "resistance": 0.57029
       }
     ],
     "cot": [
@@ -296,6 +296,11 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Canadian dollar slips as investors await Bank of Canada, Fed rate decisions",
+      "link": "https://www.investing.com/news/forex-news/canadian-dollar-slips-as-investors-await-bank-of-canada-fed-rate-decisions-4975641"
+    },
+    {
+      "source": "Investing.com",
       "title": "U.S. Treasury yields hover near multi-week lows ahead of Fed decision",
       "link": "https://www.investing.com/news/forex-news/french-yields-edge-higher-as-moodys-relief-fades-israeli-election-in-focus-4974352"
     },
@@ -328,11 +333,6 @@
       "source": "Investing.com",
       "title": "U.S.  yields hover near 3-week lows as ahead of Fed decision",
       "link": "https://www.investing.com/news/forex-news/french-yields-retreat-from-2002-highs-as-moodys-holds-ecb-in-focus-4971656"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Sterling today: Pound slips as dollar holds firm ahead of Fed decision",
-      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-as-dollar-holds-firm-ahead-of-fed-decision-4971754"
     }
   ],
   "articles": [
