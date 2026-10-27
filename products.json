@@ -1,0 +1,73 @@
+[
+  {
+    "id": "trailing-reversal-ea",
+    "type": "Expert Advisor",
+    "name": "BigMan Trailing Reversal EA",
+    "tag": "Gold pending-order reversal EA for MetaTrader 5",
+    "platform": "MetaTrader 5 · XAUUSD",
+    "version": "v1.0",
+    "access": "soon",
+    "price": "",
+    "file": "",
+    "desc": "An automated gold (XAUUSD) EA that places stop orders around price, trails the opposite pending order behind the move, and reverses when it triggers. Comes with an on-chart dashboard and built-in risk controls.",
+    "features": [
+      "Trailing pending-order reversal cycle",
+      "Works on netting and hedging accounts",
+      "Auto-detects your broker's stop level",
+      "On-chart dashboard with enable, pause and close-all buttons",
+      "Risk controls: max lot, daily loss limit, drawdown limit and kill switch",
+      "Unique magic number, so it never touches your other trades"
+    ]
+  },
+  {
+    "id": "gold-straddle-ea",
+    "type": "Expert Advisor",
+    "name": "BigMan Gold Straddle EA",
+    "tag": "Straddle EA with ATR stop loss and trailing for gold",
+    "platform": "MetaTrader 5 · XAUUSD",
+    "version": "v1.0",
+    "access": "soon",
+    "price": "",
+    "file": "",
+    "desc": "Places a buy stop and a sell stop around price, cancels the opposite order when one triggers, then manages the trade with an adaptive ATR stop loss, break-even and ATR trailing.",
+    "features": [
+      "Buy stop and sell stop straddle",
+      "Opposite pending order cancelled automatically",
+      "ATR-based stop loss, capped for safety",
+      "Break-even and ATR trailing once in profit",
+      "Pending orders refreshed automatically",
+      "Fixed lot size, runs 24 hours"
+    ]
+  },
+  {
+    "id": "sweep-reversal-indicator",
+    "type": "Indicator",
+    "name": "BigMan Sweep Reversal Indicator",
+    "tag": "Clean BUY and SELL labels on candle sweeps",
+    "platform": "TradingView",
+    "version": "v1.0",
+    "access": "soon",
+    "price": "",
+    "file": "",
+    "desc": "Marks sweep-and-close reversals on any timeframe with small, tidy BUY and SELL labels. Signals are confirmed only after the candle closes, so they never repaint.",
+    "features": [
+      "Works on any single timeframe",
+      "Confirmed on candle close, no repainting",
+      "Small, stylish BUY and SELL labels",
+      "Alerts included"
+    ]
+  },
+  {
+    "id": "forex-book",
+    "type": "Book",
+    "name": "The BigMan Forex Book",
+    "tag": "A complete guide to trading forex with discipline",
+    "platform": "eBook",
+    "version": "",
+    "access": "soon",
+    "price": "",
+    "file": "",
+    "desc": "Our complete guide to trading forex with discipline, risk management and a clear plan. Be the first to know when it launches.",
+    "features": []
+  }
+]
