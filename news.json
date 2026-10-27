@@ -1,37 +1,37 @@
 {
-  "updated": "2026-10-26T21:46+00:00",
-  "summary": "Global markets are seeing safe-haven demand build as artificial intelligence jitters and upcoming central bank decisions dominate investor sentiment. The U.S. dollar is holding firm and rebounding while Treasury yields hover near multi-week lows ahead of the Federal Reserve rate decision. Meanwhile, sterling has slipped alongside a broader risk-off tone ahead of the UK's annual budget release.",
+  "updated": "2026-10-27T00:25+00:00",
+  "summary": "Market sentiment is currently driven by a combination of a rebounding US dollar, falling Treasury yields, and broad risk-off pressures stemming from artificial intelligence market jitters. Investors are positioning themselves ahead of critical central bank rate decisions from the Federal Reserve and Bank of Canada, alongside upcoming fiscal budget updates. Meanwhile, safe-haven flows are supporting currencies like the Japanese yen while weighing on major counterparts like the euro and sterling.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The pair remains in a downtrend with weak momentum as the dollar rebounds and the euro slips."
+      "reason": "The euro remains under pressure as the dollar rebounds and regional sentiment stays fragile ahead of central bank decisions."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bearish",
-      "reason": "Pound is pressured by broad risk-off sentiment and a firm dollar ahead of the upcoming UK budget."
+      "reason": "Sterling continues to slip against a firm dollar amid broader risk-off selling and anticipation of the upcoming UK budget."
     },
     {
       "pair": "USD/JPY",
       "bias": "Neutral",
-      "reason": "Price action is range-bound as AI jitters prompt yen safe-haven gains against a steady dollar."
+      "reason": "The pair is expected to remain range-bound as BoJ rate decision expectations balance against broader US yield movements."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Bullish",
-      "reason": "Strong net long positioning and haven demand driven by economic and AI uncertainties support gold."
+      "bias": "Neutral",
+      "reason": "Gold positioning remains fundamentally strong despite mixed short-term dollar dynamics and shifting global risk sentiment."
     }
   ],
   "watch": [
-    "Federal Funds Rate decision and statement",
+    "Federal Reserve Interest Rate Decision",
+    "Bank of Canada Rate Decision and Monetary Policy Report",
     "UK Annual Budget Release",
-    "BoC Rate Statement and Overnight Rate decision",
     "RBNZ Rate Statement and Official Cash Rate"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by shifting expectations around central bank monetary policy paths, particularly upcoming rate announcements from the Federal Reserve, Bank of Canada, and RBNZ. Concurrently, broader market sentiment is reacting to global political developments, fiscal budget adjustments in the UK, and rising artificial intelligence-related risk considerations affecting equity and debt markets. U.S. Treasury yields lingering near three-week lows reflect ongoing haven demand that continues to dictate currency and asset performance.",
-  "technical_view": "EUR/USD sits in a clear downtrend with an RSI of 37.4, hovering just above immediate support at 1.11771. GBP/USD trades sideways with an RSI of 59.6, constrained between support at 1.32008 and resistance at 1.34018.",
-  "cot_view": "Commitments of Traders data shows EUR and GBP maintaining large net short positioning, reflecting persistent bearish sentiment against the USD Index which holds a solid net long bias. Gold maintains a dominant net long position with 86.4% of open interest held long, underscoring strong underlying institutional support.",
+  "fundamentals": "Global markets are navigating a complex macroeconomic backdrop featuring falling US Treasury yields, persistent AI-related corporate risks, and upcoming central bank rate decisions. Investors are closely monitoring how fiscal policies and monetary adjustments will impact growth, particularly with major budget announcements in the UK and shifting rate expectations in North America. Geopolitical and trade discussions, including bilateral talks between the US and China, continue to add underlying currents to currency valuations.",
+  "technical_view": "EUR/USD is currently in a downtrend near support with an RSI of 37.4, indicating ongoing weakness. GBP/USD trades sideways with an RSI near 59.6, while USD/JPY holds sideways with an RSI of 42.4, reflecting indecision ahead of key catalysts.",
+  "cot_view": "Commitments of Traders data shows net short positioning remains heavy across major currencies like the EUR and GBP, whereas JPY maintains a net long bias. Meanwhile, Gold retains a heavily net long institutional positioning despite recent minor weekly adjustments.",
   "market": {
     "strength": {
       "1": {
@@ -301,6 +301,11 @@
     },
     {
       "source": "Investing.com",
+      "title": "Canadian dollar steadies after seven-day rally ahead of rate decisions",
+      "link": "https://www.investing.com/news/forex-news/canadian-dollar-steadies-after-sevenday-rally-ahead-of-rate-decisions-4973829"
+    },
+    {
+      "source": "Investing.com",
       "title": "Brazil’s real weakens 12% as Lula wins reelection",
       "link": "https://www.investing.com/news/forex-news/brazils-real-weakens-12-as-lula-wins-reelection-93CH-4972631"
     },
@@ -328,11 +333,6 @@
       "source": "Investing.com",
       "title": "India 40-year bond yield hits highest level since 2018",
       "link": "https://www.investing.com/news/forex-news/india-40year-bond-yield-hits-highest-level-since-2018-93CH-4968714"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Citi expects USD/JPY to remain range-bound amid BoJ’s rate decision",
-      "link": "https://www.investing.com/news/forex-news/citi-expects-usdjpy-to-remain-rangebound-amid-bojs-rate-decision-93CH-4968564"
     }
   ]
 }
