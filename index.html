@@ -86,13 +86,16 @@ footer{text-align:center;padding:50px 5vw 90px;color:var(--mute);font-size:.82re
 .ev{padding:10px 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:2px;font-size:.92rem}.ev b{color:var(--gold2);font-size:.85rem}.ev span{color:var(--mute)}
 .ses{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:50px}.sch{display:flex;flex-direction:column;padding:16px;border:1px solid var(--line);border-radius:16px;background:rgba(26,31,43,.7);position:relative}.sch i{position:absolute;top:16px;right:16px;width:10px;height:10px;border-radius:50%;background:#5b6579}.sch.op{border-color:var(--up)}.sch.op i{background:var(--up);animation:pl 1.8s infinite}.sch small{color:var(--mute)}
 .soon{display:inline-block;font-size:.72rem;letter-spacing:2px;text-transform:uppercase;padding:4px 12px;border-radius:999px;border:1px solid var(--gold);color:var(--gold2);margin-bottom:12px}
+.tvt{height:78px;overflow:hidden;border-block:1px solid var(--line);background:rgba(26,31,43,.5)}.tvbox{height:580px;border:1px solid var(--gold);border-radius:20px;overflow:hidden;background:var(--char)}.tradingview-widget-container,.tradingview-widget-container__widget{height:100%;width:100%}
+.soon.ok{border-color:var(--up);color:var(--up)}.pl{display:block;color:var(--mute);margin-top:10px}
+dialog{background:var(--char);color:var(--text);border:1px solid var(--gold);border-radius:24px;padding:30px;width:min(92vw,640px);max-height:88vh;overflow:auto}dialog::backdrop{background:rgba(5,8,16,.82);backdrop-filter:blur(6px)}dialog h2{font-size:2.2rem;margin:6px 0}dialog h3{color:var(--gold2);margin:22px 0 8px;font-size:1.4rem}.dx{float:right;width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:none;color:var(--text);cursor:pointer}.inst{color:var(--mute);padding-left:20px}.inst li{margin-bottom:6px}
 </style>
 </head>
 <body>
 <div id="prog"></div>
 <div class="bg"><canvas id="cv"></canvas><div class="orb o1"></div><div class="orb o2"></div></div>
 <nav><a class="logo" href="#top"><b>BigMan</b> Capital</a>
-<div class="links"><a href="#about">About</a><a href="#services">Services</a><a href="#pulse">Market Pulse</a><a href="#tools">Tools</a><a href="#journal">Journal</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div></nav>
+<div class="links"><a href="#about">About</a><a href="#services">Services</a><a href="#store">Store</a><a href="#pulse">Pulse</a><a href="#live">Live</a><a href="#journal">Journal</a><a href="#contact">Contact</a></div></nav>
 
 <div id="home">
 <section class="hero" id="top">
@@ -102,7 +105,7 @@ footer{text-align:center;padding:50px 5vw 90px;color:var(--mute);font-size:.82re
 <p class="lead">We manage client funds in the forex market and equip traders with coaching, mentorship, automated tools and a professional journal.</p>
 <div class="cta"><a class="btn gold" href="#services">Explore Services</a><a class="btn ghost" href="#pulse">Live Market Pulse</a></div>
 </section>
-<div class="mq"><div id="mq"></div></div>
+<div class="tvt" id="tvt"></div>
 
 <section id="about" class="fade">
 <div class="tag">About us</div><h2 class="h">Calm decisions. Serious capital.</h2>
@@ -131,6 +134,13 @@ footer{text-align:center;padding:50px 5vw 90px;color:var(--mute);font-size:.82re
 <p class="note">AI-generated commentary and data for information only. It is not financial advice or a guarantee of results. Forex trading is high risk.</p></div>
 </section>
 
+<section id="live" class="fade">
+<div class="tag">Live Markets</div><h2 class="h">Charts, calendar &amp; heatmap</h2>
+<p class="sub">Real-time market data from TradingView.</p>
+<div class="seg" id="lseg"><button class="on" data-k="chart">Chart</button><button data-k="cal">Calendar</button><button data-k="heat">Heatmap</button></div>
+<div class="tvbox" id="tvbox"></div>
+</section>
+
 <section id="tools" class="fade">
 <div class="tag">Live</div><h2 class="h">Market sessions</h2><div class="ses" id="ses"></div>
 <div class="tag">Free tool</div><h2 class="h">Position size calculator</h2>
@@ -143,13 +153,11 @@ footer{text-align:center;padding:50px 5vw 90px;color:var(--mute);font-size:.82re
 <div class="res" id="cres"></div></div>
 </section>
 
-<section id="library" class="fade">
-<div class="tag">Library</div><h2 class="h">Books &amp; downloads</h2>
-<p class="sub">New resources are on the way.</p>
-<div class="grid">
-<div class="card"><span class="soon">Coming soon</span><div class="ic">📘</div><h3>The BigMan Forex Book</h3><p>Our complete guide to trading forex with discipline. Be the first to know when it launches.</p><a class="btn ghost" id="bk" target="_blank" rel="noopener" style="margin-top:16px;animation:none">Notify me</a></div>
-<div class="card"><span class="soon">Coming soon</span><div class="ic">⬇️</div><h3>EAs &amp; Indicators</h3><p>Download our Expert Advisors and indicators right from this page.</p><a class="btn ghost" href="#/service/automations" style="margin-top:16px;animation:none">Learn more</a></div>
-</div></section>
+<section id="store" class="fade">
+<div class="tag">Store</div><h2 class="h">EAs, indicators &amp; books</h2>
+<p class="sub">Tools built by BigMan Capital. Tap any item for details.</p>
+<div class="seg" id="pchips" style="flex-wrap:wrap"></div><div class="grid" id="pgrid"></div>
+</section>
 
 <section id="journal" class="fade">
 <div class="tag">Trading Journal</div><h2 class="h">Journal every trade</h2>
@@ -182,6 +190,7 @@ footer{text-align:center;padding:50px 5vw 90px;color:var(--mute);font-size:.82re
 <a class="wa" id="wafab" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
 <div id="ov" hidden><button class="fab" style="right:150px" id="jn">↗ New Tab</button><button class="fab" id="jc">✕ Close</button><iframe src="" title="Trading Journal full screen"></iframe></div>
 
+<dialog id="pm"></dialog>
 <script>
 const PH="254729393153",EM="bigmancapital.support@gmail.com",TIK="bigman.forex.trading",JL="https://bigmanlegacy95-sys.github.io/Trade-journal/";
 const $=i=>document.getElementById(i);
@@ -193,10 +202,9 @@ mentorship:{ic:"🤝",t:"Mentorship",tag:"Learn alongside a working trader",intr
 automations:{ic:"⚙️",t:"Trading Automations",tag:"Expert Advisors and indicators for the markets we trade",intro:"Automated tools built for forex and gold on MetaTrader 5, with built-in risk controls. Use them to save time and trade with more discipline.",steps:[["Choose a tool","Pick the Expert Advisor or indicator that fits your style."],["Get set up","We guide you through installation."],["Test on demo","Run it on a demo account first."],["Go live carefully","Start small with risk limits."]],get:["MT5 Expert Advisors","Custom indicators","Setup guidance","Updates and support"]}};
 const wa=m=>`https://wa.me/${PH}?text=${encodeURIComponent(m)}`;
 const gm="Hello BigMan Capital 👋\nI’d like to know more about your services.";
-$("wafab").href=wa(gm);$("bk").href=wa("Hello BigMan Capital 👋\nPlease notify me when The BigMan Forex Book is released.");
+$("wafab").href=wa(gm);
 $("cta").innerHTML=`<a class="btn gold" target="_blank" rel="noopener" href="${wa(gm)}">💬 WhatsApp us</a><a class="btn ghost" href="mailto:${EM}">✉️ Email us</a>`+(TIK?`<a class="btn ghost" target="_blank" rel="noopener" href="https://www.tiktok.com/@${TIK}">🎵 TikTok</a>`:"");
 $("sgrid").innerHTML=Object.keys(S).map(k=>`<a class="card" href="#/service/${k}"><div class="ic">${S[k].ic}</div><h3>${S[k].t}</h3><p>${S[k].tag}</p><span class="more">Learn more →</span></a>`).join("");
-$("mq").innerHTML=("EUR/USD  ✦  GBP/USD  ✦  USD/JPY  ✦  XAU/USD  ✦  AUD/USD  ✦  USD/CAD  ✦  ").repeat(8);
 function showSvc(k){const s=S[k];$("home").hidden=true;$("svc").hidden=false;document.title=s.t+" | BigMan Capital";
 $("svc").innerHTML=`<a class="back" href="#services">← All services</a><div class="tag" style="margin-top:22px">${s.tag}</div><h1 class="st gt">${s.ic} ${s.t}</h1><p class="lead" style="margin-left:0">${s.intro}</p>
 <h2>How it works</h2><div class="grid">${s.steps.map((x,i)=>`<div class="card"><div class="num">${i+1}</div><h3>${x[0]}</h3><p>${x[1]}</p></div>`).join("")}</div>
@@ -259,6 +267,33 @@ r.append(el("b","",x.name+"  Net "+x.net.toLocaleString()+(x.change==null?"":"  
 if(!cl.children.length)$("cview").textContent="COT data will appear after the next update.";
 str(5)
 }).catch(()=>{$("upd").textContent="Market Pulse will appear here soon."});
+
+const IC={"Expert Advisor":"🤖","Indicator":"📈","Book":"📘"};let PR=[],FL="All";
+const bd=p=>p.access=="soon"?"Coming soon":p.access=="free"?"Free":(p.price||"Premium");
+const wm=t=>wa("Hello BigMan Capital 👋\n\n"+t);
+const MT5=["Download the file we send you.","In MetaTrader 5 open File → Open Data Folder.","Open MQL5 → Experts (or Indicators) and paste the file there.","Restart MetaTrader 5, or right-click Navigator → Refresh.","Drag it onto a chart and switch on Algo Trading.","Always test on a demo account first."];
+const TVS=["Open TradingView and click Pine Editor at the bottom.","Paste the script we send you and tap Save.","Click Add to chart.","Open the settings to adjust the look and alerts."];
+function openP(p){const d=$("pm");d.textContent="";const x=el("button","dx","✕");x.onclick=()=>d.close();
+d.append(x,el("span","soon "+(p.access=="soon"?"":"ok"),bd(p)),el("h2","",p.name),el("p","sub",p.tag+(p.platform?" · "+p.platform:"")),el("p","",p.desc||""));
+if((p.features||[]).length){const u=el("ul","tick");p.features.forEach(f=>u.append(el("li","",f)));d.append(el("h3","","Features"),u)}
+if(p.type!="Book"){const o=el("ol","inst");(p.install||(/TradingView/i.test(p.platform||"")?TVS:MT5)).forEach(s=>o.append(el("li","",s)));d.append(el("h3","","How to install"),o)}
+const c=el("div","cta");c.style.justifyContent="flex-start";
+const a=(t,h,g)=>{const l=el("a","btn "+(g?"gold":"ghost"),t);l.href=h;l.target="_blank";l.rel="noopener";return l};
+if(p.access=="free"&&p.file){const l=a("⬇ Download",p.file,1);l.removeAttribute("target");l.setAttribute("download","");c.append(l)}
+else if(p.access=="paid")c.append(a("🛒 Get it on WhatsApp",wm(`I’d like to get ${p.name}${p.price?" ("+p.price+")":""}. Please share how to pay and receive it.`),1));
+else c.append(a("🔔 Notify me",wm(`Please notify me when ${p.name} is released.`),1));
+c.append(a("💬 Ask a question",wm(`I have a question about ${p.name}.`)),a("✉️ Email",`mailto:${EM}?subject=${encodeURIComponent(p.name)}`));
+d.append(c,el("p","note","Automated and algorithmic trading carries risk. Test on a demo account first. Past performance does not guarantee future results."+(p.access=="paid"?" Online checkout is coming soon; for now we complete your order on WhatsApp.":"")));d.showModal()}
+function store(){const g=$("pgrid");g.textContent="";PR.filter(p=>FL=="All"||p.type==FL).forEach(p=>{const c=el("div","card");c.append(el("span","soon "+(p.access=="soon"?"":"ok"),bd(p)),el("div","ic",IC[p.type]||"📦"),el("h3","",p.name),el("p","",p.tag),el("small","pl",p.platform||""));const b=el("button","btn ghost","View details");b.style.cssText="margin-top:16px;animation:none";b.onclick=()=>openP(p);c.append(b);g.append(c)})}
+fetch("products.json?"+Date.now()).then(r=>r.json()).then(d=>{PR=d;const c=$("pchips");["All","Expert Advisor","Indicator","Book"].forEach((t,i)=>{const b=el("button",i?"":"on",t=="All"?"All":t+"s");b.onclick=()=>{c.querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));FL=t;store()};c.append(b)});store()}).catch(()=>{$("pgrid").textContent="The store will appear here soon."});
+function tv(box,name,cfg){box.textContent="";const c=el("div","tradingview-widget-container"),w=el("div","tradingview-widget-container__widget"),s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/embed-widget-"+name+".js";s.async=true;s.text=JSON.stringify(cfg);c.append(w,s);box.append(c)}
+const TVW={chart:["advanced-chart",{autosize:true,symbol:"OANDA:XAUUSD",interval:"60",theme:"dark",style:"1",locale:"en",allow_symbol_change:true,save_image:false,backgroundColor:"rgba(10,18,36,1)"}],
+cal:["events",{colorTheme:"dark",isTransparent:true,width:"100%",height:"100%",locale:"en",importanceFilter:"-1,0,1",countryFilter:"us,eu,gb,jp,au,ca,ch,nz"}],
+heat:["forex-heat-map",{width:"100%",height:"100%",currencies:["EUR","USD","JPY","GBP","CHF","AUD","CAD","NZD"],isTransparent:true,colorTheme:"dark",locale:"en"}]};
+const live=k=>tv($("tvbox"),TVW[k][0],TVW[k][1]);
+$q("#lseg button").forEach(b=>b.onclick=()=>{$q("#lseg button").forEach(x=>x.classList.toggle("on",x===b));live(b.dataset.k)});
+new IntersectionObserver((e,o)=>{if(e[0].isIntersecting){live("chart");o.disconnect()}},{rootMargin:"300px"}).observe($("live"));
+tv($("tvt"),"ticker-tape",{symbols:[{proName:"OANDA:XAUUSD",title:"Gold"},{proName:"FX:EURUSD",title:"EUR/USD"},{proName:"FX:GBPUSD",title:"GBP/USD"},{proName:"FX:USDJPY",title:"USD/JPY"},{proName:"FX:AUDUSD",title:"AUD/USD"},{proName:"FX:USDCAD",title:"USD/CAD"}],showSymbolLogo:false,colorTheme:"dark",isTransparent:true,displayMode:"adaptive",locale:"en"});
 </script>
 </body>
 </html>
