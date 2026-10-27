@@ -1,37 +1,37 @@
 {
-  "updated": "2026-10-27T15:39+00:00",
-  "summary": "Global foreign exchange markets are currently reacting to a mix of shifting central bank expectations, lingering geopolitical concerns, and technological sector developments. The U.S. dollar is finding underlying support as markets navigate upcoming rate decisions from the Federal Reserve and Bank of Canada. Meanwhile, the euro faces ongoing pressure from French political worries, and the British pound remains subdued ahead of the upcoming UK budget announcement.",
+  "updated": "2026-10-27T18:36+00:00",
+  "summary": "The US dollar has firmed as investors position ahead of the upcoming Federal Reserve interest rate decision, even as US Treasury yields hover near multi-week lows. Meanwhile, the euro faces downward pressure stemming from political concerns in France, and sterling has dipped ahead of the upcoming UK Annual Budget. Key interest rate decisions from the Bank of Canada and the Reserve Bank of New Zealand are also keeping currency markets cautious.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The euro continues to slip under the weight of regional political concerns and a firming U.S. dollar."
+      "reason": "The pair remains in a technical downtrend amid persistent euro-zone political concerns and dollar firmness."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "Sterling trades cautiously sideways as market participants weigh domestic budget uncertainty against a resilient greenback."
+      "reason": "Prices are consolidating sideways as markets await both the UK Annual Budget and the Fed policy decision."
     },
     {
       "pair": "USD/JPY",
       "bias": "Neutral",
-      "reason": "The pair consolidates within a sideways range as broader AI-related market jitters offer occasional safe-haven support to the yen."
+      "reason": "Trading remains range-bound while safe-haven demand from tech sector volatility limits dollar upside."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Gold retains a strong net long positioning backdrop as markets hover near multi-week Treasury lows ahead of key monetary policy decisions."
+      "reason": "Heavy net-long market positioning and low US Treasury yields continue to underpin underlying support for gold."
     }
   ],
   "watch": [
-    "Federal Reserve Interest Rate Decision",
-    "Bank of Canada Rate Decision and Monetary Policy Report",
     "UK Annual Budget Release",
-    "RBNZ Rate Statement and Official Cash Rate"
+    "US Federal Reserve Rate Decision",
+    "Bank of Canada Overnight Rate Decision",
+    "Reserve Bank of New Zealand Official Cash Rate Decision"
   ],
-  "fundamentals": "Macroeconomic drivers are heavily influenced by impending monetary policy decisions from major central banks like the Federal Reserve and Bank of Canada, alongside domestic fiscal events such as the upcoming UK budget. Treasury yields hovering near multi-week lows reflect investor anticipation regarding future rate paths. Geopolitical tensions, discussions surrounding global trade, and shifting sentiment within the technology and artificial intelligence sectors continue to shape broader risk appetite across currency markets.",
-  "technical_view": "EUR/USD remains in a downtrend near support at 1.115 with an RSI of 44.9, while GBP/USD displays a sideways pattern around 1.3328 with an elevated RSI of 69.2. USD/JPY trades sideways at 157.82, holding near the middle of its recent range.",
-  "cot_view": "Commitments of Traders data shows continued heavy net short positioning in EUR, GBP, and CAD, highlighting prevailing bearish sentiment against those currencies. Conversely, Gold maintains a dominant net long positioning structure with over 86% of positions held long, underscoring solid underlying market conviction.",
+  "fundamentals": "Macro drivers are dominated by major central bank announcements, with the Fed, Bank of Canada, and RBNZ all set to declare interest rate policy. In the UK, Chancellor John Healey's Annual Budget is expected to address tax adjustments, cost-of-living measures, and minimum wage increases. US Treasury yields remain constrained near multi-week lows, while sentiment is additionally swayed by corporate developments in the technology sector and broader trade discussions between major economies.",
+  "technical_view": "EUR/USD is currently testing key support at 1.1150 within an active downtrend, displaying a neutral RSI of 44.9. GBP/USD is moving sideways near resistance at 1.34018 with an elevated RSI of 69.2, while USD/JPY consolidates between support at 156.80 and resistance at 158.60.",
+  "cot_view": "Commitment of Traders positioning shows strong long conviction in Gold at 86.4% net-long despite a slight weekly reduction of 8,014 contracts. EUR and GBP sentiment remains mostly net-short, though GBP recorded an influx of 26,544 long contracts. JPY positioning favors longs at 60.6% following a net increase of 19,671 contracts.",
   "market": {
     "strength": {
       "1": {
