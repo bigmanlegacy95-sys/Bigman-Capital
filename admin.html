@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>BigMan Admin</title>
+<style>
+:root{--navy:#0a1224;--char:#1a1f2b;--gold:#c9a24b;--gold2:#e8c978;--text:#eef1f7;--mute:#9aa6bd;--line:rgba(201,162,75,.25);color-scheme:dark}
+*{box-sizing:border-box}body{margin:auto;background:var(--navy);color:var(--text);font-family:system-ui,sans-serif;padding:20px;max-width:760px}
+h1{color:var(--gold2);font-family:Georgia,serif}.tabs{display:flex;gap:8px;margin:16px 0}
+button,a.b{border:1px solid var(--gold);background:none;color:var(--gold2);padding:10px 16px;border-radius:999px;font:inherit;cursor:pointer;text-decoration:none;display:inline-block;margin:4px 4px 4px 0}
+button.on,.pri{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#1a1405;border-color:transparent}
+.it{border:1px solid var(--line);background:var(--char);border-radius:16px;padding:16px;margin:14px 0}label{display:block;font-size:.78rem;color:var(--mute);margin:10px 0 4px}
+input,select,textarea{width:100%;background:#0f1830;color:var(--text);border:1px solid var(--line);border-radius:10px;padding:10px;font:inherit}
+.note{color:var(--mute);font-size:.85rem}pre{white-space:pre-wrap;word-break:break-all;background:#0f1830;border:1px solid var(--line);border-radius:12px;padding:12px;font-size:.78rem;max-height:240px;overflow:auto}
+</style></head><body>
+<h1>BigMan Capital Admin</h1>
+<p class="note">Edit your store and broker lists here. This page only prepares the text. Nothing changes on your site until you paste it into GitHub.</p>
+<div class="tabs"><button id="tp" class="on">Products</button><button id="tb">Brokers</button></div>
+<div id="list"></div><button id="add">+ Add new</button>
+<h3>Result</h3><pre id="out"></pre>
+<button class="pri" id="copy">1. Copy JSON</button><a class="b" id="gh" target="_blank" rel="noopener">2. Open file in GitHub</a>
+<p class="note">In GitHub: tap the pencil, select all, paste, then Commit changes. Your site updates in about a minute.</p>
+<script>
+const REPO="https://github.com/bigmanlegacy95-sys/Bigman-Capital/edit/main/",$=i=>document.getElementById(i);
+const F={products:[["type","Type","select",["Expert Advisor","Indicator","Book"]],["name","Name"],["tag","Short tagline"],["platform","Platform"],["version","Version"],["access","Access","select",["soon","free","paid"]],["price","Price (for paid)"],["file","File path (for free), e.g. downloads/MyEA.ex5"],["desc","Description","area"],["features","Features (one per line)","lines"]],
+brokers:[["name","Broker name"],["tag","Short pitch"],["link","Your referral link (https://...)"],["features","Highlights (one per line)","lines"]]};
+const N={products:()=>({type:"Expert Advisor",name:"",tag:"",platform:"MetaTrader 5",version:"v1.0",access:"soon",price:"",file:"",desc:"",features:[]}),brokers:()=>({name:"",tag:"",link:"",features:[]})};
+let cur="products";const D={products:[],brokers:[]};
+const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+function out(){const a=D[cur].map(x=>cur=="products"&&!x.id&&x.name?{id:slug(x.name),...x}:x);$("out").textContent=JSON.stringify(a,null,2);$("gh").href=REPO+cur+".json"}
+function render(){const L=$("list");L.textContent="";D[cur].forEach((it,i)=>{const c=document.createElement("div");c.className="it";
+F[cur].forEach(([k,lb,t,o])=>{const l=document.createElement("label");l.textContent=lb;let e;
+if(t=="select"){e=document.createElement("select");o.forEach(v=>{const op=document.createElement("option");op.textContent=v;e.append(op)});e.value=it[k]}
+else if(t=="area"||t=="lines"){e=document.createElement("textarea");e.rows=t=="area"?3:4;e.value=t=="lines"?(it[k]||[]).join("\n"):it[k]||""}
+else{e=document.createElement("input");e.value=it[k]||""}
+e.oninput=e.onchange=()=>{it[k]=t=="lines"?e.value.split("\n").map(s=>s.trim()).filter(Boolean):e.value;out()};c.append(l,e)});
+const d=document.createElement("button");d.textContent="Delete";d.onclick=()=>{if(confirm("Delete this item?")){D[cur].splice(i,1);render()}};c.append(d);L.append(c)});out()}
+function tab(k){cur=k;$("tp").classList.toggle("on",k=="products");$("tb").classList.toggle("on",k=="brokers");render()}
+$("tp").onclick=()=>tab("products");$("tb").onclick=()=>tab("brokers");
+$("add").onclick=()=>{D[cur].push(N[cur]());render()};
+$("copy").onclick=()=>{navigator.clipboard.writeText($("out").textContent).then(()=>{$("copy").textContent="Copied ✓"},()=>{const r=document.createRange();r.selectNodeContents($("out"));getSelection().removeAllRanges();getSelection().addRange(r)});setTimeout(()=>$("copy").textContent="1. Copy JSON",2500)};
+Promise.all(["products","brokers"].map(k=>fetch(k+".json?"+Date.now()).then(r=>r.json()).catch(()=>[]))).then(([p,b])=>{D.products=p;D.brokers=b;render()});
+</script></body></html>
