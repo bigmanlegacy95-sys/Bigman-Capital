@@ -1,37 +1,37 @@
 {
-  "updated": "2026-10-27T06:06+00:00",
-  "summary": "Global currency markets are navigating a firming U.S. dollar as traders position themselves ahead of the upcoming Federal Reserve interest rate decision. Risk sentiment remains carefully managed, with artificial intelligence jitters and corporate risk concerns driving intermittent safe-haven flows into the Japanese yen and keeping Treasury yields near recent lows. Meanwhile, regional currency movements reflect localized pressures, including political developments in Brazil and upcoming domestic budget releases in the UK.",
+  "updated": "2026-10-27T06:30+00:00",
+  "summary": "Global currency markets are navigating a firming U.S. dollar as traders position themselves ahead of the upcoming Federal Reserve interest rate decision. Risk sentiment remains carefully balanced, with AI-driven technology jitters fueling some safe-haven demand that benefits the Japanese yen and exerts pressure on the euro and pound. Meanwhile, upcoming central bank rate decisions in Canada and New Zealand alongside the UK annual budget release are keeping investors alert.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The pair remains in a clear downtrend with the euro slipping against a resilient U.S. dollar ahead of central bank decisions."
+      "reason": "The pair sits in a downtrend with weak momentum as the dollar holds firm ahead of the Fed decision."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bearish",
-      "reason": "Sterling slips as the dollar holds firm ahead of the Fed decision and markets await the UK Annual Budget release."
+      "reason": "Sterling slips as broader dollar strength dominates ahead of central bank and budget events."
     },
     {
       "pair": "USD/JPY",
       "bias": "Neutral",
-      "reason": "The pair is expected to remain range-bound as BoJ policy expectations meet safe-haven yen buying prompted by AI sector jitters."
+      "reason": "The pair remains range-bound as safety flows into the yen offset steady dollar demand."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Treasury yields hovering near multi-week lows and broad safe-haven demand provide solid underlying support for gold."
+      "reason": ""
     }
   ],
   "watch": [
-    "Federal Reserve Federal Funds Rate decision",
+    "US Federal Funds Rate decision",
     "UK Annual Budget Release",
-    "Bank of Canada Overnight Rate and Monetary Policy Report",
-    "RBNZ Rate Statement and Press Conference"
+    "BOC Rate Statement and Overnight Rate",
+    "RBNZ Official Cash Rate"
   ],
-  "fundamentals": "Macro drivers are heavily centered on upcoming central bank decisions, specifically the anticipated Federal Reserve interest rate announcement alongside policy updates from the Bank of Canada and the Reserve Bank of New Zealand. Broad market sentiment is additionally influenced by safe-haven demand tied to declining Treasury yields and tech-sector jitters. Domestically, upcoming fiscal events such as the UK Annual Budget introduce localized catalysts for specific currency pairs.",
-  "technical_view": "EUR/USD sits in a definitive downtrend trading near support at 1.1177 with an RSI of 37.4, pointing to ongoing downward pressure. GBP/USD and USD/JPY both exhibit sideways price action with neutral RSI readings around 59.6 and 42.4 respectively, indicating a lack of directional conviction prior to major catalysts.",
-  "cot_view": "Commitments of Traders data shows net-short positioning remaining heavy for EUR and GBP, reflecting persistent institutional skepticism toward European currencies. Conversely, JPY maintains a net-long stance supported by safe-haven flows, while Gold exhibits an overwhelmingly bullish net-long position of nearly 200,000 contracts.",
+  "fundamentals": "Macro drivers are heavily influenced by imminent central bank monetary policy updates from the Federal Reserve, Bank of Canada, and RBNZ, alongside fiscal policy shifts like the UK annual budget. AI-related market jitters and tech sector valuations are creating cross-currents that periodically drive safe-haven flows. Bond yields hovering near recent lows reflect anticipation of upcoming monetary adjustments and broader economic caution.",
+  "technical_view": "EUR/USD remains in a clear downtrend near support with an RSI of 37.4, indicating ongoing weakness. GBP/USD and USD/JPY show sideways price action with RSIs near neutral levels, suggesting a consolidation phase ahead of key macroeconomic catalysts.",
+  "cot_view": "Commitments of Traders data shows large net-short positions in EUR and GBP, indicating strong bearish sentiment among institutional participants. Conversely, JPY maintains a net-long positioning reflecting historical safe-haven demand, while Gold maintains a substantial net-long bias.",
   "market": {
     "strength": {
       "1": {
