@@ -214,6 +214,43 @@ HEADLINES:
     raise SystemExit("All AI models failed; keeping the old news.json")
 
 
+def call_ai(prompt):
+    body = {"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"responseMimeType": "application/json", "temperature": 0.5}}
+    for model in candidate_models():
+        try:
+            data = api(f"/models/{model}:generateContent", body)
+            text = data["candidates"][0]["content"]["parts"][0]["text"]
+            return json.loads(re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M).strip())
+        except urllib.error.HTTPError as e:
+            print(f"Article model {model} failed: HTTP {e.code}", file=sys.stderr)
+        except Exception as e:
+            print(f"Article model {model} failed: {e}", file=sys.stderr)
+        time.sleep(10)
+    return None
+
+
+def daily_article(items, market, old):
+    today = datetime.date.today().isoformat()
+    if old and old[0].get("date") == today:
+        return old
+    lines = "\n".join(f"- {i['title']}" for i in items[:20])
+    mk = json.dumps({k: market[k] for k in ("technical", "cot", "calendar") if k in market})[:3500] if market else ""
+    prompt = f"""You are a senior forex analyst writing the daily market brief article for the BigMan Capital website.
+Write for retail traders in clear, calm, professional English, about 350 words in total. Respond with JSON only:
+{{"title": "engaging headline", "intro": "2 sentence hook", "sections": [{{"h": "Market mood", "p": "paragraph"}}, {{"h": "Key drivers", "p": "paragraph"}}, {{"h": "Technical and positioning", "p": "paragraph"}}, {{"h": "What to watch next", "p": "paragraph"}}]}}
+Use only the headlines and data below. Do not give personal financial advice, do not promise outcomes, and do not invent numbers.
+
+HEADLINES:
+{lines}
+
+MARKET DATA:
+{mk}"""
+    a = call_ai(prompt)
+    if not a or not a.get("title"):
+        return old
+    return ([{"date": today, "title": a["title"], "intro": a.get("intro", ""), "sections": a.get("sections", [])}] + old)[:30]
+
+
 def main():
     items = get_headlines()
     if len(items) < 3:
@@ -231,6 +268,11 @@ def main():
         "market": market,
         "headlines": [{"source": i["source"], "title": i["title"], "link": i["link"]} for i in items[:8]],
     }
+    try:
+        old = json.load(open("news.json", encoding="utf-8")).get("articles", [])
+    except Exception:
+        old = []
+    out["articles"] = safe(daily_article, items, market, old) or old
     with open("news.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
     print("news.json updated")
