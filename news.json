@@ -1,37 +1,37 @@
 {
-  "updated": "2026-10-27T18:36+00:00",
-  "summary": "The US dollar has firmed as investors position ahead of the upcoming Federal Reserve interest rate decision, even as US Treasury yields hover near multi-week lows. Meanwhile, the euro faces downward pressure stemming from political concerns in France, and sterling has dipped ahead of the upcoming UK Annual Budget. Key interest rate decisions from the Bank of Canada and the Reserve Bank of New Zealand are also keeping currency markets cautious.",
+  "updated": "2026-10-27T21:26+00:00",
+  "summary": "Foreign exchange markets are trading defensively as the US dollar climbs to a two-week high ahead of key central bank rate decisions from the Federal Reserve and Bank of Canada. The euro faces additional downside pressure due to lingering domestic concerns in France, while the British pound dips amid a firm greenback and anticipation of the upcoming UK budget. Meanwhile, safe-haven flows are providing support to the Japanese yen following recent AI-related market jitters.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The pair remains in a technical downtrend amid persistent euro-zone political concerns and dollar firmness."
+      "reason": "Weighed down by a stronger dollar and domestic French political worries."
     },
     {
       "pair": "GBP/USD",
-      "bias": "Neutral",
-      "reason": "Prices are consolidating sideways as markets await both the UK Annual Budget and the Fed policy decision."
+      "bias": "Bearish",
+      "reason": "Pressured by a resilient greenback ahead of the UK budget and central bank meetings."
     },
     {
       "pair": "USD/JPY",
-      "bias": "Neutral",
-      "reason": "Trading remains range-bound while safe-haven demand from tech sector volatility limits dollar upside."
+      "bias": "Bullish",
+      "reason": "Supported by overall dollar strength despite occasional safe-haven yen buying."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Bullish",
-      "reason": "Heavy net-long market positioning and low US Treasury yields continue to underpin underlying support for gold."
+      "bias": "Neutral",
+      "reason": "Caught between broad dollar strength and ongoing safe-haven demand."
     }
   ],
   "watch": [
+    "Federal Reserve Rate Decision",
+    "Bank of Canada Rate Decision and Statement",
     "UK Annual Budget Release",
-    "US Federal Reserve Rate Decision",
-    "Bank of Canada Overnight Rate Decision",
-    "Reserve Bank of New Zealand Official Cash Rate Decision"
+    "RBNZ Rate Statement"
   ],
-  "fundamentals": "Macro drivers are dominated by major central bank announcements, with the Fed, Bank of Canada, and RBNZ all set to declare interest rate policy. In the UK, Chancellor John Healey's Annual Budget is expected to address tax adjustments, cost-of-living measures, and minimum wage increases. US Treasury yields remain constrained near multi-week lows, while sentiment is additionally swayed by corporate developments in the technology sector and broader trade discussions between major economies.",
-  "technical_view": "EUR/USD is currently testing key support at 1.1150 within an active downtrend, displaying a neutral RSI of 44.9. GBP/USD is moving sideways near resistance at 1.34018 with an elevated RSI of 69.2, while USD/JPY consolidates between support at 156.80 and resistance at 158.60.",
-  "cot_view": "Commitment of Traders positioning shows strong long conviction in Gold at 86.4% net-long despite a slight weekly reduction of 8,014 contracts. EUR and GBP sentiment remains mostly net-short, though GBP recorded an influx of 26,544 long contracts. JPY positioning favors longs at 60.6% following a net increase of 19,671 contracts.",
+  "fundamentals": "Macro drivers are heavily influenced by imminent monetary policy decisions from the Federal Reserve and the Bank of Canada, creating a cautious environment for risk assets. Treasury yields hovering near multi-week lows reflect pre-decision positioning, while regional fiscal events, such as the UK budget release, add localized volatility. Broader risk sentiment remains tethered to global growth considerations and ongoing developments in the technology and AI sectors.",
+  "technical_view": "EUR/USD sits in a defined downtrend near support at 1.115 with an RSI of 44.9, showing persistent downward momentum. GBP/USD trades sideways with a higher RSI of 69.2 near resistance, indicating potential consolidation, while USD/JPY drifts in a neutral range around 157.82.",
+  "cot_view": "Commitments of Traders data shows net-short positioning remains dominant for EUR and GBP against a net-long USD index. Conversely, Gold maintains a heavy net-long positioning structure with a large percentage of long contracts, reflecting longer-term institutional interest.",
   "market": {
     "strength": {
       "1": {
@@ -296,6 +296,11 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Dollar hits 2-week high a day ahead of Fed decision, euro slips on French worries",
+      "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-dollar-holds-firm-yen-retreats-ahead-of-fed-decision-4974116"
+    },
+    {
+      "source": "Investing.com",
       "title": "Canadian dollar slips as investors await Bank of Canada, Fed rate decisions",
       "link": "https://www.investing.com/news/forex-news/canadian-dollar-slips-as-investors-await-bank-of-canada-fed-rate-decisions-4975641"
     },
@@ -303,11 +308,6 @@
       "source": "Investing.com",
       "title": "U.S. Treasury yields hover near multi-week lows ahead of Fed decision",
       "link": "https://www.investing.com/news/forex-news/french-yields-edge-higher-as-moodys-relief-fades-israeli-election-in-focus-4974352"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar firms on AI rebound as euro trips on French worries",
-      "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-dollar-holds-firm-yen-retreats-ahead-of-fed-decision-4974116"
     },
     {
       "source": "Investing.com",
