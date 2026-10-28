@@ -1,37 +1,37 @@
 {
-  "updated": "2026-10-28T06:34+00:00",
-  "summary": "Global currency markets are navigating a firm US dollar ahead of crucial upcoming central bank rate decisions from the Federal Reserve and Bank of Canada. The euro has slipped under pressure from regional political concerns, while the Japanese yen has found some support from shifting sentiment. Meanwhile, the British pound remains subdued as markets await the upcoming UK budget announcement.",
+  "updated": "2026-10-28T09:37+00:00",
+  "summary": "Global currency markets are holding in tight ranges as investors brace for a flurry of high-stakes central bank decisions led by the Federal Reserve and the European Central Bank. The US dollar has climbed to a two-week high supported by firm safe-haven demand, while the euro remains pressured by lingering French fiscal and yield concerns. Meanwhile, the British pound is trading softly ahead of both the Fed meeting and the upcoming UK budget announcement.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The pair faces downward pressure amid a firm US dollar and lingering concerns over the euro area."
+      "reason": "Weighed down by a stronger dollar and persistent French spread relief fading."
     },
     {
       "pair": "GBP/USD",
-      "bias": "Neutral",
-      "reason": "Sterling trades sideways near support levels as traders weigh a firm greenback against upcoming UK budget events."
+      "bias": "Bearish",
+      "reason": "Pound dips as a firm dollar and looming budget decisions create near-term pressure."
     },
     {
       "pair": "USD/JPY",
       "bias": "Neutral",
-      "reason": "The pair is consolidating in a sideways trend as potential safe-haven flows offset broader dollar strength."
+      "reason": "Trading in a sideways channel as markets await definitive signals from the Fed."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Bullish",
-      "reason": "Gold retains a dominant net-long speculative positioning supported by lower US Treasury yields near multi-week lows."
+      "bias": "Neutral",
+      "reason": "Holding steady as investors balance low Treasury yields against a resurgent US dollar."
     }
   ],
   "watch": [
-    "Federal Reserve Interest Rate Decision and FOMC Press Conference",
-    "Bank of Canada Rate Decision and Monetary Policy Report",
+    "Federal Funds Rate and FOMC Statement",
     "UK Annual Budget Release",
-    "US Advance GDP and Core PCE Price Index data"
+    "BOC Rate Statement and Overnight Rate",
+    "Advance GDP q/q and Core PCE Price Index"
   ],
-  "fundamentals": "Macro drivers are heavily centered on upcoming central bank decisions from the Federal Reserve and Bank of Canada, alongside the impending UK budget release. U.S. Treasury yields are hovering near multi-week lows, giving the dollar temporary strength as markets price in policy outlooks. Meanwhile, geopolitical and trade discussions at international meetings continue to influence broader risk sentiment.",
-  "technical_view": "EUR/USD remains in a downtrend trading near support at 1.115 with an RSI of 44.9, while GBP/USD displays a sideways trend with an elevated RSI of 69.2 approaching resistance at 1.34018. USD/JPY sits neutrally around 157.82 within a range defined by support at 156.8 and resistance at 158.6.",
-  "cot_view": "Commitments of Traders data shows EUR and GBP holding significant net-short positions of -134,524 and -80,420 contracts respectively. Conversely, Gold maintains a heavy net-long positioning of 199,865 contracts, and the Japanese Yen records a net-long position of 69,878 contracts.",
+  "fundamentals": "Macro drivers are heavily centered on forthcoming monetary policy decisions from the Federal Reserve, Bank of Canada, and European Central Bank. Geopolitical and fiscal developments, such as the upcoming UK budget and rising Eurozone bond yields tied to French political concerns, are also shaping risk sentiment. Additionally, global trade discussions and economic data releases like US advance GDP will dictate the broader currency trajectories.",
+  "technical_view": "EUR/USD sits in a downtrend near support at 1.115 with an RSI of 44.9, whereas GBP/USD trades sideways at 1.3328 with an overbought RSI of 69.2 approaching resistance. USD/JPY remains neutral in a sideways band near 157.82 with an RSI of 45.4, staying boxed between its technical support and resistance levels.",
+  "cot_view": "Commitments of Traders data shows net-short positioning remains heavy for both EUR and GBP, reflecting persistent bearish sentiment among speculators. Conversely, JPY maintains a net-long position with 60.6% longs, while Gold retains a dominant net-long standing of nearly 200,000 contracts despite minor weekly reductions.",
   "market": {
     "strength": {
       "1": {
@@ -296,6 +296,11 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Eurozone yields push higher as French spread relief fades; Fed, ECB eyed",
+      "link": "https://www.investing.com/news/forex-news/eurozone-yields-push-higher-as-french-spread-relief-fades-fed-ecb-eyed-4977652"
+    },
+    {
+      "source": "Investing.com",
       "title": "Dollar hits 2-week high a day ahead of Fed decision, euro slips on French worries",
       "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-dollar-holds-firm-yen-retreats-ahead-of-fed-decision-4974116"
     },
@@ -328,11 +333,6 @@
       "source": "Investing.com",
       "title": "Brazil’s real weakens 12% as Lula wins reelection",
       "link": "https://www.investing.com/news/forex-news/brazils-real-weakens-12-as-lula-wins-reelection-93CH-4972631"
-    },
-    {
-      "source": "Investing.com",
-      "title": "U.S.  yields hover near 3-week lows as ahead of Fed decision",
-      "link": "https://www.investing.com/news/forex-news/french-yields-retreat-from-2002-highs-as-moodys-holds-ecb-in-focus-4971656"
     }
   ],
   "articles": [
