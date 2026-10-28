@@ -1,37 +1,37 @@
 {
-  "updated": "2026-10-28T03:33+00:00",
-  "summary": "Global currency markets are holding a firm dollar tone as participants position themselves ahead of a wave of major central bank decisions and upcoming political budgets. The euro is under pressure due to regional headwinds, while the Canadian dollar awaits imminent Bank of Canada guidance following a recent rally. Meanwhile, safe-haven flows and tech sector developments continue to influence broader sentiment across asset classes.",
+  "updated": "2026-10-28T06:34+00:00",
+  "summary": "Global currency markets are navigating a firm US dollar ahead of crucial upcoming central bank rate decisions from the Federal Reserve and Bank of Canada. The euro has slipped under pressure from regional political concerns, while the Japanese yen has found some support from shifting sentiment. Meanwhile, the British pound remains subdued as markets await the upcoming UK budget announcement.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The euro slips on French concerns while the dollar trades firmly near a two-week high ahead of the Fed."
+      "reason": "The pair faces downward pressure amid a firm US dollar and lingering concerns over the euro area."
     },
     {
       "pair": "GBP/USD",
-      "bias": "Bearish",
-      "reason": "Sterling dips on a strong greenback as markets brace for both the Federal Reserve decision and the UK budget."
+      "bias": "Neutral",
+      "reason": "Sterling trades sideways near support levels as traders weigh a firm greenback against upcoming UK budget events."
     },
     {
       "pair": "USD/JPY",
       "bias": "Neutral",
-      "reason": "AI-driven market jitters have sparked intermittent yen gains to counter overall dollar steadiness."
+      "reason": "The pair is consolidating in a sideways trend as potential safe-haven flows offset broader dollar strength."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Neutral",
-      "reason": "Gold consolidates as traders balance multi-week lows in US Treasury yields against a resilient US dollar."
+      "bias": "Bullish",
+      "reason": "Gold retains a dominant net-long speculative positioning supported by lower US Treasury yields near multi-week lows."
     }
   ],
   "watch": [
-    "Federal Reserve Rate Decision and FOMC Press Conference",
-    "Bank of Canada Rate Statement and Monetary Policy Report",
+    "Federal Reserve Interest Rate Decision and FOMC Press Conference",
+    "Bank of Canada Rate Decision and Monetary Policy Report",
     "UK Annual Budget Release",
-    "US Advance GDP q/q"
+    "US Advance GDP and Core PCE Price Index data"
   ],
-  "fundamentals": "Macroeconomic sentiment is currently dominated by anticipation surrounding central bank policy meetings, particularly the Federal Reserve and Bank of Canada rate announcements. Regional political developments, such as upcoming fiscal budgets and localized political shifts, are introducing additional volatility into foreign exchange pairs. Concurrently, US Treasury yields hovering near multi-week lows are interacting with persistent corporate technology themes to dictate overall risk appetite.",
-  "technical_view": "EUR/USD remains in a daily downtrend trading near support at 1.115 with an RSI of 44.9. GBP/USD trades sideways with a higher RSI of 69.2 near the 1.3328 level, while USD/JPY hovers neutrally around 157.82 with an RSI of 45.4.",
-  "cot_view": "COT positioning data shows net short exposure remaining heavy for both EUR (-134,524 contracts) and GBP (-80,420 contracts). Conversely, JPY maintains a net long positioning of 69,878 contracts, and Gold retains a substantial net long bias of 199,865 contracts.",
+  "fundamentals": "Macro drivers are heavily centered on upcoming central bank decisions from the Federal Reserve and Bank of Canada, alongside the impending UK budget release. U.S. Treasury yields are hovering near multi-week lows, giving the dollar temporary strength as markets price in policy outlooks. Meanwhile, geopolitical and trade discussions at international meetings continue to influence broader risk sentiment.",
+  "technical_view": "EUR/USD remains in a downtrend trading near support at 1.115 with an RSI of 44.9, while GBP/USD displays a sideways trend with an elevated RSI of 69.2 approaching resistance at 1.34018. USD/JPY sits neutrally around 157.82 within a range defined by support at 156.8 and resistance at 158.6.",
+  "cot_view": "Commitments of Traders data shows EUR and GBP holding significant net-short positions of -134,524 and -80,420 contracts respectively. Conversely, Gold maintains a heavy net-long positioning of 199,865 contracts, and the Japanese Yen records a net-long position of 69,878 contracts.",
   "market": {
     "strength": {
       "1": {
@@ -208,27 +208,6 @@
     ],
     "calendar": [
       {
-        "date": "2026-10-28T01:00+00:00",
-        "country": "NZD",
-        "title": "Official Cash Rate",
-        "forecast": "3.00%",
-        "previous": "2.75%"
-      },
-      {
-        "date": "2026-10-28T01:00+00:00",
-        "country": "NZD",
-        "title": "RBNZ Rate Statement",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-10-28T02:00+00:00",
-        "country": "NZD",
-        "title": "RBNZ Press Conference",
-        "forecast": "",
-        "previous": ""
-      },
-      {
         "date": "2026-10-28T12:30+00:00",
         "country": "GBP",
         "title": "Annual Budget Release",
@@ -290,6 +269,27 @@
         "title": "Advance GDP q/q",
         "forecast": "3.2%",
         "previous": "1.5%"
+      },
+      {
+        "date": "2026-10-29T12:30+00:00",
+        "country": "USD",
+        "title": "Core PCE Price Index m/m",
+        "forecast": "0.3%",
+        "previous": "0.2%"
+      },
+      {
+        "date": "2026-10-29T13:15+00:00",
+        "country": "EUR",
+        "title": "Main Refinancing Rate",
+        "forecast": "2.65%",
+        "previous": "2.65%"
+      },
+      {
+        "date": "2026-10-29T13:15+00:00",
+        "country": "EUR",
+        "title": "Monetary Policy Statement",
+        "forecast": "",
+        "previous": ""
       }
     ]
   },
