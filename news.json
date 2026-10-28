@@ -1,37 +1,37 @@
 {
-  "updated": "2026-10-27T21:26+00:00",
-  "summary": "Foreign exchange markets are trading defensively as the US dollar climbs to a two-week high ahead of key central bank rate decisions from the Federal Reserve and Bank of Canada. The euro faces additional downside pressure due to lingering domestic concerns in France, while the British pound dips amid a firm greenback and anticipation of the upcoming UK budget. Meanwhile, safe-haven flows are providing support to the Japanese yen following recent AI-related market jitters.",
+  "updated": "2026-10-28T00:32+00:00",
+  "summary": "Global currency markets are largely driven by a firmer U.S. dollar, which hit a two-week high ahead of the upcoming Federal Reserve rate decision. The euro faced downward pressure due to regional concerns in France, while the pound dipped as markets braced for the UK annual budget release. Meanwhile, the Canadian dollar steadied and the Japanese yen saw some gains supported by safe-haven flows amid AI market jitters.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Weighed down by a stronger dollar and domestic French political worries."
+      "reason": "The pair remains in a downtrend with ongoing pressure from regional European worries and a firm U.S. dollar."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bearish",
-      "reason": "Pressured by a resilient greenback ahead of the UK budget and central bank meetings."
+      "reason": "Pound dips as the dollar holds firm and markets await the upcoming UK budget announcement."
     },
     {
       "pair": "USD/JPY",
-      "bias": "Bullish",
-      "reason": "Supported by overall dollar strength despite occasional safe-haven yen buying."
+      "bias": "Neutral",
+      "reason": "The pair trades sideways near technical resistance as potential yen safe-haven gains balance a strong greenback."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Neutral",
-      "reason": "Caught between broad dollar strength and ongoing safe-haven demand."
+      "bias": "Bullish",
+      "reason": "Gold maintains a heavily net-long speculative positioning backed by lower Treasury yields and safe-haven demand."
     }
   ],
   "watch": [
-    "Federal Reserve Rate Decision",
-    "Bank of Canada Rate Decision and Statement",
+    "Federal Funds Rate decision",
     "UK Annual Budget Release",
+    "BOC Rate Statement and Overnight Rate",
     "RBNZ Rate Statement"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by imminent monetary policy decisions from the Federal Reserve and the Bank of Canada, creating a cautious environment for risk assets. Treasury yields hovering near multi-week lows reflect pre-decision positioning, while regional fiscal events, such as the UK budget release, add localized volatility. Broader risk sentiment remains tethered to global growth considerations and ongoing developments in the technology and AI sectors.",
-  "technical_view": "EUR/USD sits in a defined downtrend near support at 1.115 with an RSI of 44.9, showing persistent downward momentum. GBP/USD trades sideways with a higher RSI of 69.2 near resistance, indicating potential consolidation, while USD/JPY drifts in a neutral range around 157.82.",
-  "cot_view": "Commitments of Traders data shows net-short positioning remains dominant for EUR and GBP against a net-long USD index. Conversely, Gold maintains a heavy net-long positioning structure with a large percentage of long contracts, reflecting longer-term institutional interest.",
+  "fundamentals": "Macro drivers are dominated by upcoming central bank rate decisions from the Federal Reserve, Bank of Canada, and RBNZ, alongside significant fiscal events like the UK budget release. U.S. Treasury yields are hovering near multi-week lows, yet the dollar maintains strong momentum as investors weigh global geopolitical risks and AI sector developments. Meanwhile, foreign central banks and international monetary meetings are closely monitoring debt trends and global trade dynamics.",
+  "technical_view": "EUR/USD trades within a clear downtrend at 1.115 with an RSI of 44.9, while GBP/USD sits near 1.3328 in a sideways pattern with an elevated RSI of 69.2 approaching resistance. USD/JPY hovers sideways around 157.82, remaining comfortably between its immediate support and resistance boundaries.",
+  "cot_view": "Commitments of Traders data shows EUR and GBP maintaining sizeable net-short positions of -134,524 and -80,420 contracts respectively. Conversely, JPY holds a net-long position of 69,878 contracts, and Gold retains a heavily bullish net-long posture at 199,865 contracts.",
   "market": {
     "strength": {
       "1": {
@@ -336,6 +336,29 @@
     }
   ],
   "articles": [
+    {
+      "date": "2026-10-28",
+      "title": "Dollar Hits Two-Week High Ahead of Fed Decision and Central Bank Deluge",
+      "intro": "The US dollar climbed to a two-week high as global investors braced for a crucial Federal Reserve rate decision alongside key announcements from other major central banks. Meanwhile, sterling dipped while European currencies felt the weight of localized political concerns.",
+      "sections": [
+        {
+          "h": "Market mood",
+          "p": "The broader market sentiment remains cautious and heavily defensive as participants prepare for high-impact monetary policy updates. The dollar rebounds firmly as the euro slips on French worries, while the Canadian dollar steadies after a seven-day rally ahead of rate decisions. U.S. Treasury yields hover near multi-week lows, keeping traders alert to potential volatility spikes across major currency pairs."
+        },
+        {
+          "h": "Key drivers",
+          "p": "The dominant catalyst for forex flows is the impending Federal Reserve decision, with the Federal Funds Rate forecast to hold at 4.00%. Concurrently, currency markets are digesting the upcoming Bank of Canada rate decision alongside the annual UK budget release and looming central bank announcements. Regional pressures, such as AI jitters supporting the Japanese yen and regional political worries dragging on European units, continue to shape cross-asset movements."
+        },
+        {
+          "h": "Technical and positioning",
+          "p": "Looking at the technical landscape, EUR/USD trades in a downtrend at 1.115 with an RSI of 44.9, sitting right at support with resistance eyed at 1.3355 for broader context. GBP/USD trades sideways around 1.3328 with an RSI of 69.2, while USD/CAD rests at 1.4023 showing an oversold RSI of 20.2. Commitment of Traders data shows net positioning remains heavily short on EUR at -134,524 and GBP at -80,420, contrasted by net long positioning on the USD Index at 15,044 and Gold at 199,865."
+        },
+        {
+          "h": "What to watch next",
+          "p": "Traders should closely monitor the upcoming calendar events, featuring the Federal Funds Rate announcement and the Bank of Canada overnight rate decision expected at 2.50%. Additional attention will go toward the UK Annual Budget Release and ongoing developments in US yields as market participants position for potential policy surprises."
+        }
+      ]
+    },
     {
       "date": "2026-10-27",
       "title": "Forex Daily Market Brief: Dollar Holds Firm and Yields Hover Ahead of Central Bank Decisions",
