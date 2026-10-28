@@ -1,124 +1,124 @@
 {
-  "updated": "2026-10-28T12:35+00:00",
-  "summary": "The US dollar reached a two-week high and Treasury yields edged higher as markets braced for upcoming central bank decisions from the Federal Reserve, Bank of Canada, and European Central Bank. The euro faced downward pressure due to ongoing political worries in France, while the British pound slipped as AI-related fears ebbed and traders awaited the UK budget. Meanwhile, global sentiment remains influenced by corporate tech earnings, international trade talks, and broader macroeconomic uncertainties.",
+  "updated": "2026-10-28T18:34+00:00",
+  "summary": "Global currency markets are currently driven by broad US dollar strength as investors await upcoming central bank decisions from the Federal Reserve, European Central Bank, and Bank of Japan. The greenback climbed to a two-week high, while the euro slipped under pressure from regional political concerns and sterling steadied following the UK Budget announcement. Meanwhile, market participants are also digesting major macroeconomic data releases and evolving geopolitical trends.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Weighed down by a firm US dollar and lingering political concerns in France."
+      "reason": "The pair faces downward pressure from a rebounding US dollar and lingering political concerns in France."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "Trading in a sideways range ahead of the crucial UK budget release and Fed decision."
+      "reason": "Sterling is trading sideways as domestic budget updates are offset by broad dollar momentum."
     },
     {
       "pair": "USD/JPY",
       "bias": "Neutral",
-      "reason": "Hovering near resistance levels as traders await clear directional cues from US monetary policy."
+      "reason": "Action remains rangebound as traders await upcoming Bank of Japan and Federal Reserve policy decisions."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Maintains a dominant net-long positioning supported by macroeconomic hedging demand."
+      "reason": "Gold retains heavy long positioning and safe-haven interest amid global economic uncertainties."
     }
   ],
   "watch": [
-    "US Federal Reserve Rate Decision and FOMC Press Conference",
-    "Bank of Canada Rate Decision and Monetary Policy Report",
-    "UK Annual Budget Release",
-    "US Advance GDP and Core PCE Price Index data"
+    "Federal Funds Rate and FOMC Statement",
+    "ECB Main Refinancing Rate and Press Conference",
+    "BOJ Policy Rate and Outlook Report",
+    "U.S. Advance GDP q/q and Core PCE Price Index"
   ],
-  "fundamentals": "Macro drivers are heavily centered on upcoming central bank monetary policy updates, with the Federal Reserve, Bank of Canada, and European Central Bank all delivering critical rate decisions and policy statements. Currency markets are reacting to shifting yield differentials and safe-haven demand, driven by stronger US Treasury yields and political uncertainties in Europe. Additionally, fiscal events such as the upcoming UK budget and ongoing international trade and technology sector developments continue to shape broader investor sentiment.",
-  "technical_view": "EUR/USD sits in a defined downtrend near key support at 1.1150 with an RSI of 44.9, indicating persistent bearish pressure. GBP/USD and USD/JPY both exhibit sideways price action, with RSI readings sitting near neutral territory and prices consolidating between established support and resistance boundaries.",
-  "cot_view": "Commitments of Traders data reflects a strong net-short bias for European currencies like the euro and British pound, alongside a substantial net-long USD Index position. Gold maintains a heavily dominant net-long structure at over 199,000 contracts, highlighting robust institutional backing despite minor weekly reductions.",
+  "fundamentals": "Macro drivers are heavily centered on forthcoming monetary policy decisions from the Federal Reserve, European Central Bank, and Bank of Japan, which are dictating near-term forex direction. In the UK, Chancellor John Healey's first Budget introduced spending adjustments and tax threshold freezes aimed at balancing fiscal pressures against rising defense investments. Globally, investors are also tracking growth figures like U.S. Advance GDP alongside persistent inflation metrics such as the Core PCE Price Index.",
+  "technical_view": "EUR/USD sits in a downtrend with an RSI of 40.4 near support at 1.1133, reflecting ongoing bearish momentum. GBP/USD and USD/JPY remain rangebound in sideways trends with neutral RSI readings, while gold maintains strong long positioning.",
+  "cot_view": "Commitments of Traders data indicates net short positioning remains elevated across major currency pairs like the euro and British pound, whereas the USD Index maintains a solid net long stance. Gold futures show a heavily skewed net long position, highlighting sustained institutional support for the precious metal.",
   "market": {
     "strength": {
       "1": {
-        "EUR": -0.28,
-        "GBP": -0.09,
-        "AUD": 0.17,
-        "NZD": 0.45,
-        "JPY": -0.17,
-        "CAD": 0.1,
-        "CHF": -0.24,
-        "USD": 0.06
+        "EUR": 0.16,
+        "GBP": 0.01,
+        "AUD": 0.33,
+        "NZD": -1.26,
+        "JPY": 0.23,
+        "CAD": 0.14,
+        "CHF": 0.08,
+        "USD": 0.31
       },
       "5": {
-        "EUR": -0.6,
-        "GBP": -0.16,
-        "AUD": 0.65,
-        "NZD": 0.4,
-        "JPY": 0.17,
-        "CAD": 0.18,
-        "CHF": -0.62,
-        "USD": -0.02
+        "EUR": -0.4,
+        "GBP": -0.35,
+        "AUD": 0.49,
+        "NZD": -0.89,
+        "JPY": 0.45,
+        "CAD": 0.5,
+        "CHF": -0.3,
+        "USD": 0.5
       },
       "20": {
-        "EUR": -1.96,
-        "GBP": 0.45,
-        "AUD": 0.24,
-        "NZD": 0.67,
-        "JPY": -0.6,
-        "CAD": 0.96,
-        "CHF": 0.4,
-        "USD": -0.16
+        "EUR": -1.87,
+        "GBP": 0.1,
+        "AUD": 1.02,
+        "NZD": -0.47,
+        "JPY": -0.52,
+        "CAD": 1.06,
+        "CHF": 0.58,
+        "USD": 0.09
       }
     },
     "technical": [
       {
         "pair": "EUR/USD",
-        "price": 1.115,
+        "price": 1.1133,
         "trend": "Downtrend",
-        "rsi": 44.9,
-        "support": 1.115,
-        "resistance": 1.1355
+        "rsi": 40.4,
+        "support": 1.1133,
+        "resistance": 1.1298
       },
       {
         "pair": "GBP/USD",
-        "price": 1.3328,
+        "price": 1.32876,
         "trend": "Sideways",
-        "rsi": 69.2,
+        "rsi": 61.3,
         "support": 1.32008,
         "resistance": 1.34018
       },
       {
         "pair": "USD/JPY",
-        "price": 157.82,
+        "price": 157.96,
         "trend": "Sideways",
-        "rsi": 45.4,
+        "rsi": 46.5,
         "support": 156.8,
         "resistance": 158.6
       },
       {
         "pair": "AUD/USD",
-        "price": 0.70319,
+        "price": 0.70328,
         "trend": "Sideways",
-        "rsi": 61.4,
+        "rsi": 62.8,
         "support": 0.69109,
         "resistance": 0.70338
       },
       {
         "pair": "USD/CAD",
-        "price": 1.4023,
+        "price": 1.4047,
         "trend": "Sideways",
-        "rsi": 20.2,
+        "rsi": 23.2,
         "support": 1.3995,
         "resistance": 1.4262
       },
       {
         "pair": "USD/CHF",
-        "price": 0.82861,
-        "trend": "Sideways",
-        "rsi": 42.3,
+        "price": 0.83059,
+        "trend": "Uptrend",
+        "rsi": 44.5,
         "support": 0.82204,
         "resistance": 0.83528
       },
       {
         "pair": "NZD/USD",
-        "price": 0.57029,
-        "trend": "Sideways",
-        "rsi": 75.4,
+        "price": 0.56132,
+        "trend": "Downtrend",
+        "rsi": 54.1,
         "support": 0.55891,
         "resistance": 0.57029
       }
@@ -208,41 +208,6 @@
     ],
     "calendar": [
       {
-        "date": "2026-10-28T12:30+00:00",
-        "country": "GBP",
-        "title": "Annual Budget Release",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-10-28T13:45+00:00",
-        "country": "CAD",
-        "title": "BOC Monetary Policy Report",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-10-28T13:45+00:00",
-        "country": "CAD",
-        "title": "BOC Rate Statement",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-10-28T13:45+00:00",
-        "country": "CAD",
-        "title": "Overnight Rate",
-        "forecast": "2.50%",
-        "previous": "2.25%"
-      },
-      {
-        "date": "2026-10-28T14:30+00:00",
-        "country": "CAD",
-        "title": "BOC Press Conference",
-        "forecast": "",
-        "previous": ""
-      },
-      {
         "date": "2026-10-28T18:00+00:00",
         "country": "USD",
         "title": "Federal Funds Rate",
@@ -290,10 +255,50 @@
         "title": "Monetary Policy Statement",
         "forecast": "",
         "previous": ""
+      },
+      {
+        "date": "2026-10-29T13:45+00:00",
+        "country": "EUR",
+        "title": "ECB Press Conference",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-10-30T02:30+00:00",
+        "country": "JPY",
+        "title": "BOJ Policy Rate",
+        "forecast": "<1.25%",
+        "previous": "<1.25%"
+      },
+      {
+        "date": "2026-10-30T02:30+00:00",
+        "country": "JPY",
+        "title": "Monetary Policy Statement",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-10-30T02:31+00:00",
+        "country": "JPY",
+        "title": "BOJ Outlook Report",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-10-30T05:30+00:00",
+        "country": "JPY",
+        "title": "BOJ Press Conference",
+        "forecast": "",
+        "previous": ""
       }
     ]
   },
   "headlines": [
+    {
+      "source": "Investing.com",
+      "title": "Sterling steadies, gilts tick up following Healey’s UK Budget",
+      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-as-ai-fears-ebb--uk-budget-fed-in-focus-4978200"
+    },
     {
       "source": "Investing.com",
       "title": "Treasury yields nudge toward one-week highs; Fed decision, Big Tech earnings loom",
@@ -303,11 +308,6 @@
       "source": "Investing.com",
       "title": "Polish zloty falls to weakest level since November 2023",
       "link": "https://www.investing.com/news/forex-news/polish-zloty-falls-to-weakest-level-since-november-2023-93CH-4978728"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Sterling today: Pound slips as AI fears ebb; UK budget, Fed in focus",
-      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-as-ai-fears-ebb--uk-budget-fed-in-focus-4978200"
     },
     {
       "source": "Investing.com",
