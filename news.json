@@ -1,37 +1,37 @@
 {
-  "updated": "2026-10-28T00:32+00:00",
-  "summary": "Global currency markets are largely driven by a firmer U.S. dollar, which hit a two-week high ahead of the upcoming Federal Reserve rate decision. The euro faced downward pressure due to regional concerns in France, while the pound dipped as markets braced for the UK annual budget release. Meanwhile, the Canadian dollar steadied and the Japanese yen saw some gains supported by safe-haven flows amid AI market jitters.",
+  "updated": "2026-10-28T03:33+00:00",
+  "summary": "Global currency markets are holding a firm dollar tone as participants position themselves ahead of a wave of major central bank decisions and upcoming political budgets. The euro is under pressure due to regional headwinds, while the Canadian dollar awaits imminent Bank of Canada guidance following a recent rally. Meanwhile, safe-haven flows and tech sector developments continue to influence broader sentiment across asset classes.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The pair remains in a downtrend with ongoing pressure from regional European worries and a firm U.S. dollar."
+      "reason": "The euro slips on French concerns while the dollar trades firmly near a two-week high ahead of the Fed."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bearish",
-      "reason": "Pound dips as the dollar holds firm and markets await the upcoming UK budget announcement."
+      "reason": "Sterling dips on a strong greenback as markets brace for both the Federal Reserve decision and the UK budget."
     },
     {
       "pair": "USD/JPY",
       "bias": "Neutral",
-      "reason": "The pair trades sideways near technical resistance as potential yen safe-haven gains balance a strong greenback."
+      "reason": "AI-driven market jitters have sparked intermittent yen gains to counter overall dollar steadiness."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Bullish",
-      "reason": "Gold maintains a heavily net-long speculative positioning backed by lower Treasury yields and safe-haven demand."
+      "bias": "Neutral",
+      "reason": "Gold consolidates as traders balance multi-week lows in US Treasury yields against a resilient US dollar."
     }
   ],
   "watch": [
-    "Federal Funds Rate decision",
+    "Federal Reserve Rate Decision and FOMC Press Conference",
+    "Bank of Canada Rate Statement and Monetary Policy Report",
     "UK Annual Budget Release",
-    "BOC Rate Statement and Overnight Rate",
-    "RBNZ Rate Statement"
+    "US Advance GDP q/q"
   ],
-  "fundamentals": "Macro drivers are dominated by upcoming central bank rate decisions from the Federal Reserve, Bank of Canada, and RBNZ, alongside significant fiscal events like the UK budget release. U.S. Treasury yields are hovering near multi-week lows, yet the dollar maintains strong momentum as investors weigh global geopolitical risks and AI sector developments. Meanwhile, foreign central banks and international monetary meetings are closely monitoring debt trends and global trade dynamics.",
-  "technical_view": "EUR/USD trades within a clear downtrend at 1.115 with an RSI of 44.9, while GBP/USD sits near 1.3328 in a sideways pattern with an elevated RSI of 69.2 approaching resistance. USD/JPY hovers sideways around 157.82, remaining comfortably between its immediate support and resistance boundaries.",
-  "cot_view": "Commitments of Traders data shows EUR and GBP maintaining sizeable net-short positions of -134,524 and -80,420 contracts respectively. Conversely, JPY holds a net-long position of 69,878 contracts, and Gold retains a heavily bullish net-long posture at 199,865 contracts.",
+  "fundamentals": "Macroeconomic sentiment is currently dominated by anticipation surrounding central bank policy meetings, particularly the Federal Reserve and Bank of Canada rate announcements. Regional political developments, such as upcoming fiscal budgets and localized political shifts, are introducing additional volatility into foreign exchange pairs. Concurrently, US Treasury yields hovering near multi-week lows are interacting with persistent corporate technology themes to dictate overall risk appetite.",
+  "technical_view": "EUR/USD remains in a daily downtrend trading near support at 1.115 with an RSI of 44.9. GBP/USD trades sideways with a higher RSI of 69.2 near the 1.3328 level, while USD/JPY hovers neutrally around 157.82 with an RSI of 45.4.",
+  "cot_view": "COT positioning data shows net short exposure remaining heavy for both EUR (-134,524 contracts) and GBP (-80,420 contracts). Conversely, JPY maintains a net long positioning of 69,878 contracts, and Gold retains a substantial net long bias of 199,865 contracts.",
   "market": {
     "strength": {
       "1": {
@@ -208,27 +208,6 @@
     ],
     "calendar": [
       {
-        "date": "2026-10-28T00:30+00:00",
-        "country": "AUD",
-        "title": "CPI m/m",
-        "forecast": "0.7%",
-        "previous": "0.4%"
-      },
-      {
-        "date": "2026-10-28T00:30+00:00",
-        "country": "AUD",
-        "title": "CPI y/y",
-        "forecast": "4.2%",
-        "previous": "4.0%"
-      },
-      {
-        "date": "2026-10-28T00:30+00:00",
-        "country": "AUD",
-        "title": "Trimmed Mean CPI m/m",
-        "forecast": "0.3%",
-        "previous": "0.2%"
-      },
-      {
         "date": "2026-10-28T01:00+00:00",
         "country": "NZD",
         "title": "Official Cash Rate",
@@ -290,6 +269,27 @@
         "title": "Federal Funds Rate",
         "forecast": "4.00%",
         "previous": "4.00%"
+      },
+      {
+        "date": "2026-10-28T18:00+00:00",
+        "country": "USD",
+        "title": "FOMC Statement",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-10-28T18:30+00:00",
+        "country": "USD",
+        "title": "FOMC Press Conference",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-10-29T12:30+00:00",
+        "country": "USD",
+        "title": "Advance GDP q/q",
+        "forecast": "3.2%",
+        "previous": "1.5%"
       }
     ]
   },
