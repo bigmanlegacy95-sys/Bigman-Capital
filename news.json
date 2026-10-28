@@ -1,37 +1,37 @@
 {
-  "updated": "2026-10-28T09:37+00:00",
-  "summary": "Global currency markets are holding in tight ranges as investors brace for a flurry of high-stakes central bank decisions led by the Federal Reserve and the European Central Bank. The US dollar has climbed to a two-week high supported by firm safe-haven demand, while the euro remains pressured by lingering French fiscal and yield concerns. Meanwhile, the British pound is trading softly ahead of both the Fed meeting and the upcoming UK budget announcement.",
+  "updated": "2026-10-28T12:35+00:00",
+  "summary": "The US dollar reached a two-week high and Treasury yields edged higher as markets braced for upcoming central bank decisions from the Federal Reserve, Bank of Canada, and European Central Bank. The euro faced downward pressure due to ongoing political worries in France, while the British pound slipped as AI-related fears ebbed and traders awaited the UK budget. Meanwhile, global sentiment remains influenced by corporate tech earnings, international trade talks, and broader macroeconomic uncertainties.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Weighed down by a stronger dollar and persistent French spread relief fading."
+      "reason": "Weighed down by a firm US dollar and lingering political concerns in France."
     },
     {
       "pair": "GBP/USD",
-      "bias": "Bearish",
-      "reason": "Pound dips as a firm dollar and looming budget decisions create near-term pressure."
+      "bias": "Neutral",
+      "reason": "Trading in a sideways range ahead of the crucial UK budget release and Fed decision."
     },
     {
       "pair": "USD/JPY",
       "bias": "Neutral",
-      "reason": "Trading in a sideways channel as markets await definitive signals from the Fed."
+      "reason": "Hovering near resistance levels as traders await clear directional cues from US monetary policy."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Neutral",
-      "reason": "Holding steady as investors balance low Treasury yields against a resurgent US dollar."
+      "bias": "Bullish",
+      "reason": "Maintains a dominant net-long positioning supported by macroeconomic hedging demand."
     }
   ],
   "watch": [
-    "Federal Funds Rate and FOMC Statement",
+    "US Federal Reserve Rate Decision and FOMC Press Conference",
+    "Bank of Canada Rate Decision and Monetary Policy Report",
     "UK Annual Budget Release",
-    "BOC Rate Statement and Overnight Rate",
-    "Advance GDP q/q and Core PCE Price Index"
+    "US Advance GDP and Core PCE Price Index data"
   ],
-  "fundamentals": "Macro drivers are heavily centered on forthcoming monetary policy decisions from the Federal Reserve, Bank of Canada, and European Central Bank. Geopolitical and fiscal developments, such as the upcoming UK budget and rising Eurozone bond yields tied to French political concerns, are also shaping risk sentiment. Additionally, global trade discussions and economic data releases like US advance GDP will dictate the broader currency trajectories.",
-  "technical_view": "EUR/USD sits in a downtrend near support at 1.115 with an RSI of 44.9, whereas GBP/USD trades sideways at 1.3328 with an overbought RSI of 69.2 approaching resistance. USD/JPY remains neutral in a sideways band near 157.82 with an RSI of 45.4, staying boxed between its technical support and resistance levels.",
-  "cot_view": "Commitments of Traders data shows net-short positioning remains heavy for both EUR and GBP, reflecting persistent bearish sentiment among speculators. Conversely, JPY maintains a net-long position with 60.6% longs, while Gold retains a dominant net-long standing of nearly 200,000 contracts despite minor weekly reductions.",
+  "fundamentals": "Macro drivers are heavily centered on upcoming central bank monetary policy updates, with the Federal Reserve, Bank of Canada, and European Central Bank all delivering critical rate decisions and policy statements. Currency markets are reacting to shifting yield differentials and safe-haven demand, driven by stronger US Treasury yields and political uncertainties in Europe. Additionally, fiscal events such as the upcoming UK budget and ongoing international trade and technology sector developments continue to shape broader investor sentiment.",
+  "technical_view": "EUR/USD sits in a defined downtrend near key support at 1.1150 with an RSI of 44.9, indicating persistent bearish pressure. GBP/USD and USD/JPY both exhibit sideways price action, with RSI readings sitting near neutral territory and prices consolidating between established support and resistance boundaries.",
+  "cot_view": "Commitments of Traders data reflects a strong net-short bias for European currencies like the euro and British pound, alongside a substantial net-long USD Index position. Gold maintains a heavily dominant net-long structure at over 199,000 contracts, highlighting robust institutional backing despite minor weekly reductions.",
   "market": {
     "strength": {
       "1": {
@@ -296,8 +296,18 @@
   "headlines": [
     {
       "source": "Investing.com",
-      "title": "Eurozone yields push higher as French spread relief fades; Fed, ECB eyed",
+      "title": "Treasury yields nudge toward one-week highs; Fed decision, Big Tech earnings loom",
       "link": "https://www.investing.com/news/forex-news/eurozone-yields-push-higher-as-french-spread-relief-fades-fed-ecb-eyed-4977652"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Polish zloty falls to weakest level since November 2023",
+      "link": "https://www.investing.com/news/forex-news/polish-zloty-falls-to-weakest-level-since-november-2023-93CH-4978728"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Sterling today: Pound slips as AI fears ebb; UK budget, Fed in focus",
+      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-as-ai-fears-ebb--uk-budget-fed-in-focus-4978200"
     },
     {
       "source": "Investing.com",
@@ -323,16 +333,6 @@
       "source": "Investing.com",
       "title": "Dollar rebounds as euro slips ahead of key central bank decisions",
       "link": "https://www.investing.com/news/forex-news/asia-fx-muted-yuan-at-4yr-high-dollar-drifts-lower-ahead-of-cbankpacked-week-4971383"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Canadian dollar steadies after seven-day rally ahead of rate decisions",
-      "link": "https://www.investing.com/news/forex-news/canadian-dollar-steadies-after-sevenday-rally-ahead-of-rate-decisions-4973829"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Brazil’s real weakens 12% as Lula wins reelection",
-      "link": "https://www.investing.com/news/forex-news/brazils-real-weakens-12-as-lula-wins-reelection-93CH-4972631"
     }
   ],
   "articles": [
