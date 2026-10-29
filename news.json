@@ -1,37 +1,37 @@
 {
-  "updated": "2026-10-29T00:32+00:00",
-  "summary": "Global foreign exchange markets are currently being driven by safe-haven demand for the US dollar and upcoming central bank decisions from the Federal Reserve, ECB, and Bank of Japan. Sterling has experienced slight downward pressure following the UK's first budget announcement by Chancellor John Healey, which introduced energy bill support and tax changes. Meanwhile, the Canadian dollar has held recent gains after a rate hike from the Bank of Canada, while geopolitical factors and upcoming macroeconomic data releases remain in sharp focus.",
+  "updated": "2026-10-29T03:36+00:00",
+  "summary": "Global currency markets are currently reacting to a strengthening US dollar driven by looming Federal Reserve decisions and shifting Treasury yields. Meanwhile, regional pressures weigh on European currencies, with the euro slipping on French political worries and sterling steadying following the UK's first budget announcement. The Canadian dollar has also seen mixed momentum after the Bank of Canada delivered a rate hike.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The euro continues to slip against a rebounding dollar amid regional economic worries."
+      "reason": "Weighing down due to regional political worries in France and a rebounding US dollar."
     },
     {
       "pair": "GBP/USD",
-      "bias": "Bearish",
-      "reason": "The pound dips on a firming US dollar following the UK Budget rollout."
+      "bias": "Neutral",
+      "reason": "Sterling is steadying following the UK Budget announcement while facing a firm US dollar."
     },
     {
       "pair": "USD/JPY",
       "bias": "Neutral",
-      "reason": "Prices are consolidating sideways ahead of the upcoming Bank of Japan policy decisions."
+      "reason": "Sideways technical trend ahead of upcoming central bank rate decisions."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "COT positioning shows strong net-long bias despite minor weekly reductions."
+      "reason": "Maintains a dominant net-long positioning despite minor weekly corrections."
     }
   ],
   "watch": [
-    "US Advance GDP q/q and Core PCE Price Index",
-    "ECB Main Refinancing Rate and Press Conference",
-    "Bank of Japan Policy Rate and Monetary Policy Statement",
-    "Upcoming Federal Reserve rate decision"
+    "U.S. Federal Reserve Rate Decision",
+    "U.S. Advance GDP q/q",
+    "European Central Bank Main Refinancing Rate",
+    "Bank of Japan Policy Rate"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by imminent central bank decisions from the Fed, ECB, and BOJ, creating cautious positioning across global currencies. In the UK, Chancellor John Healey's new budget targets cost-of-living challenges with energy support and spending adjustments, impacting sterling sentiment. Meanwhile, broader geopolitical risks, trade talks, and economic growth data releases such as US advance GDP will dictate near-term direction.",
-  "technical_view": "EUR/USD is currently in a downtrend hovering near support at 1.1133 with an RSI of 40.4, indicating subdued momentum. GBP/USD trades sideways with a slightly positive RSI of 61.3, while USD/JPY consolidates near 157.96 inside established support and resistance boundaries.",
-  "cot_view": "Commitments of Traders data shows EUR and GBP maintaining heavy net-short positioning, reflecting overarching dollar strength. Conversely, Japanese Yen and Gold retain robust net-long positions, highlighting ongoing safe-haven demand.",
+  "fundamentals": "Macro drivers are heavily influenced by upcoming central bank decisions from the Fed, ECB, and BOJ, alongside key US GDP and inflation data releases. Fiscal policy is also in focus following the UK's budget unveiling by Chancellor John Healey, targeting cost of living measures amid global economic headwinds. Global finance chiefs meeting in Bangkok have shifted focus toward debt, AI growth, and defense investments while China concerns take a backseat.",
+  "technical_view": "EUR/USD sits in a downtrend near support at 1.1133 with an RSI of 40.4, whereas GBP/USD trades sideways with a more neutral-to-firm RSI of 61.3. USD/JPY remains range-bound near 157.96, while USD/CAD shows an oversold RSI of 23.2 near support levels.",
+  "cot_view": "COT positioning reveals a strong net-short bias for European currencies including the EUR and GBP, alongside heavily net-long positioning for the US Dollar Index. Gold maintains a substantial net-long structure with 86.4% of open interest on the long side despite slight weekly liquidations.",
   "market": {
     "strength": {
       "1": {
