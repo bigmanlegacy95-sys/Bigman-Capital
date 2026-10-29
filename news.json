@@ -1,37 +1,37 @@
 {
-  "updated": "2026-10-29T03:36+00:00",
-  "summary": "Global currency markets are currently reacting to a strengthening US dollar driven by looming Federal Reserve decisions and shifting Treasury yields. Meanwhile, regional pressures weigh on European currencies, with the euro slipping on French political worries and sterling steadying following the UK's first budget announcement. The Canadian dollar has also seen mixed momentum after the Bank of Canada delivered a rate hike.",
+  "updated": "2026-10-29T06:37+00:00",
+  "summary": "The US dollar firmed ahead of key central bank decisions and incoming economic data, while the euro slipped under pressure from regional concerns. Sterling steadied following the UK's latest budget announcements, and the Canadian dollar reacted to recent policy rate activity. Meanwhile, broader markets eyed upcoming US PCE inflation figures and global monetary policy updates.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Weighing down due to regional political worries in France and a rebounding US dollar."
+      "reason": "The pair faces downside pressure as the dollar strengthens and regional concerns weigh on the euro."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "Sterling is steadying following the UK Budget announcement while facing a firm US dollar."
+      "reason": "Sterling is holding steady following the UK budget while contending with a firm US dollar."
     },
     {
       "pair": "USD/JPY",
       "bias": "Neutral",
-      "reason": "Sideways technical trend ahead of upcoming central bank rate decisions."
+      "reason": "The pair remains in a sideways range ahead of upcoming central bank decisions and policy rate statements."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Maintains a dominant net-long positioning despite minor weekly corrections."
+      "reason": "Gold maintains a heavily net-long institutional positioning despite minor weekly adjustments."
     }
   ],
   "watch": [
-    "U.S. Federal Reserve Rate Decision",
-    "U.S. Advance GDP q/q",
-    "European Central Bank Main Refinancing Rate",
-    "Bank of Japan Policy Rate"
+    "US Advance GDP q/q and Core PCE Price Index",
+    "ECB Main Refinancing Rate and Press Conference",
+    "BOJ Policy Rate and Outlook Report",
+    "US Fed rate decision backdrop and Treasury yield movements"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by upcoming central bank decisions from the Fed, ECB, and BOJ, alongside key US GDP and inflation data releases. Fiscal policy is also in focus following the UK's budget unveiling by Chancellor John Healey, targeting cost of living measures amid global economic headwinds. Global finance chiefs meeting in Bangkok have shifted focus toward debt, AI growth, and defense investments while China concerns take a backseat.",
-  "technical_view": "EUR/USD sits in a downtrend near support at 1.1133 with an RSI of 40.4, whereas GBP/USD trades sideways with a more neutral-to-firm RSI of 61.3. USD/JPY remains range-bound near 157.96, while USD/CAD shows an oversold RSI of 23.2 near support levels.",
-  "cot_view": "COT positioning reveals a strong net-short bias for European currencies including the EUR and GBP, alongside heavily net-long positioning for the US Dollar Index. Gold maintains a substantial net-long structure with 86.4% of open interest on the long side despite slight weekly liquidations.",
+  "fundamentals": "Global macroeconomic sentiment is currently dictated by expectations surrounding upcoming central bank interest rate decisions and critical inflation prints. The US dollar has found safe-haven and positioning support ahead of the Fed's announcements and advance GDP data, while European assets absorb domestic fiscal updates and regional political worries. Investors are carefully balancing corporate earnings trends and fiscal adjustments against shifting monetary policy paths.",
+  "technical_view": "EUR/USD sits in a downtrend near support at 1.1133 with an RSI of 40.4, reflecting persistent downward momentum. GBP/USD and USD/JPY remain trapped in sideways consolidations, with respective RSI readings of 61.3 and 46.5 showing lack of clear directional conviction.",
+  "cot_view": "COT positioning highlights a heavily entrenched net-short stance on EUR and GBP, emphasizing ongoing market skepticism toward European currencies. Conversely, Gold maintains a very strong net-long positioning with 86.4% of open interest on the long side, reflecting sustained institutional preference.",
   "market": {
     "strength": {
       "1": {
@@ -275,6 +275,11 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Asian currencies mixed as dollar steadies after Fed hold, PCE eyed",
+      "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-dollar-steadies-after-fed-hold-pce-eyed-4981446"
+    },
+    {
+      "source": "Investing.com",
       "title": "Canadian dollar holds gains after Bank of Canada delivers rate hike",
       "link": "https://www.investing.com/news/forex-news/canadian-dollar-holds-gains-after-bank-of-canada-delivers-rate-hike-4980887"
     },
@@ -307,11 +312,6 @@
       "source": "Investing.com",
       "title": "U.S. Treasury yields hover near multi-week lows ahead of Fed decision",
       "link": "https://www.investing.com/news/forex-news/french-yields-edge-higher-as-moodys-relief-fades-israeli-election-in-focus-4974352"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Sterling today: Pound dips on firm dollar as Fed, budget loom",
-      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-dips-on-firm-dollar-as-fed-budget-loom-4974676"
     }
   ],
   "articles": [
