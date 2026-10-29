@@ -1,37 +1,37 @@
 {
-  "updated": "2026-10-29T06:37+00:00",
-  "summary": "The US dollar firmed ahead of key central bank decisions and incoming economic data, while the euro slipped under pressure from regional concerns. Sterling steadied following the UK's latest budget announcements, and the Canadian dollar reacted to recent policy rate activity. Meanwhile, broader markets eyed upcoming US PCE inflation figures and global monetary policy updates.",
+  "updated": "2026-10-29T09:41+00:00",
+  "summary": "Global currency markets are navigating a steadying U.S. dollar as traders await major central bank decisions from the Federal Reserve, the European Central Bank, and the Bank of Japan alongside key PCE inflation data. Sterling has steadied following the UK Budget announcement delivered by Chancellor John Healey, while the Canadian dollar held initial gains tied to the Bank of Canada's recent rate decisions. Meanwhile, regional pressures such as French political concerns weighed on the euro, keeping overall market sentiment cautious.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The pair faces downside pressure as the dollar strengthens and regional concerns weigh on the euro."
+      "reason": "Weighed down by a firm dollar and regional concerns surrounding the euro area."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "Sterling is holding steady following the UK budget while contending with a firm US dollar."
+      "reason": "Steadied following the UK Budget rollout as the pair consolidates within a sideways range."
     },
     {
       "pair": "USD/JPY",
       "bias": "Neutral",
-      "reason": "The pair remains in a sideways range ahead of upcoming central bank decisions and policy rate statements."
+      "reason": "Trading in a sideways channel ahead of upcoming monetary policy updates from the Bank of Japan and Fed."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Gold maintains a heavily net-long institutional positioning despite minor weekly adjustments."
+      "reason": "Supported by heavily net-long institutional positioning despite recent minor weekly adjustments."
     }
   ],
   "watch": [
-    "US Advance GDP q/q and Core PCE Price Index",
+    "U.S. Advance GDP q/q and Core PCE Price Index",
     "ECB Main Refinancing Rate and Press Conference",
-    "BOJ Policy Rate and Outlook Report",
-    "US Fed rate decision backdrop and Treasury yield movements"
+    "Bank of Japan Monetary Policy Statement and Rate Decision",
+    "Upcoming Federal Reserve rate decision and guidance"
   ],
-  "fundamentals": "Global macroeconomic sentiment is currently dictated by expectations surrounding upcoming central bank interest rate decisions and critical inflation prints. The US dollar has found safe-haven and positioning support ahead of the Fed's announcements and advance GDP data, while European assets absorb domestic fiscal updates and regional political worries. Investors are carefully balancing corporate earnings trends and fiscal adjustments against shifting monetary policy paths.",
-  "technical_view": "EUR/USD sits in a downtrend near support at 1.1133 with an RSI of 40.4, reflecting persistent downward momentum. GBP/USD and USD/JPY remain trapped in sideways consolidations, with respective RSI readings of 61.3 and 46.5 showing lack of clear directional conviction.",
-  "cot_view": "COT positioning highlights a heavily entrenched net-short stance on EUR and GBP, emphasizing ongoing market skepticism toward European currencies. Conversely, Gold maintains a very strong net-long positioning with 86.4% of open interest on the long side, reflecting sustained institutional preference.",
+  "fundamentals": "Macro drivers are heavily centered on central bank positioning and upcoming growth and inflation prints, including U.S. PCE data and Advance GDP. The European Central Bank's rate decision and the Bank of Japan's policy statements will dictate regional yield differentials against a broadly steady U.S. dollar. Fiscal updates, such as the recent UK Budget, are also feeding into domestic bond market dynamics and currency performance.",
+  "technical_view": "EUR/USD remains in a downtrend trading near support at 1.1133 with an RSI of 40.4, while GBP/USD and USD/JPY show neutral, sideways technical patterns with RSIs of 61.3 and 46.5 respectively. Price action across these majors indicates ongoing consolidation as participants await clearer fundamental catalysts from upcoming central bank meetings.",
+  "cot_view": "Commitments of Traders data reflects a strong net-short bias in EUR (-134,524 contracts) and GBP (-80,420 contracts), pointing to lingering bearish sentiment among speculators. Conversely, Gold maintains a heavy net-long posture of 199,865 contracts, highlighting persistent institutional accumulation despite recent weekly long reductions.",
   "market": {
     "strength": {
       "1": {
@@ -275,6 +275,11 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Bund yields slip ahead of ECB; Fed’s hold keeps U.S. yields steepening",
+      "link": "https://www.investing.com/news/forex-news/bund-yields-slip-ahead-of-ecb-feds-hold-keeps-us-yields-steepening-4981797"
+    },
+    {
+      "source": "Investing.com",
       "title": "Asian currencies mixed as dollar steadies after Fed hold, PCE eyed",
       "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-dollar-steadies-after-fed-hold-pce-eyed-4981446"
     },
@@ -307,11 +312,6 @@
       "source": "Investing.com",
       "title": "Canadian dollar slips as investors await Bank of Canada, Fed rate decisions",
       "link": "https://www.investing.com/news/forex-news/canadian-dollar-slips-as-investors-await-bank-of-canada-fed-rate-decisions-4975641"
-    },
-    {
-      "source": "Investing.com",
-      "title": "U.S. Treasury yields hover near multi-week lows ahead of Fed decision",
-      "link": "https://www.investing.com/news/forex-news/french-yields-edge-higher-as-moodys-relief-fades-israeli-election-in-focus-4974352"
     }
   ],
   "articles": [
