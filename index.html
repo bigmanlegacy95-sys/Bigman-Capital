@@ -156,16 +156,6 @@ section.banner{max-width:none;margin:0;padding:0;background:linear-gradient(rgba
 .bn{max-width:760px;margin:0 auto;padding:96px 5vw;text-align:center}
 img.tkav{object-fit:cover;background:none;border:1px solid var(--gold)}
 html[data-theme=light] section.banner{background:linear-gradient(rgba(10,10,12,.7),rgba(10,10,12,.8)),url(wolf-banner.jpg) center/cover}html[data-theme=light] .bn{color:#eef1f7}html[data-theme=light] .bn .sub{color:#c4c8d2}html[data-theme=light] .bn .tag{color:#e8c978}
-
-/* v2 upgrade */
-.lvp{aspect-ratio:auto;min-height:240px}.lvp iframe{aspect-ratio:16/9;height:auto}
-.btn.tk{background:linear-gradient(135deg,#fe2c55,#ff6b81);border-color:#fe2c55;color:#fff;box-shadow:0 10px 30px rgba(254,44,85,.35)}
-#lvs .btn{display:block;text-align:center;margin:12px 0 0!important;animation:none}.lvp .btn{display:inline-block;margin-top:14px}
-.lvn{display:inline-flex;align-items:center;gap:6px;padding:7px 13px;border-radius:999px;background:#fe2c55;color:#fff;font:600 .78rem Inter,sans-serif;text-decoration:none;white-space:nowrap}.lvn::before{content:"";width:8px;height:8px;border-radius:50%;background:#fff;animation:pl 1.4s infinite}
-nav{gap:8px}.stars{color:var(--gold2);letter-spacing:3px;margin-bottom:8px}
-.vd{width:100%;aspect-ratio:16/9;border:0;border-radius:14px;margin:12px 0;background:#000}
-.ses{margin-bottom:24px}
-@media(max-width:520px){.logo{font-size:1.35rem}.lm{width:26px;height:26px;margin-right:6px}.menu,.thb{padding:6px 10px}nav{padding:10px 4vw}}
 </style>
 </head>
 <body>
@@ -174,7 +164,7 @@ nav{gap:8px}.stars{color:var(--gold2);letter-spacing:3px;margin-bottom:8px}
 <a class="skip" href="#about">Skip to content</a>
 <nav><a class="logo" href="#top"><img class="lm" src="wolf-icon-64.png" alt="" width="34" height="34"><span><b>BigMan</b> Capital</span></a>
 <button class="menu" id="mb" aria-expanded="false" aria-controls="lk">Menu</button>
-<div class="links" id="lk"><a href="#about">About</a><a href="#services">Services</a><a href="#tools">Tools</a><a href="#store">Store</a><a href="#pulse">Market</a><a href="#livestream">Stream</a><a href="#live">Charts</a><a href="#journal">Journal</a><a href="#course">ICT Course</a><a href="#learn">Learn</a><a href="#reviews">Reviews</a><a href="#partners">Partners</a><a href="#book">Book</a><a href="#contact">Contact</a></div><a class="lvn" href="#livestream">Live</a><button class="thb" id="th">Light</button></nav>
+<div class="links" id="lk"><a href="#about">About</a><a href="#services">Services</a><a href="#tools">Tools</a><a href="#store">Store</a><a href="#pulse">Market</a><a href="#livestream">Stream</a><a href="#live">Charts</a><a href="#journal">Journal</a><a href="#learn">Learn</a><a href="#partners">Partners</a><a href="#book">Book</a><a href="#contact">Contact</a></div><button class="thb" id="th">Light</button></nav>
 
 <div id="home">
 <section class="hero" id="top">
@@ -183,7 +173,7 @@ nav{gap:8px}.stars{color:var(--gold2);letter-spacing:3px;margin-bottom:8px}
 <h1 class="wm gt">BigMan Capital</h1>
 <h2>We trade client funds on forex and gold, and teach you to trade with strict risk rules.</h2>
 <p class="lead">Choose account management, classes, coaching, mentorship, MT5 tools or our prop firm pathway. Message us on WhatsApp and we reply with next steps.</p>
-<div class="cta"><a class="btn gold" href="#services">See services</a><a class="btn ghost" href="#pulse">Today's market</a><a class="btn tk" href="#livestream">● TikTok Live</a></div>
+<div class="cta"><a class="btn gold" href="#services">See services</a><a class="btn ghost" href="#pulse">Today's market</a></div>
 </div>
 <div class="himg"><img src="wolf-hero.jpg" alt="A wolf in a hood watching from the middle of a flock of black sheep" width="736" height="1307" fetchpriority="high"><div class="hcap">Don't follow the herd. Trade with a plan.</div></div>
 </section>
@@ -272,7 +262,6 @@ nav{gap:8px}.stars{color:var(--gold2);letter-spacing:3px;margin-bottom:8px}
 
 <section id="tools">
 <div class="tag">Sessions</div><h2 class="h">Market sessions</h2><div class="ses" id="ses"></div>
-<div class="tag">ICT killzones</div><div class="ses" id="kz"></div>
 <div class="tag">Free tools</div><h2 class="h">Trading calculators</h2>
 <p class="sub">Plan the risk before you place the trade.</p>
 <div class="seg" id="cseg"><button class="on" data-c="k1">Lot size</button><button data-c="k2">Risk and reward</button><button data-c="k3">Prop firm limits</button><button data-c="k4">Growth projector</button><button data-c="k5">Pre-trade checklist</button><button data-c="k6">Pivot points</button><button data-c="k7">Margin</button><button data-c="k8">Fibonacci</button></div>
@@ -355,15 +344,12 @@ nav{gap:8px}.stars{color:var(--gold2);letter-spacing:3px;margin-bottom:8px}
 <details><summary>Do you guarantee profits?</summary><p>No. Forex trading carries high risk and results are never guaranteed. We use strict risk limits and tell you what we are doing.</p></details>
 <details><summary>How do I get started?</summary><p>Pick a service and tap WhatsApp or Email. A message is already written for you. Send it and we will reply.</p></details>
 <details><summary>Which markets do you trade and teach?</summary><p>Major forex pairs and gold, on MetaTrader 5.</p></details>
-<details><summary>What is the ICT 2022 model?</summary><p>It is an entry routine from the ICT method: price sweeps a pool of liquidity, shifts market structure, leaves a fair value gap, and you enter on the retrace with the stop beyond the sweep. Our free course teaches it in ten short lessons.</p></details>
-<details><summary>Are the lesson videos yours?</summary><p>The lesson notes are ours. Videos are by independent creators who explain each concept well, and they stay on YouTube. ICT concepts were created by Michael Huddleston.</p></details>
-<details><summary>How do I get the BigMan FX book?</summary><p>The book is coming soon. Tap Notify me in the store and we will message you when it is out.</p></details>
 <details><summary>Can I pay online?</summary><p>Not yet. For now we arrange payment with you directly in chat.</p></details>
 </section>
 
 <section id="course">
-<div class="tag">Free ICT course</div><h2 class="h">ICT 2022 model, step by step</h2>
-<p class="sub">Ten short lessons on the ICT method, from market structure to the full 2022 entry model. Each lesson has notes and a short video. Tick them off as you go. Progress is saved in this browser.</p>
+<div class="tag">Free course</div><h2 class="h">Forex lessons, step by step</h2>
+<p class="sub">Work through the lessons in order and tick each one off. Your progress is saved in this browser.</p>
 <p class="sum" id="crp"></p><div class="st2" style="margin:-10px 0 24px"><span class="sf pos" id="crb" style="width:0"></span></div>
 <div class="grid" id="crs"></div>
 </section>
@@ -385,9 +371,8 @@ nav{gap:8px}.stars{color:var(--gold2);letter-spacing:3px;margin-bottom:8px}
 <div id="trk"></div>
 </section>
 
-<section id="reviews">
+<section id="reviews" hidden>
 <div class="tag">Reviews</div><h2 class="h">What clients say</h2>
-<p class="sub">Feedback from people we have worked with. We only publish reviews with the client's permission.</p>
 <div class="grid" id="rvg"></div>
 </section>
 
@@ -442,23 +427,9 @@ const TRACK={embed:"",link:""};
 const TESTIMONIALS=[];
 const CHANNEL={whatsapp:"",telegram:""};
 const ANALYTICS={plausible:""};
-// PASTE YOUTUBE LINKS HERE, one per lesson, in order (full link or the 11-character id). Keep each video under 20 minutes.
-const VIDEOS=["","","","","","","","","",""];
-const COURSE=[
-{t:"ICT basics and the 2022 model overview",lv:"Start here",q:"ICT 2022 mentorship model explained for beginners",s:"ICT is a price-action method built on the idea that price moves from one pool of liquidity to another. The 2022 model is a repeatable entry: sweep liquidity, shift structure, enter on a fair value gap.",k:["Learn the order: liquidity, shift, gap, entry, target","Trade only inside the killzones","Risk a fixed small percent on every trade","Practise on a demo account first"]},
-{t:"Market structure: swing highs and lows",lv:"Structure",q:"ICT market structure swing high swing low BOS MSS explained",s:"A swing high is a candle whose high is above the candles on both sides of it. A swing low is the mirror image. Structure is the sequence of these swings.",k:["Three-candle swing: the middle candle has the highest high or lowest low","Uptrend means higher highs and higher lows","Break of structure (BOS) continues the trend","Market structure shift (MSS) is the first break against it, with displacement"]},
-{t:"Liquidity: buy-side and sell-side",lv:"Structure",q:"ICT liquidity buy side sell side liquidity sweep explained",s:"Liquidity is where stop orders sit. Buy-side liquidity rests above highs and sell-side liquidity rests below lows. Price is often driven there before it reverses.",k:["Equal highs, equal lows and old highs and lows are the targets","A stop hunt is a sweep followed by a quick rejection","A sweep alone is not an entry. Wait for the shift","Your target is usually the opposite pool"]},
-{t:"Premium and discount",lv:"Context",q:"ICT premium and discount dealing range explained",s:"Draw a range from swing low to swing high. Above the 50% line is premium, where you look to sell. Below it is discount, where you look to buy.",k:["Equilibrium is the 50% level of the range","Buy in discount in an uptrend and sell in premium in a downtrend","Use the Fibonacci tool to mark the range","Match it with your higher-timeframe bias"]},
-{t:"Fair value gaps",lv:"Entry tools",q:"ICT fair value gap FVG explained simply",s:"A fair value gap is a three-candle pattern where candles 1 and 3 do not overlap, leaving a gap across candle 2. Price often returns to fill part of it.",k:["Bullish gap: candle 1 high is below candle 3 low","Bearish gap: candle 1 low is above candle 3 high","The midpoint of the gap is a common reaction level","Gaps made by displacement are the strongest"]},
-{t:"Order blocks and breakers",lv:"Entry tools",q:"ICT order block and breaker block explained",s:"An order block is the last opposing candle before a strong move. A breaker is an order block that failed and flips role after a structure shift.",k:["Bullish block: last down candle before an up move that breaks structure","The 50% of the block body is a common entry level","Breakers form after a sweep and a structure shift","Never trade a block alone. You need context"]},
-{t:"Time: killzones and sessions",lv:"Timing",q:"ICT killzones silver bullet explained",s:"ICT traders focus on windows when volume is highest. Times below are New York time, so convert them to your own time zone.",k:["London killzone: 02:00 to 05:00","New York AM killzone: 07:00 to 10:00","Silver Bullet: 10:00 to 11:00 (also 03:00 to 04:00)","The Asian range (20:00 to 00:00) is often swept by London"]},
-{t:"Optimal trade entry (OTE)",lv:"Entry tools",q:"ICT optimal trade entry OTE 62 79 explained",s:"After a structure shift, price often retraces into the 62% to 79% zone of the swing, with 70.5% as the middle. That zone is where you look for an entry.",k:["Draw the Fibonacci from the swing that caused the shift","The OTE zone runs from 0.62 to 0.79","Place the stop beyond the swept liquidity","A fair value gap or block inside the zone adds confluence"]},
-{t:"The 2022 model, step by step",lv:"The model",q:"ICT 2022 model entry step by step",s:"This is the full routine. Each step must be present before you enter.",k:["1. Mark your daily bias and the liquidity price is drawn to","2. In a killzone, price sweeps a high or a low","3. A structure shift with displacement leaves a fair value gap","4. Enter on the retrace into the gap or OTE, stop beyond the sweep","5. Target the opposite liquidity and aim for at least 2R"]},
-{t:"Risk, journaling and backtesting",lv:"Discipline",q:"how to backtest ICT strategy journal",s:"A model is only an edge if you can prove it on your own data. Test it, record it and keep your risk small.",k:["Risk 0.5% to 1% per trade","Backtest at least 50 setups on gold before trading live","Journal a screenshot of the bias, sweep, shift and entry","Skip any trade outside your killzone"]}
-];
-const YT=v=>{v=(v||"").trim();const m=v.match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([\w-]{11})/);return m?m[1]:/^[\w-]{11}$/.test(v)?v:""};
 const TH=()=>document.documentElement.dataset.theme=="light"?"light":"dark";
 try{const t=localStorage.getItem("bm_theme");if(t)document.documentElement.dataset.theme=t}catch(e){}
+const COURSE=[["What forex is and how it works",""],["Reading charts: candles, trend, support and resistance",""],["Risk management and position sizing",""],["Placing stop loss and take profit",""],["Trading sessions and the news calendar",""],["Building and testing a strategy",""],["Journaling and reviewing your trades",""],["Trading psychology and discipline",""],["Prop firm challenge rules and planning",""]];
 const POSTS={
 "position-sizing":{t:"How to size a forex trade",b:`<p class="lead">Position size is how much you trade. Getting it right keeps one bad trade from hurting your account.</p><h2>The three steps</h2><p>1. Decide how much of your account you will risk on one trade. Many traders keep this at 1% or less.</p><p>2. Measure your stop loss in pips, from your entry to the price that proves you wrong.</p><p>3. Divide your risk in dollars by the stop in pips times the pip value per lot.</p><h2>An example</h2><p>Account $1,000, risk 1% = $10. Stop loss 20 pips. A standard lot is worth about $10 per pip on EUR/USD. Lot size = 10 / (20 x 10) = 0.05 lots.</p><p>You can do this instantly with the lot size calculator in our tools section.</p>`},
 "prop-firm-challenge":{t:"What a prop firm challenge involves",b:`<p class="lead">A prop firm gives you a funded account if you pass an evaluation. The rules matter more than the strategy.</p><h2>The usual rules</h2><p>Most challenges set a profit target, a daily loss limit and a maximum drawdown. Break either limit and the attempt ends. Rules differ between firms, so read them fully before you pay.</p><h2>How to approach it</h2><p>Risk a small amount per trade so a losing streak cannot reach the limits. Use our prop firm limits calculator to see how many losses in a row each limit allows. Trade the same plan you would on a demo account.</p><p>Passing is never guaranteed, and fees are not refunded if you fail unless the firm says so.</p>`},
@@ -551,7 +522,7 @@ else c.append(a("Notify me",wm(`Please notify me when ${p.name} is released.`),1
 c.append(a("Ask a question",wm(`I have a question about ${p.name}.`)),a("Email",`mailto:${EM}?subject=${encodeURIComponent(p.name)}`));
 d.append(c,el("p","note","Automated trading carries risk. Test on a demo account first. Past performance does not guarantee future results."+(p.access=="paid"?" Online checkout is not available yet, so we complete your order on WhatsApp.":"")));d.showModal()}
 function store(){const g=$("pgrid");g.textContent="";PR.filter(p=>(FL=="All"||p.type==FL)&&p.name.toLowerCase().includes(($("psq").value||"").toLowerCase())).forEach(p=>{const c=el("div","card");c.append(el("span","soon "+(p.access=="soon"?"":"ok"),bd(p)),el("div","ic",IC[p.type]||"📦"),el("h3","",p.name),el("p","",p.tag),el("small","pl",p.platform||""));const b=el("button","btn ghost","View details");b.style.marginTop="16px";b.onclick=()=>openP(p);c.append(b);g.append(c)})}
-fetch("products.json?"+Date.now()).then(r=>r.json()).then(d=>{PR=d;if(!PR.some(p=>p.type=="Book"))PR.push({name:"The BigMan FX Book",type:"Book",access:"soon",tag:"Our forex and gold trading book",platform:"PDF",desc:"Coming soon. Tap Notify me and we will message you the day it is released."});const c=$("pchips");["All","Expert Advisor","Indicator","Book"].forEach((t,i)=>{const b=el("button",i?"":"on",t=="All"?"All":t+"s");b.onclick=()=>{c.querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));FL=t;store()};c.append(b)});store()}).catch(()=>{$("pgrid").textContent="The store will appear here soon."});
+fetch("products.json?"+Date.now()).then(r=>r.json()).then(d=>{PR=d;const c=$("pchips");["All","Expert Advisor","Indicator","Book"].forEach((t,i)=>{const b=el("button",i?"":"on",t=="All"?"All":t+"s");b.onclick=()=>{c.querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));FL=t;store()};c.append(b)});store()}).catch(()=>{$("pgrid").textContent="The store will appear here soon."});
 function tv(box,name,cfg){box.textContent="";const c=el("div","tradingview-widget-container"),w=el("div","tradingview-widget-container__widget"),s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/embed-widget-"+name+".js";s.async=true;s.text=JSON.stringify(cfg).replace(/"dark"/g,'"'+TH()+'"');c.append(w,s);box.append(c)}
 const TVW={chart:["advanced-chart",{autosize:true,symbol:"OANDA:XAUUSD",interval:"60",theme:"dark",style:"1",locale:"en",allow_symbol_change:true,save_image:false,backgroundColor:"rgba(14,15,18,1)"}],
 cal:["events",{colorTheme:"dark",isTransparent:true,width:"100%",height:"100%",locale:"en",importanceFilter:"-1,0,1",countryFilter:"us,eu,gb,jp,au,ca,ch,nz"}],
@@ -618,7 +589,7 @@ $("lgs").textContent=LG.length?`${LG.length} trades. Win rate ${(w/LG.length*100
 $("lga").onclick=()=>{const p=$("lgp").value.trim().toUpperCase(),r=parseFloat($("lgr").value);if(!p||isNaN(r)){$("lgs").textContent="Enter a pair and a result in dollars.";return}LG.push({d:new Date().toISOString().slice(0,10),p,s:$("lgd").value,r});svl();$("lgp").value=$("lgr").value="";lg()};
 $("lgx").onclick=()=>{const c="date,pair,side,result\n"+LG.map(x=>[x.d,x.p,x.s,x.r].join(",")).join("\n"),a=document.createElement("a");a.href=URL.createObjectURL(new Blob([c],{type:"text/csv"}));a.download="bigman-trade-log.csv";a.click()};
 $("lgc").onclick=()=>{if(confirm("Delete every logged trade?")){LG=[];svl();lg()}};lg();
-const GL=[["Pip","The smallest standard price move. 0.0001 on most pairs, 0.01 on yen pairs."],["Lot","The trade size. One standard lot is 100,000 units of the base currency."],["Spread","The gap between the buy and sell price. It is the broker's built-in cost."],["Leverage","Borrowed buying power. It increases gains and losses equally."],["Margin","Money the broker holds to keep a leveraged trade open."],["Stop loss","An order that closes a trade at a set loss to cap your risk."],["Take profit","An order that closes a trade when it reaches a set profit."],["Drawdown","The fall from an account's peak balance to a later low."],["Slippage","When a trade fills at a different price than the one you asked for."],["Swap","The interest charged or paid for holding a trade overnight."],["Expert Advisor","A program that trades automatically on MetaTrader."],["COT report","A weekly CFTC report on how large speculators are positioned in futures."],["RSI","An indicator from 0 to 100 that measures how fast price has moved. Above 70 is often called overbought and below 30 oversold."],["Support","A price area where buyers have often stepped in."],["Resistance","A price area where sellers have often stepped in."],["Risk to reward","The potential profit of a trade compared with the amount you risk."],["Prop firm","A company that gives traders capital to trade after they pass an evaluation."],["Demo account","A practice account that trades with virtual money."],["Liquidity","Resting stop and pending orders above highs and below lows. Price is often drawn to them."],["BOS","Break of structure. Price closes beyond a swing in the trend direction."],["MSS","Market structure shift. The first break against the trend, usually with displacement."],["Displacement","A strong, fast move that leaves gaps and shows real intent."],["Fair value gap","A three-candle gap where candles 1 and 3 do not overlap. Price often returns to fill part of it."],["Order block","The last opposing candle before a strong move."],["Premium and discount","Above 50% of a range is premium (sell zone). Below is discount (buy zone)."],["OTE","Optimal trade entry. The 62% to 79% retracement zone of a swing."],["Killzone","A time window with the most volume, such as London or New York open."]];
+const GL=[["Pip","The smallest standard price move. 0.0001 on most pairs, 0.01 on yen pairs."],["Lot","The trade size. One standard lot is 100,000 units of the base currency."],["Spread","The gap between the buy and sell price. It is the broker's built-in cost."],["Leverage","Borrowed buying power. It increases gains and losses equally."],["Margin","Money the broker holds to keep a leveraged trade open."],["Stop loss","An order that closes a trade at a set loss to cap your risk."],["Take profit","An order that closes a trade when it reaches a set profit."],["Drawdown","The fall from an account's peak balance to a later low."],["Slippage","When a trade fills at a different price than the one you asked for."],["Swap","The interest charged or paid for holding a trade overnight."],["Expert Advisor","A program that trades automatically on MetaTrader."],["COT report","A weekly CFTC report on how large speculators are positioned in futures."],["RSI","An indicator from 0 to 100 that measures how fast price has moved. Above 70 is often called overbought and below 30 oversold."],["Support","A price area where buyers have often stepped in."],["Resistance","A price area where sellers have often stepped in."],["Risk to reward","The potential profit of a trade compared with the amount you risk."],["Prop firm","A company that gives traders capital to trade after they pass an evaluation."],["Demo account","A practice account that trades with virtual money."]];
 function gl(){const q=$("gq").value.toLowerCase(),g=$("gg");g.textContent="";GL.filter(x=>(x[0]+x[1]).toLowerCase().includes(q)).forEach(x=>{const c=el("div","card");c.append(el("h3","",x[0]),el("p","",x[1]));g.append(c)});if(!g.children.length)g.textContent="No match. Try another word."}
 $("gq").oninput=gl;gl();
 const cb=(t,fn)=>{const b=el("button","btn ghost",t);b.onclick=()=>{fn();b.textContent="Done";setTimeout(()=>b.textContent=t,1500)};$("cta").append(b)};
@@ -705,14 +676,24 @@ const u=()=>{const n=$("bn").value.trim(),m=`Hello BigMan Capital,\n\nI'd like t
 ["bn","bs","bd","bt"].forEach(i=>{$(i).oninput=u;$(i).onchange=u});u()})();
 // track record and reviews
 if(/^https:\/\//.test(TRACK.embed||"")||/^https:\/\//.test(TRACK.link||"")){$("track").hidden=false;const t=$("trk");if(/^https:\/\//.test(TRACK.embed||"")){const f=el("iframe","ofr");f.src=TRACK.embed;f.title="Verified results";t.append(f)}if(/^https:\/\//.test(TRACK.link||"")){const a=el("a","btn gold","View verified results");a.href=TRACK.link;a.target="_blank";a.rel="noopener";a.style.marginTop="16px";t.append(a)}}
-(function(){const g=$("rvg");TESTIMONIALS.forEach(x=>{const c=el("div","card");c.append(el("div","stars","★".repeat(Math.max(1,Math.min(5,x.stars||5)))),el("p","q","“"+x.text+"”"),el("b","",x.name),el("p","",x.role||""));g.append(c)});
-const f=el("div","card");f.innerHTML=`<h3>${TESTIMONIALS.length?"Add your review":"Worked with us?"}</h3><p>Tell us how it went. We only show your words with your permission, under your name or initials.</p><label for="rn">Name</label><input id="rn" placeholder="Name or initials"><label for="rs">Rating (1 to 5)</label><select id="rs"><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select><label for="rt">Your experience</label><textarea id="rt" rows="3"></textarea><div class="cta"><a id="rw" class="btn gold" target="_blank" rel="noopener">Send on WhatsApp</a><a id="re" class="btn ghost">Send by email</a></div>`;g.append(f);
-const u=()=>{const m=`Hello BigMan Capital,\n\nMy review (${$("rs").value}/5):\n${$("rt").value.trim()}\n\nName: ${$("rn").value.trim()||"-"}\nYou may show this on your website: yes`;$("rw").href=wa(m);$("re").href=`mailto:${EM}?subject=${encodeURIComponent("My review")}&body=${encodeURIComponent(m)}`};["rn","rs","rt"].forEach(i=>{$(i).oninput=u;$(i).onchange=u});u()})();
+if(TESTIMONIALS.length){$("reviews").hidden=false;TESTIMONIALS.forEach(x=>{const c=el("div","card");c.append(el("p","q","“"+x.text+"”"),el("b","",x.name),el("p","",x.role||""));$("rvg").append(c)})}
 // course
-let CD=[];try{CD=JSON.parse(localStorage.getItem("bm_ict")||"[]")}catch(e){}
-function lesson(i){const l=COURSE[i],id=YT(VIDEOS[i]),d=$("pm");d.textContent="";d.scrollTop=0;const x=el("button","dx","Close");x.onclick=()=>d.close();
-d.append(x,el("span","soon","Lesson "+(i+1)+" of "+COURSE.length+" · "+l.lv),el("h2","",l.t));
-if(id){const f=el("iframe","vd");f.src="https://www.youtube-nocookie.com/embed/"+id+"?rel=0";f.title=l.t;f.allow="encrypted-media; picture-in-picture; fullscreen";f.allowFullscreen=true;d.append(f)}
-d.append(el("p","",l.s),el("h3","","Key points"));const u=el("ul","tick");l.k.forEach(k=>u.append(el("li","",k)));d.append(u);
-const a=(t,h,g)=>{const k=el("a","btn "+(g?"gold":"ghost"),t);k.href=h;k.target="_blank";k.rel="noopener";k.style.cssText="animation:none";return k};
-const c=el("div","cta");c.append(id?a("Open on YouTube","https://www.youtube.com/watch?v="+id):a("F
+let CD=[];try{CD=JSON.parse(localStorage.getItem("bm_course")||"[]")}catch(e){}
+function crs(){const g=$("crs");g.textContent="";COURSE.forEach((l,i)=>{const c=el("div","card"),n=el("div","num",String(i+1)),dn=CD.includes(i);c.append(n,el("h3","",l[0]));
+const w=el("button","btn "+(dn?"ghost":"gold"),"Watch lesson");w.style.cssText="margin:12px 8px 0 0;animation:none";w.onclick=()=>{const d=$("pm");d.textContent="";const x=el("button","dx","Close");x.onclick=()=>d.close();d.append(x,el("h2","",l[0]));if(l[1]){const f=el("iframe");f.src="https://www.youtube-nocookie.com/embed/"+encodeURIComponent(l[1]);f.title=l[0];f.allowFullscreen=true;f.style.cssText="width:100%;aspect-ratio:16/9;border:0;border-radius:12px;margin-top:12px";d.append(f)}else d.append(el("p","sub","This lesson video is coming soon."));d.showModal()};
+const k=el("button","btn ghost",dn?"Done":"Mark done");k.style.cssText="margin-top:12px;animation:none";k.onclick=()=>{CD=dn?CD.filter(x=>x!=i):CD.concat(i);try{localStorage.setItem("bm_course",JSON.stringify(CD))}catch(e){}crs()};c.append(w,k);g.append(c)});
+$("crp").textContent=CD.length+" of "+COURSE.length+" lessons done";$("crb").style.width=CD.length/COURSE.length*100+"%"}
+crs();
+// articles
+$("agrid").innerHTML=Object.keys(POSTS).map(k=>`<a class="card" href="#post-${k}"><h3>${POSTS[k].t}</h3><span class="more">Read the guide</span></a>`).join("");
+// daily brief signup
+(function(){const c=$("chn");c.innerHTML='<h3 style="font-size:1.6rem;color:var(--gold2);margin-bottom:8px">Get the daily brief</h3><p class="sub" style="margin:0 0 14px">Market notes and live session alerts, sent to you.</p><div class="cta" id="chb" style="justify-content:flex-start;margin-top:0"></div>';
+const a=(t,h,g)=>{const l=el("a","btn "+(g?"gold":"ghost"),t);l.href=h;l.target="_blank";l.rel="noopener";$("chb").append(l)};
+if(/^https:\/\//.test(CHANNEL.whatsapp))a("Join WhatsApp channel",CHANNEL.whatsapp,1);if(/^https:\/\//.test(CHANNEL.telegram))a("Join Telegram",CHANNEL.telegram,1);
+a("Ask for it on WhatsApp",wa("Hello BigMan Capital,\n\nPlease add me to your daily market brief and live session alerts."),!(CHANNEL.whatsapp||CHANNEL.telegram));a("Ask by email","mailto:"+EM+"?subject="+encodeURIComponent("Daily brief"))})();
+// install app and service worker
+let DI=null;addEventListener("beforeinstallprompt",e=>{e.preventDefault();DI=e;cb("Install app",()=>DI.prompt())});
+if("serviceWorker" in navigator&&/^https?:$/.test(location.protocol))navigator.serviceWorker.register("sw.js").catch(()=>{});
+</script>
+</body>
+</html>
