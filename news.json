@@ -1,37 +1,37 @@
 {
-  "updated": "2026-10-30T06:37+00:00",
-  "summary": "Global currency markets are reacting to recent central bank decisions from the Federal Reserve, ECB, and Bank of Canada, alongside shifting macroeconomic data. The US dollar has faced downward pressure following steady interest rates from the Fed, while the euro and pound have shown resilience despite local budget challenges and easing monetary policies. Meanwhile, Asian currencies remain mixed as the Japanese yen steadies following the Bank of Japan's hold.",
+  "updated": "2026-10-30T09:41+00:00",
+  "summary": "Global markets are reacting to recent central bank rate decisions from the Federal Reserve, ECB, and Bank of Canada, alongside ongoing global tech sector developments. The US dollar has dipped slightly following in-line PCE inflation data and steady Fed policy. Meanwhile, European assets see mixed momentum with German Bunds rallying on safety bids and the pound extending gains against peers.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The pair remains in a clear downtrend with an RSI of 35.3 near support levels."
+      "reason": "Price remains in a downtrend near support at 1.113 with weak momentum indicators."
     },
     {
       "pair": "GBP/USD",
-      "bias": "Neutral",
-      "reason": "Trading sideways with an RSI of 62.9 as sterling extends recent gains following the UK budget."
+      "bias": "Bullish",
+      "reason": "Sterling is extending gains and hitting multi-month highs supported by rate hike expectations."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair maintains an uptrend following the BOJ hold, supported by upcoming press conference events."
+      "reason": "The pair maintains an uptrend following the BOJ's steady rate decision."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Gold holds strong net long institutional positioning despite minor weekly position reductions."
+      "reason": "Gold maintains a heavily net-long positioning backed by macroeconomic uncertainties."
     }
   ],
   "watch": [
-    "BOJ Press Conference",
-    "Upcoming US Data Releases",
-    "Big Tech Earnings Reports",
-    "Global Central Bank Rate Decisions"
+    "Federal Reserve rate decision follow-up",
+    "Bank of England policy updates",
+    "US PCE inflation data releases",
+    "Global tech and AI sector market impacts"
   ],
-  "fundamentals": "Central bank policy divergences continue to drive macroeconomic sentiment, with recent rate decisions from the Federal Reserve, ECB, and Bank of Canada shaping currency valuations. Meanwhile, incoming U.S. PCE inflation data meeting expectations and ongoing global economic growth concerns are keeping treasury yields stable. Geopolitical and technological sector shifts, including AI-related market disruptions, are further influencing broader investor risk appetite.",
-  "technical_view": "EUR/USD is locked in a downtrend at 1.113 with an oversold RSI of 35.3 testing immediate support. USD/JPY preserves an uptrend at 158.06 with neutral momentum, while GBP/USD moves sideways at 1.33168 with a rising RSI of 62.9 near resistance.",
-  "cot_view": "Commitments of Traders data reveals heavy net short positioning in EUR at -134,524 contracts and GBP at -80,420 contracts, reflecting underlying bearish sentiment in European currencies. Conversely, JPY maintains a net long position of 69,878 contracts, and Gold exhibits a dominant net long stance of 199,865 contracts.",
+  "fundamentals": "Macroeconomic drivers are currently dominated by shifting central bank policy trajectories across the US, UK, Europe, and Canada, alongside safe-haven demand prompted by tech sector corrections. Recent interest rate decisions and inline PCE inflation data have kept the US dollar subdued while supporting select crosses like the pound. IMF-World Bank meetings and ongoing fiscal developments continue to influence broader risk sentiment.",
+  "technical_view": "EUR/USD is trading in a clear downtrend with an RSI of 35.3 testing support at 1.113, whereas GBP/USD trades sideways with a stronger RSI of 62.9 near resistance at 1.340. USD/JPY maintains an uptrend channel hovering below resistance at 158.6.",
+  "cot_view": "Commitments of Traders data shows EUR holding a large net-short position of 134,524 contracts, reflecting sustained bearish sentiment. GBP net-shorts have seen recent long additions, while Gold remains heavily net-long with 199,865 contracts.",
   "market": {
     "strength": {
       "1": {
@@ -205,18 +205,24 @@
         "change": -8014,
         "pct_long": 86.4
       }
-    ],
-    "calendar": [
-      {
-        "date": "2026-10-30T05:30+00:00",
-        "country": "JPY",
-        "title": "BOJ Press Conference",
-        "forecast": "",
-        "previous": ""
-      }
     ]
   },
   "headlines": [
+    {
+      "source": "Investing.com",
+      "title": "UBS raises zloty forecast as currency faces mounting pressure",
+      "link": "https://www.investing.com/news/forex-news/ubs-raises-zloty-forecast-as-currency-faces-mounting-pressure-93CH-4986332"
+    },
+    {
+      "source": "Investing.com",
+      "title": "UBS sees Bank of England rate hikes supporting pound vs franc",
+      "link": "https://www.investing.com/news/forex-news/ubs-sees-bank-of-england-rate-hikes-supporting-pound-vs-franc-93CH-4986322"
+    },
+    {
+      "source": "Investing.com",
+      "title": "German Bunds set for best month since February as tech rout triggers safety bid",
+      "link": "https://www.investing.com/news/forex-news/german-bunds-set-for-best-month-since-february-as-tech-rout-triggers-safety-bid-4985952"
+    },
     {
       "source": "Investing.com",
       "title": "Asian currencies mixed as yen steadies after BOJ hold, dollar weakens",
@@ -241,21 +247,6 @@
       "source": "Investing.com",
       "title": "Sterling hits 17-Month high vs Euro as ECB holds rates",
       "link": "https://www.investing.com/news/forex-news/sterling-today-pound-edges-lower-as-dollar-firms-ahead-of-us-pce-gdp-data-4982788"
-    },
-    {
-      "source": "Investing.com",
-      "title": "U.S. yields steady on PCE lands in-line; Europe awaits ECb",
-      "link": "https://www.investing.com/news/forex-news/bund-yields-slip-ahead-of-ecb-feds-hold-keeps-us-yields-steepening-4981797"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Canadian dollar holds gains after Bank of Canada delivers rate hike",
-      "link": "https://www.investing.com/news/forex-news/canadian-dollar-holds-gains-after-bank-of-canada-delivers-rate-hike-4980887"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Sterling steadies, gilts tick up following Healey’s UK Budget",
-      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-as-ai-fears-ebb--uk-budget-fed-in-focus-4978200"
     }
   ],
   "articles": [
