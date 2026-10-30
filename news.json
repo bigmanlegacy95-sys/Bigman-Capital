@@ -1,37 +1,37 @@
 {
-  "updated": "2026-10-30T00:33+00:00",
-  "summary": "Global markets are navigating shifting monetary policy expectations from the Federal Reserve, ECB, and Bank of Canada alongside ongoing corporate earnings. AI-related growth concerns have also rattled broader equity sentiment, influencing currency flows. Meanwhile, regional updates like the UK's recent Budget releases continue to shape localized cross-rate dynamics.",
+  "updated": "2026-10-30T03:37+00:00",
+  "summary": "Global markets are reacting to recent central bank rate decisions from the Federal Reserve, ECB, and Bank of Canada, alongside steady U.S. PCE inflation data. Meanwhile, equity markets face headwinds from AI search revenue concerns hitting tech valuations, and currency traders look ahead to the upcoming Bank of Japan policy decision. The US dollar has dipped slightly while major peers like the euro and pound navigate regional fiscal developments.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Weighed down by a downtrend and negative net institutional positioning."
+      "reason": "The pair remains in a technical downtrend with an RSI of 35.3 near support."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "Trading sideways while digesting recent UK fiscal announcements."
+      "reason": "Price action is currently sideways despite recent sterling strength following the UK budget."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Supported by an active uptrend heading into upcoming BOJ decisions."
+      "reason": "The pair maintains an uptrend as traders await the upcoming BOJ policy rate decision."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Bullish",
-      "reason": "Backed by strong net-long institutional positioning despite minor weekly reductions."
+      "bias": "Neutral",
+      "reason": "Positioning remains heavily long, but lack of direct headline catalysts keeps near-term momentum range-bound."
     }
   ],
   "watch": [
-    "BOJ Policy Rate",
-    "Monetary Policy Statement",
-    "BOJ Outlook Report",
-    "BOJ Press Conference"
+    "BOJ Policy Rate and Monetary Policy Statement",
+    "BOJ Outlook Report and Press Conference",
+    "Upcoming US Economic Data Releases",
+    "Big Tech Earnings and AI Market Developments"
   ],
-  "fundamentals": "Macro drivers are dominated by central bank rate decisions from the Fed, ECB, and Bank of Canada, mixed with steady US PCE data. Geopolitical and economic risks highlighted at IMF-World Bank meetings add to cross-border considerations. Domestically, the UK Budget focuses on subdued near-term living standards growth.",
-  "technical_view": "EUR/USD sits in a downtrend near support at 1.113 with an RSI of 35.3. GBP/USD trades sideways with an RSI of 62.9, while USD/JPY holds an uptrend with an RSI of 47.9.",
-  "cot_view": "Commitments of Traders data shows EUR, GBP, and CAD maintaining net-short positions. Conversely, JPY and Gold maintain strong net-long positioning among market participants.",
+  "fundamentals": "Macro drivers are heavily influenced by recent central bank decisions from the Fed, ECB, and Bank of Canada, setting a mixed tone for monetary policy divergence. Treasury yields remain steady as inline PCE inflation data reassures investors regarding price stability. Geopolitical and economic dialogues at international meetings continue to shape broader risk sentiment, while regional budgets and tech sector valuations introduce localized volatility.",
+  "technical_view": "EUR/USD is trading near support in a clear downtrend with a weak RSI, while GBP/USD moves sideways with moderate momentum. USD/JPY maintains its broader uptrend just beneath resistance levels, reflecting persistent dollar resilience against the yen.",
+  "cot_view": "Commitments of Traders data shows large net-short positions continuing for EUR and GBP, indicating persistent institutional skepticism toward European currencies. Conversely, JPY and Gold maintain strong net-long positioning, highlighting safe-haven preference and defensive positioning among market participants.",
   "market": {
     "strength": {
       "1": {
@@ -240,6 +240,16 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Asian currencies mixed as dollar retreats, yen steadies ahead of BOJ decision",
+      "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-dollar-retreats-yen-steadies-ahead-of-boj-decision-4985749"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Bitcoin, cryptocurrency prices fall after Binance reports security issue",
+      "link": "https://www.investing.com/news/forex-news/bitcoin-cryptocurrency-prices-fall-after-binance-reports-security-issue-4985655"
+    },
+    {
+      "source": "Investing.com",
       "title": "Dollar dips and euro rises after Fed, ECB rate decisions; pound extends gains",
       "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-dollar-steadies-after-fed-hold-pce-eyed-4981446"
     },
@@ -267,16 +277,6 @@
       "source": "Investing.com",
       "title": "Sterling steadies, gilts tick up following Healey’s UK Budget",
       "link": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-as-ai-fears-ebb--uk-budget-fed-in-focus-4978200"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Treasury yields nudge toward one-week highs; Fed decision, Big Tech earnings loom",
-      "link": "https://www.investing.com/news/forex-news/eurozone-yields-push-higher-as-french-spread-relief-fades-fed-ecb-eyed-4977652"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Polish zloty falls to weakest level since November 2023",
-      "link": "https://www.investing.com/news/forex-news/polish-zloty-falls-to-weakest-level-since-november-2023-93CH-4978728"
     }
   ],
   "articles": [
