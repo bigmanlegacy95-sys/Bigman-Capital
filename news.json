@@ -1,37 +1,37 @@
 {
-  "updated": "2026-10-30T15:11+00:00",
-  "summary": "Global markets are currently navigating a sharp technology sector sell-off sparked by AI cost concerns and profit warnings, which has driven a broad flight to safety into U.S. Treasuries and weighed heavily on the U.S. dollar. Meanwhile, central bank decisions from the Federal Reserve and the European Central Bank, alongside ongoing geopolitical and debt discussions from IMF-World Bank meetings, are shaping broader currency directions. Sterling has managed to firm against a softening greenback as short positioning unwinds and traders price in potential Bank of England rate hikes.",
+  "updated": "2026-10-30T15:40+00:00",
+  "summary": "Global markets are reacting strongly to a major tech sell-off driven by AI cost concerns, notably impacting US tech stocks and plunging Google's value following its AI search ad-revenue impact. Concurrently, the US dollar has softened as US Treasuries surged in their biggest rally since 2024. Rate decisions from the Fed and ECB, alongside shifting political and economic updates, continue to guide foreign exchange flows.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bullish",
-      "reason": "The US dollar softens amid tech selloffs, allowing the euro to climb following recent ECB rate decisions."
+      "reason": "The euro rose following recent ECB rate decisions while the US dollar softened amid tech-spurred bond buying."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "Pound firms as short positioning unwinds and expectations of BOE rate hikes support the currency."
+      "reason": "Sterling firms and extends gains supported by potential BoE rate hikes and positive short positioning dynamics."
     },
     {
       "pair": "USD/JPY",
       "bias": "Neutral",
-      "reason": "The pair trades sideways as safe-haven flows balance out dollar softness."
+      "reason": "The dollar is softening against broad pressures while the yen remains relatively steady amidst shifting treasury yields."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Broad demand for defensive assets and a weaker greenback continue to support strong underlying positioning."
+      "reason": "Gold retains strong net long positioning as broader market uncertainty and tech sector jitters bolster safe-haven demand."
     }
   ],
   "watch": [
-    "Federal Reserve and ECB policy follow-ups",
-    "US Treasury market movements and bond yields",
-    "Major tech sector earnings and AI cost updates",
-    "Upcoming global macroeconomic data releases"
+    "US Treasury yields and bond market rallies",
+    "Tech sector volatility and AI revenue developments",
+    "Upcoming central bank commentary and economic data releases",
+    "Geopolitical and international trade discussions"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by shifting risk sentiment as tech stock plunges tied to AI monetization concerns spur a surge in safe-haven U.S. Treasuries and soften the dollar. Central bank policy divergences, including recent decisions by the Fed and ECB alongside anticipated Bank of England tightening, are dictating relative currency strength. Additionally, global finance chiefs meeting at IMF forums continue to weigh risks surrounding sovereign debt and structural economic transitions.",
-  "technical_view": "EUR/USD sits in a downtrend near support at 1.113 with an RSI of 48.4, while GBP/USD trades sideways near resistance at 1.340 with an overbought RSI of 68.5. USD/JPY remains sideways near 157.25 with a subdued RSI of 36.6, reflecting lack of directional momentum.",
-  "cot_view": "COT positioning reveals heavy net-short sentiment in EUR (-134,524 contracts) and GBP (-80,420 contracts), leaving both vulnerable to further short squeezes. Conversely, Gold maintains a massive net-long position of 199,865 contracts, underscoring strong structural demand.",
+  "fundamentals": "Macro conditions are currently being dictated by intense tech-sector turbulence, where AI cost anxieties and impacts on corporate ad revenues have triggered a broad equity sell-off and pushed investors toward safe-haven US Treasuries. This flight to bonds has weighed on the US dollar, which also navigates recent monetary policy decisions from both the Federal Reserve and the European Central Bank. Meanwhile, global finance discussions at international meetings highlight persistent concerns over debt and technological shifts, creating a complex backdrop for currency markets.",
+  "technical_view": "EUR/USD trades in a downtrend near 1.1172 with an RSI of 48.4, holding above support at 1.113. GBP/USD is moving sideways near 1.3399 with an overbought RSI of 68.5 nearing resistance at 1.3402, while USD/JPY consolidates near 157.25 with a weaker RSI of 36.6 near support.",
+  "cot_view": "Commitments of Traders data shows EUR holding a net short position of -134,524 contracts, while GBP maintains a net short position of -80,420 contracts despite recent weekly inflow improvements. Gold continues to exhibit overwhelming institutional bullishness with a large net long position of 199,865 contracts and an 86.4% long percentage.",
   "market": {
     "strength": {
       "1": {
