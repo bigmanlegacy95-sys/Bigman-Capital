@@ -1,124 +1,124 @@
 {
-  "updated": "2026-10-30T12:36+00:00",
-  "summary": "Global markets are currently navigating a tech sector rout that has spurred safe-haven bond bids and softened the U.S. dollar following recent Federal Reserve and European Central Bank rate decisions. Meanwhile, sterling continues to firm, hitting multi-month highs against the euro as short positioning unwinds and central bank rate hike expectations offer support. Risk sentiment remains fragile amid headlines concerning corporate earnings hits related to artificial intelligence adjustments and geopolitical discussions at international summits.",
+  "updated": "2026-10-30T15:11+00:00",
+  "summary": "Global markets are currently navigating a sharp technology sector sell-off sparked by AI cost concerns and profit warnings, which has driven a broad flight to safety into U.S. Treasuries and weighed heavily on the U.S. dollar. Meanwhile, central bank decisions from the Federal Reserve and the European Central Bank, alongside ongoing geopolitical and debt discussions from IMF-World Bank meetings, are shaping broader currency directions. Sterling has managed to firm against a softening greenback as short positioning unwinds and traders price in potential Bank of England rate hikes.",
   "outlook": [
     {
       "pair": "EUR/USD",
-      "bias": "Bearish",
-      "reason": "Trading in a technical downtrend with an RSI at 35.3, pressured by persistent net-short institutional positioning."
+      "bias": "Bullish",
+      "reason": "The US dollar softens amid tech selloffs, allowing the euro to climb following recent ECB rate decisions."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "Supported by firming momentum, short position unwinds, and expectations around Bank of England policies."
+      "reason": "Pound firms as short positioning unwinds and expectations of BOE rate hikes support the currency."
     },
     {
       "pair": "USD/JPY",
-      "bias": "Bullish",
-      "reason": "Maintains an active technical uptrend despite recent dollar softness and steady yen conditions."
+      "bias": "Neutral",
+      "reason": "The pair trades sideways as safe-haven flows balance out dollar softness."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Backed by strong net-long positioning and ongoing safe-haven demand stemming from broader equity and tech routs."
+      "reason": "Broad demand for defensive assets and a weaker greenback continue to support strong underlying positioning."
     }
   ],
   "watch": [
-    "Upcoming U.S. economic data releases",
-    "Global central bank commentary and policy updates",
-    "Further developments in the technology sector and AI-related earnings impacts",
-    "Geopolitical updates from international economic meetings"
+    "Federal Reserve and ECB policy follow-ups",
+    "US Treasury market movements and bond yields",
+    "Major tech sector earnings and AI cost updates",
+    "Upcoming global macroeconomic data releases"
   ],
-  "fundamentals": "Macroeconomic drivers are heavily influenced by shifting monetary policy expectations following recent decisions by the Federal Reserve and European Central Bank. A broader technology sector sell-off has driven investors toward safe-haven government bonds, softening the U.S. dollar and applying downward pressure to yields. Meanwhile, persistent structural adjustments within corporate technology and defense spending continue to dictate broader risk sentiment across global equity and currency markets. Regional economic data and ongoing fiscal budget evaluations further shape localized currency performance, particularly for the British pound and European assets.",
-  "technical_view": "EUR/USD sits in a clear downtrend near 1.1130 with an oversold RSI of 35.3, while GBP/USD trades sideways with a supportive RSI reading of 62.9. USD/JPY maintains its broader uptrend near 158.06, reflecting resilience despite recent dollar softening.",
-  "cot_view": "Commitments of Traders data shows heavily net-short positioning in EUR and GBP, though significant weekly changes in GBP longs suggest ongoing short covering. Gold maintains a dominant net-long positioning structure with over 86% long open interest, highlighting strong institutional bullish bias.",
+  "fundamentals": "Macro drivers are heavily influenced by shifting risk sentiment as tech stock plunges tied to AI monetization concerns spur a surge in safe-haven U.S. Treasuries and soften the dollar. Central bank policy divergences, including recent decisions by the Fed and ECB alongside anticipated Bank of England tightening, are dictating relative currency strength. Additionally, global finance chiefs meeting at IMF forums continue to weigh risks surrounding sovereign debt and structural economic transitions.",
+  "technical_view": "EUR/USD sits in a downtrend near support at 1.113 with an RSI of 48.4, while GBP/USD trades sideways near resistance at 1.340 with an overbought RSI of 68.5. USD/JPY remains sideways near 157.25 with a subdued RSI of 36.6, reflecting lack of directional momentum.",
+  "cot_view": "COT positioning reveals heavy net-short sentiment in EUR (-134,524 contracts) and GBP (-80,420 contracts), leaving both vulnerable to further short squeezes. Conversely, Gold maintains a massive net-long position of 199,865 contracts, underscoring strong structural demand.",
   "market": {
     "strength": {
       "1": {
-        "EUR": -0.11,
-        "GBP": 0.13,
-        "AUD": -0.19,
-        "NZD": -0.03,
-        "JPY": -0.15,
-        "CAD": 0.28,
-        "CHF": 0.16,
-        "USD": -0.09
+        "EUR": 0.04,
+        "GBP": 0.28,
+        "AUD": -0.35,
+        "NZD": 0.01,
+        "JPY": 0.18,
+        "CAD": -0.15,
+        "CHF": 0.34,
+        "USD": -0.34
       },
       "5": {
-        "EUR": -0.27,
-        "GBP": -0.04,
-        "AUD": 0.59,
-        "NZD": -0.73,
-        "JPY": -0.24,
-        "CAD": 0.67,
-        "CHF": -0.39,
-        "USD": 0.4
+        "EUR": -0.09,
+        "GBP": 0.32,
+        "AUD": 0.12,
+        "NZD": -0.8,
+        "JPY": -0.19,
+        "CAD": 0.28,
+        "CHF": 0.26,
+        "USD": 0.09
       },
       "20": {
-        "EUR": -1.84,
-        "GBP": 0.28,
-        "AUD": 0.73,
-        "NZD": -0.33,
+        "EUR": -1.14,
+        "GBP": 0.83,
+        "AUD": 0.56,
+        "NZD": -0.24,
         "JPY": -0.4,
-        "CAD": 1.44,
-        "CHF": 0.46,
-        "USD": -0.35
+        "CAD": 1.27,
+        "CHF": -0.22,
+        "USD": -0.67
       }
     },
     "technical": [
       {
         "pair": "EUR/USD",
-        "price": 1.113,
+        "price": 1.11721,
         "trend": "Downtrend",
-        "rsi": 35.3,
+        "rsi": 48.4,
         "support": 1.113,
         "resistance": 1.1269
       },
       {
         "pair": "GBP/USD",
-        "price": 1.33168,
+        "price": 1.33989,
         "trend": "Sideways",
-        "rsi": 62.9,
-        "support": 1.32008,
+        "rsi": 68.5,
+        "support": 1.32046,
         "resistance": 1.34018
       },
       {
         "pair": "USD/JPY",
-        "price": 158.06,
-        "trend": "Uptrend",
-        "rsi": 47.9,
+        "price": 157.25,
+        "trend": "Sideways",
+        "rsi": 36.6,
         "support": 156.8,
         "resistance": 158.6
       },
       {
         "pair": "AUD/USD",
-        "price": 0.70254,
+        "price": 0.70244,
         "trend": "Sideways",
-        "rsi": 57.0,
+        "rsi": 58.1,
         "support": 0.69109,
         "resistance": 0.70338
       },
       {
         "pair": "USD/CAD",
-        "price": 1.3996,
+        "price": 1.3969,
         "trend": "Sideways",
-        "rsi": 22.4,
-        "support": 1.3995,
+        "rsi": 14.0,
+        "support": 1.3969,
         "resistance": 1.4262
       },
       {
         "pair": "USD/CHF",
-        "price": 0.82857,
+        "price": 0.82295,
         "trend": "Sideways",
-        "rsi": 45.5,
+        "rsi": 34.5,
         "support": 0.82204,
         "resistance": 0.83372
       },
       {
         "pair": "NZD/USD",
-        "price": 0.56164,
+        "price": 0.5636,
         "trend": "Downtrend",
-        "rsi": 50.5,
+        "rsi": 56.6,
         "support": 0.55891,
         "resistance": 0.57029
       }
@@ -210,7 +210,12 @@
   "headlines": [
     {
       "source": "Investing.com",
-      "title": "German Bunds set for best month since February as tech rout triggers safety bid",
+      "title": "Why Deutsche Bank says the AI dollar is here",
+      "link": "https://www.investing.com/news/forex-news/why-deutsche-bank-says-the-ai-dollar-is-here-4988107"
+    },
+    {
+      "source": "Investing.com",
+      "title": "U.S. Treasuries surge to wrap October in biggest rally since 2024",
       "link": "https://www.investing.com/news/forex-news/german-bunds-set-for-best-month-since-february-as-tech-rout-triggers-safety-bid-4985952"
     },
     {
@@ -242,11 +247,6 @@
       "source": "Investing.com",
       "title": "Bitcoin, cryptocurrency prices fall after Binance reports security issue",
       "link": "https://www.investing.com/news/forex-news/bitcoin-cryptocurrency-prices-fall-after-binance-reports-security-issue-4985655"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar dips and euro rises after Fed, ECB rate decisions; pound extends gains",
-      "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-dollar-steadies-after-fed-hold-pce-eyed-4981446"
     }
   ],
   "articles": [
