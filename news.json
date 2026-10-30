@@ -1,37 +1,37 @@
 {
-  "updated": "2026-10-29T21:29+00:00",
-  "summary": "Global currency markets are navigating shifting monetary policy expectations following recent rate decisions from the Federal Reserve, ECB, and Bank of Canada alongside the UK's recent Budget. The US dollar has seen choppy movement while Treasury yields edge higher ahead of further macroeconomic data releases. Meanwhile, regional concerns in Europe and ongoing global discussions regarding tech, trade, and economic growth continue to influence broader sentiment.",
+  "updated": "2026-10-30T00:33+00:00",
+  "summary": "Global markets are navigating shifting monetary policy expectations from the Federal Reserve, ECB, and Bank of Canada alongside ongoing corporate earnings. AI-related growth concerns have also rattled broader equity sentiment, influencing currency flows. Meanwhile, regional updates like the UK's recent Budget releases continue to shape localized cross-rate dynamics.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Weighing on European worries and trading in a technical downtrend near support."
+      "reason": "Weighed down by a downtrend and negative net institutional positioning."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "Consolidating in a sideways pattern following the UK budget and recent sterling gains."
+      "reason": "Trading sideways while digesting recent UK fiscal announcements."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Sustained by an established uptrend while awaiting upcoming Bank of Japan policy updates."
+      "reason": "Supported by an active uptrend heading into upcoming BOJ decisions."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Supported by heavily net-long institutional positioning despite minor weekly adjustments."
+      "reason": "Backed by strong net-long institutional positioning despite minor weekly reductions."
     }
   ],
   "watch": [
-    "BOJ Policy Rate and Monetary Policy Statement",
-    "BOJ Outlook Report and Press Conference",
-    "Upcoming US Economic Data Releases",
-    "Federal Reserve and ECB Rate Decision Follow-up"
+    "BOJ Policy Rate",
+    "Monetary Policy Statement",
+    "BOJ Outlook Report",
+    "BOJ Press Conference"
   ],
-  "fundamentals": "Macroeconomic drivers currently center on diverging central bank trajectories as the Fed, ECB, and BoC adjust monetary policy amidst sticky global growth concerns. Geopolitical and fiscal developments, such as the new UK Budget and international trade discussions, are adding localized cross-currents to currency valuations. Additionally, sovereign debt yields and inflation metrics like PCE continue to dictate near-term yield differentials and safe-haven flows.",
-  "technical_view": "EUR/USD remains in a downtrend near support with a low RSI of 35.3, indicating ongoing selling pressure. USD/JPY preserves a steady uptrend trading at 158.06, while GBP/USD operates within a sideways range with an RSI of 62.9, reflecting balanced momentum.",
-  "cot_view": "COT positioning reveals a heavily net-long stance in Gold with 86.4% long interest, alongside a strong net-long bias in the USD Index at 65.1%. Conversely, major currencies like EUR and GBP maintain substantial net-short positioning, highlighting prevailing bearish sentiment among speculators.",
+  "fundamentals": "Macro drivers are dominated by central bank rate decisions from the Fed, ECB, and Bank of Canada, mixed with steady US PCE data. Geopolitical and economic risks highlighted at IMF-World Bank meetings add to cross-border considerations. Domestically, the UK Budget focuses on subdued near-term living standards growth.",
+  "technical_view": "EUR/USD sits in a downtrend near support at 1.113 with an RSI of 35.3. GBP/USD trades sideways with an RSI of 62.9, while USD/JPY holds an uptrend with an RSI of 47.9.",
+  "cot_view": "Commitments of Traders data shows EUR, GBP, and CAD maintaining net-short positions. Conversely, JPY and Gold maintain strong net-long positioning among market participants.",
   "market": {
     "strength": {
       "1": {
@@ -280,6 +280,29 @@
     }
   ],
   "articles": [
+    {
+      "date": "2026-10-30",
+      "title": "Major Currencies Shift as Central Bank Decisions and Economic Data Take Center Stage",
+      "intro": "Foreign exchange markets see notable movement as the dollar dips and the euro rises following recent Federal Reserve and European Central Bank rate decisions. Meanwhile, sterling extends its gains, hitting a 17-month high against the euro as the ECB holds rates steady.",
+      "sections": [
+        {
+          "h": "Market mood",
+          "p": "The broader financial landscape reflects cautious sentiment with the US dollar dipping and the euro rising after recent central bank rate decisions. Sterling has extended its gains, while the Canadian dollar holds onto gains after the Bank of Canada delivered a rate hike, even as traders assess incoming data and navigate developments across global markets."
+        },
+        {
+          "h": "Key drivers",
+          "p": "Monetary policy remains the primary catalyst for currency fluctuations. Recent central bank decisions from the Federal Reserve, the European Central Bank, and the Bank of Canada are steering trader focus. Additionally, steady U.S. yields following in-line PCE data and the upcoming Bank of Japan policy rate, monetary policy statement, outlook report, and press conference are keeping market participants alert."
+        },
+        {
+          "h": "Technical and positioning",
+          "p": "Looking at current technical metrics, EUR/USD trades at 1.113 in a downtrend with an RSI of 35.3, finding support at 1.113 and resistance at 1.1269. GBP/USD sits at 1.33168 in a sideways trend with an RSI of 62.9, supported at 1.32008 and capped at 1.34018. USD/JPY tracks an uptrend at 158.06 with an RSI of 47.9, supported at 156.8 and facing resistance at 158.6. USD/CAD is sideways at 1.3996 with an oversold RSI of 22.4, near support at 1.3995 and resistance at 1.4262. Commitment of Traders data shows net short positions remain prominent for several major currencies, while the USD Index holds a net long position of 15,044."
+        },
+        {
+          "h": "What to watch next",
+          "p": "Traders should closely monitor upcoming high-impact economic events, particularly the Bank of Japan Policy Rate, Monetary Policy Statement, BOJ Outlook Report, and subsequent BOJ Press Conference scheduled for October 30, 2026. Keeping an eye on ongoing U.S. data releases and shifting Treasury yields will also be crucial for managing risk in the upcoming sessions."
+        }
+      ]
+    },
     {
       "date": "2026-10-29",
       "title": "Dollar Rebounds and Central Bank Decisions Loom Ahead of Key Data",
