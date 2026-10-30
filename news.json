@@ -1,37 +1,37 @@
 {
-  "updated": "2026-10-30T18:33+00:00",
-  "summary": "Global markets are reacting to a sharp tech selloff and a significant U.S. Treasury rally following recent central bank rate decisions from the Fed and ECB. Investor jitters surrounding AI spending and a major crypto security breach are softening the U.S. dollar, while boosting demand for safe-haven assets. Meanwhile, the British pound continues to find strong support from shifting short positioning and expectations of Bank of England rate hikes.",
+  "updated": "2026-10-30T21:29+00:00",
+  "summary": "Global markets are currently navigating a mix of shifting monetary policy expectations and technology sector jitters, with the U.S. dollar experiencing broader October strength despite recent post-Fed dips. Concerns surrounding artificial intelligence spending impacts, notably hitting tech stocks and advertising revenues, have added a layer of caution to broader risk sentiment. Meanwhile, currency markets are responding to localized rate hike bets, central bank decisions, and evolving positioning dynamics across major pairs.",
   "outlook": [
     {
       "pair": "EUR/USD",
-      "bias": "Bullish",
-      "reason": "The euro benefits as recent Fed and ECB decisions and a softer dollar lift the pair above immediate support."
+      "bias": "Neutral",
+      "reason": "The pair faces mixed pressures from recent ECB and Fed decisions alongside ongoing technical consolidation."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "Sterling extends its gains supported by persistent short positioning shifts and potential Bank of England rate hikes."
+      "reason": "Sterling continues to find support from potential Bank of England rate hikes and short positioning dynamics."
     },
     {
       "pair": "USD/JPY",
-      "bias": "Neutral",
-      "reason": "The pair trades sideways near 157.25 as a softer dollar battles steady safe-haven dynamics."
+      "bias": "Bearish",
+      "reason": "Elevated long yen positioning and recent dollar dips keep downside pressure on the pair."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Heavy Treasury buying and broader tech sector anxieties create a supportive backdrop for gold."
+      "reason": "Strong institutional net-long positioning supports gold amid broader macroeconomic uncertainties."
     }
   ],
   "watch": [
-    "U.S. economic data releases",
-    "Global central bank commentary",
-    "Developments in the tech equity and AI spending sectors",
-    "Broader cryptocurrency market fallout following the Binance security incident"
+    "Upcoming U.S. economic data releases",
+    "Central bank commentary and rate decision follow-ups",
+    "Broader tech sector and AI spending updates",
+    "Geopolitical developments from IMF-World Bank meetings"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by shifting monetary policy expectations from major central banks like the Federal Reserve and the European Central Bank. A sudden tech sector selloff driven by heavy AI spending concerns has triggered a massive rally in U.S. Treasuries, softening the dollar broadly. Simultaneously, geopolitical and financial risks, including a historic cryptocurrency breach, are reshaping cross-border capital flows. Sterling remains resilient due to domestic rate hike expectations, outperforming peers against a softer greenback.",
-  "technical_view": "EUR/USD sits in a downtrend at 1.11721 with an RSI of 48.4, while GBP/USD trades sideways near resistance at 1.33989 with a high RSI of 68.5 indicating strong momentum. USD/JPY lingers at 157.25 in a sideways pattern with an oversold RSI of 36.6.",
-  "cot_view": "The COT positioning shows net short biases remain heavy for EUR (-134,524 contracts) and GBP (-80,420 contracts), though recent positive weekly changes point to short-covering upside pressure. Gold maintains a heavily dominant net long position of 199,865 contracts, reflecting sustained institutional confidence.",
+  "fundamentals": "Macro drivers are heavily influenced by shifting monetary policy bets following recent Federal Reserve, European Central Bank, and Bank of England decisions. Persistent concerns over heavy AI infrastructure spending and its impact on corporate earnings have led to volatility in equities, spilling over into currency dynamics. Additionally, ongoing discussions around global debt, trade access, and regional economic pressures continue to shape overall investor sentiment.",
+  "technical_view": "EUR/USD is trading in a downtrend near 1.1172 with an RSI of 48.4, hovering above immediate support at 1.113. GBP/USD exhibits a sideways bias near 1.3399 with an overbought RSI of 68.5 approaching resistance at 1.3402, while USD/JPY consolidates sideways around 157.25 with an RSI of 36.6 near support.",
+  "cot_view": "Commitments of Traders data shows EUR, GBP, and AUD maintaining net-short positioning, whereas JPY exhibits strong net-long positioning with 101,591 contracts. Gold remains heavily favored by speculators with a substantial net-long position of 186,451 contracts, reflecting sustained underlying demand.",
   "market": {
     "strength": {
       "1": {
@@ -126,88 +126,93 @@
     "cot": [
       {
         "name": "EUR",
-        "date": "2026-10-20",
-        "long": 226421,
-        "short": 360945,
-        "net": -134524,
-        "change": 3049,
-        "pct_long": 38.5
+        "date": "2026-10-27",
+        "long": 230646,
+        "short": 374540,
+        "net": -143894,
+        "change": -9370,
+        "pct_long": 38.1
       },
       {
         "name": "GBP",
-        "date": "2026-10-20",
-        "long": 54228,
-        "short": 134648,
-        "net": -80420,
-        "change": 26544,
-        "pct_long": 28.7
+        "date": "2026-10-27",
+        "long": 56645,
+        "short": 136059,
+        "net": -79414,
+        "change": 1006,
+        "pct_long": 29.4
       },
       {
         "name": "JPY",
-        "date": "2026-10-20",
-        "long": 200186,
-        "short": 130308,
-        "net": 69878,
-        "change": 19671,
-        "pct_long": 60.6
+        "date": "2026-10-27",
+        "long": 225516,
+        "short": 123925,
+        "net": 101591,
+        "change": 31713,
+        "pct_long": 64.5
       },
       {
         "name": "AUD",
-        "date": "2026-10-20",
-        "long": 98419,
-        "short": 225711,
-        "net": -127292,
-        "change": -9993,
-        "pct_long": 30.4
+        "date": "2026-10-27",
+        "long": 101057,
+        "short": 229372,
+        "net": -128315,
+        "change": -1023,
+        "pct_long": 30.6
       },
       {
         "name": "CAD",
-        "date": "2026-10-20",
-        "long": 101653,
-        "short": 176362,
-        "net": -74709,
-        "change": 20056,
-        "pct_long": 36.6
+        "date": "2026-10-27",
+        "long": 89942,
+        "short": 156366,
+        "net": -66424,
+        "change": 8285,
+        "pct_long": 36.5
       },
       {
         "name": "CHF",
-        "date": "2026-10-20",
-        "long": 29938,
-        "short": 48088,
-        "net": -18150,
-        "change": 3928,
-        "pct_long": 38.4
+        "date": "2026-10-27",
+        "long": 26254,
+        "short": 46303,
+        "net": -20049,
+        "change": -1899,
+        "pct_long": 36.2
       },
       {
         "name": "NZD",
-        "date": "2026-10-20",
-        "long": 21725,
-        "short": 79874,
-        "net": -58149,
-        "change": -11148,
-        "pct_long": 21.4
+        "date": "2026-10-27",
+        "long": 18062,
+        "short": 75752,
+        "net": -57690,
+        "change": 459,
+        "pct_long": 19.3
       },
       {
         "name": "USD Index",
-        "date": "2026-10-20",
-        "long": 32422,
-        "short": 17378,
-        "net": 15044,
-        "change": 2125,
-        "pct_long": 65.1
+        "date": "2026-10-27",
+        "long": 31254,
+        "short": 17133,
+        "net": 14121,
+        "change": -923,
+        "pct_long": 64.6
       },
       {
         "name": "Gold",
-        "date": "2026-10-20",
-        "long": 237142,
-        "short": 37277,
-        "net": 199865,
-        "change": -8014,
-        "pct_long": 86.4
+        "date": "2026-10-27",
+        "long": 223724,
+        "short": 37273,
+        "net": 186451,
+        "change": -13414,
+        "pct_long": 85.7
       }
     ]
   },
   "headlines": [
+    {
+      "source": "Investing.com",
+      "title": "Dollar rises for October as rate hike bets remain elevated, euro and yen slip",
+      "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-dollar-retreats-yen-steadies-ahead-of-boj-decision-4985749"
+    },
     {
       "source": "Investing.com",
       "title": "Why Deutsche Bank says the AI dollar is here",
@@ -227,11 +232,6 @@
       "source": "Investing.com",
       "title": "Sterling today: Pound firms as dollar slips on midterm, AI jitters",
       "link": "https://www.investing.com/news/forex-news/sterling-today-pound-firms-as-dollar-slips-on-midterm-ai-jitters-4986986"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar softens as tech selloff spurs bond bids; euro and yen steady",
-      "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-dollar-retreats-yen-steadies-ahead-of-boj-decision-4985749"
     },
     {
       "source": "Investing.com",
