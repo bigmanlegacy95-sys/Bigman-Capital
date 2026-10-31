@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>addEventListener("error",function(e){if(!e.filename||e.filename.split("#")[0]!==location.href.split("#")[0])return;var b=document.getElementById("errbar");if(!b){b=document.createElement("div");b.id="errbar";b.style.cssText="position:fixed;left:8px;right:8px;bottom:84px;z-index:999;background:#7a1f1f;color:#fff;padding:10px 14px;border-radius:10px;font:13px/1.4 sans-serif";(document.body||document.documentElement).appendChild(b)}b.textContent="Page error: "+e.message+" (line "+e.lineno+"). Please screenshot this and send it to your developer."})</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BigMan Capital</title>
+<meta name="description" content="BigMan Capital manages client funds in forex and gold, and teaches traders with classes, coaching, mentorship and MT5 tools.">
+<meta property="og:title" content="BigMan Capital"><meta property="og:description" content="Forex fund management, trading classes, coaching, mentorship and MT5 tools."><meta property="og:type" content="website"><meta property="og:image" content="og-image.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="og-image.jpg"><meta name="theme-color" content="#0e0f12">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"BigMan Capital","email":"bigmancapital.support@gmail.com","telephone":"+254729393153","sameAs":["https://www.tiktok.com/@bigman.forex.trading"]}</script>
+<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="wolf-icon-32.png"><link rel="icon" type="image/png" sizes="64x64" href="wolf-icon-64.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0e0f12;--char:#181a1f;--gold:#c9a24b;--gold2:#e8c978;--text:#eef1f7;--mute:#a5a8b0;--line:rgba(201,162,75,.25);--up:#4fd18b;--down:#ff6b6b;--r:10px;color-scheme:dark;box-sizing:border-box}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--navy);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.6;overflow-x:hidden}
+[hidden]{display:none!important}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;margin:0;line-height:1.05}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--gold2);outline-offset:3px}
+nav{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:12px 5vw;background:rgba(14,15,18,.95);border-bottom:1px solid var(--line)}
+.logo{font-family:"Cormorant Garamond",Georgia,serif;font-size:clamp(1.8rem,5vw,2.4rem);font-weight:700;text-decoration:none;color:var(--text)}
+.logo b,.gt{color:var(--gold2)}
+.links{display:flex;gap:20px}.links a{color:var(--mute);text-decoration:none;font-size:.9rem}.links a:hover{color:var(--gold2)}
+@media(max-width:1180px){.links{display:none}}
+section,.pg{padding:72px 5vw;max-width:1180px;margin:0 auto}
+.hero{min-height:88vh;display:flex;flex-direction:column;justify-content:center;text-align:left}
+.tag{color:var(--gold);font-size:.9rem;font-weight:500}
+.wm{font-size:clamp(3.4rem,13vw,8rem);font-weight:700;margin:14px 0 10px}
+.hero h2{font-size:clamp(1.5rem,4vw,2.3rem);color:var(--gold2);font-weight:600;max-width:760px}
+.lead{max-width:640px;color:var(--mute);font-size:1.1rem;margin:16px 0 0}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-block;padding:13px 24px;border-radius:var(--r);font-weight:600;text-decoration:none;font-size:.95rem;border:1px solid var(--gold);cursor:pointer;font-family:inherit}
+.btn.gold{background:var(--gold);color:#1a1405}.btn.gold:hover{background:var(--gold2)}
+.btn.ghost{color:var(--gold2);background:transparent}.btn.ghost:hover{background:rgba(201,162,75,.12)}
+h2.h{font-size:clamp(2rem,5vw,3rem);margin:8px 0 14px}
+.sub{color:var(--mute);max-width:640px;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.card{display:block;color:inherit;text-decoration:none;background:var(--char);border:1px solid var(--line);border-radius:var(--r);padding:26px}
+a.card:hover{border-color:var(--gold)}
+.card h3{font-size:1.6rem;color:var(--gold2);margin-bottom:8px}.card p{margin:0;color:var(--mute);font-size:.95rem}
+.more{display:inline-block;margin-top:14px;color:var(--gold2);font-weight:600;font-size:.9rem}
+.pulse,.cbox,.calc{background:var(--char);border:1px solid var(--gold);border-radius:var(--r);padding:28px}
+.live{font-size:.85rem;color:var(--mute)}
+.sum{font-size:1.06rem;margin:14px 0 24px}
+.pairs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.pair{border:1px solid var(--line);border-radius:var(--r);padding:16px;background:var(--navy)}.pair p{margin:8px 0 0;color:var(--mute);font-size:.88rem}
+.badge{float:right;font-size:.75rem;font-weight:600}
+.Bullish{color:var(--up)}.Bearish{color:var(--down)}.Neutral{color:var(--gold2)}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;margin-top:24px}.cols h4{margin:0 0 8px;color:var(--gold2);font-size:1rem}
+.cols ul{margin:0;padding-left:18px;color:var(--mute);font-size:.92rem}.cols a{color:var(--mute);text-decoration:none}
+.note{margin-top:20px;font-size:.8rem;color:var(--mute)}
+input,textarea{width:100%;background:var(--navy);border:1px solid var(--line);border-radius:var(--r);color:var(--text);padding:12px 14px;font:inherit;margin-bottom:12px}
+input:focus,textarea:focus{outline:none;border-color:var(--gold)}
+.calc{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;align-items:end}.calc label{font-size:.8rem;color:var(--mute)}.calc input{margin:4px 0 0}
+.res{grid-column:1/-1;font-size:1.1rem;color:var(--gold2);border-top:1px solid var(--line);padding-top:14px}
+.jf{position:relative;border:1px solid var(--gold);border-radius:var(--r);overflow:hidden;background:var(--char)}
+.jf iframe{width:100%;height:76vh;min-height:500px;border:0;display:block;background:#fff}
+.fab{position:absolute;right:18px;bottom:18px;z-index:3;border:0;border-radius:var(--r);padding:12px 20px;font:600 .95rem Inter,sans-serif;cursor:pointer;color:#1a1405;background:var(--gold)}
+#ov{position:fixed;inset:0;z-index:100;background:var(--navy)}#ov iframe{width:100%;height:100%;border:0;background:#fff}
+#ov .fab{position:fixed;top:calc(14px + env(safe-area-inset-top,0px));bottom:auto}
+details{border:1px solid var(--line);border-radius:var(--r);padding:16px 20px;margin-bottom:12px;background:var(--char)}summary{cursor:pointer;font-weight:600;color:var(--gold2)}details p{color:var(--mute);margin:10px 0 0}
+.wa{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:30;padding:13px 20px;border-radius:var(--r);font-weight:600;font-size:.95rem;text-decoration:none;color:#1a1405;background:var(--gold);box-shadow:0 8px 24px rgba(0,0,0,.5)}
+.back{color:var(--gold2);text-decoration:none;font-size:.9rem}
+.st{font-size:clamp(2.4rem,7vw,4.2rem);margin:12px 0}.pg h2{font-size:2.1rem;margin:44px 0 18px}.pg h3.lg{font-size:1.5rem;color:var(--gold2);margin:26px 0 8px}.pg p,.pg li{color:var(--mute);max-width:720px}
+.num{width:36px;height:36px;border-radius:8px;display:grid;place-items:center;background:var(--gold);color:#1a1405;font-weight:700;margin-bottom:12px}
+.tick{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}.tick li{padding:14px 18px 14px 42px;border:1px solid var(--line);border-radius:var(--r);position:relative;background:var(--char)}.tick li::before{content:"";position:absolute;left:18px;top:19px;width:10px;height:5px;border-left:2px solid var(--gold);border-bottom:2px solid var(--gold);transform:rotate(-45deg)}
+.cbox{margin-top:44px}.cbox h2{margin:0 0 8px!important}
+footer{text-align:center;padding:50px 5vw 90px;color:var(--mute);font-size:.82rem;border-top:1px solid var(--line)}footer p{max-width:720px;margin:10px auto 0}footer a{color:var(--gold2);margin:0 10px}
+.tabs{display:flex;gap:8px;overflow-x:auto;margin:18px 0 22px;padding-bottom:4px}.tabs button,.seg button{flex:none;border:1px solid var(--line);background:var(--navy);color:var(--mute);padding:9px 16px;border-radius:var(--r);font:500 .88rem Inter,sans-serif;cursor:pointer}.tabs button.on,.seg button.on{background:var(--gold);color:#1a1405;border-color:var(--gold)}
+.seg{display:flex;gap:8px;margin-bottom:18px}.tw{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:.9rem}th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}th{color:var(--gold2);font-weight:600}
+.sr{display:grid;grid-template-columns:54px 1fr 70px;gap:12px;align-items:center;margin-bottom:12px}.sc{font-weight:600}.sv{text-align:right;color:var(--mute);font-size:.85rem}
+.st2{height:12px;border-radius:4px;background:rgba(255,255,255,.07);overflow:hidden}.sf{display:block;height:100%}.sf.pos{background:var(--up)}.sf.neg{background:var(--down)}
+.cot{margin-bottom:16px}.cb{height:10px;border-radius:4px;background:var(--down);overflow:hidden;margin:6px 0 4px}.cb span{display:block;height:100%;background:var(--up)}.cot small{color:var(--mute)}
+.ev{padding:10px 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:2px;font-size:.92rem}.ev b{color:var(--gold2);font-size:.85rem}.ev span{color:var(--mute)}
+.ses{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:50px}.sch{display:flex;flex-direction:column;padding:16px;border:1px solid var(--line);border-radius:var(--r);background:var(--char)}.sch.op{border-color:var(--up)}.sch small{color:var(--mute)}.sch.op small{color:var(--up)}
+.soon{display:inline-block;font-size:.78rem;font-weight:600;padding:3px 10px;border-radius:6px;border:1px solid var(--gold);color:var(--gold2);margin-bottom:12px}
+.tvt{height:78px;overflow:hidden;border-block:1px solid var(--line);background:var(--char)}.tvbox{height:580px;border:1px solid var(--gold);border-radius:var(--r);overflow:hidden;background:var(--char)}.tradingview-widget-container,.tradingview-widget-container__widget{height:100%;width:100%}
+.soon.ok{border-color:var(--up);color:var(--up)}.pl{display:block;color:var(--mute);margin-top:10px}
+dialog{background:var(--char);color:var(--text);border:1px solid var(--gold);border-radius:var(--r);padding:28px;width:min(92vw,640px);max-height:88vh;overflow:auto}dialog::backdrop{background:rgba(0,0,0,.85)}dialog h2{font-size:2.2rem;margin:6px 0}dialog h3{color:var(--gold2);margin:22px 0 8px;font-size:1.4rem}.dx{float:right;padding:6px 12px;border-radius:var(--r);border:1px solid var(--line);background:none;color:var(--text);cursor:pointer}.inst{color:var(--mute);padding-left:20px}.inst li{margin-bottom:6px}
+.at{font-size:2.2rem;color:var(--gold2);margin:6px 0 10px}.tkbox{margin-bottom:24px}.tkcard{display:flex;align-items:center;gap:18px;padding:22px;max-width:640px;border:1px solid var(--gold);border-radius:var(--r);background:var(--char)}.tkav{flex:none;width:64px;height:64px;border-radius:12px;display:grid;place-items:center;font:700 1.6rem "Cormorant Garamond",serif;color:#1a1405;background:var(--gold)}.tkcard b{font-size:1.1rem}.tkcard p{margin:4px 0 0;color:var(--mute);font-size:.92rem}.bl{color:var(--mute);padding-left:18px;font-size:.9rem}
+select{width:100%;background:var(--navy);border:1px solid var(--line);border-radius:var(--r);color:var(--text);padding:12px 14px;font:inherit;margin:4px 0 12px}
+.menu{display:none;border:1px solid var(--line);background:none;color:var(--gold2);padding:8px 16px;border-radius:var(--r);font:500 .9rem Inter,sans-serif;cursor:pointer}
+@media(max-width:1180px){.menu{display:block}.links.open{display:flex;flex-direction:column;gap:14px;position:absolute;top:100%;left:0;right:0;background:var(--navy);padding:18px 5vw;border-bottom:1px solid var(--line)}}
+.skip{position:absolute;left:-999px;top:8px;background:var(--gold);color:#1a1405;padding:8px 14px;border-radius:var(--r);z-index:200}.skip:focus{left:8px}
+.qf{text-align:left;max-width:640px;margin:0 auto 24px}.qf label{font-size:.8rem;color:var(--mute)}.qf .cta{margin-top:6px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+
+/* vibe layer */
+.bg{position:fixed;inset:0;z-index:-1;background:radial-gradient(1200px 700px at 80% -10%,#2b2410,transparent 60%),radial-gradient(900px 600px at -10% 40%,#0e2a2a,transparent 55%),var(--navy)}
+#cv{position:absolute;inset:0;opacity:.4}
+.orb{position:absolute;border-radius:50%;filter:blur(90px);opacity:.22;animation:drift 18s ease-in-out infinite alternate}
+.o1{width:380px;height:380px;background:var(--gold);top:8%;left:62%}.o2{width:320px;height:320px;background:#1f6f6a;top:55%;left:-5%}
+@keyframes drift{to{transform:translate(-60px,50px) scale(1.15)}}
+#prog{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--gold),var(--gold2));z-index:50}
+nav{background:rgba(14,15,18,.72);backdrop-filter:blur(14px)}
+.logo b,.gt{background:linear-gradient(90deg,var(--gold),var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.tag{letter-spacing:3px;font-size:.78rem;text-transform:uppercase}
+.hero{align-items:center;text-align:center}.hero .cta{justify-content:center}.hero .lead,.hero h2{margin-inline:auto}
+.wm{text-shadow:0 0 60px rgba(201,162,75,.3)}
+.btn{border-radius:999px;transition:transform .25s,box-shadow .25s;animation:float 4s ease-in-out infinite}
+.btn.gold{background:linear-gradient(135deg,var(--gold),var(--gold2));box-shadow:0 10px 30px rgba(201,162,75,.3)}
+.btn.ghost{animation-delay:-2s}
+.btn:hover{transform:translateY(-4px) scale(1.04);box-shadow:0 16px 40px rgba(201,162,75,.45)}
+@keyframes float{50%{translate:0 -6px}}
+.card{background:linear-gradient(160deg,rgba(30,32,38,.9),rgba(18,26,28,.75));border-radius:20px;transition:transform .3s,border-color .3s,box-shadow .3s}
+a.card:hover,.card:hover{transform:translateY(-8px);border-color:var(--gold);box-shadow:0 20px 50px rgba(0,0,0,.45)}
+.pulse,.cbox,.calc{background:linear-gradient(160deg,rgba(30,32,38,.92),rgba(18,26,28,.78));border-radius:24px;box-shadow:0 30px 80px rgba(0,0,0,.45)}
+.ic{font-size:2rem;margin-bottom:10px}
+.mq{overflow:hidden;border-block:1px solid var(--line);background:rgba(24,26,31,.5);padding:12px 0;white-space:nowrap}.mq div{display:inline-block;animation:mq 40s linear infinite;color:var(--gold2);letter-spacing:3px;font-size:.85rem}@keyframes mq{to{transform:translateX(-50%)}}
+.live::before{content:"";display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--up);margin-right:8px;animation:pl 1.8s infinite}@keyframes pl{50%{opacity:.25}}
+.fade{opacity:0;transform:translateY(28px);transition:opacity .8s,transform .8s}.fade.in{opacity:1;transform:none}
+.tabs button,.seg button,.soon,.badge{border-radius:999px}.seg{flex-wrap:wrap}
+.tabs button.on,.seg button.on{background:linear-gradient(135deg,var(--gold),var(--gold2))}
+.fab{border-radius:999px;background:linear-gradient(135deg,var(--gold),var(--gold2));animation:ring 2.4s infinite}#ov .fab{animation:none}
+@keyframes ring{70%{box-shadow:0 0 0 18px rgba(232,201,120,0),0 12px 34px rgba(0,0,0,.5)}100%{box-shadow:0 0 0 0 rgba(232,201,120,0)}}
+.wa{border-radius:999px;background:linear-gradient(135deg,var(--gold),var(--gold2));animation:float 3.5s ease-in-out infinite}
+.sch{position:relative;border-radius:16px}.sch i{position:absolute;top:16px;right:16px;width:10px;height:10px;border-radius:50%;background:#5b6579}.sch.op i{background:var(--up);animation:pl 1.8s infinite}
+.tkav{border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--gold2))}.tkcard,.jf,.tvbox,dialog{border-radius:20px}
+.num{border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--gold2))}
+.ck{display:flex;align-items:center;padding:12px 14px;border:1px solid var(--line);border-radius:14px;font-size:.92rem;color:var(--text);cursor:pointer}.ck input{width:auto;margin:0 10px 0 0;accent-color:#c9a24b}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.fade{opacity:1;transform:none}}
+label{font-size:.8rem;color:var(--mute)}
+.lgf{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;align-items:end}
+.tt{position:fixed;left:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:30;padding:12px 18px;border-radius:999px;background:rgba(24,26,31,.92);border:1px solid var(--gold);color:var(--gold2);text-decoration:none;font-weight:600;font-size:.9rem}
+.ofr{width:100%;height:70vh;min-height:420px;border:1px solid var(--line);border-radius:14px;background:#fff;margin-top:14px}
+canvas.gcv{width:100%;height:auto;border:1px solid var(--line);border-radius:14px;background:rgba(0,0,0,.25);margin-top:14px}
+.of{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;align-items:end}
+textarea.mono{font-family:ui-monospace,Menlo,monospace;font-size:.85rem}
+.links{gap:16px}.links a{font-size:.86rem}
+.thb{border:1px solid var(--line);background:none;color:var(--gold2);padding:8px 14px;border-radius:999px;font:500 .85rem Inter,sans-serif;cursor:pointer}
+.lvg{display:grid;grid-template-columns:minmax(0,2fr) minmax(260px,1fr);gap:18px;align-items:start}@media(max-width:900px){.lvg{grid-template-columns:1fr}}
+.lvp{aspect-ratio:16/9;border:1px solid var(--gold);border-radius:20px;overflow:hidden;background:var(--char);display:grid;place-items:center;text-align:center;padding:20px}.lvp iframe{width:100%;height:100%;border:0;display:block}
+.lvchat{width:100%;height:420px;border:1px solid var(--line);border-radius:14px;margin-top:14px;background:#fff}
+.cd{font-family:"Cormorant Garamond",serif;font-size:2.2rem;color:var(--gold2);margin:6px 0}
+.lrow{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--line);font-size:.9rem}.lrow span{color:var(--mute)}
+.q{font-size:1.05rem;margin:0 0 12px;color:var(--text)!important}
+html[data-theme=light]{--navy:#f7f5ef;--char:#ffffff;--text:#16181d;--mute:#585f6c;--gold:#9a7416;--gold2:#7d5c0e;--line:rgba(120,90,20,.28);color-scheme:light}
+html[data-theme=light] .bg{background:radial-gradient(1200px 700px at 80% -10%,#efe3c4,transparent 60%),radial-gradient(900px 600px at -10% 40%,#dcebe7,transparent 55%),var(--navy)}
+html[data-theme=light] #cv{opacity:.18}
+html[data-theme=light] nav{background:rgba(247,245,239,.85)}
+html[data-theme=light] .card,html[data-theme=light] .pulse,html[data-theme=light] .cbox,html[data-theme=light] .calc{background:#fff;box-shadow:0 12px 40px rgba(60,45,10,.1)}
+html[data-theme=light] .mq,html[data-theme=light] .tvt,html[data-theme=light] .tt{background:#fff}
+html[data-theme=light] .btn.gold,html[data-theme=light] .fab,html[data-theme=light] .wa{color:#fff}
+html[data-theme=light] .tabs button.on,html[data-theme=light] .seg button.on,html[data-theme=light] .num,html[data-theme=light] .tkav{color:#fff}
+html[data-theme=light] .orb{opacity:.12}
+.logo{display:inline-flex;align-items:center}.lm{width:34px;height:34px;border-radius:50%;object-fit:cover;margin-right:10px;border:1px solid var(--gold)}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;text-align:left;align-items:center}
+.hero .cta{justify-content:flex-start}.hero .lead,.hero h2{margin-inline:0}
+.himg{position:relative;border-radius:24px;overflow:hidden;border:1px solid var(--gold);box-shadow:0 30px 80px rgba(0,0,0,.6),0 0 90px rgba(201,162,75,.18);aspect-ratio:3/4;max-height:78vh;width:100%;max-width:460px;justify-self:center}
+.himg img{width:100%;height:100%;object-fit:cover;object-position:50% 53%;display:block}
+.hcap{position:absolute;left:0;right:0;bottom:0;padding:48px 20px 18px;background:linear-gradient(transparent,rgba(0,0,0,.85));font:600 1.35rem "Cormorant Garamond",serif;color:var(--gold2)}
+@media(max-width:900px){.hero{grid-template-columns:1fr;gap:32px;text-align:center;min-height:0}.hero .cta{justify-content:center}.hero .lead,.hero h2{margin-inline:auto}.himg{max-height:none}}
+section.banner{max-width:none;margin:0;padding:0;background:linear-gradient(rgba(10,10,12,.72),rgba(10,10,12,.82)),url(wolf-banner.jpg) center/cover;border-block:1px solid var(--line)}
+.bn{max-width:760px;margin:0 auto;padding:96px 5vw;text-align:center}
+img.tkav{object-fit:cover;background:none;border:1px solid var(--gold)}
+html[data-theme=light] section.banner{background:linear-gradient(rgba(10,10,12,.7),rgba(10,10,12,.8)),url(wolf-banner.jpg) center/cover}html[data-theme=light] .bn{color:#eef1f7}html[data-theme=light] .bn .sub{color:#c4c8d2}html[data-theme=light] .bn .tag{color:#e8c978}
+.lvp.ph{aspect-ratio:auto;min-height:260px;overflow:visible}.lvp .at{font-size:1.8rem;margin:0 0 8px}.lvp .btn{margin-top:14px}
+#lvs .btn{margin:12px 8px 0 0}
+.logo{white-space:nowrap;font-size:clamp(1.4rem,5vw,2rem)}
+</style>
+</head>
+<body>
+<noscript><p style="padding:20px;text-align:center">Please turn on JavaScript to use this site.</p></noscript>
+<div id="prog"></div>
+<div class="bg"><canvas id="cv"></canvas><div class="orb o1"></div><div class="orb o2"></div></div>
+<a class="skip" href="#about">Skip to content</a>
+<nav><a class="logo" href="#top"><img class="lm" src="wolf-icon-64.png" alt="" width="34" height="34"><span><b>BigMan</b> Capital</span></a>
+<button class="menu" id="mb" aria-expanded="false" aria-controls="lk">Menu</button>
+<div class="links" id="lk"><a href="#about">About</a><a href="#services">Services</a><a href="#tools">Tools</a><a href="#store">Store</a><a href="#pulse">Market</a><a href="#livestream">Stream</a><a href="#live">Charts</a><a href="#journal">Journal</a><a href="#learn">Learn</a><a href="#partners">Partners</a><a href="#book">Book</a><a href="#contact">Contact</a></div><button class="thb" id="th">Light</button></nav>
+
+<div id="home">
+<section class="hero" id="top">
+<div class="hcopy">
+<div class="tag">Forex fund management and trader education</div>
+<h1 class="wm gt">BigMan Capital</h1>
+<h2>We trade client funds on forex and gold, and teach you to trade with strict risk rules.</h2>
+<p class="lead">Choose account management, classes, coaching, mentorship, MT5 tools or our prop firm pathway. Message us on WhatsApp and we reply with next steps.</p>
+<div class="cta"><a class="btn gold" href="#services">See services</a><a class="btn ghost" href="#pulse">Today's market</a></div>
+</div>
+<div class="himg"><img src="wolf-hero.jpg" alt="A wolf in a hood watching from the middle of a flock of black sheep" width="736" height="1307" fetchpriority="high"><div class="hcap">Don't follow the herd. Trade with a plan.</div></div>
+</section>
+
+<section class="banner" id="herd">
+<div class="bn"><div class="tag">Our approach</div><h2 class="h">Most traders follow the crowd.</h2><p class="sub" style="margin-inline:auto">Fear and hype move the herd. A written plan, a stop loss on every trade and steady risk keep you out of it.</p><div class="cta" style="justify-content:center"><a class="btn gold" href="#book">Book a free consultation</a><a class="btn ghost" href="#course">Start the free course</a></div></div>
+</section>
+<div class="tvt" id="tvt"></div>
+<div class="mq"><div id="mqt"></div></div>
+
+<section id="about">
+<div class="tag">About</div><h2 class="h">How we trade</h2>
+<p class="sub">BigMan Capital is a forex trading company. We risk a small, fixed part of the account on each trade, trade major pairs and gold on MetaTrader 5, and report back to clients regularly. We teach the same process to traders who want to do it themselves.</p>
+</section>
+
+<section id="livestream">
+<div class="tag">Live stream</div><h2 class="h">Watch us trade live</h2>
+<p class="sub">Join our live sessions for market reviews and your questions. Live sessions show real market conditions, so one day's result is never a promise of future results.</p>
+<div class="lvg"><div><div class="lvp" id="lvp"></div><div id="lvc"></div></div><div class="card" id="lvs"></div></div>
+</section>
+
+<section id="start">
+<div class="tag">Getting started</div><h2 class="h">From first message to first step</h2>
+<div class="steps"><div class="card"><div class="num">1</div><h3>Message us</h3><p>Pick a service and send the ready-made WhatsApp or email message.</p></div><div class="card"><div class="num">2</div><h3>We reply</h3><p>We answer your questions and explain terms and costs in writing.</p></div><div class="card"><div class="num">3</div><h3>You begin</h3><p>Start with account setup, your first class or your first tool.</p></div></div>
+</section>
+
+<section id="services">
+<div class="tag">Services</div><h2 class="h">Six ways we work with you</h2>
+<p class="sub">Open a service to see the steps and what you get.</p>
+<div class="grid" id="sgrid"></div>
+</section>
+
+<section id="finder">
+<div class="tag">Find your fit</div><h2 class="h">Which service is right for you?</h2>
+<p class="sub">Tap the sentence that sounds most like you.</p>
+<div class="seg" id="qz"></div><div class="card" id="qzr" hidden></div>
+</section>
+
+<section id="pulse">
+<div class="tag">Market Pulse</div><h2 class="h">Today's market</h2>
+<p class="sub">News, fundamentals, technicals, COT positioning and currency strength, updated automatically.</p>
+<div class="pulse"><span class="live" id="upd">Loading…</span>
+<div class="tabs" id="tabs"><button class="on" data-t="t1">Overview</button><button data-t="t2">Fundamentals</button><button data-t="t3">Technical</button><button data-t="t4">COT</button><button data-t="t5">Strength</button><button data-t="t6">Options</button></div>
+<div class="tp" id="t1"><p class="sum" id="sum"></p><div class="pairs" id="pairs"></div>
+<div class="cols"><div><h4>Watch today</h4><ul id="watch"></ul></div><div><h4>Top headlines</h4><ul id="heads"></ul></div></div></div>
+<div class="tp" id="t2" hidden><p class="sum" id="fund"></p><div class="cols"><div><h4>High-impact events</h4><div id="cal"></div></div></div></div>
+<div class="tp" id="t3" hidden><p class="sum" id="tview"></p><div class="tw"><table id="ttab"></table></div></div>
+<div class="tp" id="t4" hidden><p class="sum" id="cview"></p><div id="cotl"></div><p class="note">COT is the weekly CFTC report on large speculators in futures. It is released on Fridays and covers the Tuesday before.</p></div>
+<div class="tp" id="t5" hidden><div class="seg" id="seg"><button data-w="1">1D</button><button class="on" data-w="5">5D</button><button data-w="20">20D</button></div><div id="str"></div><p class="note">Currency strength is each major's move against the others over the period.</p></div>
+<div class="tp" id="t6" hidden>
+<p class="sum">Options for forex and gold. Spot FX has no exchange-listed options, so the listed ones are CME futures options (Euro FX, British Pound, Yen and others) and gold options.</p>
+<div class="seg" id="oseg"><button class="on" data-o="o1">Options chain</button><button data-o="o2">Gamma chart</button><button data-o="o3">Chain model</button></div>
+<div class="op" id="o1">
+<div class="of"><div><label for="opair">Pair</label><select id="opair"><option value="EURUSD">EUR/USD</option><option value="GBPUSD">GBP/USD</option><option value="USDJPY">USD/JPY</option><option value="AUDUSD">AUD/USD</option><option value="USDCAD">USD/CAD</option><option value="XAUUSD">Gold (XAU/USD)</option></select></div>
+<div><label for="osrc">Source</label><select id="osrc"><option value="inv">Investing.com options</option><option value="cme">CME Group options quotes</option><option value="bc">Barchart options chain</option><option value="oas">Options Analysis Suite (gamma, max pain)</option><option value="cu">My own link</option></select></div>
+<div id="ocw" hidden><label for="ocu">Link</label><input id="ocu" placeholder="https://"></div></div>
+<div class="cta" style="margin-top:6px;justify-content:flex-start"><button class="btn gold" id="oload">Show here</button><button class="btn ghost" id="oopen">Open in new tab</button></div>
+<p class="note" id="omsg">Some sites do not allow themselves to be shown inside other websites. If the box stays blank, use Open in new tab.</p>
+<iframe class="ofr" id="ofr" title="Options data" referrerpolicy="no-referrer" sandbox="allow-scripts allow-same-origin allow-forms allow-popups" hidden></iframe></div>
+<div class="op" id="o2" hidden>
+<p class="note" style="margin-top:0">Paste open interest by strike from a source such as CME or Barchart (one line per strike: strike, call OI, put OI). The chart shows estimated dealer gamma per strike, assuming dealers are long calls and short puts.</p>
+<div class="of"><div><label for="gs">Spot price</label><input id="gs" type="number" step="any" value="1.0850"></div><div><label for="gv">Implied volatility (%)</label><input id="gv" type="number" step="any" value="7"></div><div><label for="gd">Days to expiry</label><input id="gd" type="number" value="14"></div><div><label for="gc">Contract size</label><input id="gc" type="number" value="125000"></div></div>
+<label for="gcsv">Strike, call OI, put OI</label><textarea class="mono" id="gcsv" rows="6" placeholder="1.0800,2600,3100"></textarea>
+<div class="cta" style="margin-top:0;justify-content:flex-start"><button class="btn gold" id="gdraw">Draw chart</button><button class="btn ghost" id="gsam">Load sample</button></div>
+<canvas class="gcv" id="gcv" width="900" height="320"></canvas><p class="sum" id="gres"></p></div>
+<div class="op" id="o3" hidden>
+<p class="note" style="margin-top:0">A model options chain built from the numbers you enter (Garman-Kohlhagen). It estimates price, delta, gamma and vega per strike. It is not live market data.</p>
+<div class="of"><div><label for="os">Spot price</label><input id="os" type="number" step="any" value="1.0850"></div><div><label for="ovl">Implied volatility (%)</label><input id="ovl" type="number" step="any" value="7"></div><div><label for="od">Days to expiry</label><input id="od" type="number" value="30"></div><div><label for="orr">Quote currency rate (%)</label><input id="orr" type="number" step="any" value="4"></div><div><label for="orf">Base currency rate (%)</label><input id="orf" type="number" step="any" value="2"></div><div><label for="ost">Strike step</label><input id="ost" type="number" step="any" value="0.005"></div></div>
+<div class="tw" style="margin-top:14px"><table id="ot"></table></div></div>
+</div>
+<p class="note">For information only. This is not financial advice and results are never guaranteed. Forex trading is high risk.</p></div>
+</section>
+
+<section id="brief">
+<div class="tag">Daily brief</div><h2 class="h">Today's market brief</h2>
+<div class="pulse"><div id="art">Loading…</div></div>
+<div class="seg" id="arch" style="flex-wrap:wrap;margin-top:18px"></div>
+</section>
+
+<section id="live">
+<div class="tag">Live markets</div><h2 class="h">Charts, calendar and heatmap</h2>
+<p class="sub">Real-time data from TradingView.</p>
+<div class="seg" id="lseg"><button class="on" data-k="chart">Chart</button><button data-k="cal">Calendar</button><button data-k="heat">Heatmap</button><button data-k="rates">Rates</button><button data-k="tech">Technicals</button><button data-k="news">News</button></div>
+<div class="tvbox" id="tvbox"></div>
+</section>
+
+<section id="tools">
+<div class="tag">Sessions</div><h2 class="h">Market sessions</h2><div class="ses" id="ses"></div>
+<div class="tag" style="margin-top:-30px">ICT killzones, New York time</div><div class="ses" id="kz" style="margin-top:12px"></div>
+<div class="tag">Free tools</div><h2 class="h">Trading calculators</h2>
+<p class="sub">Plan the risk before you place the trade.</p>
+<div class="seg" id="cseg"><button class="on" data-c="k1">Lot size</button><button data-c="k2">Risk and reward</button><button data-c="k3">Prop firm limits</button><button data-c="k4">Growth projector</button><button data-c="k5">Pre-trade checklist</button><button data-c="k6">Pivot points</button><button data-c="k7">Margin</button><button data-c="k8">Fibonacci</button><button data-c="k9">ICT 2022 checklist</button></div>
+<div class="calc cp" id="k1">
+<div><label for="c5">Instrument</label><select id="c5"><option value="10">EUR/USD, GBP/USD, AUD/USD</option><option value="7">USD/JPY (about, changes with price)</option><option value="10">Gold, 1 pip = $0.10</option></select></div>
+<div><label for="c1">Account balance ($)</label><input id="c1" type="number" value="1000"></div>
+<div><label for="c2">Risk per trade (%)</label><input id="c2" type="number" value="1" step="0.1"></div>
+<div><label for="c3">Stop loss (pips)</label><input id="c3" type="number" value="20"></div>
+<div><label for="c4">Pip value per lot ($)</label><input id="c4" type="number" value="10"></div>
+<div class="res" id="cres"></div></div>
+<div class="calc cp" id="k2" hidden>
+<div><label for="r1">Amount you risk ($)</label><input id="r1" type="number" value="10"></div>
+<div><label for="r2">Stop loss (pips)</label><input id="r2" type="number" value="20"></div>
+<div><label for="r3">Take profit (pips)</label><input id="r3" type="number" value="40"></div>
+<div><label for="r4">Your win rate (%)</label><input id="r4" type="number" value="40"></div>
+<div class="res" id="r5"></div></div>
+<div class="calc cp" id="k3" hidden>
+<div><label for="p1">Challenge account size ($)</label><input id="p1" type="number" value="10000"></div>
+<div><label for="p2">Profit target (%)</label><input id="p2" type="number" value="8" step="0.1"></div>
+<div><label for="p3">Daily loss limit (%)</label><input id="p3" type="number" value="5" step="0.1"></div>
+<div><label for="p4">Max drawdown (%)</label><input id="p4" type="number" value="10" step="0.1"></div>
+<div><label for="p5">Risk per trade (%)</label><input id="p5" type="number" value="0.5" step="0.1"></div>
+<div class="res" id="p6"></div></div>
+<div class="calc cp" id="k4" hidden>
+<div><label for="g1">Starting balance ($)</label><input id="g1" type="number" value="1000"></div>
+<div><label for="g2">Average monthly return (%)</label><input id="g2" type="number" value="3" step="0.1"></div>
+<div><label for="g3">Months</label><input id="g3" type="number" value="12"></div>
+<div class="res" id="g4"></div><p class="note" style="grid-column:1/-1;margin:0">An illustration of compounding only. Real returns vary and losses happen. This is not a forecast or a promise.</p></div>
+<div class="calc cp" id="k5" hidden>
+<label class="ck"><input type="checkbox">Trend and key levels checked</label><label class="ck"><input type="checkbox">Stop loss placed</label><label class="ck"><input type="checkbox">Risk is within my limit</label><label class="ck"><input type="checkbox">No major news in the next hour</label><label class="ck"><input type="checkbox">Reward is at least twice the risk</label><label class="ck"><input type="checkbox">I am calm and following my plan</label>
+<div class="res" id="ckr"></div></div>
+<div class="calc cp" id="k6" hidden>
+<div><label for="v1">Previous high</label><input id="v1" type="number" step="any" value="1.0900"></div>
+<div><label for="v2">Previous low</label><input id="v2" type="number" step="any" value="1.0800"></div>
+<div><label for="v3">Previous close</label><input id="v3" type="number" step="any" value="1.0850"></div>
+<div class="res" id="v4"></div></div>
+<div class="calc cp" id="k7" hidden>
+<div><label for="m1">Lots</label><input id="m1" type="number" step="any" value="0.1"></div>
+<div><label for="m2">Price</label><input id="m2" type="number" step="any" value="1.085"></div>
+<div><label for="m3">Leverage (1:x)</label><input id="m3" type="number" value="100"></div>
+<div><label for="m4">Contract size</label><input id="m4" type="number" value="100000"></div>
+<div class="res" id="m5"></div><p class="note" style="grid-column:1/-1;margin:0">Works for pairs quoted in USD, and for gold with a contract size of 100.</p></div>
+<div class="calc cp" id="k8" hidden>
+<div><label for="f1">Swing high</label><input id="f1" type="number" step="any" value="1.0900"></div>
+<div><label for="f2">Swing low</label><input id="f2" type="number" step="any" value="1.0800"></div>
+<div><label for="f3">Direction</label><select id="f3"><option value="up">Uptrend (pullback down)</option><option value="dn">Downtrend (pullback up)</option></select></div>
+<div class="res" id="f4"></div></div>
+<div class="calc cp" id="k9" hidden>
+<label class="ck"><input type="checkbox">Higher timeframe direction is clear</label><label class="ck"><input type="checkbox">Liquidity was swept (a high or low taken)</label><label class="ck"><input type="checkbox">Market structure shifted with displacement</label><label class="ck"><input type="checkbox">A fair value gap or order block was left behind</label><label class="ck"><input type="checkbox">Entry is in discount (buys) or premium (sells)</label><label class="ck"><input type="checkbox">It is inside a killzone</label><label class="ck"><input type="checkbox">Stop is beyond the zone and risk is within my limit</label><label class="ck"><input type="checkbox">Target is the opposite liquidity, at least 2R away</label>
+<div class="res" id="ck9"></div></div>
+</section>
+
+<section id="log">
+<div class="tag">Trade log</div><h2 class="h">Quick trade log</h2>
+<p class="sub">Record each trade and see your win rate and net result. Saved in this browser only.</p>
+<div class="cbox" style="margin-top:0"><div class="lgf"><div><label for="lgp">Pair</label><input id="lgp" placeholder="EURUSD"></div><div><label for="lgd">Side</label><select id="lgd"><option>Buy</option><option>Sell</option></select></div><div><label for="lgr">Result ($)</label><input id="lgr" type="number" step="any" placeholder="-12.50"></div><div><button class="btn gold" id="lga" style="width:100%;margin-bottom:12px">Add trade</button></div></div>
+<p class="sum" id="lgs"></p><div class="tw"><table id="lgt"></table></div>
+<div class="cta"><button class="btn ghost" id="lgx">Export CSV</button><button class="btn ghost" id="lgc">Clear all</button></div></div>
+</section>
+
+<section id="store">
+<div class="tag">Store</div><h2 class="h">EAs, indicators and books</h2>
+<p class="sub">Tools built by BigMan Capital. Open any item for details.</p>
+<div class="seg" id="pchips" style="flex-wrap:wrap"></div><input id="psq" placeholder="Search the store" aria-label="Search the store" style="max-width:360px"><div class="grid" id="pgrid"></div>
+</section>
+
+<section id="journal">
+<div class="tag">Trading journal</div><h2 class="h">Journal every trade</h2>
+<p class="sub">Log your trades and review your results in the journal below.</p>
+<div class="jf"><iframe src="https://bigmanlegacy95-sys.github.io/Trade-journal/" title="Trading Journal" loading="lazy"></iframe>
+<button class="fab" id="jo">Open full screen</button></div>
+</section>
+
+<section id="tiktok">
+<div class="tag">TikTok</div><h2 class="h">@bigman.forex.trading</h2>
+<p class="sub">Trading lessons, market ideas and prop firm tips.</p>
+<div class="tkbox"><div class="tkcard"><img class="tkav" src="icon-192.png" alt="" width="64" height="64"><div><b>@bigman.forex.trading</b><p>New videos on TikTok.</p></div></div></div>
+<div class="cta"><a class="btn gold" target="_blank" rel="noopener" href="https://www.tiktok.com/@bigman.forex.trading">Follow on TikTok</a></div>
+</section>
+
+<section id="faq">
+<div class="tag">FAQ</div><h2 class="h">Common questions</h2>
+<details><summary>Do you guarantee profits?</summary><p>No. Forex trading carries high risk and results are never guaranteed. We use strict risk limits and tell you what we are doing.</p></details>
+<details><summary>How do I get started?</summary><p>Pick a service and tap WhatsApp or Email. A message is already written for you. Send it and we will reply.</p></details>
+<details><summary>Which markets do you trade and teach?</summary><p>Major forex pairs and gold, on MetaTrader 5.</p></details>
+<details><summary>Can I pay online?</summary><p>Not yet. For now we arrange payment with you directly in chat.</p></details>
+</section>
+
+<section id="course">
+<div class="tag">Free course</div><h2 class="h">ICT 2022 model: free lessons</h2>
+<p class="sub">Ten short lessons on the ICT 2022 model: liquidity sweep, market structure shift, fair value gap entry. Each lesson has a short video you can watch here or on YouTube, plus the key points. Tick each one off as you go. Education only, not financial advice.</p>
+<p class="sum" id="crp"></p><div class="st2" style="margin:-10px 0 24px"><span class="sf pos" id="crb" style="width:0"></span></div>
+<div class="grid" id="crs"></div>
+</section>
+
+<section id="articles">
+<div class="tag">Articles</div><h2 class="h">Guides for traders</h2>
+<div class="grid" id="agrid"></div>
+</section>
+
+<section id="learn">
+<div class="tag">Learn</div><h2 class="h">Forex glossary</h2>
+<p class="sub">Plain-language meanings of the terms traders use.</p>
+<input id="gq" placeholder="Search a term" aria-label="Search the glossary" style="max-width:360px"><div class="grid" id="gg"></div>
+</section>
+
+<section id="track" hidden>
+<div class="tag">Track record</div><h2 class="h">Verified results</h2>
+<p class="sub">Results tracked by an independent platform. Past performance does not guarantee future results.</p>
+<div id="trk"></div>
+</section>
+
+<section id="reviews" hidden>
+<div class="tag">Reviews</div><h2 class="h">What clients say</h2>
+<div class="grid" id="rvg"></div>
+</section>
+
+<section id="partners">
+<div class="tag">Partners</div><h2 class="h">Brokers and prop firms</h2>
+<p class="sub">Firms we recommend. Open an account or start a challenge through our links and we may earn a commission. It does not change the price you pay.</p>
+<div class="seg" id="pseg"><button class="on" data-p="brokers">Brokers</button><button data-p="props">Prop firms</button></div>
+<div class="grid" id="bgrid"></div>
+<p class="note">Check that any broker or prop firm is licensed and available in your country before you deposit or pay. Trading involves risk and passing a challenge is never guaranteed.</p>
+</section>
+
+<section id="book">
+<div class="tag">Book</div><h2 class="h">Book a free consultation</h2>
+<p class="sub">Pick a day and time that suits you and we will confirm it.</p>
+<div id="bk"></div>
+</section>
+
+<section id="contact" style="text-align:center">
+<div class="tag">Contact</div><h2 class="h">Talk to us</h2>
+<p class="sub">bigmancapital.support@gmail.com<br>+254 729 393 153<br>TikTok @bigman.forex.trading</p>
+<div class="cbox qf" id="chn"></div>
+<div class="cbox qf"><h3 style="font-size:1.6rem;color:var(--gold2);margin-bottom:12px">Send an enquiry</h3>
+<label for="qn">Your name</label><input id="qn" placeholder="Optional">
+<label for="qs">What are you asking about?</label><select id="qs"><option>Account Management</option><option>Trading Classes</option><option>Coaching</option><option>Mentorship</option><option>Trading Automations</option><option>Prop Firm Pathway</option><option>Something else</option></select>
+<label for="qm">Message</label><textarea id="qm" rows="3" placeholder="Optional"></textarea>
+<div class="cta"><a id="qw" class="btn gold" target="_blank" rel="noopener">Send on WhatsApp</a><a id="qe" class="btn ghost">Send by email</a></div></div>
+<div class="cta" id="cta" style="justify-content:center"></div>
+</section>
+</div>
+
+<main id="svc" class="pg" hidden></main>
+
+<footer><div class="logo" style="justify-content:center"><img class="lm" src="wolf-icon-64.png" alt="" width="34" height="34"><span><b>BigMan</b> Capital</span></div>
+<p><a href="#privacy">Privacy policy</a><a href="#terms">Terms and conditions</a></p>
+<p>Risk warning: forex trading carries a high level of risk and may not be suitable for everyone. Past performance does not guarantee future results. Only trade with money you can afford to lose.</p>
+<p>© 2026 BigMan Capital. All rights reserved.</p></footer>
+
+<a class="wa" id="wafab" target="_blank" rel="noopener">WhatsApp</a>
+<a class="tt" id="tt" href="#top" hidden>Top</a>
+<div id="ov" hidden><button class="fab" style="right:170px" id="jn">New tab</button><button class="fab" id="jc">Close</button><iframe src="" title="Trading Journal full screen"></iframe></div>
+<dialog id="pm"></dialog>
+<script>
+const PH="254729393153",EM="bigmancapital.support@gmail.com",TIK="bigman.forex.trading",JL="https://bigmanlegacy95-sys.github.io/Trade-journal/";
+/* ===== SETTINGS: edit these to switch features on =====
+   BOOK: your Calendly or Cal.com link.  PAY: Paystack public key and payment links.
+   LIVE: your stream details and schedule.  TRACK: Myfxbook or FX Blue link.
+   TESTIMONIALS: only real reviews, with the client's permission.  ANALYTICS: Plausible domain. */
+const BOOK="";
+const PAY={paystackKey:"",currency:"KES",services:{}};
+const LIVE={tiktok:"https://www.tiktok.com/@bigman.forex.trading/live",youtubeVideo:"",youtubeChannel:"",twitch:"",schedule:[]};
+const TRACK={embed:"",link:""};
+const TESTIMONIALS=[];
+const CHANNEL={whatsapp:"",telegram:""};
+const ANALYTICS={plausible:""};
+const TH=()=>document.documentElement.dataset.theme=="light"?"light":"dark";
+try{const t=localStorage.getItem("bm_theme");if(t)document.documentElement.dataset.theme=t}catch(e){}
+const COURSE=[
+{t:"ICT in 12 minutes: the big picture",v:"arJI_3HhgxA",m:"About 12 min",q:"ICT concepts explained for beginners",s:"ICT is a method of reading price built around liquidity, market structure, imbalances and time. The 2022 model puts them in one sequence: price sweeps liquidity, shifts structure with displacement, then returns to a fair value gap where you look for an entry. This lesson shows how the pieces fit before you study each one.",p:["Liquidity is where stop orders rest: above highs and below lows","Structure tells you the direction, a sweep tells you where price may go","The entry zone is a fair value gap or order block, taken in a killzone","Every later lesson is one piece of this chain"]},
+{t:"Market structure shift and displacement",v:"_94CPMjWi9E",m:"About 8 min",q:"ICT market structure shift displacement",s:"A market structure shift happens when price breaks a recent swing high or low with displacement. Displacement means strong, full-bodied candles that move fast and leave gaps behind. It matters most right after a liquidity sweep and at a higher timeframe level.",p:["Displacement is an aggressive move of full-bodied candles","Bullish shift: close above the previous swing high","Bearish shift: close below the previous swing low","Slow drifting through a level is not a valid shift"]},
+{t:"Liquidity: buy side, sell side and sweeps",v:"3OivsP1j_UE",m:"Short video",q:"ICT liquidity buy side sell side explained",s:"Liquidity is resting orders. Buy-side liquidity sits above highs, where sellers have their stops and breakout traders want to buy. Sell-side liquidity sits below lows. Price often runs to one pool, takes it, then heads to the other. Equal highs and equal lows are the obvious pools.",p:["Buy-side liquidity is above highs, sell-side is below lows","A sweep is price taking the pool and closing back inside","Internal liquidity is inside the range, external is at its edges","Your target is usually the opposite pool"]},
+{t:"Fair value gaps",v:"ZVUDpCyvxfQ",m:"About 10 min",q:"ICT fair value gap explained",s:"A fair value gap is a three-candle pattern where the wick of the first candle does not overlap the wick of the third. It marks an imbalance that price often returns to. The middle of the gap is called consequent encroachment. If price closes through a gap, it can flip and act as support or resistance, called an inversion.",p:["Three candles, with a visible gap between candle one and candle three","Bullish gap forms in a rise, bearish gap in a fall","Consequent encroachment is the 50% level of the gap","A close through the gap makes it an inversion gap"]},
+{t:"Premium and discount",v:"MlMsG7li9zY",m:"Short video",q:"ICT premium and discount explained",s:"Take a price range and mark its 50% level, called equilibrium. Above it is premium, where price is expensive. Below it is discount, where price is cheap. In this model you look to buy in discount and sell in premium, which gives a better reward for the same risk.",p:["Equilibrium is the midpoint of the range","Buy below it, sell above it","It improves your risk to reward","Use it to filter fair value gaps and order blocks"]},
+{t:"Optimal trade entry (OTE)",v:"1YRs4Z1lMws",m:"Short video",q:"ICT optimal trade entry OTE",s:"Optimal trade entry is the zone between the 62% and 79% retracement of a move, with 70.5% in the middle. After a shift in structure, price often pulls back into this zone before continuing. It works best when it overlaps a fair value gap or order block.",p:["The zone runs from 62% to 79% of the move","70.5% is the middle of the zone","Best when it lines up with a gap or order block","Place the stop beyond the swing that started the move"]},
+{t:"Order blocks",v:"Y8DkNYhq0X0",m:"Short video",q:"ICT order blocks simplified",s:"An order block is the last opposing candle before a strong move. It carries more weight when it swept liquidity, when the move away shows displacement or leaves a fair value gap, and when price has not yet come back to it. Used like a fair value gap, it is a zone where you look for an entry.",p:["Last down candle before a rise is a bullish order block","Last up candle before a fall is a bearish order block","Needs a liquidity sweep and displacement to be valid","Price returning to it for the first time is best"]},
+{t:"The 2022 model entry checklist",v:"lpam8F-N3EM",m:"About 11 min",q:"ICT 2022 mentorship model entry",s:"This lesson puts the model together. Know the higher timeframe direction. Wait for a liquidity sweep. Look for a market structure shift with displacement. Enter on the fair value gap or order block it leaves, in premium or discount. Put the stop just beyond the zone and target the opposite liquidity, taking partial profit on the way.",p:["1. Higher timeframe bias","2. Liquidity sweep","3. Shift in structure with displacement","4. Entry in the gap or order block, in the right half of the range","5. Stop beyond the zone, target the opposite pool"]},
+{t:"Time: killzones and the power of three",v:"",m:"Search a short video",q:"ICT killzones power of 3 explained",s:"Timing matters as much as the pattern. ICT killzones, in New York time, are London 02:00 to 05:00, New York 07:00 to 10:00 and London close 10:00 to 12:00. Power of three describes a day as accumulation, then a manipulation move that sweeps liquidity, then distribution in the real direction. Use the killzone clock in our tools section.",p:["London killzone: 02:00 to 05:00 New York time","New York killzone: 07:00 to 10:00","London close: 10:00 to 12:00","Power of three: accumulation, manipulation, distribution"]},
+{t:"Risk, journaling and review",v:"",m:"Search a short video",q:"how to journal trades risk management forex",s:"A model only works if you follow your risk rules. Risk a small fixed percentage per trade, always use a stop, and journal every trade with a screenshot and the reason for entry. Review your journal each week. Test the model on a demo account first, then trade small.",p:["Risk a fixed small percentage per trade","Never trade without a stop loss","Journal the setup, the result and how you felt","Demo first, then small size"]}];
+const POSTS={
+"position-sizing":{t:"How to size a forex trade",b:`<p class="lead">Position size is how much you trade. Getting it right keeps one bad trade from hurting your account.</p><h2>The three steps</h2><p>1. Decide how much of your account you will risk on one trade. Many traders keep this at 1% or less.</p><p>2. Measure your stop loss in pips, from your entry to the price that proves you wrong.</p><p>3. Divide your risk in dollars by the stop in pips times the pip value per lot.</p><h2>An example</h2><p>Account $1,000, risk 1% = $10. Stop loss 20 pips. A standard lot is worth about $10 per pip on EUR/USD. Lot size = 10 / (20 x 10) = 0.05 lots.</p><p>You can do this instantly with the lot size calculator in our tools section.</p>`},
+"prop-firm-challenge":{t:"What a prop firm challenge involves",b:`<p class="lead">A prop firm gives you a funded account if you pass an evaluation. The rules matter more than the strategy.</p><h2>The usual rules</h2><p>Most challenges set a profit target, a daily loss limit and a maximum drawdown. Break either limit and the attempt ends. Rules differ between firms, so read them fully before you pay.</p><h2>How to approach it</h2><p>Risk a small amount per trade so a losing streak cannot reach the limits. Use our prop firm limits calculator to see how many losses in a row each limit allows. Trade the same plan you would on a demo account.</p><p>Passing is never guaranteed, and fees are not refunded if you fail unless the firm says so.</p>`},
+"cot-report":{t:"How to read the COT report",b:`<p class="lead">The Commitments of Traders report shows how large traders are positioned in futures markets.</p><h2>What it is</h2><p>The CFTC publishes it every Friday, using positions as of the Tuesday before. Traders often watch the non-commercial group, which is large speculators such as funds.</p><h2>How to use it</h2><p>Look at the net position and how it changed from last week. Very large net positions can mean a crowded trade. Because the data is a few days old, treat it as background context and not as an entry signal.</p><p>See the COT tab in our Market section for the latest figures.</p>`}};
+</script>
+<script>const $=i=>document.getElementById(i);
+const S={
+account:{t:"Account Management",tag:"We trade your account, you get regular reports",intro:"Our team trades the forex market on your behalf with fixed risk limits on every trade. You get regular reports and can ask about your account at any time.",steps:[["Free consultation","We ask about your goals, capital and comfort with risk."],["Agreement and setup","We agree on terms and set up your account with your chosen broker."],["We trade","We execute our strategy with strict risk limits."],["Reports and review","You receive performance updates and can ask questions any time."]],get:["Risk-managed trading","Regular performance reports","A direct line to your account manager","Written terms before you start"]},
+classes:{t:"Trading Classes",tag:"Forex lessons from basics to a tested strategy",intro:"Structured lessons that take you from the basics to a complete strategy, with examples from live markets. Learn at your own pace.",steps:[["Choose your level","Beginner, intermediate or advanced."],["Join the lessons","Attend live sessions or watch the recordings."],["Practise on demo","Apply each lesson on a demo account."],["Get feedback","We review your progress and answer your questions."]],get:["Beginner to advanced curriculum","Strategy and risk management","Practice assignments","Access to our trading journal"]},
+coaching:{t:"Coaching",tag:"One-on-one help to fix your trading",intro:"Personal coaching for traders who keep repeating the same mistakes. We work on your execution, your psychology and your plan.",steps:[["Discovery call","Tell us where you are stuck."],["Review your trading","We study your trades and find the patterns."],["Personal action plan","A plan built around your goals."],["Regular check-ins","We keep you accountable and adjust as you improve."]],get:["Feedback on your own trades","Psychology and discipline training","A custom trading plan","Journal reviews"]},
+mentorship:{t:"Mentorship",tag:"Long-term guidance from a working trader",intro:"Ongoing guidance from an experienced trader, for people who want someone beside them as they build their skills and their account.",steps:[["Apply","Share your experience level and goals."],["Set your roadmap","We map out milestones together."],["Ongoing guidance","Regular sessions and live market walkthroughs."],["Trade on your own","We help you become self-reliant."]],get:["Ongoing access to your mentor","Live market walkthroughs","Accountability and support","A growth roadmap"]},
+automations:{t:"Trading Automations",tag:"Expert Advisors and indicators for MT5",intro:"Automated tools for forex and gold on MetaTrader 5, with built-in risk controls. They save you time and keep your rules consistent.",steps:[["Choose a tool","Pick the Expert Advisor or indicator that fits your style."],["Get set up","We guide you through installation."],["Test on demo","Run it on a demo account first."],["Go live carefully","Start small with risk limits."]],get:["MT5 Expert Advisors","Custom indicators","Setup help","Updates and support"]},
+prop:{t:"Prop Firm Pathway",tag:"Prepare for a funded account evaluation",intro:"Prop firms give you capital to trade after you pass an evaluation. We help you prepare with a strategy, risk rules and routine. Passing is never guaranteed.",steps:[["Skills check","We review your strategy and results."],["Challenge plan","We build a risk plan around the firm's profit target, daily loss and drawdown limits."],["Guided attempt","You trade the evaluation with coaching, journaling and weekly reviews."],["Funded and scaling","Protect the account, withdraw profits and scale up."]],get:["A personal challenge risk plan","Daily loss and drawdown tracking","Trade reviews with your journal","Psychology and discipline coaching","Help comparing prop firm rules"]}};
+const IC2={account:"💼",classes:"🎓",coaching:"🧭",mentorship:"🤝",automations:"⚙️",prop:"🏆"},IC={"Expert Advisor":"🤖","Indicator":"📈","Book":"📘"};
+const wa=m=>`https://wa.me/${PH}?text=${encodeURIComponent(m)}`;
+const gm="Hello BigMan Capital,\nI'd like to know more about your services.";
+$("wafab").href=wa(gm);
+$("cta").innerHTML=`<a class="btn gold" target="_blank" rel="noopener" href="${wa(gm)}">WhatsApp us</a><a class="btn ghost" href="mailto:${EM}">Email us</a><a class="btn ghost" target="_blank" rel="noopener" href="https://www.tiktok.com/@${TIK}">TikTok</a>`;
+$("sgrid").innerHTML=Object.keys(S).map(k=>`<a class="card" href="#svc-${k}"><div class="ic">${IC2[k]}</div><h3>${S[k].t}</h3><p>${S[k].tag}</p><span class="more">Learn more</span></a>`).join("");
+const LEGAL={
+privacy:{t:"Privacy Policy",b:`<p>Last updated: 30 October 2026.</p><h3 class="lg">What we collect</h3><p>If you message us on WhatsApp or email, we receive your name, phone number or email address, and whatever you write. If you use the contact form on a service page, the text you type is only used to write your message. We do not store it on this site.</p><h3 class="lg">How we use it</h3><p>We use your details to reply to you, to provide the service you ask for, and to keep records of our agreements. We do not sell your personal data.</p><h3 class="lg">Third parties</h3><p>This site loads charts and data from TradingView, fonts from Google Fonts, and our trading journal from GitHub Pages. These services may receive your IP address and browser details under their own policies. WhatsApp and email messages are handled by those providers.</p><h3 class="lg">Cookies and storage</h3><p>This site does not set its own tracking cookies. Embedded third-party content may set its own.</p><h3 class="lg">Your rights</h3><p>You can ask us to see, correct or delete the personal data we hold about you. Write to ${EM}.</p><h3 class="lg">Contact</h3><p>${EM} or +254 729 393 153.</p>`},
+terms:{t:"Terms and Conditions",b:`<p>Last updated: 30 October 2026.</p><h3 class="lg">1. About these terms</h3><p>By using this website and our services you accept these terms. If you do not accept them, please do not use the site.</p><h3 class="lg">2. Risk warning</h3><p>Forex and gold trading carries a high level of risk and may not suit everyone. You can lose some or all of your money. Past performance does not guarantee future results. Only trade with money you can afford to lose.</p><h3 class="lg">3. No financial advice</h3><p>Everything on this site, including market commentary, charts and tools, is for information and education only. It is not personal financial advice. Make your own decisions or speak to a licensed adviser.</p><h3 class="lg">4. No guarantees</h3><p>We do not guarantee profits, returns, or that you will pass any prop firm evaluation.</p><h3 class="lg">5. Services and payment</h3><p>Each service is agreed with you directly before you pay. Prices, fees and refund terms are confirmed in writing at that time. Digital products such as Expert Advisors and indicators are for your own use and may not be resold or shared.</p><h3 class="lg">6. Client funds</h3><p>Where we manage an account, funds stay in your own account with your broker. Our authority and fees are set out in a written agreement with you.</p><h3 class="lg">7. Liability</h3><p>To the extent the law allows, BigMan Capital is not liable for trading losses, or for loss caused by software, internet or broker faults.</p><h3 class="lg">8. Changes</h3><p>We may update these terms. The date at the top shows the latest version.</p><h3 class="lg">9. Contact</h3><p>${EM} or +254 729 393 153.</p>`}};
+function page(h){$("home").hidden=true;$("svc").hidden=false;scrollTo(0,0);return h}
+function showLegal(k){const s=LEGAL[k];document.title=s.t+" | BigMan Capital";$("svc").innerHTML=`<a class="back" href="#top">Back to home</a><h1 class="st gt">${s.t}</h1>${s.b}`;page()}
+function showPost(k){const x=POSTS[k];document.title=x.t+" | BigMan Capital";$("svc").innerHTML=`<a class="back" href="#articles">All articles</a><h1 class="st gt">${x.t}</h1>${x.b}<div class="cbox"><h2>Questions?</h2><div class="cta"><a class="btn gold" target="_blank" rel="noopener" href="${wa("Hello BigMan Capital,\n\nI read your article: "+x.t+".")}">WhatsApp us</a><a class="btn ghost" href="#tools">Try the calculators</a></div></div>`;page()}
+function showSvc(k){const s=S[k];document.title=s.t+" | BigMan Capital";
+$("svc").innerHTML=`<a class="back" href="#services">All services</a><div class="tag" style="margin-top:22px">${s.tag}</div><h1 class="st gt">${IC2[k]} ${s.t}</h1><p class="lead">${s.intro}</p>
+<h2>How it works</h2><div class="grid">${s.steps.map((x,i)=>`<div class="card"><div class="num">${i+1}</div><h3>${x[0]}</h3><p>${x[1]}</p></div>`).join("")}</div>
+<h2>What you get</h2><ul class="tick">${s.get.map(g=>`<li>${g}</li>`).join("")}</ul>
+<h2>Other services</h2><div class="cta" style="margin-top:0">${Object.keys(S).filter(x=>x!=k).map(x=>`<a class="btn ghost" href="#svc-${x}">${S[x].t}</a>`).join("")}</div>
+<div class="cbox"><h2>Interested in ${s.t}?</h2><p class="sub">Add your name if you like. We write the message for you.</p>
+<input id="nm" placeholder="Your name (optional)" aria-label="Your name"><textarea id="nt" rows="2" placeholder="Anything to add? (optional)" aria-label="Details"></textarea>
+<div class="cta">${/^https:\/\//.test(PAY.services[k]||"")?`<a class="btn gold" target="_blank" rel="noopener" href="${PAY.services[k]}">Pay online</a>`:""}<a id="w" class="btn gold" target="_blank" rel="noopener">WhatsApp us</a><a id="e" class="btn ghost">Email us</a><a class="btn ghost" target="_blank" rel="noopener" href="https://www.tiktok.com/@${TIK}">TikTok</a></div></div>`;
+const u=()=>{const n=$("nm").value.trim(),t=$("nt").value.trim(),m=`Hello BigMan Capital,\n\nI'm interested in your ${s.t} service.`+(n?`\nMy name: ${n}`:"")+(t?`\nDetails: ${t}`:"")+"\n\nPlease share how to get started. Thank you.";
+$("w").href=wa(m);$("e").href=`mailto:${EM}?subject=${encodeURIComponent("Inquiry: "+s.t)}&body=${encodeURIComponent(m)}`};
+$("nm").oninput=$("nt").oninput=u;u();page()}
+function route(){const h=location.hash.slice(1),m=h.match(/^svc-(\w+)$/);
+if(m&&S[m[1]])return showSvc(m[1]);
+if(LEGAL[h])return showLegal(h);
+if(/^post-/.test(h)&&POSTS[h.slice(5)])return showPost(h.slice(5));
+$("home").hidden=false;$("svc").hidden=true;document.title="BigMan Capital";
+const t=h&&document.getElementById(h);if(t)setTimeout(()=>t.scrollIntoView(),30)}
+addEventListener("hashchange",route);route();
+const calc=()=>{const b=+$("c1").value,r=+$("c2").value,sl=+$("c3").value,pv=+$("c4").value,rk=b*r/100;$("cres").textContent=sl&&pv?`Risk: $${rk.toFixed(2)}, lot size: ${(rk/(sl*pv)).toFixed(2)}`:"Fill in all fields"};
+["c1","c2","c3","c4"].forEach(i=>$(i).oninput=calc);calc();
+$("jo").onclick=()=>{$("ov").hidden=false;$("ov").querySelector("iframe").src=JL;document.body.style.overflow="hidden"};
+$("jc").onclick=()=>{$("ov").hidden=true;document.body.style.overflow=""};
+$("jn").onclick=()=>open(JL,"_blank","noopener");
+const SS=[["Sydney","Australia/Sydney",7,16],["Tokyo","Asia/Tokyo",9,18],["London","Europe/London",8,17],["New York","America/New_York",8,17]];
+function ses(){$("ses").innerHTML=SS.map(([n,z,a,b])=>{const p=new Intl.DateTimeFormat("en-US",{timeZone:z,hour:"numeric",hour12:false,weekday:"short"}).formatToParts(new Date()),h=+p.find(x=>x.type==="hour").value%24,d=p.find(x=>x.type==="weekday").value,o=h>=a&&h<b&&d!=="Sat"&&d!=="Sun";return`<div class="sch ${o?"op":""}"><i></i><b>${n}</b><small>${new Intl.DateTimeFormat("en-US",{timeZone:z,hour:"numeric",minute:"2-digit"}).format(new Date())} local · ${o?"Open":"Closed"}</small></div>`}).join("")}
+ses();setInterval(ses,60000);
+const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e};
+const $q=s=>document.querySelectorAll(s);let MK={};
+$q("#tabs button").forEach(b=>b.onclick=()=>{$q("#tabs button").forEach(x=>x.classList.toggle("on",x===b));$q(".tp").forEach(q=>q.hidden=q.id!==b.dataset.t)});
+function str(w){const b=$("str");b.textContent="";const m=(MK.strength||{})[w];if(!m){b.textContent="Strength data will appear after the next update.";return}
+const e=Object.entries(m).sort((a,b)=>b[1]-a[1]),mx=Math.max(...e.map(x=>Math.abs(x[1])))||1;
+e.forEach(([c,v])=>{const r=el("div","sr"),t=el("div","st2"),f=el("span","sf "+(v>=0?"pos":"neg"));f.style.width=Math.abs(v)/mx*100+"%";t.append(f);r.append(el("span","sc",c),t,el("span","sv",(v>0?"+":"")+v.toFixed(2)+"%"));b.append(r)})}
+$q("#seg button").forEach(b=>b.onclick=()=>{$q("#seg button").forEach(x=>x.classList.toggle("on",x===b));str(b.dataset.w)});
+fetch("news.json?"+Date.now()).then(r=>r.json()).then(d=>{MK=d.market||{};AR=d.articles||[];showBrief();const t=new Date(d.updated);
+$("upd").textContent="Updated "+(isNaN(t)?"recently":t.toLocaleString([],{dateStyle:"medium",timeStyle:"short"}));$("sum").textContent=d.summary||"";
+(d.outlook||[]).forEach(o=>{const b=["Bullish","Bearish","Neutral"].includes(o.bias)?o.bias:"Neutral",c=el("div","pair");c.append(el("span","badge "+b,b),el("b","",o.pair),el("p","",o.reason));$("pairs").append(c)});
+(d.watch||[]).forEach(w=>$("watch").append(el("li","",w)));
+(d.headlines||[]).forEach(h=>{const li=el("li"),a=el("a","",h.title+" ("+h.source+")");if(/^https?:\/\//.test(h.link)){a.href=h.link;a.target="_blank";a.rel="noopener"}li.append(a);$("heads").append(li)});
+$("fund").textContent=d.fundamentals||"Fundamental analysis will appear after the next update.";
+const cal=$("cal");(MK.calendar||[]).forEach(e=>{const r=el("div","ev");r.append(el("b","",new Date(e.date).toLocaleString([],{weekday:"short",hour:"2-digit",minute:"2-digit"})+" · "+e.country),el("span","",e.title+(e.forecast?"  | Forecast "+e.forecast:"")+(e.previous?"  | Prev "+e.previous:"")));cal.append(r)});
+if(!cal.children.length)cal.textContent="The economic calendar will appear after the next update.";
+$("tview").textContent=d.technical_view||"";
+const tt=$("ttab"),row=(t,a)=>{const r=el("tr");a.forEach(x=>r.append(el(t,"",x)));tt.append(r)};
+if((MK.technical||[]).length){row("th",["Pair","Price","Trend","RSI","Support","Resistance"]);MK.technical.forEach(x=>row("td",[x.pair,x.price,(x.trend=="Uptrend"?"▲ ":x.trend=="Downtrend"?"▼ ":"● ")+x.trend,x.rsi,x.support,x.resistance]))}else $("tview").textContent="Technical data will appear after the next update.";
+$("cview").textContent=d.cot_view||"";
+const cl=$("cotl");(MK.cot||[]).forEach(x=>{const r=el("div","cot"),bar=el("div","cb"),f=el("span");f.style.width=(x.pct_long??50)+"%";bar.append(f);
+r.append(el("b","",x.name+"  Net "+x.net.toLocaleString()+(x.change==null?"":"  ("+(x.change>=0?"▲ +":"▼ -")+Math.abs(x.change).toLocaleString()+" w/w)")),bar,el("small","","Long "+x.pct_long+"% · report date "+x.date));cl.append(r)});
+if(!cl.children.length)$("cview").textContent="COT data will appear after the next update.";
+str(5)
+}).catch(()=>{$("upd").textContent="Market Pulse will appear here soon."});
+
+let PR=[],FL="All";
+const bd=p=>p.access=="soon"?"Coming soon":p.access=="free"?"Free":(p.price||"Premium");
+const wm=t=>wa("Hello BigMan Capital,\n\n"+t);
+const MT5=["Download the file we send you.","In MetaTrader 5 open File, then Open Data Folder.","Open MQL5, then Experts (or Indicators), and paste the file there.","Restart MetaTrader 5, or right-click Navigator and choose Refresh.","Drag it onto a chart and switch on Algo Trading.","Always test on a demo account first."];
+const TVS=["Open TradingView and click Pine Editor at the bottom.","Paste the script we send you and tap Save.","Click Add to chart.","Open the settings to adjust the look and alerts."];
+function openP(p){const d=$("pm");d.textContent="";const x=el("button","dx","Close");x.onclick=()=>d.close();
+d.append(x,el("span","soon "+(p.access=="soon"?"":"ok"),bd(p)),el("h2","",p.name),el("p","sub",p.tag+(p.platform?" · "+p.platform:"")),el("p","",p.desc||""));
+if((p.features||[]).length){const u=el("ul","tick");p.features.forEach(f=>u.append(el("li","",f)));d.append(el("h3","","Features"),u)}
+if(p.type!="Book"){const o=el("ol","inst");(p.install||(/TradingView/i.test(p.platform||"")?TVS:MT5)).forEach(s=>o.append(el("li","",s)));d.append(el("h3","","How to install"),o)}
+const c=el("div","cta");
+const a=(t,h,g)=>{const l=el("a","btn "+(g?"gold":"ghost"),t);l.href=h;l.target="_blank";l.rel="noopener";return l};
+if(p.access=="free"&&p.file){const l=a("Download",p.file,1);l.removeAttribute("target");l.setAttribute("download","");c.append(l)}
+else if(p.access=="paid"){payBtn(c,p);c.append(a("Get it on WhatsApp",wm(`I'd like to get ${p.name}${p.price?" ("+p.price+")":""}. Please share how to pay and receive it.`),1))}
+else c.append(a("Notify me",wm(`Please notify me when ${p.name} is released.`),1));
+c.append(a("Ask a question",wm(`I have a question about ${p.name}.`)),a("Email",`mailto:${EM}?subject=${encodeURIComponent(p.name)}`));
+d.append(c,el("p","note","Automated trading carries risk. Test on a demo account first. Past performance does not guarantee future results."+(p.access=="paid"?" Online checkout is not available yet, so we complete your order on WhatsApp.":"")));d.showModal()}
+function store(){const g=$("pgrid");g.textContent="";PR.filter(p=>(FL=="All"||p.type==FL)&&p.name.toLowerCase().includes(($("psq").value||"").toLowerCase())).forEach(p=>{const c=el("div","card");c.append(el("span","soon "+(p.access=="soon"?"":"ok"),bd(p)),el("div","ic",IC[p.type]||"📦"),el("h3","",p.name),el("p","",p.tag),el("small","pl",p.platform||""));const b=el("button","btn ghost","View details");b.style.marginTop="16px";b.onclick=()=>openP(p);c.append(b);g.append(c)})}
+fetch("products.json?"+Date.now()).then(r=>r.json()).then(d=>{PR=d;const c=$("pchips");["All","Expert Advisor","Indicator","Book"].forEach((t,i)=>{const b=el("button",i?"":"on",t=="All"?"All":t+"s");b.onclick=()=>{c.querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));FL=t;store()};c.append(b)});store()}).catch(()=>{$("pgrid").textContent="The store will appear here soon."});
+function tv(box,name,cfg){box.textContent="";const c=el("div","tradingview-widget-container"),w=el("div","tradingview-widget-container__widget"),s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/embed-widget-"+name+".js";s.async=true;s.text=JSON.stringify(cfg).replace(/"dark"/g,'"'+TH()+'"');c.append(w,s);box.append(c)}
+const TVW={chart:["advanced-chart",{autosize:true,symbol:"OANDA:XAUUSD",interval:"60",theme:"dark",style:"1",locale:"en",allow_symbol_change:true,save_image:false,backgroundColor:"rgba(14,15,18,1)"}],
+cal:["events",{colorTheme:"dark",isTransparent:true,width:"100%",height:"100%",locale:"en",importanceFilter:"-1,0,1",countryFilter:"us,eu,gb,jp,au,ca,ch,nz"}],
+rates:["forex-cross-rates",{width:"100%",height:"100%",currencies:["EUR","USD","JPY","GBP","CHF","AUD","CAD","NZD"],isTransparent:true,colorTheme:"dark",locale:"en"}],
+tech:["technical-analysis",{interval:"1h",width:"100%",height:"100%",isTransparent:true,symbol:"OANDA:XAUUSD",showIntervalTabs:true,displayMode:"single",locale:"en",colorTheme:"dark"}],
+news:["timeline",{feedMode:"market",market:"forex",isTransparent:true,displayMode:"regular",width:"100%",height:"100%",colorTheme:"dark",locale:"en"}],
+heat:["forex-heat-map",{width:"100%",height:"100%",currencies:["EUR","USD","JPY","GBP","CHF","AUD","CAD","NZD"],isTransparent:true,colorTheme:"dark",locale:"en"}]};
+const live=k=>tv($("tvbox"),TVW[k][0],TVW[k][1]);
+$q("#lseg button").forEach(b=>b.onclick=()=>{$q("#lseg button").forEach(x=>x.classList.toggle("on",x===b));live(b.dataset.k)});
+new IntersectionObserver((e,o)=>{if(e[0].isIntersecting){live("chart");o.disconnect()}},{rootMargin:"300px"}).observe($("live"));
+const TICK={symbols:[{proName:"OANDA:XAUUSD",title:"Gold"},{proName:"FX:EURUSD",title:"EUR/USD"},{proName:"FX:GBPUSD",title:"GBP/USD"},{proName:"FX:USDJPY",title:"USD/JPY"},{proName:"FX:AUDUSD",title:"AUD/USD"},{proName:"FX:USDCAD",title:"USD/CAD"}],showSymbolLogo:false,colorTheme:"dark",isTransparent:true,displayMode:"adaptive",locale:"en"};tv($("tvt"),"ticker-tape",TICK);
+let AR=[];
+function showBrief(i=0){const b=$("art"),a=AR[i];if(!a){b.textContent="Daily briefs will start appearing soon.";return}
+b.textContent="";b.append(el("small","",new Date(a.date).toLocaleDateString([],{dateStyle:"long",timeZone:"UTC"})),el("h3","at",a.title),el("p","sum",a.intro));
+(a.sections||[]).forEach(s=>b.append(el("h4","",s.h),el("p","",s.p)));b.append(el("p","note","For information only. Not financial advice. Forex trading is high risk."));
+const r=$("arch");r.textContent="";AR.slice(0,8).forEach((x,j)=>{const t=el("button",j==i?"on":"",new Date(x.date).toLocaleDateString([],{month:"short",day:"numeric",timeZone:"UTC"}));t.onclick=()=>showBrief(j);r.append(t)})}
+
+</script>
+<script>
+const mb=$("mb"),lk=$("lk"),N=i=>+$(i).value;
+mb.onclick=()=>{mb.setAttribute("aria-expanded",lk.classList.toggle("open"))};
+lk.onclick=e=>{if(e.target.tagName=="A"){lk.classList.remove("open");mb.setAttribute("aria-expanded",false)}};
+$("c5").onchange=()=>{$("c4").value=$("c5").value;calc()};
+function k2(){const r=N("r1"),sl=N("r2"),t=N("r3"),w=N("r4")/100;if(!(r>0&&sl>0&&t>0)){$("r5").textContent="Fill in all fields";return}const rr=t/sl,rw=r*rr,be=100/(1+rr),ev=w*rw-(1-w)*r;$("r5").textContent=`Reward to risk 1:${rr.toFixed(2)}. Reward $${rw.toFixed(2)}. Break-even win rate ${be.toFixed(1)}%. At a ${(w*100).toFixed(0)}% win rate your average result is $${ev.toFixed(2)} per trade.`}
+function k3(){const a=N("p1"),dl=N("p3"),dd=N("p4"),rk=N("p5");if(!(a>0&&rk>0)){$("p6").textContent="Fill in all fields";return}const d=a*dl/100,m=a*dd/100,r=a*rk/100;$("p6").textContent=`Profit target $${(a*N("p2")/100).toFixed(0)}. Daily loss limit $${d.toFixed(0)}. Max drawdown $${m.toFixed(0)}. At ${rk}% risk ($${r.toFixed(2)}) you hit the daily limit after ${Math.floor(d/r)} losses and the drawdown after ${Math.floor(m/r)} losses in a row.`}
+["r1","r2","r3","r4"].forEach(i=>$(i).oninput=k2);["p1","p2","p3","p4","p5"].forEach(i=>$(i).oninput=k3);k2();k3();
+$q("#cseg button").forEach(b=>b.onclick=()=>{$q("#cseg button").forEach(x=>x.classList.toggle("on",x===b));$q(".cp").forEach(c=>c.hidden=c.id!==b.dataset.c)});
+$("psq").oninput=()=>store();
+const qs=()=>{const n=$("qn").value.trim(),sv=$("qs").value,t=$("qm").value.trim(),m=`Hello BigMan Capital,\n\nI'd like to ask about: ${sv}.`+(n?`\nMy name: ${n}`:"")+(t?`\nMessage: ${t}`:"");$("qw").href=wa(m);$("qe").href=`mailto:${EM}?subject=${encodeURIComponent("Enquiry: "+sv)}&body=${encodeURIComponent(m)}`};
+["qn","qs","qm"].forEach(i=>$(i).oninput=qs);$("qs").onchange=qs;qs();
+
+</script>
+<script>
+$("mqt").textContent=("FOREX · GOLD · METATRADER 5 · ACCOUNT MANAGEMENT · CLASSES · COACHING · MENTORSHIP · PROP FIRM PATHWAY · TRADING TOOLS · ").repeat(4);
+document.querySelectorAll("section").forEach(x=>x.classList.add("fade"));
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target.classList.add("in")}),{threshold:.08});
+const obs=()=>document.querySelectorAll(".fade:not(.in)").forEach(x=>io.observe(x));obs();addEventListener("hashchange",()=>setTimeout(obs,50));
+addEventListener("scroll",()=>{$("prog").style.width=(scrollY/Math.max(1,document.documentElement.scrollHeight-innerHeight)*100)+"%"});
+addEventListener("keydown",e=>{if(e.key=="Escape"&&!$("ov").hidden)$("jc").click()});
+function k4(){const b=N("g1"),r=N("g2")/100,m=N("g3");if(!(b>0&&m>0)){$("g4").textContent="Fill in all fields";return}const f=b*Math.pow(1+r,m);$("g4").textContent=`After ${m} months at ${(r*100).toFixed(1)}% a month, $${b.toLocaleString()} becomes $${f.toLocaleString(undefined,{maximumFractionDigits:0})} (a gain of $${(f-b).toLocaleString(undefined,{maximumFractionDigits:0})}).`}
+["g1","g2","g3"].forEach(i=>$(i).oninput=k4);k4();
+const ckf=()=>{const a=[...document.querySelectorAll("#k5 input")],n=a.filter(x=>x.checked).length;$("ckr").textContent=n==a.length?"All "+n+" checks done. You are ready to place the trade.":n+" of "+a.length+" checks done. "+(a.length-n)+" left before you enter."};
+document.querySelectorAll("#k5 input").forEach(x=>x.onchange=ckf);ckf();
+const cv=$("cv"),cx=cv.getContext("2d"),ST=18,rm=matchMedia("(prefers-reduced-motion:reduce)").matches;let W,H,cs,cur,py,al,hold,fr=0;
+function nw(){const o=py,t=Math.min(H*.82,Math.max(H*.22,o+(Math.random()-.5)*70));return{o,c:o,h:o,l:o,t,n:0}}
+function init(){cs=[];py=H*.6;al=1;hold=0;cur=nw()}
+function tick(){if(hold){hold--;if(hold<40)al=hold/40;if(!hold)init();return}
+const k=cur,f=++k.n/20;k.c=k.o+(k.t-k.o)*f+(Math.random()-.5)*16*(1-f);k.h=Math.max(k.h,k.c);k.l=Math.min(k.l,k.c);
+if(k.n>=20){k.c=k.t;k.h=Math.max(k.h,k.c)+Math.random()*9;k.l=Math.min(k.l,k.c)-Math.random()*9;cs.push(k);py=k.c;cur=nw();if((cs.length+1)*ST>W)hold=140}}
+function rs(){W=cv.width=innerWidth;H=cv.height=innerHeight;init();if(rm)while(!hold)tick()}
+function cd(k,i){const x=i*ST+4;cx.strokeStyle=cx.fillStyle=k.c<k.o?"rgba(232,201,120,.75)":"rgba(90,200,180,.55)";cx.beginPath();cx.moveTo(x+6,k.h);cx.lineTo(x+6,k.l);cx.stroke();cx.fillRect(x+2,Math.min(k.o,k.c),8,Math.abs(k.c-k.o)||1)}
+function draw(){cx.clearRect(0,0,W,H);cx.globalAlpha=al;cs.forEach(cd);cd(cur,cs.length);cx.setLineDash([4,6]);cx.strokeStyle="rgba(232,201,120,.35)";cx.beginPath();cx.moveTo(0,cur.c);cx.lineTo(W,cur.c);cx.stroke();cx.setLineDash([]);cx.globalAlpha=1;
+if(!rm){if(++fr%2==0)tick();requestAnimationFrame(draw)}}
+addEventListener("resize",rs);rs();draw();
+
+</script>
+<script>
+const QZ=[["I want someone to trade my account","account"],["I am new to forex","classes"],["I trade but keep losing","coaching"],["I want a mentor long term","mentorship"],["I want automated tools","automations"],["I want a funded account","prop"]];
+$("qz").innerHTML=QZ.map((q,i)=>`<button data-i="${i}">${q[0]}</button>`).join("");
+$("qz").onclick=e=>{const b=e.target.closest("button");if(!b)return;const k=QZ[b.dataset.i][1];$q("#qz button").forEach(x=>x.classList.toggle("on",x===b));const r=$("qzr");r.hidden=false;r.innerHTML=`<div class="ic">${IC2[k]}</div><h3>${S[k].t}</h3><p>${S[k].tag}</p><a class="btn gold" style="margin-top:16px" href="#svc-${k}">See ${S[k].t}</a>`};
+function k6(){const h=N("v1"),l=N("v2"),c=N("v3");if(!(h>l)){$("v4").textContent="High must be above low.";return}const p=(h+l+c)/3,f=x=>x.toFixed(5);$("v4").textContent=`Pivot ${f(p)}. Resistance: R1 ${f(2*p-l)}, R2 ${f(p+h-l)}, R3 ${f(h+2*(p-l))}. Support: S1 ${f(2*p-h)}, S2 ${f(p-(h-l))}, S3 ${f(l-2*(h-p))}.`}
+function k7(){const lt=N("m1"),pr=N("m2"),lv=N("m3"),ct=N("m4");if(!(lt>0&&pr>0&&lv>0&&ct>0)){$("m5").textContent="Fill in all fields";return}$("m5").textContent=`Margin needed: about $${(lt*ct*pr/lv).toLocaleString(undefined,{maximumFractionDigits:2})}. Position value: $${(lt*ct*pr).toLocaleString(undefined,{maximumFractionDigits:0})}.`}
+["v1","v2","v3"].forEach(i=>$(i).oninput=k6);["m1","m2","m3","m4"].forEach(i=>$(i).oninput=k7);k6();k7();
+let LG=[];try{LG=JSON.parse(localStorage.getItem("bm_log")||"[]")}catch(e){}
+const svl=()=>{try{localStorage.setItem("bm_log",JSON.stringify(LG))}catch(e){}};
+function lg(){const t=$("lgt");t.textContent="";const hd=el("tr");["Date","Pair","Side","Result ($)",""].forEach(x=>hd.append(el("th","",x)));t.append(hd);
+LG.slice().reverse().forEach((x,ri)=>{const i=LG.length-1-ri,r=el("tr");[x.d,x.p,x.s,(x.r>0?"+":"")+x.r.toFixed(2)].forEach(v=>r.append(el("td","",v)));const td=el("td"),b=el("button","btn ghost","Delete");b.style.cssText="padding:4px 12px;animation:none";b.onclick=()=>{LG.splice(i,1);svl();lg()};td.append(b);r.append(td);t.append(r)});
+const w=LG.filter(x=>x.r>0).length,net=LG.reduce((a,x)=>a+x.r,0),rv=LG.map(x=>x.r);
+$("lgs").textContent=LG.length?`${LG.length} trades. Win rate ${(w/LG.length*100).toFixed(0)}%. Net ${net>=0?"+":"-"}$${Math.abs(net).toFixed(2)}. Best $${Math.max(...rv).toFixed(2)}. Worst $${Math.min(...rv).toFixed(2)}.`:"No trades logged yet. Your log is saved in this browser only."}
+$("lga").onclick=()=>{const p=$("lgp").value.trim().toUpperCase(),r=parseFloat($("lgr").value);if(!p||isNaN(r)){$("lgs").textContent="Enter a pair and a result in dollars.";return}LG.push({d:new Date().toISOString().slice(0,10),p,s:$("lgd").value,r});svl();$("lgp").value=$("lgr").value="";lg()};
+$("lgx").onclick=()=>{const c="date,pair,side,result\n"+LG.map(x=>[x.d,x.p,x.s,x.r].join(",")).join("\n"),a=document.createElement("a");a.href=URL.createObjectURL(new Blob([c],{type:"text/csv"}));a.download="bigman-trade-log.csv";a.click()};
+$("lgc").onclick=()=>{if(confirm("Delete every logged trade?")){LG=[];svl();lg()}};lg();
+const GL=[["Pip","The smallest standard price move. 0.0001 on most pairs, 0.01 on yen pairs."],["Lot","The trade size. One standard lot is 100,000 units of the base currency."],["Spread","The gap between the buy and sell price. It is the broker's built-in cost."],["Leverage","Borrowed buying power. It increases gains and losses equally."],["Margin","Money the broker holds to keep a leveraged trade open."],["Stop loss","An order that closes a trade at a set loss to cap your risk."],["Take profit","An order that closes a trade when it reaches a set profit."],["Drawdown","The fall from an account's peak balance to a later low."],["Slippage","When a trade fills at a different price than the one you asked for."],["Swap","The interest charged or paid for holding a trade overnight."],["Expert Advisor","A program that trades automatically on MetaTrader."],["COT report","A weekly CFTC report on how large speculators are positioned in futures."],["RSI","An indicator from 0 to 100 that measures how fast price has moved. Above 70 is often called overbought and below 30 oversold."],["Support","A price area where buyers have often stepped in."],["Resistance","A price area where sellers have often stepped in."],["Risk to reward","The potential profit of a trade compared with the amount you risk."],["Prop firm","A company that gives traders capital to trade after they pass an evaluation."],["Demo account","A practice account that trades with virtual money."],["Liquidity sweep","Price runs above a high or below a low to trigger resting stop orders, then reverses."],["Displacement","A strong, fast move of full-bodied candles that shows intent and often leaves a fair value gap."],["Market structure shift","A break of a recent swing high or low with displacement, signalling a possible change of direction."],["Fair value gap","A three-candle imbalance where the first and third candles' wicks do not overlap."],["Consequent encroachment","The 50% level of a fair value gap."],["Order block","The last opposing candle before a strong move, used as an entry zone."],["Premium and discount","The halves of a range above and below its 50% level. Buy in discount, sell in premium."],["Optimal trade entry","The 62% to 79% retracement zone of a move."],["Killzone","A time window, in New York time, when ICT traders expect the most movement: London, New York and London close."],["Power of three","A daily pattern of accumulation, manipulation and distribution."],["SMT divergence","When two correlated markets do not make the same new high or low, hinting at a reversal."]];
+function gl(){const q=$("gq").value.toLowerCase(),g=$("gg");g.textContent="";GL.filter(x=>(x[0]+x[1]).toLowerCase().includes(q)).forEach(x=>{const c=el("div","card");c.append(el("h3","",x[0]),el("p","",x[1]));g.append(c)});if(!g.children.length)g.textContent="No match. Try another word."}
+$("gq").oninput=gl;gl();
+const cb=(t,fn)=>{const b=el("button","btn ghost",t);b.onclick=()=>{fn();b.textContent="Done";setTimeout(()=>b.textContent=t,1500)};$("cta").append(b)};
+const cpy=v=>()=>navigator.clipboard&&navigator.clipboard.writeText(v);
+cb("Copy email",cpy(EM));cb("Copy number",cpy("+254 729 393 153"));
+cb("Share this site",()=>{const u=location.href.split("#")[0];navigator.share?navigator.share({title:"BigMan Capital",url:u}).catch(()=>{}):cpy(u)()});
+addEventListener("scroll",()=>{$("tt").hidden=scrollY<700});
+
+</script>
+<script>
+/* ===== AFFILIATE LINKS: add your partners here =====
+   Each entry: {name:"Name",tag:"One line about it",features:["Point one","Point two"],link:"https://your-affiliate-link"}
+   You can also put them in brokers.json or props.json next to this file. */
+const PARTNERS={brokers:[],props:[]};
+let PT={brokers:[...PARTNERS.brokers],props:[...PARTNERS.props]},PK="brokers";
+function ptr(){const g=$("bgrid");g.textContent="";const L=PT[PK];
+if(!L.length){const c=el("div","card");c.append(el("h3","","Partner links coming soon"),el("p","","We will list our recommended "+(PK=="brokers"?"brokers":"prop firms")+" here. Message us if you want a recommendation now."));g.append(c);return}
+L.forEach(b=>{const c=el("div","card");c.append(el("h3","",b.name),el("p","",b.tag||""));if((b.features||[]).length){const u=el("ul","bl");b.features.forEach(f=>u.append(el("li","",f)));c.append(u)}
+if(/^https?:\/\//.test(b.link)){const a=el("a","btn gold",PK=="brokers"?"Open account":"Start challenge");a.href=b.link;a.target="_blank";a.rel="noopener sponsored";a.style.marginTop="16px";c.append(a)}g.append(c)})}
+$q("#pseg button").forEach(b=>b.onclick=()=>{$q("#pseg button").forEach(x=>x.classList.toggle("on",x===b));PK=b.dataset.p;ptr()});
+["brokers","props"].forEach(k=>fetch(k+".json?"+Date.now()).then(r=>r.json()).then(a=>{if(Array.isArray(a)){PT[k]=PT[k].concat(a);ptr()}}).catch(()=>{}));ptr();
+$q("#oseg button").forEach(b=>b.onclick=()=>{$q("#oseg button").forEach(x=>x.classList.toggle("on",x===b));$q(".op").forEach(q=>q.hidden=q.id!==b.dataset.o)});
+const OP={EURUSD:{inv:"eur-usd",cme:"fx/g10/euro-fx",bc:"6E"},GBPUSD:{inv:"gbp-usd",cme:"fx/g10/british-pound",bc:"6B"},USDJPY:{inv:"usd-jpy",cme:"fx/g10/japanese-yen",bc:"6J"},AUDUSD:{inv:"aud-usd",cme:"fx/g10/australian-dollar",bc:"6A"},USDCAD:{inv:"usd-cad",cme:"fx/g10/canadian-dollar",bc:"6C"},XAUUSD:{inv:"xau-usd",cme:"metals/precious/gold",bc:"GC"}};
+const OSRC={inv:p=>`https://www.investing.com/currencies/${p.inv}-options`,cme:p=>`https://www.cmegroup.com/markets/${p.cme}.quotes.options.html`,bc:p=>`https://www.barchart.com/futures/quotes/${p.bc}*0/options`,oas:()=>"https://www.optionsanalysissuite.com/options-chain",cu:()=>$("ocu").value.trim()};
+const ourl=()=>OSRC[$("osrc").value](OP[$("opair").value]);
+$("osrc").onchange=()=>{$("ocw").hidden=$("osrc").value!="cu"};
+$("oload").onclick=()=>{const u=ourl();if(!/^https:\/\//.test(u)){$("omsg").textContent="Enter a link that starts with https://";return}$("ofr").src=u;$("ofr").hidden=false;$("omsg").textContent="Loading. If the box stays blank, that site does not allow embedding. Use Open in new tab."};
+$("oopen").onclick=()=>{const u=ourl();if(/^https:\/\//.test(u))open(u,"_blank","noopener")};
+function cnd(x){const t=1/(1+.2316419*Math.abs(x)),d=.3989423*Math.exp(-x*x/2),q=d*t*(.3193815+t*(-.3565638+t*(1.781478+t*(-1.821256+t*1.330274))));return x>0?1-q:q}
+const npdf=x=>Math.exp(-x*x/2)/Math.sqrt(2*Math.PI);
+function gk(S,K,T,v,rd,rf){const sq=v*Math.sqrt(T),d1=(Math.log(S/K)+(rd-rf+.5*v*v)*T)/sq,d2=d1-sq,ef=Math.exp(-rf*T),ed=Math.exp(-rd*T);return{c:S*ef*cnd(d1)-K*ed*cnd(d2),p:K*ed*cnd(-d2)-S*ef*cnd(-d1),dc:ef*cnd(d1),dp:-ef*cnd(-d1),g:ef*npdf(d1)/(S*sq),vg:S*ef*npdf(d1)*Math.sqrt(T)/100}}
+function och(){const S=N("os"),v=N("ovl")/100,T=N("od")/365,rd=N("orr")/100,rf=N("orf")/100,st=N("ost"),t=$("ot");t.textContent="";
+if(!(S>0&&v>0&&T>0&&st>0)){t.textContent="Fill in spot, volatility, days and strike step.";return}
+const hd=el("tr");["Strike","Call","Call delta","Put","Put delta","Gamma","Vega"].forEach(x=>hd.append(el("th","",x)));t.append(hd);const K0=Math.round(S/st)*st;
+for(let i=-5;i<=5;i++){const K=K0+i*st,o=gk(S,K,T,v,rd,rf),r=el("tr");[K.toFixed(5),o.c.toFixed(5),o.dc.toFixed(3),o.p.toFixed(5),o.dp.toFixed(3),o.g.toFixed(3),o.vg.toFixed(5)].forEach((x,j)=>{const c=el("td","",x);if(i==0)c.style.color="var(--gold2)";r.append(c)});t.append(r)}}
+["os","ovl","od","orr","orf","ost"].forEach(i=>$(i).oninput=och);och();
+function gex(){const S=N("gs"),v=N("gv")/100,T=N("gd")/365,cz=N("gc"),rows=$("gcsv").value.trim().split(/\n+/).map(l=>l.trim().split(/[,\s;]+/).map(Number)).filter(r=>r.length>=3&&r.every(x=>!isNaN(x))).sort((a,b)=>a[0]-b[0]);
+if(!(S>0&&v>0&&T>0)||!rows.length){$("gres").textContent="Enter spot, volatility, days and at least one strike row.";return}
+const net=sp=>rows.reduce((a,r)=>a+gk(sp,r[0],T,v,0,0).g*(r[1]-r[2])*cz*sp*sp*.01/1e6,0),bars=rows.map(r=>[r[0],gk(S,r[0],T,v,0,0).g*(r[1]-r[2])*cz*S*S*.01/1e6]);
+const c=$("gcv"),x=c.getContext("2d"),w=c.width,h=c.height,m=Math.max(...bars.map(b=>Math.abs(b[1])))||1,bw=w/bars.length,mid=h/2-12;x.clearRect(0,0,w,h);
+x.strokeStyle="rgba(165,168,176,.4)";x.beginPath();x.moveTo(0,mid);x.lineTo(w,mid);x.stroke();x.font="12px Inter,sans-serif";x.textAlign="center";
+const ev=Math.ceil(bars.length/12);
+bars.forEach((b,i)=>{const bh=Math.abs(b[1])/m*(mid-14);x.fillStyle=b[1]>=0?"#4fd18b":"#ff6b6b";x.fillRect(i*bw+bw*.15,b[1]>=0?mid-bh:mid,bw*.7,bh);if(i%ev==0){x.fillStyle="#a5a8b0";x.fillText(String(+b[0].toFixed(5)),i*bw+bw/2,h-6)}});
+const lo=bars[0][0],hi=bars[bars.length-1][0];if(S>=lo&&S<=hi){let i0=0;while(i0<bars.length-2&&bars[i0+1][0]<=S)i0++;const fr=(S-bars[i0][0])/((bars[i0+1]||[hi+1])[0]-bars[i0][0]||1),px=(i0+.5+Math.min(1,fr))*bw;x.setLineDash([5,5]);x.strokeStyle="#e8c978";x.beginPath();x.moveTo(px,6);x.lineTo(px,h-22);x.stroke();x.setLineDash([]);x.fillStyle="#e8c978";x.fillText("Spot",px,14)}
+const cw=bars.reduce((a,b)=>b[1]>a[1]?b:a),pw=bars.reduce((a,b)=>b[1]<a[1]?b:a);let fl=null,pv=net(S*.95);
+for(let k=1;k<=100;k++){const sp=S*(.95+k*.001),nv=net(sp);if(pv*nv<0){fl=sp;break}pv=nv}
+$("gres").textContent=`Biggest positive gamma: ${+cw[0].toFixed(5)}. Biggest negative gamma: ${+pw[0].toFixed(5)}. Zero-gamma level: ${fl?fl.toFixed(5):"not found within 5% of spot"}. Net gamma at spot: ${net(S).toFixed(2)}M per 1% move. Estimate from the numbers you entered, not live data.`}
+$("gdraw").onclick=gex;$("gsam").onclick=()=>{$("gs").value="1.0850";$("gv").value="7";$("gd").value="14";$("gcsv").value="1.0700,800,1500\n1.0750,1200,2100\n1.0800,2600,3100\n1.0850,4200,1800\n1.0900,3900,900\n1.0950,2500,500\n1.1000,1800,300";gex();$("gres").textContent+=" These are sample numbers for demonstration only."};
+function k8(){const h=N("f1"),l=N("f2"),up=$("f3").value=="up";if(!(h>l)){$("f4").textContent="Swing high must be above swing low.";return}const r=h-l,f=v=>v.toFixed(5),R=[.236,.382,.5,.618,.786].map(q=>`${(q*100).toFixed(1)}% ${f(up?h-q*r:l+q*r)}`).join(", "),E=[1.272,1.618].map(q=>`${(q*100).toFixed(1)}% ${f(up?l+q*r:h-q*r)}`).join(", ");$("f4").textContent=`Pullback levels: ${R}. Targets beyond the swing: ${E}.`}
+["f1","f2"].forEach(i=>$(i).oninput=k8);$("f3").onchange=k8;k8();
+
+</script>
+<script>
+function payBtn(c,p){if(/^https:\/\//.test(p.pay||"")){const l=el("a","btn gold","Pay online");l.href=p.pay;l.target="_blank";l.rel="noopener";c.append(l);return}
+if(PAY.paystackKey&&p.amount){const b=el("button","btn gold","Pay with M-Pesa or card");b.onclick=()=>paystack(p.name,p.amount);c.append(b)}}
+function paystack(name,amt){const em=prompt("Your email for the receipt");if(!em)return;
+const go=()=>PaystackPop.setup({key:PAY.paystackKey,email:em,amount:Math.round(amt*100),currency:PAY.currency,ref:"BM"+Date.now(),metadata:{product:name},callback:function(r){alert("Payment received. Reference "+r.reference+". We will send your order on WhatsApp or email.")},onClose:function(){}}).openIframe();
+if(window.PaystackPop)return go();const sc=document.createElement("script");sc.src="https://js.paystack.co/v1/inline.js";sc.onload=go;document.head.append(sc)}
+if(ANALYTICS.plausible){const a=document.createElement("script");a.defer=true;a.dataset.domain=ANALYTICS.plausible;a.src="https://plausible.io/js/script.js";document.head.append(a)}
+$("th").textContent=TH()=="light"?"Dark":"Light";
+$("th").onclick=()=>{const t=TH()=="light"?"dark":"light";document.documentElement.dataset.theme=t;try{localStorage.setItem("bm_theme",t)}catch(e){}$("th").textContent=t=="light"?"Dark":"Light";const on=document.querySelector("#lseg button.on");if(on)live(on.dataset.k);tv($("tvt"),"ticker-tape",TICK)};
+// live stream
+(function(){const p=$("lvp"),h=location.hostname||"localhost";let src="";
+if(LIVE.youtubeVideo)src=`https://www.youtube.com/embed/${encodeURIComponent(LIVE.youtubeVideo)}?rel=0`;
+else if(LIVE.youtubeChannel)src=`https://www.youtube.com/embed/live_stream?channel=${encodeURIComponent(LIVE.youtubeChannel)}&rel=0`;
+else if(LIVE.twitch)src=`https://player.twitch.tv/?channel=${encodeURIComponent(LIVE.twitch)}&parent=${h}&muted=true`;
+if(src){const f=el("iframe");f.src=src;f.title="Live stream";f.allow="autoplay; encrypted-media; picture-in-picture; fullscreen";f.allowFullscreen=true;p.append(f)}
+else{p.classList.add("ph");const d=el("div");d.append(el("h3","at","We go live on TikTok"),el("p","sub","Tap the button to watch when we are live. Check the schedule for the next session."));const a=el("a","btn gold","Watch on TikTok");a.href=LIVE.tiktok;a.target="_blank";a.rel="noopener";d.append(a);p.append(d)}
+if(LIVE.youtubeVideo){const f=el("iframe","lvchat");f.src=`https://www.youtube.com/live_chat?v=${encodeURIComponent(LIVE.youtubeVideo)}&embed_domain=${h}`;f.title="Live chat";$("lvc").append(f)}
+const sd=$("lvs"),nx=(LIVE.schedule||[]).map(x=>({t:x.title,d:new Date(x.date)})).filter(x=>x.d>new Date()).sort((a,b)=>a.d-b.d);
+sd.append(el("div","tag","Next live"));
+const cd=el("div","cd","");const ti=el("p","","");
+if(nx.length){ti.textContent=nx[0].t+" · "+nx[0].d.toLocaleString([],{weekday:"short",month:"short",day:"numeric",hour:"2-digit",minute:"2-digit",timeZoneName:"short"});const tk=()=>{let d=Math.max(0,nx[0].d-new Date())/1000,dd=Math.floor(d/86400),hh=Math.floor(d%86400/3600),mm=Math.floor(d%3600/60),ss=Math.floor(d%60);cd.textContent=(dd?dd+"d ":"")+[hh,mm,ss].map(v=>String(v).padStart(2,"0")).join(":")};tk();setInterval(tk,1000)}
+else{cd.textContent="To be announced";ti.textContent="Follow us on TikTok to hear about the next live first."}
+sd.append(cd,ti);
+const bt=(t,h,g)=>{const a=el("a","btn "+(g?"gold":"ghost"),t);a.href=h;a.target="_blank";a.rel="noopener";a.style.cssText="margin:12px 8px 0 0";return a};
+sd.append(bt("Watch on TikTok",LIVE.tiktok,1));
+if(LIVE.youtubeVideo)sd.append(bt("Watch on YouTube","https://www.youtube.com/watch?v="+encodeURIComponent(LIVE.youtubeVideo)));else if(LIVE.youtubeChannel)sd.append(bt("Watch on YouTube","https://www.youtube.com/channel/"+encodeURIComponent(LIVE.youtubeChannel)+"/live"));
+if(nx.length){const ics=el("button","btn ghost","Add to calendar");ics.style.marginTop="12px";ics.onclick=()=>{const f=d=>d.toISOString().replace(/[-:]|\.\d{3}/g,""),e=new Date(nx[0].d.getTime()+36e5),c=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//BigMan Capital//EN","BEGIN:VEVENT","UID:"+nx[0].d.getTime()+"@bigmancapital","DTSTAMP:"+f(new Date()),"DTSTART:"+f(nx[0].d),"DTEND:"+f(e),"SUMMARY:BigMan Capital live: "+nx[0].t,"URL:"+LIVE.tiktok,"END:VEVENT","END:VCALENDAR"].join("\r\n"),a=document.createElement("a");a.href=URL.createObjectURL(new Blob([c],{type:"text/calendar"}));a.download="bigman-live.ics";a.click()};sd.append(ics);
+sd.append(bt("Remind me on WhatsApp",wa("Hello BigMan Capital,\n\nPlease remind me about the next live session: "+nx[0].t+".")));
+if(nx.length>1){sd.append(el("h4","","Later sessions"));nx.slice(1,5).forEach(x=>{const r=el("div","lrow");r.append(el("b","",x.t),el("span","",x.d.toLocaleString([],{month:"short",day:"numeric",hour:"2-digit",minute:"2-digit"})));sd.append(r)})}}
+})();
+// booking
+(function(){const b=$("bk");if(/^https:\/\//.test(BOOK)){const f=el("iframe","ofr");f.src=BOOK;f.title="Book a consultation";b.append(f);return}
+b.innerHTML=`<div class="cbox" style="margin-top:0"><div class="of"><div><label for="bn">Your name</label><input id="bn"></div><div><label for="bs">Service</label><select id="bs"><option>Account Management</option><option>Trading Classes</option><option>Coaching</option><option>Mentorship</option><option>Trading Automations</option><option>Prop Firm Pathway</option></select></div><div><label for="bd">Preferred date</label><input id="bd" type="date"></div><div><label for="bt">Preferred time</label><input id="bt" type="time" value="10:00"></div></div><div class="cta"><a id="bw" class="btn gold" target="_blank" rel="noopener">Request on WhatsApp</a><a id="be" class="btn ghost">Request by email</a></div><p class="note">This sends a booking request. We reply to confirm the time.</p></div>`;
+$("bd").min=new Date().toISOString().slice(0,10);
+const u=()=>{const n=$("bn").value.trim(),m=`Hello BigMan Capital,\n\nI'd like to book a free consultation about ${$("bs").value}.\nPreferred: ${$("bd").value||"any day"} at ${$("bt").value} (${Intl.DateTimeFormat().resolvedOptions().timeZone}).`+(n?`\nMy name: ${n}`:"");$("bw").href=wa(m);$("be").href=`mailto:${EM}?subject=${encodeURIComponent("Consultation request")}&body=${encodeURIComponent(m)}`};
+["bn","bs","bd","bt"].forEach(i=>{$(i).oninput=u;$(i).onchange=u});u()})();
+// track record and reviews
+if(/^https:\/\//.test(TRACK.embed||"")||/^https:\/\//.test(TRACK.link||"")){$("track").hidden=false;const t=$("trk");if(/^https:\/\//.test(TRACK.embed||"")){const f=el("iframe","ofr");f.src=TRACK.embed;f.title="Verified results";t.append(f)}if(/^https:\/\//.test(TRACK.link||"")){const a=el("a","btn gold","View verified results");a.href=TRACK.link;a.target="_blank";a.rel="noopener";a.style.marginTop="16px";t.append(a)}}
+if(TESTIMONIALS.length){$("reviews").hidden=false;TESTIMONIALS.forEach(x=>{const c=el("div","card");c.append(el("p","q","“"+x.text+"”"),el("b","",x.name),el("p","",x.role||""));$("rvg").append(c)})}
+// course
+let CD=[];try{CD=JSON.parse(localStorage.getItem("bm_course")||"[]")}catch(e){}
+function tgl(i){CD=CD.includes(i)?CD.filter(x=>x!=i):CD.concat(i);try{localStorage.setItem("bm_course",JSON.stringify(CD))}catch(e){}crs()}
+function ytid(u){const m=String(u).match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{11})/);return m?m[1]:(/^[\w-]{11}$/.test(String(u).trim())?String(u).trim():"")}
+function lsn(i){const l=COURSE[i],d=$("pm");d.textContent="";const x=el("button","dx","Close");x.onclick=()=>d.close();
+const box=el("div");box.style.marginTop="14px";
+const yt=el("a","btn ghost","Open on YouTube");yt.target="_blank";yt.rel="noopener";yt.hidden=!l.v;if(l.v)yt.href="https://www.youtube.com/watch?v="+l.v;
+const fd=el("a","btn ghost","Find another short video");fd.href="https://www.youtube.com/results?search_query="+encodeURIComponent(l.q)+"&sp=EgIYAw%253D%253D";fd.target="_blank";fd.rel="noopener";
+const play=id=>{box.textContent="";const f=el("iframe");f.src="https://www.youtube-nocookie.com/embed/"+id+"?rel=0";f.title=l.t;f.allow="encrypted-media; picture-in-picture; fullscreen";f.allowFullscreen=true;f.style.cssText="width:100%;aspect-ratio:16/9;border:0;border-radius:12px";box.append(f);yt.href="https://www.youtube.com/watch?v="+id;yt.hidden=false};
+if(l.v)play(l.v);else box.append(el("p","sub","No video is attached to this lesson yet. Use the buttons below to find a short one, or paste a YouTube link to play it here."));
+const dn=el("button","btn gold",CD.includes(i)?"Done":"Mark done");dn.onclick=()=>{tgl(i);dn.textContent=CD.includes(i)?"Done":"Mark done"};
+const ac=el("div","cta");ac.style.marginTop="14px";ac.append(yt,fd,dn);if(i<COURSE.length-1){const n=el("button","btn ghost","Next lesson");n.onclick=()=>lsn(i+1);ac.append(n)}
+const pi=el("input");pi.placeholder="Paste a YouTube link to play it here";pi.style.marginTop="16px";const pb=el("button","btn ghost","Play here");pb.onclick=()=>{const id=ytid(pi.value);if(id)play(id);else{pi.value="";pi.placeholder="That is not a valid YouTube link"}};
+const ul=el("ul","tick");l.p.forEach(t=>ul.append(el("li","",t)));
+d.append(x,el("span","soon ok","Lesson "+(i+1)+" of "+COURSE.length),el("h2","",l.t),box,ac,el("h3","","What you learn"),el("p","",l.s),ul,pi,pb,el("p","note","Videos are made by independent creators and are for education only. They are not financial advice, and no strategy wins every trade."));d.showModal();d.scrollTop=0}
+function crs(){const g=$("crs");g.textContent="";COURSE.forEach((l,i)=>{const dn=CD.includes(i),c=el("div","card");c.append(el("div","num",String(i+1)),el("h3","",l.t),el("small","pl",l.m),el("p","",l.s.split(". ")[0]+"."));
+const w=el("button","btn "+(dn?"ghost":"gold"),"Watch lesson");w.style.cssText="margin:12px 8px 0 0;animation:none";w.onclick=()=>lsn(i);
+const k=el("button","btn ghost",dn?"Done":"Mark done");k.style.cssText="margin-top:12px;animation:none";k.onclick=()=>tgl(i);c.append(w,k);g.append(c)});
+$("crp").textContent=CD.length+" of "+COURSE.length+" lessons done";$("crb").style.width=CD.length/COURSE.length*100+"%"}
+crs();
+// articles
+$("agrid").innerHTML=Object.keys(POSTS).map(k=>`<a class="card" href="#post-${k}"><h3>${POSTS[k].t}</h3><span class="more">Read the guide</span></a>`).join("");
+// daily brief signup
+(function(){const c=$("chn");c.innerHTML='<h3 style="font-size:1.6rem;color:var(--gold2);margin-bottom:8px">Get the daily brief</h3><p class="sub" style="margin:0 0 14px">Market notes and live session alerts, sent to you.</p><div class="cta" id="chb" style="justify-content:flex-start;margin-top:0"></div>';
+const a=(t,h,g)=>{const l=el("a","btn "+(g?"gold":"ghost"),t);l.href=h;l.target="_blank";l.rel="noopener";$("chb").append(l)};
+if(/^https:\/\//.test(CHANNEL.whatsapp))a("Join WhatsApp channel",CHANNEL.whatsapp,1);if(/^https:\/\//.test(CHANNEL.telegram))a("Join Telegram",CHANNEL.telegram,1);
+a("Ask for it on WhatsApp",wa("Hello BigMan Capital,\n\nPlease add me to your daily market brief and live session alerts."),!(CHANNEL.whatsapp||CHANNEL.telegram));a("Ask by email","mailto:"+EM+"?subject="+encodeURIComponent("Daily brief"))})();
+// install app and service worker
+let DI=null;addEventListener("beforeinstallprompt",e=>{e.preventDefault();DI=e;cb("Install app",()=>DI.prompt())});
+try{if("serviceWorker" in navigator&&/^https?:$/.test(location.protocol)&&navigator.serviceWorker)navigator.serviceWorker.register("sw.js").catch(()=>{})}catch(e){}
+
+</script>
+<script>
+const KZ=[["Asian",1200,1440],["London",120,300],["New York",420,600],["London close",600,720]];
+function kz(){const p=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"numeric",minute:"numeric",hour12:false}).formatToParts(new Date()),n=(+p.find(x=>x.type=="hour").value%24)*60+ +p.find(x=>x.type=="minute").value;
+$("kz").innerHTML=KZ.map(([a,s,e])=>{const on=n>=s&&n<e,w=(s-n+1440)%1440,t=on?"Active now":"Starts in "+Math.floor(w/60)+"h "+w%60+"m",f=v=>String(v/60%24).padStart(2,"0")+":00";return`<div class="sch ${on?"op":""}"><i></i><b>${a}</b><small>${f(s)} to ${f(e)} · ${t}</small></div>`}).join("")}
+kz();setInterval(kz,60000);
+const ck9=()=>{const a=[...document.querySelectorAll("#k9 input")],n=a.filter(x=>x.checked).length;$("ck9").textContent=n==a.length?"All "+n+" checks done. The setup matches the model.":n+" of "+a.length+" checks done. If a check is missing, wait."};
+document.querySelectorAll("#k9 input").forEach(x=>x.onchange=ck9);ck9();
+{const l=el("a","btn ghost","Leave a review");l.href=wa("Hello BigMan Capital,\n\nI'd like to share my experience with your service.");l.target="_blank";l.rel="noopener";$("cta").append(l)}
+</script>
+</body>
+</html>
