@@ -1,5 +1,5 @@
-const C="bm-v2",A=["./","index.html","icon-192.png","icon-512.png","wolf-hero.jpg","wolf-banner.jpg","wolf-icon-64.png"];
-self.addEventListener("install",e=>e.waitUntil(caches.open(C).then(c=>c.addAll(A)).then(()=>self.skipWaiting())));
+const C="bm-v3";
+self.addEventListener("install",()=>self.skipWaiting());
 self.addEventListener("activate",e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!=C).map(x=>caches.delete(x)))).then(()=>self.clients.claim())));
-self.addEventListener("fetch",e=>{if(e.request.method!="GET"||new URL(e.request.url).origin!=location.origin)return;
-e.respondWith(fetch(e.request).then(r=>{const cp=r.clone();caches.open(C).then(c=>c.put(e.request,cp));return r}).catch(()=>caches.match(e.request).then(m=>m||caches.match("index.html"))))});
+self.addEventListener("fetch",e=>{const r=e.request;if(r.method!="GET"||new URL(r.url).origin!=location.origin)return;
+e.respondWith(fetch(r).then(x=>{if(x.ok&&!/news|products|brokers|props/.test(r.url)){const cp=x.clone();caches.open(C).then(c=>c.put(r,cp)).catch(()=>{})}return x}).catch(()=>caches.match(r).then(m=>m||caches.match("index.html"))))});
