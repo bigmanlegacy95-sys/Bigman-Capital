@@ -1,0 +1,15 @@
+[
+  {
+    "name": "BigMan FX Book",
+    "type": "Book",
+    "tag": "A practical guide to trading forex with a plan",
+    "platform": "PDF",
+    "desc": "Describe the book here.",
+    "features": ["Chapter one topic", "Chapter two topic"],
+    "access": "soon",
+    "price": "",
+    "file": "",
+    "pay": "",
+    "amount": 0
+  }
+]
