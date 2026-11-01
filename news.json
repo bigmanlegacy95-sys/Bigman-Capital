@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-01T00:38+00:00",
-  "summary": "Global markets are navigating a mix of rising rate hike bets supporting the U.S. dollar and widespread jitters around tech stock sell-offs driven by AI spending concerns. Major central bank rate decisions have recently caused some dollar dipping and euro gains, while cryptocurrency markets face intense pressure following a historic exchange hack. Meanwhile, surging U.S. treasuries and ongoing geopolitical discussions at international meetings continue to shape macroeconomic sentiment.",
+  "updated": "2026-11-01T03:41+00:00",
+  "summary": "Global markets are reacting to shifting monetary policy expectations and turbulence in the technology sector, driven by recent central bank rate decisions and concerns over AI spending impacts. The U.S. dollar has faced some pressure following midterm and AI jitters, though it retains strength from elevated rate hike bets, while equity markets grapple with plunging tech valuations. Meanwhile, geopolitical and cyber incidents, including a massive crypto hack, have added an extra layer of caution across broader asset classes.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Neutral",
-      "reason": "The pair faces a downtrend technically with RSI near the midpoint amid shifting central bank decisions and a rising dollar."
+      "reason": "Recent ECB and Fed rate decisions have caused mixed movements, leaving the pair consolidating near technical support."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "Sterling finds support from expectations of Bank of England rate hikes and short positioning creating upside potential."
+      "reason": "Expectations of Bank of England rate hikes and short positioning continue to support sterling gains against a slipping dollar."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bearish",
-      "reason": "Sideways-to-weak momentum persists for the dollar against the yen amid elevated positioning shifts and recent dips."
+      "reason": "Elevated long positioning in the yen and ongoing U.S. dollar dips are keeping downside pressure on the pair."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Gold retains a dominant net long positioning reflecting robust underlying demand despite slight weekly changes."
+      "reason": "Strong net long positioning and macroeconomic uncertainties continue to underpin gold's appeal."
     }
   ],
   "watch": [
     "U.S. macroeconomic data releases",
-    "Federal Reserve and ECB policy follow-ups",
-    "Global tech and AI spending sector reports",
-    "Cryptocurrency market developments and security updates"
+    "Central bank commentary on interest rate paths",
+    "Developments in global technology sector earnings and AI spending",
+    "Broader geopolitical and cyber security updates"
   ],
-  "fundamentals": "Macroeconomic drivers are heavily influenced by persistent rate hike expectations keeping the U.S. dollar elevated despite recent dips, alongside massive corporate spending on artificial intelligence affecting tech valuations. International meetings, such as the IMF-World Bank sessions, have pivoted focus toward debt and tech risks while China concerns take a back seat. Additionally, localized economic pressures like retail struggles and energy company shifts are keeping regional risk sentiment mixed.",
-  "technical_view": "EUR/USD is locked in a downtrend trading near 1.117 with an RSI of 48.4, while GBP/USD sits near resistance around 1.340 with an elevated RSI of 68.5 indicating strong short-term momentum. USD/JPY maintains a sideways posture at 157.25 with a softer RSI of 36.6, reflecting potential consolidation zones.",
-  "cot_view": "Commitments of Traders data shows EUR and GBP remaining heavily net short, though sterling exhibits upside potential due to positioning unwinds. Conversely, JPY and Gold maintain strong net long positions, with Gold holding an 85.7% long percentage despite a modest contraction in net longs.",
+  "fundamentals": "Macroeconomic drivers are heavily influenced by evolving central bank trajectories from the Fed, ECB, and Bank of England alongside aggressive corporate spending on artificial intelligence. IMF-World Bank meetings have highlighted persistent global risks including debt and shifting trade dynamics. Additionally, tech sector corrections, such as Google's ad revenue pressures and massive data center investments, are directly impacting risk sentiment and currency flows.",
+  "technical_view": "EUR/USD remains in a downtrend trading near 1.1172 with an RSI of 48.4, while GBP/USD sits near 1.3398 with an overbought RSI of 68.5 approaching resistance. USD/JPY is currently sideways at 157.25 with a softer RSI of 36.6, reflecting recent dollar softness.",
+  "cot_view": "Commitments of Traders data shows EUR holding a large net short position of -143,894 contracts, while GBP maintains a net short stance of -79,414 contracts. Conversely, JPY shows a strong net long position of 101,591 contracts, and Gold retains a heavily dominant net long positioning of 186,451 contracts.",
   "market": {
     "strength": {
       "1": {
