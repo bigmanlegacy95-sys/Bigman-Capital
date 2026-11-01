@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-01T18:29+00:00",
-  "summary": "Global markets navigate contrasting pressures as the US dollar experiences broader October strength alongside a historic surge in US Treasuries, even as recent central bank decisions and tech sector jitters cause short-term dips. Meanwhile, sterling finds support from shifting rate hike expectations and short positioning dynamics, while broader risk sentiment is heavily influenced by massive AI sector spending and an unprecedented cryptocurrency security incident involving Binance. Foreign exchange participants are closely monitoring upcoming central bank announcements, including critical Bank of England rate decisions.",
+  "updated": "2026-11-01T21:27+00:00",
+  "summary": "Global markets navigated crosscurrents today as the U.S. dollar experienced mixed momentum, rising for October on elevated rate hike bets before dipping following recent Federal Reserve and European Central Bank decisions. Meanwhile, sterling extended gains supported by expectations of Bank of England rate hikes and short positioning. Concurrently, US Treasuries rallied significantly while tech stocks faced sharp declines amid mounting AI spending concerns.",
   "outlook": [
     {
       "pair": "EUR/USD",
-      "bias": "Bearish",
-      "reason": "The pair remains in a broader downtrend with persistent net short positioning weighing on the euro."
+      "bias": "Neutral",
+      "reason": "The pair consolidates following recent Fed and ECB rate decisions amidst a broader dollar shift."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "Existing short positioning creates potential for upside while upcoming Bank of England rate hikes offer underlying support."
+      "reason": "Sterling continues to firm and extend gains on expected BoE rate hikes and advantageous positioning."
     },
     {
       "pair": "USD/JPY",
-      "bias": "Neutral",
-      "reason": "Price action remains sideways despite elevated rate hike bets and heavy net long yen positioning."
+      "bias": "Bearish",
+      "reason": "The yen slips and faces downside pressure as broader dollar momentum fluctuates."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Bullish",
-      "reason": "Large net long institutional positioning underscores enduring demand for precious metals amidst macro uncertainties."
+      "bias": "Neutral",
+      "reason": "Gold consolidates near strong net-long institutional positioning as macro drivers settle."
     }
   ],
   "watch": [
-    "US Congressional Elections on November 3, 2026",
-    "RBA Cash Rate and Monetary Policy Statement on November 3, 2026",
-    "BoE Official Bank Rate and MPC Rate Votes on November 5, 2026",
-    "BOE Gov Bailey Speech on November 5, 2026"
+    "U.S. Congressional Elections",
+    "RBA Cash Rate and Rate Statement",
+    "BOE Official Bank Rate and Monetary Policy Summary",
+    "BOE Gov Bailey Speaks"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by evolving central bank policy paths following recent Federal Reserve and European Central Bank rate decisions, alongside aggressive AI infrastructure spending that is reshaping tech equities and broader risk appetite. Currency markets are reacting to shifting yield dynamics, highlighted by a massive surge in US Treasuries to wrap up October. Meanwhile, regional pressures such as UK defense spending debates and central bank rate hike trajectories continue to dictate specific cross-asset flows.",
-  "technical_view": "EUR/USD trades within a recognized downtrend near support at 1.113 with an RSI of 48.4, while GBP/USD hovers near its resistance at 1.34018 with a strong momentum reading of 68.5. USD/JPY remains sideways with an RSI of 36.6, staying bound between support at 156.8 and resistance at 158.6.",
-  "cot_view": "Commitments of Traders data shows EUR and GBP maintaining heavy net short positioning at -143,894 and -79,414 contracts respectively, leaving room for potential short squeezes. Conversely, JPY and Gold retain strong net long stances at 101,591 and 186,451 contracts, reflecting strong institutional conviction in those safe-haven assets.",
+  "fundamentals": "Macro drivers are heavily influenced by shifting central bank rate expectations from the Federal Reserve, ECB, and the Bank of England. Persistent focus remains on tech sector spending, particularly surrounding AI developments, and broader fiscal and debt discussions from global finance meetings. Additionally, upcoming U.S. congressional elections and key UK monetary policy announcements are setting the stage for medium-term FX direction.",
+  "technical_view": "EUR/USD is trading inside a downtrend at 1.11721 with an RSI of 48.4, while GBP/USD sits in a sideways pattern near resistance at 1.34018 with an elevated RSI of 68.5. USD/JPY remains sideways at 157.25 with an RSI of 36.6, indicating subdued momentum near support.",
+  "cot_view": "EUR positioning reflects a heavy net-short stance of -143,894 contracts, while GBP remains net-short at -79,414 contracts though facing upside pressure. Conversely, JPY shows a strong net-long position of 101,591 contracts, and Gold maintains a substantial net-long standing of 186,451 contracts.",
   "market": {
     "strength": {
       "1": {
