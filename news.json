@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-01T03:41+00:00",
-  "summary": "Global markets are reacting to shifting monetary policy expectations and turbulence in the technology sector, driven by recent central bank rate decisions and concerns over AI spending impacts. The U.S. dollar has faced some pressure following midterm and AI jitters, though it retains strength from elevated rate hike bets, while equity markets grapple with plunging tech valuations. Meanwhile, geopolitical and cyber incidents, including a massive crypto hack, have added an extra layer of caution across broader asset classes.",
+  "updated": "2026-11-01T06:41+00:00",
+  "summary": "The US dollar is experiencing upward momentum for October supported by elevated rate hike bets, though it has seen some localized dips following recent Federal Reserve and ECB rate decisions alongside tech and AI jitters. US Treasuries have surged into a major rally, while global equity markets digest broader AI spending and corporate impacts. Meanwhile, sterling continues to find support from expectations around Bank of England actions and favorable positioning.",
   "outlook": [
     {
       "pair": "EUR/USD",
-      "bias": "Neutral",
-      "reason": "Recent ECB and Fed rate decisions have caused mixed movements, leaving the pair consolidating near technical support."
+      "bias": "Bearish",
+      "reason": "The pair sits in a downtrend with elevated US rate hike expectations weighing on the single currency."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "Expectations of Bank of England rate hikes and short positioning continue to support sterling gains against a slipping dollar."
+      "reason": "Sterling firms as UBS highlights short positioning driving upside and potential Bank of England rate hikes offer support."
     },
     {
       "pair": "USD/JPY",
-      "bias": "Bearish",
-      "reason": "Elevated long positioning in the yen and ongoing U.S. dollar dips are keeping downside pressure on the pair."
+      "bias": "Neutral",
+      "reason": "The pair trades sideways near resistance with mixed US dollar dynamics and robust net long positioning in the yen."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Bullish",
-      "reason": "Strong net long positioning and macroeconomic uncertainties continue to underpin gold's appeal."
+      "bias": "Neutral",
+      "reason": "Gold maintains massive net long speculative positioning despite broad Treasury market rallies and shifting rate expectations."
     }
   ],
   "watch": [
-    "U.S. macroeconomic data releases",
-    "Central bank commentary on interest rate paths",
-    "Developments in global technology sector earnings and AI spending",
-    "Broader geopolitical and cyber security updates"
+    "US Congressional Elections",
+    "RBA Cash Rate and Rate Statement",
+    "BOE Official Bank Rate and MPC Rate Votes",
+    "BOE Gov Bailey Speaks"
   ],
-  "fundamentals": "Macroeconomic drivers are heavily influenced by evolving central bank trajectories from the Fed, ECB, and Bank of England alongside aggressive corporate spending on artificial intelligence. IMF-World Bank meetings have highlighted persistent global risks including debt and shifting trade dynamics. Additionally, tech sector corrections, such as Google's ad revenue pressures and massive data center investments, are directly impacting risk sentiment and currency flows.",
-  "technical_view": "EUR/USD remains in a downtrend trading near 1.1172 with an RSI of 48.4, while GBP/USD sits near 1.3398 with an overbought RSI of 68.5 approaching resistance. USD/JPY is currently sideways at 157.25 with a softer RSI of 36.6, reflecting recent dollar softness.",
-  "cot_view": "Commitments of Traders data shows EUR holding a large net short position of -143,894 contracts, while GBP maintains a net short stance of -79,414 contracts. Conversely, JPY shows a strong net long position of 101,591 contracts, and Gold retains a heavily dominant net long positioning of 186,451 contracts.",
+  "fundamentals": "Macroeconomic drivers are heavily influenced by shifting central bank rate trajectories from the Fed, ECB, and Bank of England alongside aggressive US Treasury market movements. Broad market sentiment is increasingly tied to technology sector developments, particularly massive AI spending and its effects on corporate valuations and tech-heavy indices. Trade talks and geopolitical discussions from IMF-World Bank meetings in Bangkok are also shaping cross-border capital flows.",
+  "technical_view": "EUR/USD remains in a clear downtrend with an RSI of 48.4, hovering near support at 1.113. GBP/USD trades sideways near its resistance level of 1.34018 with an overbought RSI of 68.5, while USD/JPY consolidates sideways with a lower RSI of 36.6.",
+  "cot_view": "Commitments of Traders data shows EUR, GBP, and AUD maintain substantial net short positions, while the Japanese Yen and Gold exhibit strong net long positioning with 101,591 and 186,451 contracts respectively. The USD Index holds a firm net long bias at 14,121 contracts.",
   "market": {
     "strength": {
       "1": {
@@ -204,6 +204,92 @@
         "net": 186451,
         "change": -13414,
         "pct_long": 85.7
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-03T03:30+00:00",
+        "country": "AUD",
+        "title": "Cash Rate",
+        "forecast": "4.85%",
+        "previous": "4.60%"
+      },
+      {
+        "date": "2026-11-03T03:30+00:00",
+        "country": "AUD",
+        "title": "RBA Monetary Policy Statement",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-11-03T03:30+00:00",
+        "country": "AUD",
+        "title": "RBA Rate Statement",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-11-03T04:30+00:00",
+        "country": "AUD",
+        "title": "RBA Press Conference",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-11-03T15:16+00:00",
+        "country": "USD",
+        "title": "Congressional Elections",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-11-03T21:45+00:00",
+        "country": "NZD",
+        "title": "Employment Change q/q",
+        "forecast": "0.4%",
+        "previous": "0.5%"
+      },
+      {
+        "date": "2026-11-03T21:45+00:00",
+        "country": "NZD",
+        "title": "Unemployment Rate",
+        "forecast": "5.5%",
+        "previous": "5.6%"
+      },
+      {
+        "date": "2026-11-05T12:00+00:00",
+        "country": "GBP",
+        "title": "BOE Monetary Policy Report",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-11-05T12:00+00:00",
+        "country": "GBP",
+        "title": "Monetary Policy Summary",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-11-05T12:00+00:00",
+        "country": "GBP",
+        "title": "MPC Official Bank Rate Votes",
+        "forecast": "7-0-2",
+        "previous": "3-0-6"
+      },
+      {
+        "date": "2026-11-05T12:00+00:00",
+        "country": "GBP",
+        "title": "Official Bank Rate",
+        "forecast": "4.00%",
+        "previous": "3.75%"
+      },
+      {
+        "date": "2026-11-05T12:30+00:00",
+        "country": "GBP",
+        "title": "BOE Gov Bailey Speaks",
+        "forecast": "",
+        "previous": ""
       }
     ]
   },
