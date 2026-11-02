@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-02T03:45+00:00",
-  "summary": "The US dollar traded in a rangebound pattern ahead of the midterm elections, while a major crypto heist involving Binance introduced broader market caution. Meanwhile, sterling extended its gains supported by persistent rate hike expectations and short positioning upside. Global equities faced downward pressure as technology stocks retreated on escalating AI spending and infrastructure concerns.",
+  "updated": "2026-11-02T07:01+00:00",
+  "summary": "Foreign exchange markets are currently reacting to shifting US Treasury yields, upcoming midterm elections, and broader macroeconomic factors including AI spending dynamics. The US dollar has faced some rangebound conditions and mild softening as yields rallied sharply and markets digested technology sector headwinds. Meanwhile, sterling continues to attract positive attention from institutions like UBS amid potential rate hike expectations, while Asian currencies hold mixed ranges.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Price remains in a downtrend below key resistance with persistent net short positioning."
+      "reason": "The pair remains in a broader downtrend with lingering negative net institutional positioning."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "Sterling firms as short positioning creates upside momentum ahead of the upcoming BOE meeting."
+      "reason": "UBS notes that existing short positioning and upcoming BoE rate hike expectations create upside potential."
     },
     {
       "pair": "USD/JPY",
       "bias": "Neutral",
-      "reason": "The pair trades sideways near mid-range with RSI reflecting lack of strong directional momentum."
+      "reason": "Price action is sideways while the US dollar consolidates ahead of the midterms and strong Japanese net long positioning persists."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Commitments of Traders report shows heavily net-long positioning backed by macro safe-haven demand."
+      "reason": "Gold retains massive net long positioning despite minor weekly position reductions amidst broader macro uncertainty."
     }
   ],
   "watch": [
-    "US Congressional Elections on Nov 3",
-    "RBA Rate Statement and Cash Rate on Nov 3",
-    "BOE Official Bank Rate and Monetary Policy Report on Nov 5",
-    "BOE Gov Bailey Speech on Nov 5"
+    "US Congressional Elections",
+    "RBA Rate Decision and Monetary Policy Statement",
+    "BoE Official Bank Rate and Monetary Policy Report",
+    "BOE Gov Bailey Speech"
   ],
-  "fundamentals": "Macro drivers are dominated by shifting monetary policy expectations from major central banks alongside elevated US Treasury yields and ongoing US midterm election anticipation. Geopolitical discussions at IMF-World Bank meetings highlighted persistent concerns over global debt and infrastructure expenditure, particularly around AI capital deployment. Simultaneously, systemic risks materialized via a record cryptocurrency security breach, though broader macroeconomic sentiment continues to track interest rate trajectories and incoming political outcomes.",
-  "technical_view": "EUR/USD sits in a definitive downtrend at 1.1172 with an RSI of 48.4, facing resistance at 1.1269. GBP/USD trades sideways near 1.3399 with an overbought RSI of 68.5 testing immediate resistance, while USD/JPY hovers sideways at 157.25 with a subdued RSI of 36.6.",
-  "cot_view": "The COT positioning reveals a massive net-long bias in Gold at over 186k contracts despite modest long liquidation. EUR and GBP maintain substantial net-short positioning, though short covering and upside momentum continue to support sterling price action.",
+  "fundamentals": "Macro drivers are heavily influenced by shifting expectations around central bank rate paths, elevated Treasury rallies, and fiscal discussions emerging from global meetings. Concerns over technology sector spending and AI capital allocation are spilling into broader risk sentiment, affecting capital flows across major currencies. Additionally, upcoming political risk from US midterms and crucial monetary policy announcements from the RBA and BoE are driving near-term positioning.",
+  "technical_view": "EUR/USD trades within a defined downtrend near 1.1172 with an RSI of 48.4, while GBP/USD hovers near resistance around 1.3401 with an overbought RSI of 68.5. USD/JPY remains sideways near 157.25 with a subdued RSI of 36.6, reflecting compressed volatility ahead of major event risks.",
+  "cot_view": "Commitments of Traders data shows EUR and GBP maintaining heavy net short positioning, though GBP faces potential short-squeeze dynamics as noted by UBS. Conversely, JPY and Gold retain strong net long stances, with Gold holding a dominant 85.7% long percentage despite a modest contraction in net longs.",
   "market": {
     "strength": {
       "1": {
@@ -296,6 +296,11 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Asian currencies mixed as yuan holds near four-year high, dollar steadies",
+      "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-yuan-holds-near-fouryear-high-dollar-steadies-4989824"
+    },
+    {
+      "source": "Investing.com",
       "title": "Dollar rangebound ahead of US midterms; bitcoin reels from crypto heist",
       "link": "https://www.investing.com/news/forex-news/dollar-rangebound-ahead-of-us-midterms-bitcoin-reels-from-crypto-heist-4989794"
     },
@@ -328,11 +333,6 @@
       "source": "Investing.com",
       "title": "UBS raises zloty forecast as currency faces mounting pressure",
       "link": "https://www.investing.com/news/forex-news/ubs-raises-zloty-forecast-as-currency-faces-mounting-pressure-93CH-4986332"
-    },
-    {
-      "source": "Investing.com",
-      "title": "UBS sees Bank of England rate hikes supporting pound vs franc",
-      "link": "https://www.investing.com/news/forex-news/ubs-sees-bank-of-england-rate-hikes-supporting-pound-vs-franc-93CH-4986322"
     }
   ],
   "articles": [
