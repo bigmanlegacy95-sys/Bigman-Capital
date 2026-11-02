@@ -2,7 +2,7 @@
 <html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8">
-<script>document.documentElement.dataset.theme="light";try{localStorage.removeItem("bm_theme")}catch(e){}</script>
+<script>document.documentElement.dataset.theme="light";try{localStorage.removeItem("bm_theme")}catch(e){}window.DIP=null;addEventListener("beforeinstallprompt",function(e){e.preventDefault();window.DIP=e});setTimeout(function(){var x=document.getElementById("splash");if(x)x.remove()},5000)</script>
 <script>addEventListener("error",function(e){if(!e.filename||e.filename.split("#")[0]!==location.href.split("#")[0])return;var b=document.getElementById("errbar");if(!b){b=document.createElement("div");b.id="errbar";b.style.cssText="position:fixed;left:8px;right:8px;bottom:84px;z-index:999;background:#7a1f1f;color:#fff;padding:10px 14px;border-radius:10px;font:13px/1.4 sans-serif";(document.body||document.documentElement).appendChild(b)}b.textContent="Page error: "+e.message+" (line "+e.lineno+"). Please screenshot this and send it to your developer."})</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>BigMan Capital</title>
@@ -202,9 +202,25 @@ html[data-theme=light] .thb.inst{color:#fff}
 html[data-theme=light] .bg::before,html[data-theme=light] section::before,html[data-theme=light] .pg::before,html[data-theme=light] footer::before{opacity:.05}
 html[data-theme=light] section::after,html[data-theme=light] .pg::after{opacity:.1}
 html[data-theme=light] .tabs button.on,html[data-theme=light] .seg button.on{color:#fff}
+#splash{position:fixed;inset:0;z-index:10000;background:#0e0f12;display:grid;place-items:center;animation:spOut .7s ease 4s forwards}
+html[data-theme=light] #splash{background:#f7f5ef}
+.sp-in{text-align:center;padding:20px}
+.sp-logo{position:relative;width:132px;height:132px;margin:0 auto 26px}
+.sp-logo::before{content:"";position:absolute;inset:-10px;border-radius:50%;background:conic-gradient(transparent 0 50%,var(--gold) 80%,var(--gold2));-webkit-mask:radial-gradient(circle,transparent 63%,#000 65%);mask:radial-gradient(circle,transparent 63%,#000 65%);animation:spSpin 1.5s linear infinite}
+.sp-logo img{width:132px;height:132px;border-radius:50%;object-fit:cover;animation:spPulse 2s ease-in-out infinite;box-shadow:0 0 60px rgba(201,162,75,.35)}
+.sp-name{font:700 2.3rem "Cormorant Garamond",Georgia,serif;color:var(--text)}.sp-name b{color:var(--gold2)}
+.sp-tag{color:var(--mute);letter-spacing:4px;text-transform:uppercase;font-size:.72rem;margin-top:6px}
+.sp-bar{width:min(260px,70vw);height:4px;border-radius:4px;background:rgba(201,162,75,.2);margin:28px auto 0;overflow:hidden}
+.sp-bar span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--gold2));animation:spFill 3.9s ease-out forwards}
+@keyframes spSpin{to{transform:rotate(360deg)}}@keyframes spPulse{50%{transform:scale(.95)}}@keyframes spFill{to{width:100%}}@keyframes spOut{to{opacity:0;visibility:hidden}}
+@media(prefers-reduced-motion:reduce){#splash{display:none}}
+.idimg{width:100%;border-radius:12px;margin-bottom:14px;display:block;border:1px solid var(--line)}
+.lv{display:flex;gap:14px;flex-wrap:wrap;margin-top:12px;font-size:.85rem;color:var(--mute)}.lv b{color:var(--text)}
+#ideas::before{background-image:url(wolf-mist.jpg);opacity:.17}
 </style>
 </head>
 <body>
+<div id="splash" aria-hidden="true"><div class="sp-in"><div class="sp-logo"><img src="icon-192.png" alt="" width="132" height="132"></div><div class="sp-name"><b>BigMan</b> Capital</div><div class="sp-tag">Trade with a plan</div><div class="sp-bar"><span></span></div></div></div>
 <noscript><p style="padding:20px;text-align:center">Please turn on JavaScript to use this site.</p></noscript>
 <div id="prog"></div>
 <div class="bg"><canvas id="cv"></canvas><div class="orb o1"></div><div class="orb o2"></div></div>
@@ -293,6 +309,12 @@ html[data-theme=light] .tabs button.on,html[data-theme=light] .seg button.on{col
 <div class="tw" style="margin-top:14px"><table id="ot"></table></div></div>
 </div>
 <p class="note">For information only. This is not financial advice and results are never guaranteed. Forex trading is high risk.</p></div>
+</section>
+
+<section id="ideas">
+<div class="tag">Trade ideas</div><h2 class="h">Our latest trade ideas</h2>
+<p class="sub">Setups we are watching, with entry, stop loss, target and the reasoning. Ideas are for education, not advice, and any trade can lose.</p>
+<div class="grid" id="idg"></div><div class="cta" id="idc" style="justify-content:flex-start"></div>
 </section>
 
 <section id="brief">
@@ -439,7 +461,7 @@ html[data-theme=light] .tabs button.on,html[data-theme=light] .seg button.on{col
 <section id="partners">
 <div class="tag">Partners</div><h2 class="h">Brokers and prop firms</h2>
 <p class="sub">Firms we recommend. Open an account or start a challenge through our links and we may earn a commission. It does not change the price you pay.</p>
-<div class="seg" id="pseg"><button class="on" data-p="brokers">Brokers</button><button data-p="props">Prop firms</button></div>
+<div class="seg" id="pseg"><button class="on" data-p="brokers">Brokers</button><button data-p="props">Prop firms</button><button data-p="compare">Compare prop firms</button></div>
 <div class="grid" id="bgrid"></div>
 <p class="note">Check that any broker or prop firm is licensed and available in your country before you deposit or pay. Trading involves risk and passing a challenge is never guaranteed.</p>
 </section>
@@ -489,6 +511,11 @@ const TRACK={embed:"",link:""};
 const TESTIMONIALS=[];
 const CHANNEL={whatsapp:"",telegram:""};
 const ANALYTICS={plausible:""};
+/* TRADE IDEAS: newest first. chart = a TradingView snapshot link (camera icon, Copy link) or an https image link.
+   Example: {date:"2026-11-02",pair:"XAU/USD",side:"Buy",title:"Gold retest of support",reason:"Why you like it",entry:"2650",sl:"2640",tp:"2680",status:"Open",chart:"https://www.tradingview.com/x/AbCdEfGh/"} */
+const IDEAS=[];
+const TVPROFILE="";
+const PFM_URL="https://propfirmmatch.com/";
 const TH=()=>document.documentElement.dataset.theme=="light"?"light":"dark";
 document.documentElement.dataset.theme="light";
 const COURSE=[
@@ -689,7 +716,12 @@ const PARTNERS={brokers:[
 {name:"JustMarkets",tag:"Online forex and CFD broker",features:["Trade forex and gold","MetaTrader 4 and 5 platforms","Check it is licensed in your country before depositing"],link:"https://one.justmarkets.link/a/xrd460qvgj"}
 ],props:[]};
 let PT={brokers:[...PARTNERS.brokers],props:[...PARTNERS.props]},PK="brokers";
-function ptr(){const g=$("bgrid");g.textContent="";const L=PT[PK];
+function pfm(g){const c=el("div","card");c.style.gridColumn="1/-1";c.append(el("h3","","Compare prop firms"),el("p","","Compare prop firms by price, rules, drawdown limits and discounts on Prop Firm Match, then pick the one that fits your plan."));
+const a=el("div","cta");a.style.justifyContent="flex-start";const sh=el("button","btn gold","Show here"),op=el("a","btn ghost","Open in new tab");op.href=PFM_URL;op.target="_blank";op.rel="noopener sponsored";a.append(sh,op);
+const f=el("iframe","ofr");f.title="Prop Firm Match";f.hidden=true;f.referrerPolicy="no-referrer";f.setAttribute("sandbox","allow-scripts allow-same-origin allow-forms allow-popups");
+sh.onclick=()=>{f.src=PFM_URL;f.hidden=false;note.textContent="Loading. If the box stays blank, Prop Firm Match does not allow embedding. Use Open in new tab."};
+const note=el("p","note","Some sites do not allow themselves to be shown inside other websites. If the box stays blank, use Open in new tab.");c.append(a,note,f);g.append(c)}
+function ptr(){const g=$("bgrid");g.textContent="";if(PK=="compare"){pfm(g);return}const L=PT[PK];
 if(!L.length){const c=el("div","card");c.append(el("h3","","Partner links coming soon"),el("p","","We will list our recommended "+(PK=="brokers"?"brokers":"prop firms")+" here. Message us if you want a recommendation now."));g.append(c);return}
 L.forEach(b=>{const c=el("div","card");c.append(el("h3","",b.name),el("p","",b.tag||""));if((b.features||[]).length){const u=el("ul","bl");b.features.forEach(f=>u.append(el("li","",f)));c.append(u)}
 if(/^https?:\/\//.test(b.link)){const a=el("a","btn gold",PK=="brokers"?"Open account":"Start challenge");a.href=b.link;a.target="_blank";a.rel="noopener sponsored";a.style.marginTop="16px";c.append(a)}g.append(c)})}
@@ -793,7 +825,7 @@ const a=(t,h,g)=>{const l=el("a","btn "+(g?"gold":"ghost"),t);l.href=h;l.target=
 if(/^https:\/\//.test(CHANNEL.whatsapp))a("Join WhatsApp channel",CHANNEL.whatsapp,1);if(/^https:\/\//.test(CHANNEL.telegram))a("Join Telegram",CHANNEL.telegram,1);
 a("Ask for it on WhatsApp",wa("Hello BigMan Capital,\n\nPlease add me to your daily market brief and live session alerts."),!(CHANNEL.whatsapp||CHANNEL.telegram));a("Ask by email","mailto:"+EM+"?subject="+encodeURIComponent("Daily brief"))})();
 // install app and service worker
-let DI=null;addEventListener("beforeinstallprompt",e=>{e.preventDefault();DI=e});
+
 try{if("serviceWorker" in navigator&&/^https?:$/.test(location.protocol)&&navigator.serviceWorker)navigator.serviceWorker.register("sw.js").catch(()=>{})}catch(e){}
 
 </script>
@@ -845,14 +877,30 @@ document.addEventListener("click",e=>{const a=e.target.closest&&e.target.closest
 {const q=[...document.querySelectorAll("#faq details")].map(d=>({"@type":"Question",name:d.querySelector("summary").textContent,acceptedAnswer:{"@type":"Answer",text:d.querySelector("p").textContent}}));const sc=document.createElement("script");sc.type="application/ld+json";sc.text=JSON.stringify({"@context":"https://schema.org","@type":"FAQPage",mainEntity:q});document.head.append(sc)}
 
 // install app button (always visible unless already installed)
-function inst(){if(DI){DI.prompt();if(DI.userChoice)DI.userChoice.then(()=>{DI=null});return}
-const ua=navigator.userAgent,m=/iphone|ipad|ipod/i.test(ua)?"On iPhone or iPad: tap the Share icon in Safari, then choose Add to Home Screen.":/android/i.test(ua)?"Tap the browser menu (the three dots), then choose Install app or Add to Home screen.":"Click the install icon at the right of the address bar, or open the browser menu and choose Install.";
-const d=$("pm");d.textContent="";const x=el("button","dx","Close");x.onclick=()=>d.close();d.append(x,el("h2","","Install BigMan Capital"),el("p","sub",m),el("p","note","Installing puts the site on your home screen like an app. It needs the site to be opened over https."));d.showModal()}
+function inst(){const e=window.DIP;if(e){e.prompt();if(e.userChoice)e.userChoice.then(r=>{window.DIP=null;if(r&&r.outcome=="accepted")toast("Installing…")});return}
+const ua=navigator.userAgent,inapp=/FBAN|FBAV|Instagram|TikTok|musical_ly|Line\/|Snapchat|; wv\)/i.test(ua),ios=/iphone|ipad|ipod/i.test(ua);
+const m=inapp?"This in-app browser cannot install apps. Tap the menu and choose Open in Chrome (or Safari), then tap Install app again.":ios?"On iPhone or iPad: tap the Share icon in Safari, then choose Add to Home Screen. Apple does not allow one-tap install.":/android/i.test(ua)?"Your browser has not offered one-tap install yet. Wait a few seconds and tap again, or use the browser menu (three dots) and choose Install app.":"Your browser has not offered one-tap install yet. Wait a few seconds and tap again, or click the install icon at the right of the address bar.";
+const d=$("pm");d.textContent="";const x=el("button","dx","Close");x.onclick=()=>d.close();d.append(x,el("h2","","Install BigMan Capital"),el("p","sub",m),el("p","note","The site must be opened over https for install to work."));d.showModal()}
 $("ib").onclick=$("ib2").onclick=inst;cb("Install app",inst);
 SI.push({t:"Install the app",k:"link",x:"home screen phone download",go:inst});
 const hideInst=()=>{document.querySelectorAll(".inst").forEach(b=>b.hidden=true);[...$("cta").querySelectorAll("button")].filter(b=>/Install/.test(b.textContent)).forEach(b=>b.hidden=true)};
 if(matchMedia("(display-mode: standalone)").matches||navigator.standalone)hideInst();
 addEventListener("appinstalled",hideInst);
+</script>
+<script>
+
+// trade ideas
+function idr(list){const g=$("idg");g.textContent="";const ok=u=>/^https:\/\//.test(u||"");
+list.forEach(x=>{const c=el("div","card");let img="",link="";if(ok(x.chart)){const m=x.chart.match(/tradingview\.com\/x\/([A-Za-z0-9]+)/);if(m){link=x.chart;img="https://s3.tradingview.com/"+m[1][0].toLowerCase()+"/"+m[1]+"_mid.png"}else if(/\.(png|jpe?g|webp)(\?|$)/i.test(x.chart))img=x.chart;else link=x.chart}
+if(img){const i=el("img","idimg");i.src=img;i.alt=(x.pair||"")+" chart";i.loading="lazy";i.onerror=()=>i.remove();if(link){const a=el("a");a.href=link;a.target="_blank";a.rel="noopener";a.append(i);c.append(a)}else c.append(i)}
+const buy=/buy|long/i.test(x.side||""),b=el("span","badge "+(buy?"Bullish":"Bearish"),x.side||"");c.append(b,el("small","pl",[x.pair,x.date].filter(Boolean).join(" · ")),el("h3","",x.title||""),el("p","",x.reason||""));
+const lv=el("div","lv");[["Entry",x.entry],["Stop",x.sl],["Target",x.tp],["Status",x.status]].forEach(([k,v])=>{if(v){const s=el("span","",k+" ");s.append(el("b","",String(v)));lv.append(s)}});c.append(lv);
+if(link){const a=el("a","btn ghost","Open chart on TradingView");a.href=link;a.target="_blank";a.rel="noopener";a.style.marginTop="14px";c.append(a)}g.append(c)});
+if(!list.length){const c=el("div","card");c.append(el("h3","","No trade ideas posted yet"),el("p","","We share our setups in the live sessions and on TikTok. Join us there for the next one."));g.append(c)}}
+idr(IDEAS);
+{const bt=(t,h,g)=>{const a=el("a","btn "+(g?"gold":"ghost"),t);a.href=h;if(/^https/.test(h)){a.target="_blank";a.rel="noopener"}$("idc").append(a)};
+bt("Watch the live","#livestream",1);bt("Follow on TikTok","https://www.tiktok.com/@"+TIK);if(/^https:\/\//.test(TVPROFILE))bt("Follow on TradingView",TVPROFILE)}
+SI.push({t:"Trade ideas",k:"section",x:"setups entry stop target chart",go:()=>nav("#ideas")},{t:"Compare prop firms (Prop Firm Match)",k:"section",x:"propfirmmatch challenge rules discount",go:()=>{nav("#partners");document.querySelector('#pseg [data-p="compare"]').click()}});
 </script>
 </body>
 </html>
