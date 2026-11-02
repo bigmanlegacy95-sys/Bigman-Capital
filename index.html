@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8">
+<script>document.documentElement.dataset.theme="light";try{localStorage.removeItem("bm_theme")}catch(e){}</script>
 <script>addEventListener("error",function(e){if(!e.filename||e.filename.split("#")[0]!==location.href.split("#")[0])return;var b=document.getElementById("errbar");if(!b){b=document.createElement("div");b.id="errbar";b.style.cssText="position:fixed;left:8px;right:8px;bottom:84px;z-index:999;background:#7a1f1f;color:#fff;padding:10px 14px;border-radius:10px;font:13px/1.4 sans-serif";(document.body||document.documentElement).appendChild(b)}b.textContent="Page error: "+e.message+" (line "+e.lineno+"). Please screenshot this and send it to your developer."})</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>BigMan Capital</title>
 <meta name="description" content="BigMan Capital manages client funds in forex and gold, and teaches traders with classes, coaching, mentorship and MT5 tools.">
-<meta property="og:title" content="BigMan Capital"><meta property="og:description" content="Forex fund management, trading classes, coaching, mentorship and MT5 tools."><meta property="og:type" content="website"><meta property="og:image" content="og-image.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="og-image.jpg"><meta name="theme-color" content="#0e0f12">
+<meta property="og:title" content="BigMan Capital"><meta property="og:description" content="Forex fund management, trading classes, coaching, mentorship and MT5 tools."><meta property="og:type" content="website"><meta property="og:image" content="og-image.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="og-image.jpg"><meta name="theme-color" content="#f7f5ef">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"BigMan Capital","email":"bigmancapital.support@gmail.com","telephone":"+254729393153","sameAs":["https://www.tiktok.com/@bigman.forex.trading"]}</script>
 <link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-192.png">
 <link rel="icon" type="image/png" sizes="32x32" href="wolf-icon-32.png"><link rel="icon" type="image/png" sizes="64x64" href="wolf-icon-64.png">
@@ -195,6 +196,12 @@ body{padding-bottom:64px}.wa{bottom:calc(76px + env(safe-area-inset-bottom,0px))
 html[data-theme=light] .dock{background:rgba(247,245,239,.96)}
 .thb.inst{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#1a1405;border-color:transparent;font-weight:600}
 @media(max-width:700px){#ib{display:none}}
+html[data-theme=light]{--up:#13795a;--down:#b3302a}
+.hcap{color:#e8c978}
+html[data-theme=light] .thb.inst{color:#fff}
+html[data-theme=light] .bg::before,html[data-theme=light] section::before,html[data-theme=light] .pg::before,html[data-theme=light] footer::before{opacity:.05}
+html[data-theme=light] section::after,html[data-theme=light] .pg::after{opacity:.1}
+html[data-theme=light] .tabs button.on,html[data-theme=light] .seg button.on{color:#fff}
 </style>
 </head>
 <body>
@@ -483,7 +490,7 @@ const TESTIMONIALS=[];
 const CHANNEL={whatsapp:"",telegram:""};
 const ANALYTICS={plausible:""};
 const TH=()=>document.documentElement.dataset.theme=="light"?"light":"dark";
-try{const t=localStorage.getItem("bm_theme");if(t)document.documentElement.dataset.theme=t}catch(e){}
+document.documentElement.dataset.theme="light";
 const COURSE=[
 {t:"ICT in 12 minutes: the big picture",v:"arJI_3HhgxA",m:"About 12 min",q:"ICT concepts explained for beginners",s:"ICT is a method of reading price built around liquidity, market structure, imbalances and time. The 2022 model puts them in one sequence: price sweeps liquidity, shifts structure with displacement, then returns to a fair value gap where you look for an entry. This lesson shows how the pieces fit before you study each one.",p:["Liquidity is where stop orders rest: above highs and below lows","Structure tells you the direction, a sweep tells you where price may go","The entry zone is a fair value gap or order block, taken in a killzone","Every later lesson is one piece of this chain"]},
 {t:"Market structure shift and displacement",v:"_94CPMjWi9E",m:"About 8 min",q:"ICT market structure shift displacement",s:"A market structure shift happens when price breaks a recent swing high or low with displacement. Displacement means strong, full-bodied candles that move fast and leave gaps behind. It matters most right after a liquidity sweep and at a higher timeframe level.",p:["Displacement is an aggressive move of full-bodied candles","Bullish shift: close above the previous swing high","Bearish shift: close below the previous swing low","Slow drifting through a level is not a valid shift"]},
@@ -677,7 +684,10 @@ addEventListener("scroll",()=>{$("tt").hidden=scrollY<700});
 /* ===== AFFILIATE LINKS: add your partners here =====
    Each entry: {name:"Name",tag:"One line about it",features:["Point one","Point two"],link:"https://your-affiliate-link"}
    You can also put them in brokers.json or props.json next to this file. */
-const PARTNERS={brokers:[],props:[]};
+const PARTNERS={brokers:[
+{name:"Exness",tag:"Online forex and CFD broker",features:["Trade forex and gold","MetaTrader 4 and 5 platforms","Check it is licensed in your country before depositing"],link:"https://one.exnessonelink.com/a/pf5lxpdd55"},
+{name:"JustMarkets",tag:"Online forex and CFD broker",features:["Trade forex and gold","MetaTrader 4 and 5 platforms","Check it is licensed in your country before depositing"],link:"https://one.justmarkets.link/a/xrd460qvgj"}
+],props:[]};
 let PT={brokers:[...PARTNERS.brokers],props:[...PARTNERS.props]},PK="brokers";
 function ptr(){const g=$("bgrid");g.textContent="";const L=PT[PK];
 if(!L.length){const c=el("div","card");c.append(el("h3","","Partner links coming soon"),el("p","","We will list our recommended "+(PK=="brokers"?"brokers":"prop firms")+" here. Message us if you want a recommendation now."));g.append(c);return}
@@ -724,7 +734,7 @@ const go=()=>PaystackPop.setup({key:PAY.paystackKey,email:em,amount:Math.round(a
 if(window.PaystackPop)return go();const sc=document.createElement("script");sc.src="https://js.paystack.co/v1/inline.js";sc.onload=go;document.head.append(sc)}
 if(ANALYTICS.plausible){const a=document.createElement("script");a.defer=true;a.dataset.domain=ANALYTICS.plausible;a.src="https://plausible.io/js/script.js";document.head.append(a)}
 $("th").textContent=TH()=="light"?"Dark":"Light";
-$("th").onclick=()=>{const t=TH()=="light"?"dark":"light";document.documentElement.dataset.theme=t;try{localStorage.setItem("bm_theme",t)}catch(e){}$("th").textContent=t=="light"?"Dark":"Light";const on=document.querySelector("#lseg button.on");if(on)live(on.dataset.k);tv($("tvt"),"ticker-tape",TICK)};
+$("th").onclick=()=>{const t=TH()=="light"?"dark":"light";document.documentElement.dataset.theme=t;$("th").textContent=t=="light"?"Dark":"Light";const on=document.querySelector("#lseg button.on");if(on)live(on.dataset.k);tv($("tvt"),"ticker-tape",TICK)};
 // live stream
 (function(){const p=$("lvp"),h=location.hostname||"localhost";let src="";
 if(LIVE.youtubeVideo)src=`https://www.youtube.com/embed/${encodeURIComponent(LIVE.youtubeVideo)}?rel=0`;
