@@ -1,124 +1,124 @@
 {
-  "updated": "2026-11-02T12:50+00:00",
-  "summary": "The foreign exchange market is navigating a rangebound U.S. dollar ahead of upcoming midterms, alongside geopolitical developments surrounding Iran and trade discussions involving China. Meanwhile, the euro digests a recent Fitch outlook downgrade and stable French yields, while sterling finds support from short positioning. Elsewhere, persistent negative real rates in Japan continue to underpin the USD/JPY pair.",
+  "updated": "2026-11-02T15:51+00:00",
+  "summary": "Forex markets are currently rangebound as traders digest ongoing U.S. midterm elections, lingering AI trade themes, and geopolitical developments involving Iran diplomacy. The U.S. dollar has steadied despite recent rate hike bets, while the euro is weighed down by a Fitch outlook downgrade. Meanwhile, sterling has seen some support from short positioning and diplomatic bets, and the Japanese yen continues to be pressured by negative real rates.",
   "outlook": [
     {
       "pair": "EUR/USD",
-      "bias": "Bearish",
-      "reason": "Weighed down by a recent Fitch outlook downgrade and prevailing downtrend structure."
+      "bias": "Neutral",
+      "reason": "Sideways price action with mild pressure from Fitch rating concerns offsetting greenback ranges."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "Supported by short positioning providing scope for further upside gains."
+      "reason": "Short positioning creating upside potential alongside a slipping dollar amid diplomacy bets."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Maintained by structurally negative Japanese real rates supporting the pair."
+      "reason": "Still-negative Japanese real interest rates continue to provide fundamental support for the pair."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Watching potential lower breaks and safe haven currency rotations amid shifting geopolitical headlines."
+      "reason": "High net long positioning faces potential safe-haven rotation risks if key technical support breaks lower."
     }
   ],
   "watch": [
     "U.S. Congressional Elections",
-    "RBA Rate Statement and Monetary Policy Statement",
-    "BOE Official Bank Rate and MPC Rate Votes",
+    "RBA Rate Statement and Cash Rate Decision",
+    "BOE Official Bank Rate Votes and Monetary Policy Summary",
     "BOE Governor Bailey Speech"
   ],
-  "fundamentals": "Macro drivers are currently dominated by expectations around U.S. political shifts, elevated rate hike bets bolstering the dollar over the broader month, and shifting geopolitical risks tied to Middle East diplomacy and trade interactions with China. Central bank policy expectations remain crucial, with upcoming Reserve Bank of Australia and Bank of England meetings expected to dictate near-term sentiment. Additionally, persistent structural divergences such as negative Japanese real rates continue to dictate specific cross-asset flows.",
-  "technical_view": "EUR/USD sits in a downtrend near support at 1.113 with an RSI of 48.4, while GBP/USD trades sideways near resistance around 1.34018 with a higher RSI of 68.5. USD/JPY remains sideways with an RSI of 36.6, confined between support at 156.8 and resistance at 158.6.",
-  "cot_view": "EUR positioning shows a sizable net short of -143,894 contracts, while GBP maintains a net short of -79,414 contracts with modest short covering. Conversely, JPY net longs stand firmly at 101,591 contracts, and Gold retains a heavily net long posture of 186,451 contracts despite recent long liquidation.",
+  "fundamentals": "Macro drivers are heavily influenced by upcoming political events such as the U.S. midterm elections and central bank policy expectations. Persistent inflation and elevated rate hike bets continue to underpin the U.S. dollar, whereas regional factors like negative Japanese real rates and European rating downgrades dictate local currency weakness. Geopolitical headlines regarding Middle East diplomacy and global cyber incidents are adding intermittent risk sentiment shifts.",
+  "technical_view": "Major currency pairs like EUR/USD, GBP/USD, and USD/JPY are holding sideways patterns, reflecting a lack of immediate directional momentum. RSI readings are generally balanced near neutral territories, with GBP/USD testing upper resistance boundaries while USD/JPY hovers in a defined channel.",
+  "cot_view": "Commitments of Traders data shows heavily entrenched net short positions in European currencies and strong net long positioning in Gold and the USD Index. Specifically, institutional players maintain massive net short exposure on the euro and pound, leaving scope for short squeezes, while speculative longs in Gold remain elevated.",
   "market": {
     "strength": {
       "1": {
-        "EUR": 0.04,
-        "GBP": 0.28,
-        "AUD": -0.35,
-        "NZD": 0.01,
-        "JPY": 0.18,
-        "CAD": -0.15,
-        "CHF": 0.34,
-        "USD": -0.34
+        "EUR": 0.38,
+        "GBP": 0.14,
+        "AUD": -0.24,
+        "NZD": -0.18,
+        "JPY": -0.42,
+        "CAD": -0.05,
+        "CHF": 0.39,
+        "USD": -0.01
       },
       "5": {
-        "EUR": -0.09,
-        "GBP": 0.32,
-        "AUD": 0.12,
-        "NZD": -0.8,
-        "JPY": -0.19,
-        "CAD": 0.28,
-        "CHF": 0.26,
-        "USD": 0.09
+        "EUR": 0.19,
+        "GBP": 0.48,
+        "AUD": -0.29,
+        "NZD": -1.01,
+        "JPY": -0.35,
+        "CAD": 0.32,
+        "CHF": 0.73,
+        "USD": -0.06
       },
       "20": {
-        "EUR": -1.14,
-        "GBP": 0.83,
-        "AUD": 0.56,
-        "NZD": -0.24,
-        "JPY": -0.4,
-        "CAD": 1.27,
-        "CHF": -0.22,
-        "USD": -0.67
+        "EUR": -0.7,
+        "GBP": 0.66,
+        "AUD": -0.12,
+        "NZD": -0.18,
+        "JPY": -0.6,
+        "CAD": 1.18,
+        "CHF": 0.58,
+        "USD": -0.81
       }
     },
     "technical": [
       {
         "pair": "EUR/USD",
-        "price": 1.11721,
-        "trend": "Downtrend",
-        "rsi": 48.4,
+        "price": 1.1216,
+        "trend": "Sideways",
+        "rsi": 54.5,
         "support": 1.113,
         "resistance": 1.1269
       },
       {
         "pair": "GBP/USD",
-        "price": 1.33989,
+        "price": 1.34194,
         "trend": "Sideways",
-        "rsi": 68.5,
+        "rsi": 69.2,
         "support": 1.32046,
-        "resistance": 1.34018
+        "resistance": 1.34194
       },
       {
         "pair": "USD/JPY",
-        "price": 157.25,
+        "price": 157.9,
         "trend": "Sideways",
-        "rsi": 36.6,
+        "rsi": 47.9,
         "support": 156.8,
         "resistance": 158.6
       },
       {
         "pair": "AUD/USD",
-        "price": 0.70244,
+        "price": 0.70082,
         "trend": "Sideways",
-        "rsi": 58.1,
+        "rsi": 54.7,
         "support": 0.69109,
         "resistance": 0.70338
       },
       {
         "pair": "USD/CAD",
-        "price": 1.3969,
+        "price": 1.3974,
         "trend": "Sideways",
-        "rsi": 14.0,
+        "rsi": 15.9,
         "support": 1.3969,
         "resistance": 1.4262
       },
       {
         "pair": "USD/CHF",
-        "price": 0.82295,
+        "price": 0.81963,
         "trend": "Sideways",
-        "rsi": 34.5,
-        "support": 0.82204,
+        "rsi": 31.7,
+        "support": 0.81963,
         "resistance": 0.83372
       },
       {
         "pair": "NZD/USD",
-        "price": 0.5636,
+        "price": 0.56265,
         "trend": "Downtrend",
-        "rsi": 56.6,
+        "rsi": 52.4,
         "support": 0.55891,
         "resistance": 0.57029
       }
@@ -296,6 +296,11 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Treasuries steady as traders weigh midterm vote and AI trade",
+      "link": "https://www.investing.com/news/forex-news/french-yields-steady-as-fitch-spares-credit-downgrade-bunds-edge-up-4990078"
+    },
+    {
+      "source": "Investing.com",
       "title": "If gold breaks lower, investors may look at these safe haven currencies: analyst",
       "link": "https://www.investing.com/news/forex-news/if-gold-breaks-lower-investors-may-look-at-these-safe-haven-currencies-analyst-4991012"
     },
@@ -308,11 +313,6 @@
       "source": "Investing.com",
       "title": "Still-negative Japanese real rates should continue to support USD/JPY: UBS",
       "link": "https://www.investing.com/news/forex-news/stillnegative-japanese-real-rates-should-continue-to-support-usdjpy-ubs-93CH-4990645"
-    },
-    {
-      "source": "Investing.com",
-      "title": "French yields steady as Fitch spares credit downgrade; Bunds edge up",
-      "link": "https://www.investing.com/news/forex-news/french-yields-steady-as-fitch-spares-credit-downgrade-bunds-edge-up-4990078"
     },
     {
       "source": "Investing.com",
