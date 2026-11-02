@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-02T07:01+00:00",
-  "summary": "Foreign exchange markets are currently reacting to shifting US Treasury yields, upcoming midterm elections, and broader macroeconomic factors including AI spending dynamics. The US dollar has faced some rangebound conditions and mild softening as yields rallied sharply and markets digested technology sector headwinds. Meanwhile, sterling continues to attract positive attention from institutions like UBS amid potential rate hike expectations, while Asian currencies hold mixed ranges.",
+  "updated": "2026-11-02T09:51+00:00",
+  "summary": "Markets are currently navigating a mix of US midterm election positioning, geopolitical diplomacy surrounding Iran, and broader macroeconomic concerns driven by heavy AI spending and a massive surge in US Treasuries. The US dollar has faced some pressure amidst these jitters, allowing currencies like the British pound to firm on potential short-position unwinding. Meanwhile, risk sentiment remains cautious following tech-sector pullbacks and massive digital asset volatility.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The pair remains in a broader downtrend with lingering negative net institutional positioning."
+      "reason": "The pair remains in a downtrend with persistent dollar strength keeping pressure on the euro."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "UBS notes that existing short positioning and upcoming BoE rate hike expectations create upside potential."
+      "reason": "Short positioning creates upside potential while the dollar slips on midterm and AI jitters."
     },
     {
       "pair": "USD/JPY",
       "bias": "Neutral",
-      "reason": "Price action is sideways while the US dollar consolidates ahead of the midterms and strong Japanese net long positioning persists."
+      "reason": "The pair trades sideways near resistance with mixed sentiment surrounding the dollar and yen."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Gold retains massive net long positioning despite minor weekly position reductions amidst broader macro uncertainty."
+      "reason": "Strong net long positioning supports gold despite recent weekly long reduction amid broader macro dynamics."
     }
   ],
   "watch": [
     "US Congressional Elections",
     "RBA Rate Decision and Monetary Policy Statement",
-    "BoE Official Bank Rate and Monetary Policy Report",
+    "BOE Official Bank Rate and MPC Vote",
     "BOE Gov Bailey Speech"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by shifting expectations around central bank rate paths, elevated Treasury rallies, and fiscal discussions emerging from global meetings. Concerns over technology sector spending and AI capital allocation are spilling into broader risk sentiment, affecting capital flows across major currencies. Additionally, upcoming political risk from US midterms and crucial monetary policy announcements from the RBA and BoE are driving near-term positioning.",
-  "technical_view": "EUR/USD trades within a defined downtrend near 1.1172 with an RSI of 48.4, while GBP/USD hovers near resistance around 1.3401 with an overbought RSI of 68.5. USD/JPY remains sideways near 157.25 with a subdued RSI of 36.6, reflecting compressed volatility ahead of major event risks.",
-  "cot_view": "Commitments of Traders data shows EUR and GBP maintaining heavy net short positioning, though GBP faces potential short-squeeze dynamics as noted by UBS. Conversely, JPY and Gold retain strong net long stances, with Gold holding a dominant 85.7% long percentage despite a modest contraction in net longs.",
+  "fundamentals": "Global markets are balancing elevated US rate hike expectations with shifting geopolitical risks, particularly discussions around Iran diplomacy affecting fuel and inflation outlooks. Ongoing capital expenditure on artificial intelligence and recent tech stock corrections are impacting broader risk appetite and Treasury rallies. Central bank policy meetings in Australia and the UK will heavily influence regional currency trajectories in the days ahead.",
+  "technical_view": "EUR/USD sits in a downtrend near support at 1.113 with an RSI of 48.4, while GBP/USD trades sideways near resistance at 1.34018 with a higher RSI of 68.5 signaling potential momentum. USD/JPY remains sideways with an RSI of 36.6, indicating subdued near-term direction between its 156.8 support and 158.6 resistance levels.",
+  "cot_view": "COT positioning highlights heavy net short stances in both EUR and GBP, leaving the door open for short squeezes should positive catalysts emerge. Conversely, JPY and Gold maintain solid net long structures, reflecting sustained safe-haven and institutional preference despite recent adjustments.",
   "market": {
     "strength": {
       "1": {
@@ -296,6 +296,11 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Sterling today: Pound gains as dollar slips on Iran diplomacy bets",
+      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-gains-as-dollar-slips-on-iran-diplomacy-bets-4990380"
+    },
+    {
+      "source": "Investing.com",
       "title": "Asian currencies mixed as yuan holds near four-year high, dollar steadies",
       "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-yuan-holds-near-fouryear-high-dollar-steadies-4989824"
     },
@@ -328,11 +333,6 @@
       "source": "Investing.com",
       "title": "Sterling today: Pound firms as dollar slips on midterm, AI jitters",
       "link": "https://www.investing.com/news/forex-news/sterling-today-pound-firms-as-dollar-slips-on-midterm-ai-jitters-4986986"
-    },
-    {
-      "source": "Investing.com",
-      "title": "UBS raises zloty forecast as currency faces mounting pressure",
-      "link": "https://www.investing.com/news/forex-news/ubs-raises-zloty-forecast-as-currency-faces-mounting-pressure-93CH-4986332"
     }
   ],
   "articles": [
