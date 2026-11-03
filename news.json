@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-02T21:34+00:00",
-  "summary": "Forex markets are primarily driven by cautious sentiment ahead of the U.S. midterm elections and ongoing shifts in global central bank rate expectations. The U.S. dollar is trading in a range as traders digest shifting rate hike bets and safe-haven demand, while the euro and pound experience idiosyncratic pressures from regional news. Meanwhile, commodity-linked currencies like the Canadian dollar face headwinds from retreating oil prices.",
+  "updated": "2026-11-03T00:40+00:00",
+  "summary": "The US dollar traded in a range and slipped slightly ahead of the upcoming midterm elections, while the euro gained and the yen eased. Market sentiment is also influenced by geopolitical tensions in the Middle East and mixed signals regarding future Federal Reserve monetary policy. Meanwhile, Treasuries saw a strong rally to wrap up October.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Neutral",
-      "reason": "Trading sideways with an RSI near neutral levels as the euro digests a Fitch outlook downgrade."
+      "reason": "Trading in a sideways trend with an RSI of 54.5 near mid-range."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "The pound has found support and recent gains as the dollar softens on diplomacy bets."
+      "reason": "Approaching resistance with an elevated RSI of 69.2 amid recent pound gains."
     },
     {
       "pair": "USD/JPY",
-      "bias": "Bullish",
-      "reason": "Persistent negative Japanese real rates continue to provide fundamental support for the pair."
+      "bias": "Neutral",
+      "reason": "Prices remain rangebound with an RSI of 47.9 supported by negative Japanese real rates."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Neutral",
-      "reason": "Gold faces potential downside pressures, prompting investors to watch alternative safe-haven assets."
+      "bias": "Bullish",
+      "reason": "Maintains a strong net long positioning despite minor long liquidations."
     }
   ],
   "watch": [
     "U.S. Congressional Elections",
-    "RBA Rate Statement and Cash Rate Decision",
-    "BOE Official Bank Rate and Monetary Policy Summary",
-    "BOE Governor Bailey Speech"
+    "RBA Rate Statement and Cash Rate",
+    "BOE Official Bank Rate and MPC Votes",
+    "BOE Gov Bailey Speech"
   ],
-  "fundamentals": "Macroeconomic direction is heavily influenced by upcoming U.S. midterm elections and lingering central bank deliberations regarding interest rate paths. Elevated rate hike bets and surging Treasury rallies have kept the greenback supported, though regional conflicts and energy price fluctuations continue to inject volatility. Diverging monetary policy trajectories, such as Japan's negative real rates versus potential Fed tightening, remain central to exchange rate movements.",
-  "technical_view": "Major currency pairs are predominantly locked in sideways trends with moderate RSI readings, indicating a lack of clear directional momentum ahead of key political catalysts. EUR/USD hovers near 1.1216 within a well-defined channel, while GBP/USD tests the upper boundary of its current range with a higher RSI of 69.2.",
-  "cot_view": "Commitments of Traders data shows net short positioning persisting across most major European currencies, led by significant shorts in the euro and British pound. Conversely, the Japanese yen maintains a strong net long posture supported by high percentage long positioning, while gold retains a heavily net long status despite recent positioning reductions.",
+  "fundamentals": "Macro drivers are heavily influenced by the upcoming U.S. midterm elections and shifting expectations for central bank rate paths. Recent comments from Federal Reserve officials indicating a potential return to rate hikes have kept rate hike bets elevated, impacting currency valuations. Additionally, ongoing geopolitical friction involving the Middle East continues to drive safe-haven flows and fuel inflation concerns via energy costs.",
+  "technical_view": "Major currency pairs like EUR/USD, GBP/USD, and USD/JPY are currently exhibiting sideways technical trends. RSI indicators reflect moderate momentum, with GBP/USD showing strength near its immediate resistance level while USD/CAD sits near deeply oversold territory.",
+  "cot_view": "Commitments of Traders data shows net short positions dominating most major currencies against a net long US Dollar Index. Gold maintains a substantial net long bias, reflecting sustained institutional preference despite recent reductions in net long contracts.",
   "market": {
     "strength": {
       "1": {
@@ -296,6 +296,11 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Dollar slips slightly ahead of U.S. midterm elections; euro gains while yen eases",
+      "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-yuan-holds-near-fouryear-high-dollar-steadies-4989824"
+    },
+    {
+      "source": "Investing.com",
       "title": "Canadian dollar slips from six-week high as oil retreat offsets weaker U.S. dollar",
       "link": "https://www.investing.com/news/forex-news/canadian-dollar-slips-from-sixweek-high-as-oil-retreat-offsets-weaker-us-dollar-4992383"
     },
@@ -308,11 +313,6 @@
       "source": "Investing.com",
       "title": "If gold breaks lower, investors may look at these safe haven currencies: analyst",
       "link": "https://www.investing.com/news/forex-news/if-gold-breaks-lower-investors-may-look-at-these-safe-haven-currencies-analyst-4991012"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar steadies as U.S. midterms loom; euro digests Fitch outlook downgrade",
-      "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-yuan-holds-near-fouryear-high-dollar-steadies-4989824"
     },
     {
       "source": "Investing.com",
@@ -336,6 +336,29 @@
     }
   ],
   "articles": [
+    {
+      "date": "2026-11-03",
+      "title": "Dollar Rangebound Ahead of U.S. Midterm Elections as Markets Weigh Global Drivers",
+      "intro": "The US dollar traded rangebound and slipped slightly ahead of the upcoming congressional elections, while major currencies displayed mixed movements. Meanwhile, traders kept a close watch on shifting global fundamentals, including ongoing developments in energy and monetary policy expectations.",
+      "sections": [
+        {
+          "h": "Market mood",
+          "p": "Market sentiment remains cautious as participants navigate a busy macroeconomic calendar alongside shifting political and technological landscapes. The US dollar slipped slightly ahead of the U.S. midterm elections, while the euro gained ground and the Japanese yen eased. Concurrently, the Canadian dollar slipped from a six-week high as an oil retreat offset the weaker dollar, and sterling found support from Iran diplomacy bets. Safe-haven discussions also surfaced around gold and alternative assets as wider market sectors absorb recent geopolitical and tech-sector headlines."
+        },
+        {
+          "h": "Key drivers",
+          "p": "The primary focus for foreign exchange markets centers on political developments and upcoming central bank decisions. U.S. congressional elections are currently underway, keeping the dollar generally rangebound. Elsewhere, attention turns to the Reserve Bank of Australia, which is scheduled to deliver its cash rate decision and monetary policy statement with a forecast of 4.85%. Later in the week, the Bank of England will release its monetary policy report, summary, and official bank rate vote, with a rate forecast pointing to 4.00%. These central bank trajectories, alongside persistent expectations regarding rate hikes, continue to dictate broader currency flows."
+        },
+        {
+          "h": "Technical and positioning",
+          "p": "Major currency pairs continue to print predominantly sideways trends across current technical boards. EUR/USD trades near 1.1216 with an RSI of 54.5, sitting between support at 1.113 and resistance at 1.1269. GBP/USD holds at 1.34194 with an RSI of 69.2, pressing against its resistance level. USD/JPY trades near 157.9 with an RSI of 47.9, supported at 156.8 and capped near 158.6. USD/CAD sits at 1.3974 showing an oversold RSI of 15.9, while NZD/USD remains in a downtrend at 0.56265. Commitment of Traders data shows net positioning remaining heavily short for the euro and Australian dollar, while net longs persist in Japanese yen and gold."
+        },
+        {
+          "h": "What to watch next",
+          "p": "Traders should closely monitor the unfolding results of the U.S. congressional elections and their immediate impact on dollar liquidity. Upcoming top-tier risk events include the RBA rate statement and press conference, followed later in the week by New Zealand employment data and the Bank of England's rate decision and Governor Bailey's speech. Keeping an eye on technical support and resistance levels across major pairs will be essential as these key data points cross the wire."
+        }
+      ]
+    },
     {
       "date": "2026-11-02",
       "title": "Dollar Rises on Rate Hike Bets as Sterling Firms Amid AI Jitters",
