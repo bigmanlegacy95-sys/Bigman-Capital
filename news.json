@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-03T00:40+00:00",
-  "summary": "The US dollar traded in a range and slipped slightly ahead of the upcoming midterm elections, while the euro gained and the yen eased. Market sentiment is also influenced by geopolitical tensions in the Middle East and mixed signals regarding future Federal Reserve monetary policy. Meanwhile, Treasuries saw a strong rally to wrap up October.",
+  "updated": "2026-11-03T06:51+00:00",
+  "summary": "Markets are currently navigating a mix of US midterm election anticipation, geopolitical headlines concerning Iran and Middle East tensions, and ongoing discussions surrounding global monetary policy paths. The US dollar has remained relatively rangebound and slipped slightly as traders weigh political developments and upcoming data releases. Meanwhile, other major currencies see mixed performance driven by regional economic updates, such as the UK and EU reaching a draft deal to ease trade frictions.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Neutral",
-      "reason": "Trading in a sideways trend with an RSI of 54.5 near mid-range."
+      "reason": "Trading sideways with an RSI near the middle at 54.5 as the euro gains slightly against a rangebound dollar."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "Approaching resistance with an elevated RSI of 69.2 amid recent pound gains."
+      "reason": "Sterling gains as the dollar softens on Iran diplomacy bets and positive trade developments with the EU."
     },
     {
       "pair": "USD/JPY",
-      "bias": "Neutral",
-      "reason": "Prices remain rangebound with an RSI of 47.9 supported by negative Japanese real rates."
+      "bias": "Bullish",
+      "reason": "Continued negative Japanese real rates provide underlying support for the pair despite recent dollar softening."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Bullish",
-      "reason": "Maintains a strong net long positioning despite minor long liquidations."
+      "bias": "Neutral",
+      "reason": "Gold remains subject to safety flows and potential breakout levels amid broader macroeconomic and geopolitical crosscurrents."
     }
   ],
   "watch": [
-    "U.S. Congressional Elections",
-    "RBA Rate Statement and Cash Rate",
-    "BOE Official Bank Rate and MPC Votes",
-    "BOE Gov Bailey Speech"
+    "US Congressional Elections on November 3",
+    "BOE Monetary Policy Summary and Rate Vote on November 5",
+    "BOE Governor Bailey Speech on November 5",
+    "US Average Hourly Earnings data on November 6"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by the upcoming U.S. midterm elections and shifting expectations for central bank rate paths. Recent comments from Federal Reserve officials indicating a potential return to rate hikes have kept rate hike bets elevated, impacting currency valuations. Additionally, ongoing geopolitical friction involving the Middle East continues to drive safe-haven flows and fuel inflation concerns via energy costs.",
-  "technical_view": "Major currency pairs like EUR/USD, GBP/USD, and USD/JPY are currently exhibiting sideways technical trends. RSI indicators reflect moderate momentum, with GBP/USD showing strength near its immediate resistance level while USD/CAD sits near deeply oversold territory.",
-  "cot_view": "Commitments of Traders data shows net short positions dominating most major currencies against a net long US Dollar Index. Gold maintains a substantial net long bias, reflecting sustained institutional preference despite recent reductions in net long contracts.",
+  "fundamentals": "The macroeconomic backdrop is heavily influenced by incoming political and monetary events, notably the impending US midterm elections and shifting rate expectations from Federal Reserve officials. In the UK, a recent draft deal between the UK and EU to scrap Brexit red tape over food exports provides some localized economic relief ahead of upcoming Bank of England decisions. Meanwhile, persistent negative real rates in Japan continue to weigh on the yen and support dollar-yen upside, while broader risk sentiment is guided by geopolitical headlines and infrastructure investment discussions.",
+  "technical_view": "Technical indicators display a predominantly sideways trend across major pairs as markets await decisive catalysts. RSI levels generally hover around neutral zones, suggesting a lack of strong directional momentum ahead of high-impact event risks.",
+  "cot_view": "Commitments of Traders data shows net short positioning persisting in several major currencies like EUR and GBP, while JPY maintains a net long posture. USD Index continues to display a dominant net long bias among market participants.",
   "market": {
     "strength": {
       "1": {
@@ -208,27 +208,6 @@
     ],
     "calendar": [
       {
-        "date": "2026-11-03T03:30+00:00",
-        "country": "AUD",
-        "title": "Cash Rate",
-        "forecast": "4.85%",
-        "previous": "4.60%"
-      },
-      {
-        "date": "2026-11-03T03:30+00:00",
-        "country": "AUD",
-        "title": "RBA Monetary Policy Statement",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-11-03T03:30+00:00",
-        "country": "AUD",
-        "title": "RBA Rate Statement",
-        "forecast": "",
-        "previous": ""
-      },
-      {
         "date": "2026-11-03T04:30+00:00",
         "country": "AUD",
         "title": "RBA Press Conference",
@@ -290,10 +269,36 @@
         "title": "BOE Gov Bailey Speaks",
         "forecast": "",
         "previous": ""
+      },
+      {
+        "date": "2026-11-06T13:30+00:00",
+        "country": "CAD",
+        "title": "Employment Change",
+        "forecast": "14.6K",
+        "previous": "-68.3K"
+      },
+      {
+        "date": "2026-11-06T13:30+00:00",
+        "country": "CAD",
+        "title": "Unemployment Rate",
+        "forecast": "6.5%",
+        "previous": "6.5%"
+      },
+      {
+        "date": "2026-11-06T13:30+00:00",
+        "country": "USD",
+        "title": "Average Hourly Earnings m/m",
+        "forecast": "0.3%",
+        "previous": "0.1%"
       }
     ]
   },
   "headlines": [
+    {
+      "source": "Investing.com",
+      "title": "Asian currencies mixed as yuan slides after PBOC move, won rebounds",
+      "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-yuan-slides-after-pboc-move-won-rebounds-4993468"
+    },
     {
       "source": "Investing.com",
       "title": "Dollar slips slightly ahead of U.S. midterm elections; euro gains while yen eases",
@@ -328,11 +333,6 @@
       "source": "Investing.com",
       "title": "Dollar rangebound ahead of US midterms; bitcoin reels from crypto heist",
       "link": "https://www.investing.com/news/forex-news/dollar-rangebound-ahead-of-us-midterms-bitcoin-reels-from-crypto-heist-4989794"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar rises for October as rate hike bets remain elevated, euro and yen slip",
-      "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-dollar-retreats-yen-steadies-ahead-of-boj-decision-4985749"
     }
   ],
   "articles": [
