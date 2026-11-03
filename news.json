@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-03T06:51+00:00",
-  "summary": "Markets are currently navigating a mix of US midterm election anticipation, geopolitical headlines concerning Iran and Middle East tensions, and ongoing discussions surrounding global monetary policy paths. The US dollar has remained relatively rangebound and slipped slightly as traders weigh political developments and upcoming data releases. Meanwhile, other major currencies see mixed performance driven by regional economic updates, such as the UK and EU reaching a draft deal to ease trade frictions.",
+  "updated": "2026-11-03T09:48+00:00",
+  "summary": "Global currency markets are currently reacting to a mix of shifting Federal Reserve rate expectations, ongoing U.S. midterm elections, and geopolitical developments including Iran diplomacy. The U.S. dollar has slipped slightly as traders weigh political outcomes alongside comments from Fed officials hinting at future rate hikes. Meanwhile, regional data such as German yields hovering near lows and an RBA rate hike impact continue to drive cross-currents.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Neutral",
-      "reason": "Trading sideways with an RSI near the middle at 54.5 as the euro gains slightly against a rangebound dollar."
+      "reason": "Price action is rangebound near technical resistance while German yields hover near August lows."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "Sterling gains as the dollar softens on Iran diplomacy bets and positive trade developments with the EU."
+      "reason": "The pound benefits from a softer dollar and positive sentiment surrounding UK-EU food export rules."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Continued negative Japanese real rates provide underlying support for the pair despite recent dollar softening."
+      "reason": "Still-negative Japanese real rates continue to provide fundamental support to the pair."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Gold remains subject to safety flows and potential breakout levels amid broader macroeconomic and geopolitical crosscurrents."
+      "reason": "Bullish net positioning remains high despite safe-haven flows and recent downside break risks."
     }
   ],
   "watch": [
-    "US Congressional Elections on November 3",
-    "BOE Monetary Policy Summary and Rate Vote on November 5",
-    "BOE Governor Bailey Speech on November 5",
-    "US Average Hourly Earnings data on November 6"
+    "U.S. Congressional Elections",
+    "BOE Official Bank Rate and Monetary Policy Summary",
+    "U.S. Non-Farm Employment Change",
+    "BOE Gov Bailey Speaks"
   ],
-  "fundamentals": "The macroeconomic backdrop is heavily influenced by incoming political and monetary events, notably the impending US midterm elections and shifting rate expectations from Federal Reserve officials. In the UK, a recent draft deal between the UK and EU to scrap Brexit red tape over food exports provides some localized economic relief ahead of upcoming Bank of England decisions. Meanwhile, persistent negative real rates in Japan continue to weigh on the yen and support dollar-yen upside, while broader risk sentiment is guided by geopolitical headlines and infrastructure investment discussions.",
-  "technical_view": "Technical indicators display a predominantly sideways trend across major pairs as markets await decisive catalysts. RSI levels generally hover around neutral zones, suggesting a lack of strong directional momentum ahead of high-impact event risks.",
-  "cot_view": "Commitments of Traders data shows net short positioning persisting in several major currencies like EUR and GBP, while JPY maintains a net long posture. USD Index continues to display a dominant net long bias among market participants.",
+  "fundamentals": "Macro drivers are dominated by expectations surrounding upcoming U.S. midterm election outcomes and potential paths for Federal Reserve interest rate policy following recent commentary from Fed officials. In Europe, stabilizing UK-EU trade relations via a draft deal on food exports offers regional support, offsetting concerns over European retail tech snags. Meanwhile, lingering geopolitical tensions and shifting energy market dynamics continue to influence global safe-haven flows and commodity currencies like the Canadian dollar.",
+  "technical_view": "EUR/USD trades near 1.1216 in a sideways trend with an RSI of 54.5, sitting below resistance at 1.1269. GBP/USD shows a sideways structure at 1.34194 with a higher RSI of 69.2, pressing directly against its immediate resistance level. USD/JPY remains sideways around 157.9 with an RSI of 47.9, bound between support at 156.8 and resistance at 158.6.",
+  "cot_view": "The Commitment of Traders data shows heavily net-short positions for EUR and GBP, alongside a sizable net-long position for JPY with 101,591 contracts. Gold retains a robust net-long stance of 186,451 contracts despite a weekly reduction. The USD Index holds a moderate net-long position of 14,121 contracts.",
   "market": {
     "strength": {
       "1": {
@@ -208,13 +208,6 @@
     ],
     "calendar": [
       {
-        "date": "2026-11-03T04:30+00:00",
-        "country": "AUD",
-        "title": "RBA Press Conference",
-        "forecast": "",
-        "previous": ""
-      },
-      {
         "date": "2026-11-03T15:16+00:00",
         "country": "USD",
         "title": "Congressional Elections",
@@ -290,13 +283,25 @@
         "title": "Average Hourly Earnings m/m",
         "forecast": "0.3%",
         "previous": "0.1%"
+      },
+      {
+        "date": "2026-11-06T13:30+00:00",
+        "country": "USD",
+        "title": "Non-Farm Employment Change",
+        "forecast": "65K",
+        "previous": "29K"
       }
     ]
   },
   "headlines": [
     {
       "source": "Investing.com",
-      "title": "Asian currencies mixed as yuan slides after PBOC move, won rebounds",
+      "title": "German yields hover near August lows on tech rout",
+      "link": "https://www.investing.com/news/forex-news/german-yields-hover-near-august-lows-on-tech-rout-4993710"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Asian currencies mixed as Aussie falls after RBA hike, yuan weakens",
       "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-yuan-slides-after-pboc-move-won-rebounds-4993468"
     },
     {
@@ -328,11 +333,6 @@
       "source": "Investing.com",
       "title": "Sterling today: Pound gains as dollar slips on Iran diplomacy bets",
       "link": "https://www.investing.com/news/forex-news/sterling-today-pound-gains-as-dollar-slips-on-iran-diplomacy-bets-4990380"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar rangebound ahead of US midterms; bitcoin reels from crypto heist",
-      "link": "https://www.investing.com/news/forex-news/dollar-rangebound-ahead-of-us-midterms-bitcoin-reels-from-crypto-heist-4989794"
     }
   ],
   "articles": [
