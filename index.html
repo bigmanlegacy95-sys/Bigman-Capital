@@ -217,6 +217,12 @@ html[data-theme=light] #splash{background:#f7f5ef}
 .idimg{width:100%;border-radius:12px;margin-bottom:14px;display:block;border:1px solid var(--line)}
 .lv{display:flex;gap:14px;flex-wrap:wrap;margin-top:12px;font-size:.85rem;color:var(--mute)}.lv b{color:var(--text)}
 #ideas::before{background-image:url(wolf-mist.jpg);opacity:.17}
+.mfx{max-width:520px;background:var(--char);border:1px solid var(--gold);border-radius:20px;padding:8px 22px;box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.mr{display:flex;justify-content:space-between;gap:16px;padding:11px 0;font-size:1rem}.mr span:first-child{color:var(--mute)}.mr b{font-weight:600}.mr .pos{color:var(--up)}.mr .neg{color:var(--down)}
+.md{border-top:1px solid var(--line);margin:4px 0}.mup{font-size:.8rem;color:var(--mute);padding:10px 0 14px;display:flex;align-items:center;gap:8px}
+.mup::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--up);animation:pl 1.8s infinite}
+.cw{position:relative;overflow:hidden;width:100%;max-width:520px;border:1px solid var(--gold);border-radius:20px;background:#fff;pointer-events:none;user-select:none;-webkit-user-select:none;touch-action:pan-y}
+.cw iframe{position:absolute;left:0;top:0;border:0;transform-origin:0 0;background:#fff}
 </style>
 </head>
 <body>
@@ -238,6 +244,7 @@ html[data-theme=light] #splash{background:#f7f5ef}
 <h2>We trade client funds on forex and gold, and teach you to trade with strict risk rules.</h2>
 <p class="lead">Choose account management, classes, coaching, mentorship, MT5 tools or our prop firm pathway. Message us on WhatsApp and we reply with next steps.</p>
 <div class="cta"><a class="btn gold" href="#services">See services</a><a class="btn ghost" href="#pulse">Today's market</a><button class="btn ghost inst" id="ib2">Install app</button></div>
+<p class="note" style="margin-top:16px"><a href="#track" style="color:var(--gold2)">See our results on Myfxbook</a></p>
 </div>
 <div class="himg"><img src="wolf-hero.jpg" alt="A wolf in a hood watching from the middle of a flock of black sheep" width="736" height="1307" fetchpriority="high"><div class="hcap">Don't follow the herd. Trade with a plan.</div></div>
 </section>
@@ -448,8 +455,8 @@ html[data-theme=light] #splash{background:#f7f5ef}
 </section>
 
 <section id="track" hidden>
-<div class="tag">Track record</div><h2 class="h">Verified results</h2>
-<p class="sub">Results tracked by an independent platform. Past performance does not guarantee future results.</p>
+<div class="tag">Track record</div><h2 class="h">Our live results</h2>
+<p class="sub">Tracked by Myfxbook, an independent platform, and updated automatically. Past performance does not guarantee future results, and trading carries a high risk of loss.</p>
 <div id="trk"></div>
 </section>
 
@@ -507,7 +514,10 @@ const PH="254729393153",EM="bigmancapital.support@gmail.com",TIK="bigman.forex.t
 const BOOK="";
 const PAY={paystackKey:"",currency:"KES",services:{}};
 const LIVE={tiktok:"https://www.tiktok.com/@bigman.forex.trading/live",youtubeVideo:"",youtubeChannel:"",twitch:"",schedule:[]};
-const TRACK={embed:"",link:""};
+const TRACK={embed:"",link:"https://www.myfxbook.com/portfolio/bigmancapitalltd/12292187"};
+/* If results.json exists (made by the GitHub workflow), a clean results card is shown. Otherwise the Myfxbook page is shown cropped
+   to the results block: w = page width in px, top = where "Gain" starts, h = height to the end of "Tracking". Tune these if the crop is off. */
+const TRACK_CROP={w:360,top:222,h:353,refresh:120};
 const TESTIMONIALS=[];
 const CHANNEL={whatsapp:"",telegram:""};
 const ANALYTICS={plausible:""};
@@ -795,7 +805,17 @@ $("bd").min=new Date().toISOString().slice(0,10);
 const u=()=>{const n=$("bn").value.trim(),m=`Hello BigMan Capital,\n\nI'd like to book a free consultation about ${$("bs").value}.\nPreferred: ${$("bd").value||"any day"} at ${$("bt").value} (${Intl.DateTimeFormat().resolvedOptions().timeZone}).`+(n?`\nMy name: ${n}`:"");$("bw").href=wa(m);$("be").href=`mailto:${EM}?subject=${encodeURIComponent("Consultation request")}&body=${encodeURIComponent(m)}`};
 ["bn","bs","bd","bt"].forEach(i=>{$(i).oninput=u;$(i).onchange=u});u()})();
 // track record and reviews
-if(/^https:\/\//.test(TRACK.embed||"")||/^https:\/\//.test(TRACK.link||"")){$("track").hidden=false;const t=$("trk");if(/^https:\/\//.test(TRACK.embed||"")){const f=el("iframe","ofr");f.src=TRACK.embed;f.title="Verified results";t.append(f)}if(/^https:\/\//.test(TRACK.link||"")){const a=el("a","btn gold","View verified results");a.href=TRACK.link;a.target="_blank";a.rel="noopener";a.style.marginTop="16px";t.append(a)}}
+if(/^https:\/\//.test(TRACK.link||"")){$("track").hidden=false;const t=$("trk"),box=el("div");t.append(box);
+const c=el("div","cta");c.style.justifyContent="flex-start";const ob=el("a","btn gold","View on Myfxbook");ob.href=TRACK.link;ob.target="_blank";ob.rel="noopener";c.append(ob);t.append(c);
+const money=v=>"$"+Number(v).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2}),pct=(v,sg)=>(sg&&v>0?"+":"")+Number(v).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2})+"%";
+function card(d){box.textContent="";const m=el("div","mfx");const row=(k,v,f,cl)=>{if(v===undefined||v===null||v===""||isNaN(parseFloat(v)))return;const n=parseFloat(v),r=el("div","mr");r.append(el("span","",k),el("b",cl?(n>0?"pos":n<0?"neg":""):"",f(n)));m.append(r)};
+row("Gain",d.gain,v=>pct(v,1),1);row("Abs. gain",d.absGain,v=>pct(v,1),1);row("Daily",d.daily,v=>pct(v));row("Monthly",d.monthly,v=>pct(v));row("Drawdown",d.drawdown,v=>pct(v));m.append(el("div","md"));
+row("Balance",d.balance,money);row("Equity",d.equity,money);row("Profit",d.profit,money,1);row("Interest",d.interest,money);m.append(el("div","md"));row("Deposits",d.deposits,money);row("Withdrawals",d.withdrawals,money);m.append(el("div","md"));
+const up=el("div","mup","");const tm=new Date(d.updated||d.lastUpdateDate);const ago=()=>{if(isNaN(tm)){up.textContent="Live from Myfxbook";return}const mi=Math.max(0,Math.round((Date.now()-tm)/60000));up.textContent="Updated "+(mi<1?"just now":mi<60?mi+" minutes ago":mi<1440?Math.round(mi/60)+" hours ago":tm.toLocaleDateString())};ago();setInterval(ago,60000);m.append(up);box.append(m)}
+function crop(){const W=TRACK_CROP.w,T=TRACK_CROP.top,H=TRACK_CROP.h;box.textContent="";const w=el("div","cw");w.style.aspectRatio=W+"/"+H;const f=el("iframe");f.title="Live results";f.setAttribute("scrolling","no");f.tabIndex=-1;f.referrerPolicy="no-referrer";f.setAttribute("sandbox","allow-scripts allow-same-origin");f.style.width=W+"px";f.style.height=(T+H+600)+"px";w.append(f);box.append(w);
+const fit=()=>{const k=w.clientWidth/W;f.style.transform="translate(0,"+(-T*k)+"px) scale("+k+")"};const load=()=>{f.src=TRACK.link+(TRACK.link.indexOf("?")<0?"?":"&")+"_="+Date.now()};
+fit();addEventListener("resize",fit);if(window.ResizeObserver)new ResizeObserver(fit).observe(w);load();setInterval(load,Math.max(30,TRACK_CROP.refresh)*1000)}
+fetch("results.json?"+Date.now()).then(r=>r.ok?r.json():Promise.reject()).then(d=>{if(d&&(d.gain!==undefined||d.balance!==undefined))card(d);else crop();setInterval(()=>fetch("results.json?"+Date.now()).then(r=>r.json()).then(d=>{if(d&&box.querySelector(".mfx"))card(d)}).catch(()=>{}),300000)}).catch(crop)}
 if(TESTIMONIALS.length){$("reviews").hidden=false;TESTIMONIALS.forEach(x=>{const c=el("div","card");c.append(el("p","q","“"+x.text+"”"),el("b","",x.name),el("p","",x.role||""));$("rvg").append(c)})}
 // course
 let CD=[];try{CD=JSON.parse(localStorage.getItem("bm_course")||"[]")}catch(e){}
@@ -901,6 +921,7 @@ idr(IDEAS);
 {const bt=(t,h,g)=>{const a=el("a","btn "+(g?"gold":"ghost"),t);a.href=h;if(/^https/.test(h)){a.target="_blank";a.rel="noopener"}$("idc").append(a)};
 bt("Watch the live","#livestream",1);bt("Follow on TikTok","https://www.tiktok.com/@"+TIK);if(/^https:\/\//.test(TVPROFILE))bt("Follow on TradingView",TVPROFILE)}
 SI.push({t:"Trade ideas",k:"section",x:"setups entry stop target chart",go:()=>nav("#ideas")},{t:"Compare prop firms (Prop Firm Match)",k:"section",x:"propfirmmatch challenge rules discount",go:()=>{nav("#partners");document.querySelector('#pseg [data-p="compare"]').click()}});
+SI.push({t:"Our results on Myfxbook",k:"section",x:"track record verified performance",go:()=>nav("#track")});
 </script>
 </body>
 </html>
