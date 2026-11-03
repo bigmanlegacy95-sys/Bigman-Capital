@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-03T15:39+00:00",
-  "summary": "Foreign exchange markets are currently reacting cautiously as U.S. midterm elections get underway alongside key data releases like JOLTS. The U.S. dollar remains generally subdued while Treasury yields edge slightly higher. Meanwhile, European currencies are finding modest support from regional developments and easing diplomatic tensions.",
+  "updated": "2026-11-03T18:39+00:00",
+  "summary": "Foreign exchange markets are currently navigating a subdued U.S. dollar ahead of midterm elections and key commentary regarding potential Federal Reserve rate hikes. Meanwhile, sterling has experienced mild support due to a softer dollar and anticipated Bank of England policy steps, whereas the Japanese yen remains under pressure from negative real rates. Treasury yields have edged up slightly amid ongoing JOLTS data and funding announcements.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Neutral",
-      "reason": "The euro benefits from a subdued dollar, but faces a persistent downtrend."
+      "reason": "Trading in a downtrend with RSI near neutral levels and net short positioning remaining heavy."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "Pound edges higher ahead of potential BoE rate hike actions."
+      "reason": "Hovering near resistance with upcoming BoE rate expectations offering short-term support despite net short sentiment."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Negative Japanese real rates continue to support the currency pair."
+      "reason": "Sustained by negative Japanese real rates and a broader uptrend supported by long speculative positioning."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Net long positioning remains exceptionally high despite minor weekly drops."
+      "reason": "Maintains an overwhelmingly net long Commitment of Traders structure despite minor weekly position reductions."
     }
   ],
   "watch": [
-    "U.S. Congressional Elections",
+    "U.S. Midterm Elections",
     "BoE Official Bank Rate and MPC Vote",
-    "U.S. Non-Farm Employment Change",
-    "CAD Employment Change"
+    "U.S. Non-Farm Employment Change and Unemployment Rate",
+    "U.S. Average Hourly Earnings m/m"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by shifting expectations around U.S. political control from the midterm elections and comments from Federal Reserve officials signaling potential future rate hikes. Geopolitical headlines, including Middle East diplomacy bets and European trade agreements, are also adding localized cross-currents. Meanwhile, divergence in real interest rates continues to impact major pairs like USD/JPY.",
-  "technical_view": "EUR/USD sits in a downtrend near support at 1.113 with an RSI of 47.7, while GBP/USD trades sideways with an elevated RSI of 66.4 near resistance at 1.34194. USD/JPY maintains an upward trend near 158.29 with room to test resistance at 158.6.",
-  "cot_view": "Commitments of Traders data shows massive net long positioning in Gold at 186,451 contracts, reflecting strong underlying sentiment. Conversely, EUR and GBP maintain large net short positions, though shifting momentum could test these extremes.",
+  "fundamentals": "Macroeconomic drivers are currently dictated by shifting political landscapes in the U.S. midterm elections alongside mixed signals on monetary policy, where some Fed officials hint at a potential return to rate hikes. Simultaneously, the Bank of England approaches a crucial rate decision with potential vote splits anticipated. Geopolitical considerations, including Iran diplomacy bets, are also impacting broader risk sentiment and energy complex valuations.",
+  "technical_view": "EUR/USD sits in a downtrend at 1.1179 with an RSI of 47.7, while GBP/USD tests resistance near 1.3419 with an elevated RSI of 66.4. USD/JPY maintains its uptrend near 158.29 with an RSI of 48.5, staying well clear of immediate support levels.",
+  "cot_view": "Commitment of Traders data reveals heavily net short positioning in major pairs like EUR (-143,894 contracts) and GBP (-79,414 contracts), while JPY and Gold maintain strong net long structures at +101,591 and +186,451 contracts respectively. The USD Index retains a net long posture of 14,121 contracts.",
   "market": {
     "strength": {
       "1": {
@@ -208,13 +208,6 @@
     ],
     "calendar": [
       {
-        "date": "2026-11-03T15:16+00:00",
-        "country": "USD",
-        "title": "Congressional Elections",
-        "forecast": "",
-        "previous": ""
-      },
-      {
         "date": "2026-11-03T21:45+00:00",
         "country": "NZD",
         "title": "Employment Change q/q",
@@ -290,6 +283,13 @@
         "title": "Non-Farm Employment Change",
         "forecast": "65K",
         "previous": "29K"
+      },
+      {
+        "date": "2026-11-06T13:30+00:00",
+        "country": "USD",
+        "title": "Unemployment Rate",
+        "forecast": "4.2%",
+        "previous": "4.2%"
       }
     ]
   },
