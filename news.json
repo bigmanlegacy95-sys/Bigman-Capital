@@ -1,124 +1,124 @@
 {
-  "updated": "2026-11-03T12:48+00:00",
-  "summary": "Forex markets are currently rangebound and subdued as traders closely monitor the ongoing U.S. midterm elections and assess potential shifts in domestic policy. The U.S. dollar is slightly pressured amidst these political developments, allowing counterparts like the euro and sterling to register mild gains. Meanwhile, attention remains fixed on central bank expectations, geopolitical headlines, and ongoing macroeconomic fundamentals influencing global sentiment.",
+  "updated": "2026-11-03T15:39+00:00",
+  "summary": "Foreign exchange markets are currently reacting cautiously as U.S. midterm elections get underway alongside key data releases like JOLTS. The U.S. dollar remains generally subdued while Treasury yields edge slightly higher. Meanwhile, European currencies are finding modest support from regional developments and easing diplomatic tensions.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Neutral",
-      "reason": "Prices are consolidating sideways near support and resistance levels as the U.S. dollar trades subdued."
+      "reason": "The euro benefits from a subdued dollar, but faces a persistent downtrend."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "The pound edges higher ahead of expected Bank of England rate deliberations and a softer dollar environment."
+      "reason": "Pound edges higher ahead of potential BoE rate hike actions."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Still-negative Japanese real rates continue to provide fundamental support for the pair."
+      "reason": "Negative Japanese real rates continue to support the currency pair."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Neutral",
-      "reason": "Gold remains weighed by alternative safe-haven considerations and broader market consolidation."
+      "bias": "Bullish",
+      "reason": "Net long positioning remains exceptionally high despite minor weekly drops."
     }
   ],
   "watch": [
     "U.S. Congressional Elections",
-    "BoE Monetary Policy Report and Rate Vote",
+    "BoE Official Bank Rate and MPC Vote",
     "U.S. Non-Farm Employment Change",
     "CAD Employment Change"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by political uncertainty surrounding the U.S. midterm elections and shifting monetary policy expectations. Federal Reserve officials have noted the potential need to return to rate hikes, while the Bank of England prepares for its upcoming policy meeting. Additionally, regional economic developments, such as the UK-EU trade framework reset and persistent real interest rate disparities in Japan, continue to shape currency valuations.",
-  "technical_view": "Technical indicators across major currency pairs largely signal sideways momentum. EUR/USD holds near a 54.5 RSI while GBP/USD approaches resistance with an elevated RSI of 69.2, suggesting potential overbought conditions in the short term.",
-  "cot_view": "Commitments of Traders data reflects a net short positioning for EUR, GBP, and AUD, contrasting with strong net long positions in JPY and Gold. USD Index maintains a net long bias, indicating underlying institutional backing despite recent session pullbacks.",
+  "fundamentals": "Macro drivers are heavily influenced by shifting expectations around U.S. political control from the midterm elections and comments from Federal Reserve officials signaling potential future rate hikes. Geopolitical headlines, including Middle East diplomacy bets and European trade agreements, are also adding localized cross-currents. Meanwhile, divergence in real interest rates continues to impact major pairs like USD/JPY.",
+  "technical_view": "EUR/USD sits in a downtrend near support at 1.113 with an RSI of 47.7, while GBP/USD trades sideways with an elevated RSI of 66.4 near resistance at 1.34194. USD/JPY maintains an upward trend near 158.29 with room to test resistance at 158.6.",
+  "cot_view": "Commitments of Traders data shows massive net long positioning in Gold at 186,451 contracts, reflecting strong underlying sentiment. Conversely, EUR and GBP maintain large net short positions, though shifting momentum could test these extremes.",
   "market": {
     "strength": {
       "1": {
-        "EUR": 0.38,
-        "GBP": 0.14,
-        "AUD": -0.24,
-        "NZD": -0.18,
-        "JPY": -0.42,
-        "CAD": -0.05,
-        "CHF": 0.39,
-        "USD": -0.01
+        "EUR": -0.2,
+        "GBP": 0.07,
+        "AUD": -0.22,
+        "NZD": 0.09,
+        "JPY": -0.11,
+        "CAD": 0.13,
+        "CHF": 0.1,
+        "USD": 0.13
       },
       "5": {
-        "EUR": 0.19,
-        "GBP": 0.48,
-        "AUD": -0.29,
-        "NZD": -1.01,
-        "JPY": -0.35,
-        "CAD": 0.32,
-        "CHF": 0.73,
-        "USD": -0.06
+        "EUR": 0.27,
+        "GBP": 0.63,
+        "AUD": -0.67,
+        "NZD": -1.37,
+        "JPY": -0.29,
+        "CAD": 0.35,
+        "CHF": 1.07,
+        "USD": 0.01
       },
       "20": {
-        "EUR": -0.7,
-        "GBP": 0.66,
-        "AUD": -0.12,
-        "NZD": -0.18,
-        "JPY": -0.6,
-        "CAD": 1.18,
-        "CHF": 0.58,
-        "USD": -0.81
+        "EUR": -1.23,
+        "GBP": 0.58,
+        "AUD": -0.42,
+        "NZD": -0.31,
+        "JPY": -0.56,
+        "CAD": 1.53,
+        "CHF": 0.85,
+        "USD": -0.44
       }
     },
     "technical": [
       {
         "pair": "EUR/USD",
-        "price": 1.1216,
-        "trend": "Sideways",
-        "rsi": 54.5,
+        "price": 1.11791,
+        "trend": "Downtrend",
+        "rsi": 47.7,
         "support": 1.113,
-        "resistance": 1.1269
+        "resistance": 1.1253
       },
       {
         "pair": "GBP/USD",
-        "price": 1.34194,
+        "price": 1.34108,
         "trend": "Sideways",
-        "rsi": 69.2,
+        "rsi": 66.4,
         "support": 1.32046,
         "resistance": 1.34194
       },
       {
         "pair": "USD/JPY",
-        "price": 157.9,
-        "trend": "Sideways",
-        "rsi": 47.9,
+        "price": 158.29,
+        "trend": "Uptrend",
+        "rsi": 48.5,
         "support": 156.8,
         "resistance": 158.6
       },
       {
         "pair": "AUD/USD",
-        "price": 0.70082,
-        "trend": "Sideways",
-        "rsi": 54.7,
+        "price": 0.69837,
+        "trend": "Downtrend",
+        "rsi": 45.9,
         "support": 0.69109,
         "resistance": 0.70338
       },
       {
         "pair": "USD/CAD",
-        "price": 1.3974,
+        "price": 1.3975,
         "trend": "Sideways",
-        "rsi": 15.9,
+        "rsi": 17.0,
         "support": 1.3969,
         "resistance": 1.4262
       },
       {
         "pair": "USD/CHF",
-        "price": 0.81963,
+        "price": 0.81993,
         "trend": "Sideways",
-        "rsi": 31.7,
+        "rsi": 30.1,
         "support": 0.81963,
         "resistance": 0.83372
       },
       {
         "pair": "NZD/USD",
-        "price": 0.56265,
+        "price": 0.56243,
         "trend": "Downtrend",
-        "rsi": 52.4,
+        "rsi": 51.8,
         "support": 0.55891,
         "resistance": 0.57029
       }
@@ -296,6 +296,11 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Treasury yields edge up as Election Day meets JOLTS, refunding",
+      "link": "https://www.investing.com/news/forex-news/german-yields-hover-near-august-lows-on-tech-rout-4993710"
+    },
+    {
+      "source": "Investing.com",
       "title": "Dollar subdued as U.S. midterms get underway; Aussie Hits 2-week low",
       "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-yuan-slides-after-pboc-move-won-rebounds-4993468"
     },
@@ -303,11 +308,6 @@
       "source": "Investing.com",
       "title": "Sterling today: Pound edges up as dollar eases, BoE hike in view",
       "link": "https://www.investing.com/news/forex-news/sterling-today-pound-edges-up-as-dollar-eases-boe-hike-in-view-4994180"
-    },
-    {
-      "source": "Investing.com",
-      "title": "German yields hover near August lows on tech rout",
-      "link": "https://www.investing.com/news/forex-news/german-yields-hover-near-august-lows-on-tech-rout-4993710"
     },
     {
       "source": "Investing.com",
