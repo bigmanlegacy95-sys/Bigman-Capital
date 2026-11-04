@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-03T21:33+00:00",
-  "summary": "Foreign exchange markets are currently reacting to the ongoing U.S. midterm elections alongside shifting expectations for central bank monetary policies. While the U.S. dollar trades subdued and rangebound, treasury yields have edged slightly higher amidst these political events and labor market data releases. Meanwhile, the British pound has found support following positive Brexit developments and anticipated Bank of England rate decisions.",
+  "updated": "2026-11-04T00:42+00:00",
+  "summary": "Foreign exchange markets are exhibiting cautious trading as investors weigh upcoming U.S. midterm elections against mixed economic signals and central bank expectations. The U.S. Dollar remains rangebound to slightly firmer amid rising Treasury yields and hawkish undertones from select Federal Reserve officials. Meanwhile, Sterling is finding support from anticipated Bank of England policy tightening and positive UK-EU trade developments, while the Japanese Yen remains pressured by negative domestic real interest rates.",
   "outlook": [
     {
       "pair": "EUR/USD",
-      "bias": "Neutral",
-      "reason": "The pair remains in a downtrend near support at 1.113 with neutral momentum."
+      "bias": "Bearish",
+      "reason": "Downtrend momentum remains intact alongside net-short positioning."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "Pound gains ground supported by a softer dollar and upcoming BoE rate hike expectations."
+      "reason": "Anticipated Bank of England policy tightening and UK-EU trade news provide upward support."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Still-negative Japanese real interest rates continue to provide strong fundamental support for the pair."
+      "reason": "Persistent negative Japanese real interest rates continue to bolster the prevailing uptrend."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Gold shows heavy net long positioning while investors monitor potential support breaks."
+      "reason": "Heavily long speculative positioning provides underlying support, though breakout risks remain monitored."
     }
   ],
   "watch": [
-    "U.S. Midterm Election Results",
-    "BoE Monetary Policy Summary and Rate Decision",
-    "U.S. Non-Farm Employment Change",
-    "JOLTS Job Openings and Treasury Refunding"
+    "BOE Official Bank Rate decision and Monetary Policy Summary (Nov 5)",
+    "US Non-Farm Employment Change and Unemployment Rate (Nov 6)",
+    "U.S. Midterm Election results and Treasury yield movements",
+    "BOE Governor Bailey speech (Nov 5)"
   ],
-  "fundamentals": "The macroeconomic landscape is heavily shaped by U.S. midterm elections, domestic fiscal refunding updates, and mixed central bank signals. Federal Reserve officials have noted potential needs to resume rate hikes, while the Bank of England prepares for its upcoming policy meeting amid persistent inflation pressures. In Japan, negative real rates maintain fundamental pressure on the yen, keeping the broader dollar-yen structure resilient.",
-  "technical_view": "EUR/USD sits in a daily downtrend with an RSI of 47.7, hovering just above support at 1.113. GBP/USD trades sideways with a higher RSI of 66.4 near its immediate resistance level of 1.34194.",
-  "cot_view": "Commitments of Traders data shows extreme net long positioning in Gold at over 186,000 contracts despite recent reductions. Major currencies like the euro and British pound maintain sizable net short positions, indicating potential for short-covering rallies if fundamentals shift.",
+  "fundamentals": "Macro sentiment is largely driven by political uncertainty around the U.S. midterm elections alongside recalibrated expectations for Federal Reserve policy after officials signaled potential future rate increases. In the UK, a draft agreement with the EU to eliminate food export red tape and expectations of a BoE rate hike to 4.00% are providing fundamental tailwinds for the Pound. Conversely, Japan's deeply negative real interest rates continue to undermine the Yen against the Dollar, supporting higher USD/JPY levels despite broader safe-haven discussions.",
+  "technical_view": "EUR/USD remains constrained in a technical downtrend around 1.1179 with an RSI of 47.7, testing support near 1.1130. GBP/USD trades sideways near key resistance at 1.3419 with a elevated RSI of 66.4, while USD/JPY maintains a firm uptrend at 158.29, pressing closely against overhead resistance at 158.60.",
+  "cot_view": "Commitment of Traders data reveals heavily bullish sentiment in Gold, with net long contracts comprising 85.7% of positions despite a recent weekly reduction. Non-commercial traders maintain substantial net-short exposure in EUR (-143,894) and GBP (-79,414), while the US Dollar Index holds a modest net-long position.",
   "market": {
     "strength": {
       "1": {
@@ -296,13 +296,13 @@
   "headlines": [
     {
       "source": "Investing.com",
-      "title": "Treasury yields edge up as Election Day meets JOLTS, refunding",
-      "link": "https://www.investing.com/news/forex-news/german-yields-hover-near-august-lows-on-tech-rout-4993710"
+      "title": "Dollar ticks up with eyes on U.S. midterm elections; Aussie slips despite RBA hike",
+      "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-yuan-slides-after-pboc-move-won-rebounds-4993468"
     },
     {
       "source": "Investing.com",
-      "title": "Dollar subdued as U.S. midterms get underway; Aussie Hits 2-week low",
-      "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-yuan-slides-after-pboc-move-won-rebounds-4993468"
+      "title": "Treasury yields edge up as Election Day meets JOLTS, refunding",
+      "link": "https://www.investing.com/news/forex-news/german-yields-hover-near-august-lows-on-tech-rout-4993710"
     },
     {
       "source": "Investing.com",
@@ -336,6 +336,29 @@
     }
   ],
   "articles": [
+    {
+      "date": "2026-11-04",
+      "title": "Forex Market Brief: US Midterms Focus As Dollar Ranges Bound",
+      "intro": "The US dollar remained largely rangebound as markets turned their eyes toward the US midterm elections and upcoming treasury refunding. Meanwhile, currency pairs continued to navigate shifting central bank expectations and localized economic drivers.",
+      "sections": [
+        {
+          "h": "Market mood",
+          "p": "Global market sentiment reflects a cautious stance with traders monitoring political developments in the United States alongside ongoing Treasury yield movements. Safe haven positioning remains a focal point as analysts weigh potential downside risks across asset classes, while crypto markets absorb recent high-profile security incidents."
+        },
+        {
+          "h": "Key drivers",
+          "p": "The primary focus centers on the US midterm elections, Treasury yield adjustments, and central bank policy paths. Sterling found support as the dollar eased and markets priced in a potential Bank of England hike, with the official bank rate forecast at 4.00%. Conversely, the Australian dollar slipped despite a recent RBA hike, and the Canadian dollar retreated from a six-week high as a decline in oil prices offset the softer greenback."
+        },
+        {
+          "h": "Technical and positioning",
+          "p": "EUR/USD trades in a downtrend at 1.11791 with an RSI of 47.7, while GBP/USD sits sideways at 1.34108 with a higher RSI of 66.4. USD/JPY maintains an uptrend near 158.29, supported by still-negative Japanese real rates. Commitment of Traders data shows net shorts persisting heavily in EUR, GBP, and AUD, contrasting with net long positioning in the US Dollar Index and Gold."
+        },
+        {
+          "h": "What to watch next",
+          "p": "Traders should prepare for high-impact data releases later in the week, including New Zealand employment figures, the upcoming BOE Monetary Policy Report and Official Bank Rate decision, and crucial US labor market data featuring Non-Farm Employment Change and the unemployment rate."
+        }
+      ]
+    },
     {
       "date": "2026-11-03",
       "title": "Dollar Rangebound Ahead of U.S. Midterm Elections as Markets Weigh Global Drivers",
