@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-04T18:47+00:00",
-  "summary": "Global foreign exchange markets experienced broad US dollar weakness as Democratic midterm election victories triggered a flight to safe-havens and a rally in Treasuries. Meanwhile, the euro and pound found support against the greenback amid falling yields and optimism surrounding policy risk reduction. Traders are now shifting their focus toward upcoming central bank decisions, including an anticipated rate hike from the Bank of England and key US employment data.",
+  "updated": "2026-11-04T21:41+00:00",
+  "summary": "The US dollar slipped to over a one-month low following Democratic midterm election wins and mixed economic data. Treasury yields rallied alongside crypto and equities as investors digested the political shifts. Meanwhile, the pound climbed to its highest level in a decade against a currency basket, aided by a draft deal to scrap Brexit food export red tape and expectations for a Bank of England rate hike.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bullish",
-      "reason": "The pair benefits from broad US dollar weakness tied to US political shifts and declining Treasury yields."
+      "reason": "Lower US political risk and a softening dollar support the euro."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "Pound gains are supported by a softening dollar and expectations around an upcoming Bank of England rate hike."
+      "reason": "Strong domestic momentum, Brexit progress, and anticipated BoE rate hikes underpin the pound."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bearish",
-      "reason": "The greenback is slipping against major counterparts as safe-haven dynamics pressure US yields lower."
+      "reason": "Broad dollar weakness and steady Japanese positioning weigh on the pair despite an active uptrend."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Falling Treasury yields and safe-haven flows provide underlying support for precious metals."
+      "reason": "A weaker greenback and declining Treasury yields provide favorable conditions for gold."
     }
   ],
   "watch": [
-    "US Midterm Election final results",
-    "BOE Official Bank Rate and Monetary Policy Report",
+    "BOE Monetary Policy Report and Official Bank Rate votes",
     "US Non-Farm Employment Change and Unemployment Rate",
-    "BOJ Governor Ueda Speech"
+    "BOJ Gov Ueda Speech",
+    "U.S. Treasury refunding updates"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by the aftermath of the US midterm elections, where a Democratic sweep has prompted a rally in Treasuries and a slide in the US dollar index. Federal Reserve officials are beginning to signal a need to return to rate hiking cycles, balancing employment data against persistent inflation pressures. Concurrently, the UK and EU have agreed on a draft deal to ease Brexit food export frictions, while the Bank of England prepares its rate decision.",
-  "technical_view": "EUR/USD trades near resistance at 1.1267 with an RSI of 57.1 indicating moderate bullish momentum. GBP/USD sits right at its resistance level of 1.34998 with an elevated RSI of 74.9, suggesting potential overextension despite the ongoing sideways-to-upward trend.",
-  "cot_view": "COT positioning shows large net-short stances remaining on major pairs like EUR and GBP against the US dollar, indicating potential vulnerability to short squeezes if dollar weakness persists. Gold maintains a strong net-long positioning with 85.7 percent long contracts, reflecting sustained institutional preference for the precious metal.",
+  "fundamentals": "Macro drivers are heavily influenced by the U.S. midterm elections, which resulted in Democratic gains and subsequent downward pressure on the dollar and Treasury yields. Mixed domestic economic prints and lingering expectations of future Federal Reserve tightening continue to complicate the monetary policy outlook. In the UK, positive developments regarding Brexit red tape and potential Bank of England rate hikes have bolstered sterling sentiment.",
+  "technical_view": "EUR/USD trades sideways near resistance around 1.1267 with an RSI of 57.1, indicating balanced near-term momentum. GBP/USD rests near its 1.34998 resistance level with an elevated RSI of 74.9, signaling overbought conditions. USD/JPY maintains an uptrend structure with a price of 158.25 and an RSI of 52.8.",
+  "cot_view": "COT positioning shows net shorts remain heavy for both EUR and GBP, though GBP saw a slight long addition. JPY maintains a solid net long positioning with over 64% of open interest long. Gold speculators hold a substantial net long bias despite a minor reduction in net positioning.",
   "market": {
     "strength": {
       "1": {
@@ -296,13 +296,18 @@
   "headlines": [
     {
       "source": "Investing.com",
-      "title": "Treasuries rally as Democrats sweep into Congress",
-      "link": "https://www.investing.com/news/forex-news/german-yields-steady-as-us-midterm-shifts-and-eurozone-cpi-loom-4997605"
+      "title": "Crypto tracks stocks higher after Democrat midterm wins",
+      "link": "https://www.investing.com/news/forex-news/crypto-dips-on-democrat-midterm-wins-binance-hack-dent-optimism-4997586"
     },
     {
       "source": "Investing.com",
-      "title": "Crypto tracks stocks higher after Democrat midterm wins",
-      "link": "https://www.investing.com/news/forex-news/crypto-dips-on-democrat-midterm-wins-binance-hack-dent-optimism-4997586"
+      "title": "Dollar slips to over one-month low on U.S. midterm results, mixed economic data",
+      "link": "https://www.investing.com/news/forex-news/asian-currencies-rise-as-dollar-retreats-from-monthly-rally-yuan-remains-under-pr-4997237"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Treasuries rally as Democrats sweep into Congress",
+      "link": "https://www.investing.com/news/forex-news/german-yields-steady-as-us-midterm-shifts-and-eurozone-cpi-loom-4997605"
     },
     {
       "source": "Investing.com",
@@ -313,11 +318,6 @@
       "source": "Investing.com",
       "title": "Sterling today: Pound gains as dollar slips on Democratic midterm sweep",
       "link": "https://www.investing.com/news/forex-news/sterling-today-pound-gains-as-dollar-slips-on-democratic-midterm-sweep-4998167"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar falls to one-month low as U.S. midterms trigger flight to safe-havens",
-      "link": "https://www.investing.com/news/forex-news/asian-currencies-rise-as-dollar-retreats-from-monthly-rally-yuan-remains-under-pr-4997237"
     },
     {
       "source": "Investing.com",
