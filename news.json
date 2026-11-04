@@ -1,128 +1,38 @@
 {
-  "updated": "2026-11-04T06:55+00:00",
-  "summary": "Markets are reacting to the U.S. midterm elections, which have driven a general softening of the U.S. dollar and a drop in Treasury yields as investors seek safety in bonds. Meanwhile, global central bank policy expectations remain in focus, with comments from Fed officials noting potential future rate hikes and upcoming Bank of England decisions. Currency pairs are adjusting dynamically to these shifting political and monetary dynamics.",
+  "updated": "2026-11-04T09:52+00:00",
+  "summary": "Financial markets are adjusting to U.S. midterm election developments as Democratic wins prompt a flight to safety, weighing on equity futures and Treasury yields. Concurrently, hawkish comments from Federal Reserve officials signaling potential future rate hikes are creating a tug-of-war for the greenback. Meanwhile, European currencies are finding support from lower U.S. yields and a draft UK-EU deal to ease trade friction. Risk appetite also faces headwinds from high-profile security incidents within the cryptocurrency sector.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bullish",
-      "reason": "The euro is gaining as the U.S. dollar softens amid midterm election developments."
+      "reason": "The euro gains ground as the U.S. dollar eases following midterm election results and yields decline."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "Pound edges higher on an easing dollar and expectations surrounding the upcoming BoE rate decisions."
+      "reason": "Sterling is supported by expectations of a Bank of England rate hike and a draft UK-EU trade agreement."
     },
     {
       "pair": "USD/JPY",
-      "bias": "Bullish",
-      "reason": "Still-negative Japanese real rates continue to provide fundamental support for the pair."
+      "bias": "Bearish",
+      "reason": "Declining U.S. Treasury yields and demand for safe-haven assets favor the Japanese yen over the dollar."
     },
     {
-      "pair": "XAU/USD",
-      "bias": "Neutral",
-      "reason": "Investors are weighing safe-haven currency alternatives alongside potential downside breakout risks in gold."
+      "pair": "XAU/USD (Gold)",
+      "bias": "Bullish",
+      "reason": "Gold attracts safe-haven flows amid stock market weakness and lower bond yields."
     }
   ],
   "watch": [
-    "U.S. Midterm Election results",
-    "BoE Monetary Policy Summary and Bank Rate",
+    "Bank of England Official Bank Rate decision and policy summary",
     "U.S. Non-Farm Employment Change and Unemployment Rate",
-    "BOJ Gov Ueda Speech"
+    "Speech by Bank of Japan Governor Ueda",
+    "Speech by Bank of England Governor Bailey"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by the U.S. midterm elections, which have triggered equity market pullbacks and pushed investors toward safety in U.S. Treasuries, weighing on the dollar. Federal Reserve officials are signaling potential needs to return to rate hikes, adding a layer of hawkish expectation. Simultaneously, global central banks like the Bank of England approach critical policy meetings, while persistent negative real rates in Japan continue to weigh on the yen.",
-  "technical_view": "EUR/USD sits in a downtrend near support at 1.113 with an RSI of 47.7, while GBP/USD trades sideways with a relatively high RSI of 66.4 near resistance at 1.34194. USD/JPY maintains an uptrend near 158.29, approaching resistance at 158.6.",
-  "cot_view": "COT positioning shows large net-short stances on EUR and GBP, indicating persistent bearish institutional sentiment despite recent price bounces. Conversely, JPY maintains a substantial net-long position with growing long contracts, while Gold holds a strong net-long bias of over 186,000 contracts.",
+  "fundamentals": "Macroeconomic sentiment is currently anchored by political uncertainty around U.S. midterm election outcomes, driving safety flows into government bonds and pressuring Treasury yields lower. Despite immediate U.S. dollar weakness, Federal Reserve officials have indicated that further interest rate increases remain under consideration to keep inflation in check. In Europe, an agreement between the UK and EU to reduce Brexit-related food export barriers provides fundamental relief to regional sentiment. Markets now await upcoming central bank communications and U.S. employment data to clarify the medium-term rate outlook.",
+  "technical_view": "",
+  "cot_view": "Commitment of Traders positioning shows institutional traders heavily net-long on Gold (85.7%) and Japanese Yen, with significant net long additions seen in JPY. In contrast, speculators hold net-short positions in the Euro and Sterling, though GBP saw minor short reduction. Overall U.S. Dollar Index sentiment remains moderate net-long at 64.6%.",
   "market": {
-    "strength": {
-      "1": {
-        "EUR": -0.2,
-        "GBP": 0.07,
-        "AUD": -0.22,
-        "NZD": 0.09,
-        "JPY": -0.11,
-        "CAD": 0.13,
-        "CHF": 0.1,
-        "USD": 0.13
-      },
-      "5": {
-        "EUR": 0.27,
-        "GBP": 0.63,
-        "AUD": -0.67,
-        "NZD": -1.37,
-        "JPY": -0.29,
-        "CAD": 0.35,
-        "CHF": 1.07,
-        "USD": 0.01
-      },
-      "20": {
-        "EUR": -1.23,
-        "GBP": 0.58,
-        "AUD": -0.42,
-        "NZD": -0.31,
-        "JPY": -0.56,
-        "CAD": 1.53,
-        "CHF": 0.85,
-        "USD": -0.44
-      }
-    },
-    "technical": [
-      {
-        "pair": "EUR/USD",
-        "price": 1.11791,
-        "trend": "Downtrend",
-        "rsi": 47.7,
-        "support": 1.113,
-        "resistance": 1.1253
-      },
-      {
-        "pair": "GBP/USD",
-        "price": 1.34108,
-        "trend": "Sideways",
-        "rsi": 66.4,
-        "support": 1.32046,
-        "resistance": 1.34194
-      },
-      {
-        "pair": "USD/JPY",
-        "price": 158.29,
-        "trend": "Uptrend",
-        "rsi": 48.5,
-        "support": 156.8,
-        "resistance": 158.6
-      },
-      {
-        "pair": "AUD/USD",
-        "price": 0.69837,
-        "trend": "Downtrend",
-        "rsi": 45.9,
-        "support": 0.69109,
-        "resistance": 0.70338
-      },
-      {
-        "pair": "USD/CAD",
-        "price": 1.3975,
-        "trend": "Sideways",
-        "rsi": 17.0,
-        "support": 1.3969,
-        "resistance": 1.4262
-      },
-      {
-        "pair": "USD/CHF",
-        "price": 0.81993,
-        "trend": "Sideways",
-        "rsi": 30.1,
-        "support": 0.81963,
-        "resistance": 0.83372
-      },
-      {
-        "pair": "NZD/USD",
-        "price": 0.56243,
-        "trend": "Downtrend",
-        "rsi": 51.8,
-        "support": 0.55891,
-        "resistance": 0.57029
-      }
-    ],
     "cot": [
       {
         "name": "EUR",
@@ -296,6 +206,16 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "German yields steady as U.S. midterm shifts and eurozone CPI loom",
+      "link": "https://www.investing.com/news/forex-news/german-yields-steady-as-us-midterm-shifts-and-eurozone-cpi-loom-4997605"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Crypto dips on Democrat midterm wins, Binance hack dents optimism",
+      "link": "https://www.investing.com/news/forex-news/crypto-dips-on-democrat-midterm-wins-binance-hack-dent-optimism-4997586"
+    },
+    {
+      "source": "Investing.com",
       "title": "Asian FX gains as dollar falls on U.S. midterm results, yuan weakens on PBOC move",
       "link": "https://www.investing.com/news/forex-news/asian-currencies-rise-as-dollar-retreats-from-monthly-rally-yuan-remains-under-pr-4997237"
     },
@@ -323,16 +243,6 @@
       "source": "Investing.com",
       "title": "Dollar slips slightly ahead of U.S. midterm elections; euro gains while yen eases",
       "link": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-yuan-holds-near-fouryear-high-dollar-steadies-4989824"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Canadian dollar slips from six-week high as oil retreat offsets weaker U.S. dollar",
-      "link": "https://www.investing.com/news/forex-news/canadian-dollar-slips-from-sixweek-high-as-oil-retreat-offsets-weaker-us-dollar-4992383"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Treasuries steady as traders weigh midterm vote and AI trade",
-      "link": "https://www.investing.com/news/forex-news/french-yields-steady-as-fitch-spares-credit-downgrade-bunds-edge-up-4990078"
     }
   ],
   "articles": [
