@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-04T00:42+00:00",
-  "summary": "Foreign exchange markets are exhibiting cautious trading as investors weigh upcoming U.S. midterm elections against mixed economic signals and central bank expectations. The U.S. Dollar remains rangebound to slightly firmer amid rising Treasury yields and hawkish undertones from select Federal Reserve officials. Meanwhile, Sterling is finding support from anticipated Bank of England policy tightening and positive UK-EU trade developments, while the Japanese Yen remains pressured by negative domestic real interest rates.",
+  "updated": "2026-11-04T06:55+00:00",
+  "summary": "Markets are reacting to the U.S. midterm elections, which have driven a general softening of the U.S. dollar and a drop in Treasury yields as investors seek safety in bonds. Meanwhile, global central bank policy expectations remain in focus, with comments from Fed officials noting potential future rate hikes and upcoming Bank of England decisions. Currency pairs are adjusting dynamically to these shifting political and monetary dynamics.",
   "outlook": [
     {
       "pair": "EUR/USD",
-      "bias": "Bearish",
-      "reason": "Downtrend momentum remains intact alongside net-short positioning."
+      "bias": "Bullish",
+      "reason": "The euro is gaining as the U.S. dollar softens amid midterm election developments."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "Anticipated Bank of England policy tightening and UK-EU trade news provide upward support."
+      "reason": "Pound edges higher on an easing dollar and expectations surrounding the upcoming BoE rate decisions."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Persistent negative Japanese real interest rates continue to bolster the prevailing uptrend."
+      "reason": "Still-negative Japanese real rates continue to provide fundamental support for the pair."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Heavily long speculative positioning provides underlying support, though breakout risks remain monitored."
+      "reason": "Investors are weighing safe-haven currency alternatives alongside potential downside breakout risks in gold."
     }
   ],
   "watch": [
-    "BOE Official Bank Rate decision and Monetary Policy Summary (Nov 5)",
-    "US Non-Farm Employment Change and Unemployment Rate (Nov 6)",
-    "U.S. Midterm Election results and Treasury yield movements",
-    "BOE Governor Bailey speech (Nov 5)"
+    "U.S. Midterm Election results",
+    "BoE Monetary Policy Summary and Bank Rate",
+    "U.S. Non-Farm Employment Change and Unemployment Rate",
+    "BOJ Gov Ueda Speech"
   ],
-  "fundamentals": "Macro sentiment is largely driven by political uncertainty around the U.S. midterm elections alongside recalibrated expectations for Federal Reserve policy after officials signaled potential future rate increases. In the UK, a draft agreement with the EU to eliminate food export red tape and expectations of a BoE rate hike to 4.00% are providing fundamental tailwinds for the Pound. Conversely, Japan's deeply negative real interest rates continue to undermine the Yen against the Dollar, supporting higher USD/JPY levels despite broader safe-haven discussions.",
-  "technical_view": "EUR/USD remains constrained in a technical downtrend around 1.1179 with an RSI of 47.7, testing support near 1.1130. GBP/USD trades sideways near key resistance at 1.3419 with a elevated RSI of 66.4, while USD/JPY maintains a firm uptrend at 158.29, pressing closely against overhead resistance at 158.60.",
-  "cot_view": "Commitment of Traders data reveals heavily bullish sentiment in Gold, with net long contracts comprising 85.7% of positions despite a recent weekly reduction. Non-commercial traders maintain substantial net-short exposure in EUR (-143,894) and GBP (-79,414), while the US Dollar Index holds a modest net-long position.",
+  "fundamentals": "Macro drivers are heavily influenced by the U.S. midterm elections, which have triggered equity market pullbacks and pushed investors toward safety in U.S. Treasuries, weighing on the dollar. Federal Reserve officials are signaling potential needs to return to rate hikes, adding a layer of hawkish expectation. Simultaneously, global central banks like the Bank of England approach critical policy meetings, while persistent negative real rates in Japan continue to weigh on the yen.",
+  "technical_view": "EUR/USD sits in a downtrend near support at 1.113 with an RSI of 47.7, while GBP/USD trades sideways with a relatively high RSI of 66.4 near resistance at 1.34194. USD/JPY maintains an uptrend near 158.29, approaching resistance at 158.6.",
+  "cot_view": "COT positioning shows large net-short stances on EUR and GBP, indicating persistent bearish institutional sentiment despite recent price bounces. Conversely, JPY maintains a substantial net-long position with growing long contracts, while Gold holds a strong net-long bias of over 186,000 contracts.",
   "market": {
     "strength": {
       "1": {
@@ -208,20 +208,6 @@
     ],
     "calendar": [
       {
-        "date": "2026-11-03T21:45+00:00",
-        "country": "NZD",
-        "title": "Employment Change q/q",
-        "forecast": "0.4%",
-        "previous": "0.5%"
-      },
-      {
-        "date": "2026-11-03T21:45+00:00",
-        "country": "NZD",
-        "title": "Unemployment Rate",
-        "forecast": "5.5%",
-        "previous": "5.6%"
-      },
-      {
         "date": "2026-11-05T12:00+00:00",
         "country": "GBP",
         "title": "BOE Monetary Policy Report",
@@ -290,10 +276,34 @@
         "title": "Unemployment Rate",
         "forecast": "4.2%",
         "previous": "4.2%"
+      },
+      {
+        "date": "2026-11-06T16:00+00:00",
+        "country": "JPY",
+        "title": "BOJ Gov Ueda Speaks",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "date": "2026-11-06T21:45+00:00",
+        "country": "NZD",
+        "title": "Parliamentary Elections",
+        "forecast": "",
+        "previous": ""
       }
     ]
   },
   "headlines": [
+    {
+      "source": "Investing.com",
+      "title": "Asian FX gains as dollar falls on U.S. midterm results, yuan weakens on PBOC move",
+      "link": "https://www.investing.com/news/forex-news/asian-currencies-rise-as-dollar-retreats-from-monthly-rally-yuan-remains-under-pr-4997237"
+    },
+    {
+      "source": "Investing.com",
+      "title": "India rupee’s recovery may find fresh legs from equity flows, dollar weakness",
+      "link": "https://www.investing.com/news/forex-news/india-rupees-recovery-may-find-fresh-legs-from-equity-flows-dollar-weakness-4997157"
+    },
     {
       "source": "Investing.com",
       "title": "Dollar ticks up with eyes on U.S. midterm elections; Aussie slips despite RBA hike",
@@ -323,16 +333,6 @@
       "source": "Investing.com",
       "title": "Treasuries steady as traders weigh midterm vote and AI trade",
       "link": "https://www.investing.com/news/forex-news/french-yields-steady-as-fitch-spares-credit-downgrade-bunds-edge-up-4990078"
-    },
-    {
-      "source": "Investing.com",
-      "title": "If gold breaks lower, investors may look at these safe haven currencies: analyst",
-      "link": "https://www.investing.com/news/forex-news/if-gold-breaks-lower-investors-may-look-at-these-safe-haven-currencies-analyst-4991012"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Still-negative Japanese real rates should continue to support USD/JPY: UBS",
-      "link": "https://www.investing.com/news/forex-news/stillnegative-japanese-real-rates-should-continue-to-support-usdjpy-ubs-93CH-4990645"
     }
   ],
   "articles": [
