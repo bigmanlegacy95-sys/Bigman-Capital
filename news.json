@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-04T15:48+00:00",
-  "summary": "U.S. Treasury markets rallied and the U.S. dollar tumbled to a one-month low as Democrats swept into Congress in the midterm elections. Meanwhile, shifting expectations around central bank monetary policy and rising equity flows are steering broader foreign exchange movements. Traders are closely tracking upcoming policy decisions and labor market reports for further macro direction.",
+  "updated": "2026-11-04T18:47+00:00",
+  "summary": "Global foreign exchange markets experienced broad US dollar weakness as Democratic midterm election victories triggered a flight to safe-havens and a rally in Treasuries. Meanwhile, the euro and pound found support against the greenback amid falling yields and optimism surrounding policy risk reduction. Traders are now shifting their focus toward upcoming central bank decisions, including an anticipated rate hike from the Bank of England and key US employment data.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bullish",
-      "reason": "The euro has gained support from broader dollar weakness tied to U.S. midterm results and reduced policy risks."
+      "reason": "The pair benefits from broad US dollar weakness tied to US political shifts and declining Treasury yields."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "Sterling advances as the dollar eases and market participants anticipate potential Bank of England rate hikes."
+      "reason": "Pound gains are supported by a softening dollar and expectations around an upcoming Bank of England rate hike."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bearish",
-      "reason": "The dollar is sliding against safe-havens and major currencies following the U.S. political shift and ongoing yield dynamics."
+      "reason": "The greenback is slipping against major counterparts as safe-haven dynamics pressure US yields lower."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Neutral",
-      "reason": ""
+      "bias": "Bullish",
+      "reason": "Falling Treasury yields and safe-haven flows provide underlying support for precious metals."
     }
   ],
   "watch": [
-    "BOE Official Bank Rate and Monetary Policy Summary",
-    "BOE Gov Bailey Speaks",
-    "U.S. Non-Farm Employment Change and Unemployment Rate",
-    "BOJ Gov Ueda Speaks"
+    "US Midterm Election final results",
+    "BOE Official Bank Rate and Monetary Policy Report",
+    "US Non-Farm Employment Change and Unemployment Rate",
+    "BOJ Governor Ueda Speech"
   ],
-  "fundamentals": "Macro drivers are currently dominated by U.S. political shifts following Democratic midterm victories, which have triggered a flight to safety and a softer dollar. Concurrently, remarks from Federal Reserve officials signaling a potential return to rate hikes are interacting with shifting global debt and equity flows. European currencies are additionally supported by constructive regional developments, such as the UK-EU draft deal on food exports.",
-  "technical_view": "EUR/USD trades near resistance at 1.1267 with an RSI of 57.1 in a sideways trend. GBP/USD is pressing upper resistance at 1.34998 with an elevated RSI of 74.9, while USD/JPY continues to hold an uptrend testing resistance around 158.6.",
-  "cot_view": "COT positioning shows net-short sentiment persists heavily across EUR, GBP, and AUD, while JPY maintains a solid net-long bias of over 100,000 contracts. The USD Index retains a net-long stance, though recent price action reflects shifting momentum away from the greenback.",
+  "fundamentals": "Macro drivers are heavily influenced by the aftermath of the US midterm elections, where a Democratic sweep has prompted a rally in Treasuries and a slide in the US dollar index. Federal Reserve officials are beginning to signal a need to return to rate hiking cycles, balancing employment data against persistent inflation pressures. Concurrently, the UK and EU have agreed on a draft deal to ease Brexit food export frictions, while the Bank of England prepares its rate decision.",
+  "technical_view": "EUR/USD trades near resistance at 1.1267 with an RSI of 57.1 indicating moderate bullish momentum. GBP/USD sits right at its resistance level of 1.34998 with an elevated RSI of 74.9, suggesting potential overextension despite the ongoing sideways-to-upward trend.",
+  "cot_view": "COT positioning shows large net-short stances remaining on major pairs like EUR and GBP against the US dollar, indicating potential vulnerability to short squeezes if dollar weakness persists. Gold maintains a strong net-long positioning with 85.7 percent long contracts, reflecting sustained institutional preference for the precious metal.",
   "market": {
     "strength": {
       "1": {
