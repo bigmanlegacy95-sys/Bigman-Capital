@@ -1,38 +1,128 @@
 {
-  "updated": "2026-11-04T12:48+00:00",
-  "summary": "Global foreign exchange markets are reacting to the U.S. midterm elections, where a Democratic sweep of the House and Senate triggered a flight to safe-havens and pushed the U.S. dollar down to a one-month low. Treasury yields fell following the election results, weighing on the greenback and offering support to major currencies like the euro and the pound. Meanwhile, upcoming central bank decisions, including the Bank of England rate decision and upcoming U.S. employment data, remain central focuses for market participants.",
+  "updated": "2026-11-04T15:48+00:00",
+  "summary": "U.S. Treasury markets rallied and the U.S. dollar tumbled to a one-month low as Democrats swept into Congress in the midterm elections. Meanwhile, shifting expectations around central bank monetary policy and rising equity flows are steering broader foreign exchange movements. Traders are closely tracking upcoming policy decisions and labor market reports for further macro direction.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bullish",
-      "reason": "Lower U.S. policy risk and a weaker dollar amid falling Treasury yields are supporting the euro."
+      "reason": "The euro has gained support from broader dollar weakness tied to U.S. midterm results and reduced policy risks."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "The pound is gaining ground as the dollar slips and expectations build for an upcoming Bank of England rate hike."
+      "reason": "Sterling advances as the dollar eases and market participants anticipate potential Bank of England rate hikes."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bearish",
-      "reason": "Broad dollar weakness and safe-haven flows are pushing the greenback lower against the yen."
+      "reason": "The dollar is sliding against safe-havens and major currencies following the U.S. political shift and ongoing yield dynamics."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Gold positioning remains heavily net long, but price action is stabilizing amid shifting Treasury yields."
+      "reason": ""
     }
   ],
   "watch": [
-    "BOE Official Bank Rate and Monetary Policy Report",
+    "BOE Official Bank Rate and Monetary Policy Summary",
+    "BOE Gov Bailey Speaks",
     "U.S. Non-Farm Employment Change and Unemployment Rate",
-    "U.S. Average Hourly Earnings m/m",
     "BOJ Gov Ueda Speaks"
   ],
-  "fundamentals": "The primary macro driver is the U.S. midterm election outcome, which resulted in a Democratic sweep of Congress and caused a sharp decline in U.S. Treasury yields and a broad sell-off in the dollar. Safe-haven demand has redirected capital flows, while regional developments like the UK-EU draft deal on food exports provide a supportive backdrop for European assets. Attention now turns to upcoming labor market data from the United States and Canada, alongside crucial central bank commentary.",
-  "technical_view": "",
-  "cot_view": "Commitments of Traders data shows EUR and GBP maintaining large net-short positions, leaving them vulnerable to short-covering rallies if dollar weakness persists. Conversely, JPY and Gold hold sizable net-long positions, reflecting ongoing defensive positioning by institutional market participants.",
+  "fundamentals": "Macro drivers are currently dominated by U.S. political shifts following Democratic midterm victories, which have triggered a flight to safety and a softer dollar. Concurrently, remarks from Federal Reserve officials signaling a potential return to rate hikes are interacting with shifting global debt and equity flows. European currencies are additionally supported by constructive regional developments, such as the UK-EU draft deal on food exports.",
+  "technical_view": "EUR/USD trades near resistance at 1.1267 with an RSI of 57.1 in a sideways trend. GBP/USD is pressing upper resistance at 1.34998 with an elevated RSI of 74.9, while USD/JPY continues to hold an uptrend testing resistance around 158.6.",
+  "cot_view": "COT positioning shows net-short sentiment persists heavily across EUR, GBP, and AUD, while JPY maintains a solid net-long bias of over 100,000 contracts. The USD Index retains a net-long stance, though recent price action reflects shifting momentum away from the greenback.",
   "market": {
+    "strength": {
+      "1": {
+        "EUR": 0.41,
+        "GBP": 0.29,
+        "AUD": 0.08,
+        "NZD": -0.15,
+        "JPY": -0.35,
+        "CAD": -0.09,
+        "CHF": 0.17,
+        "USD": -0.37
+      },
+      "5": {
+        "EUR": 0.52,
+        "GBP": 0.92,
+        "AUD": -0.93,
+        "NZD": -0.26,
+        "JPY": -0.86,
+        "CAD": 0.12,
+        "CHF": 1.17,
+        "USD": -0.68
+      },
+      "20": {
+        "EUR": -0.33,
+        "GBP": 1.1,
+        "AUD": -0.22,
+        "NZD": -0.39,
+        "JPY": -1.15,
+        "CAD": 1.14,
+        "CHF": 0.99,
+        "USD": -1.14
+      }
+    },
+    "technical": [
+      {
+        "pair": "EUR/USD",
+        "price": 1.1267,
+        "trend": "Sideways",
+        "rsi": 57.1,
+        "support": 1.113,
+        "resistance": 1.1267
+      },
+      {
+        "pair": "GBP/USD",
+        "price": 1.34998,
+        "trend": "Sideways",
+        "rsi": 74.9,
+        "support": 1.32069,
+        "resistance": 1.34998
+      },
+      {
+        "pair": "USD/JPY",
+        "price": 158.25,
+        "trend": "Uptrend",
+        "rsi": 52.8,
+        "support": 156.8,
+        "resistance": 158.6
+      },
+      {
+        "pair": "AUD/USD",
+        "price": 0.70151,
+        "trend": "Sideways",
+        "rsi": 70.9,
+        "support": 0.69109,
+        "resistance": 0.70338
+      },
+      {
+        "pair": "USD/CAD",
+        "price": 1.3935,
+        "trend": "Sideways",
+        "rsi": 15.8,
+        "support": 1.3935,
+        "resistance": 1.4262
+      },
+      {
+        "pair": "USD/CHF",
+        "price": 0.81548,
+        "trend": "Sideways",
+        "rsi": 29.1,
+        "support": 0.81548,
+        "resistance": 0.83372
+      },
+      {
+        "pair": "NZD/USD",
+        "price": 0.5637,
+        "trend": "Downtrend",
+        "rsi": 56.6,
+        "support": 0.55891,
+        "resistance": 0.57029
+      }
+    ],
     "cot": [
       {
         "name": "EUR",
@@ -206,6 +296,16 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Treasuries rally as Democrats sweep into Congress",
+      "link": "https://www.investing.com/news/forex-news/german-yields-steady-as-us-midterm-shifts-and-eurozone-cpi-loom-4997605"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Crypto tracks stocks higher after Democrat midterm wins",
+      "link": "https://www.investing.com/news/forex-news/crypto-dips-on-democrat-midterm-wins-binance-hack-dent-optimism-4997586"
+    },
+    {
+      "source": "Investing.com",
       "title": "Deutsche Bank sees lower policy risk supporting euro amid debt ceiling focus",
       "link": "https://www.investing.com/news/forex-news/deutsche-bank-sees-lower-policy-risk-supporting-euro-amid-debt-ceiling-focus-93CH-4998725"
     },
@@ -218,16 +318,6 @@
       "source": "Investing.com",
       "title": "Dollar falls to one-month low as U.S. midterms trigger flight to safe-havens",
       "link": "https://www.investing.com/news/forex-news/asian-currencies-rise-as-dollar-retreats-from-monthly-rally-yuan-remains-under-pr-4997237"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Crypto tracks stocks higher after Democrat midterm wins",
-      "link": "https://www.investing.com/news/forex-news/crypto-dips-on-democrat-midterm-wins-binance-hack-dent-optimism-4997586"
-    },
-    {
-      "source": "Investing.com",
-      "title": "German yields steady as U.S. midterm shifts and eurozone CPI loom",
-      "link": "https://www.investing.com/news/forex-news/german-yields-steady-as-us-midterm-shifts-and-eurozone-cpi-loom-4997605"
     },
     {
       "source": "Investing.com",
