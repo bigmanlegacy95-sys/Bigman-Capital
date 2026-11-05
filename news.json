@@ -1,125 +1,125 @@
 {
-  "updated": "2026-11-05T06:59+00:00",
-  "summary": "The US Dollar has slipped to multi-week lows as traders digest Democratic victories in the US midterm elections and lower Treasury yields. Sterling has mounted a strong advance amid expectations of a Bank of England interest rate increase to 4.00% and a draft UK-EU trade deal. Meanwhile, Fed officials continue to signal that rate hikes may be necessary in the future depending on incoming economic data.",
+  "updated": "2026-11-05T21:38+00:00",
+  "summary": "Financial markets are navigating the aftermath of the U.S. midterm elections alongside a sharp decline in technology shares. The U.S. dollar is trading flat to steady as investors position ahead of the upcoming non-farm payrolls report. Meanwhile, the British pound is in focus following the Bank of England's interest rate increase to 4.0%, and safe-haven demand has offered support to the Japanese yen.",
   "outlook": [
     {
       "pair": "EUR/USD",
-      "bias": "Bullish",
-      "reason": "Broad US Dollar weakness and reduced policy risk support Euro gains near major resistance levels."
+      "bias": "Neutral",
+      "reason": "The pair remains in a sideways technical range ahead of key U.S. labor market data."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "Expected Bank of England rate hikes and Brexit trade progress continue to drive upside momentum."
+      "reason": "The Bank of England's 25 basis point rate hike provides monetary policy support despite resistance near 1.35."
     },
     {
       "pair": "USD/JPY",
-      "bias": "Neutral",
-      "reason": "Declining Treasury yields weigh on the Greenback, balancing out the underlying technical uptrend."
+      "bias": "Bearish",
+      "reason": "Safe-haven flows into the yen and midterm political shifts could pressure the pair near resistance."
     },
     {
       "pair": "XAU/USD (Gold)",
-      "bias": "Bullish",
-      "reason": "Softening Treasury yields and a weaker US Dollar provide a favorable macroeconomic backdrop for bullion."
+      "bias": "Neutral",
+      "reason": "Support from falling Treasury yields is balanced by a recent decline in net speculative long positions."
     }
   ],
   "watch": [
-    "BOE Official Bank Rate decision and Monetary Policy Summary",
-    "US Non-Farm Employment Change and Unemployment Rate",
-    "BOE Governor Bailey speech",
-    "BOJ Governor Ueda speech"
+    "U.S. Non-Farm Employment Change and Unemployment Rate",
+    "Bank of Japan Governor Ueda speech",
+    "Canada Employment Change and Unemployment Rate",
+    "Post-U.S. midterm election policy and AI regulatory developments"
   ],
-  "fundamentals": "US politics took center stage as Democratic congressional victories led to falling Treasury yields and broad Greenback weakness. Across the Atlantic, the Bank of England is widely anticipated to deliver a 25 basis point rate hike, while easing UK-EU food export regulations provides additional tailwinds for Sterling. Looking ahead, traders will focus on upcoming US labor market metrics and central bank communications to gauge future rate paths.",
-  "technical_view": "GBP/USD is pressing key resistance at 1.34998 with an RSI of 74.9, pointing to stretched overbought conditions that could limit immediate upside. EUR/USD is testing resistance near 1.1267 within a sideways structure, while USD/JPY maintains a broader uptrend at 158.25 just below resistance at 158.6.",
-  "cot_view": "Commitments of Traders data shows net long JPY positions increased significantly by 31,713 contracts, reflecting stronger institutional positioning for Yen strength. Gold sentiment remains overwhelmingly bullish with 85.7% long positions despite a minor weekly reduction, whereas EUR net short contracts expanded slightly.",
+  "fundamentals": "Currency markets are absorbing the outcome of the U.S. midterm elections, where analysts note that Democratic strength could weigh on the U.S. dollar in the near term. The Bank of England raised its benchmark interest rate by 25 basis points to 4.0%, marking its first hike in over three years amid persistent inflation concerns. At the same time, equity turbulence caused by proposed scrutiny on data centers and a weekly plunge in oil prices have pushed Treasury yields lower. Market participants are now awaiting the U.S. non-farm payrolls data for guidance on future Federal Reserve monetary policy.",
+  "technical_view": "EUR/USD continues to trade sideways with an RSI of 46.5, contained between support at 1.1130 and resistance at 1.1267. GBP/USD displays a sideways trend but is pressing against resistance at 1.34998 with an RSI of 63.4. USD/JPY retains an uptrend at 158.46, hovering just beneath its immediate technical resistance level at 158.60.",
+  "cot_view": "Commitments of Traders data shows substantial safe-haven positioning in the Japanese yen, which holds a net long posture of 101,591 contracts following a weekly gain of 31,713 contracts. Gold remains heavily long with 85.7% of market positioning, although traders trimmed net longs by 13,414 contracts. Conversely, speculative positioning in the euro and sterling remains net negative, though the British pound experienced a slight reduction in net shorts.",
   "market": {
     "strength": {
       "1": {
-        "EUR": 0.41,
-        "GBP": 0.29,
-        "AUD": 0.08,
-        "NZD": -0.15,
-        "JPY": -0.35,
-        "CAD": -0.09,
-        "CHF": 0.17,
-        "USD": -0.37
+        "EUR": -0.15,
+        "GBP": -0.07,
+        "AUD": 0.02,
+        "NZD": -0.05,
+        "JPY": 0.09,
+        "CAD": 0.01,
+        "CHF": -0.07,
+        "USD": 0.23
       },
       "5": {
-        "EUR": 0.52,
-        "GBP": 0.92,
-        "AUD": -0.93,
-        "NZD": -0.26,
-        "JPY": -0.86,
-        "CAD": 0.12,
-        "CHF": 1.17,
-        "USD": -0.68
+        "EUR": 0.48,
+        "GBP": 0.7,
+        "AUD": -0.72,
+        "NZD": -0.27,
+        "JPY": -0.62,
+        "CAD": -0.15,
+        "CHF": 0.94,
+        "USD": -0.36
       },
       "20": {
-        "EUR": -0.33,
-        "GBP": 1.1,
-        "AUD": -0.22,
-        "NZD": -0.39,
-        "JPY": -1.15,
-        "CAD": 1.14,
+        "EUR": -0.61,
+        "GBP": 0.96,
+        "AUD": -0.13,
+        "NZD": -0.37,
+        "JPY": -1.06,
+        "CAD": 1.17,
         "CHF": 0.99,
-        "USD": -1.14
+        "USD": -0.95
       }
     },
     "technical": [
       {
         "pair": "EUR/USD",
-        "price": 1.1267,
+        "price": 1.1224,
         "trend": "Sideways",
-        "rsi": 57.1,
+        "rsi": 46.5,
         "support": 1.113,
         "resistance": 1.1267
       },
       {
         "pair": "GBP/USD",
-        "price": 1.34998,
+        "price": 1.34591,
         "trend": "Sideways",
-        "rsi": 74.9,
-        "support": 1.32069,
+        "rsi": 63.4,
+        "support": 1.32203,
         "resistance": 1.34998
       },
       {
         "pair": "USD/JPY",
-        "price": 158.25,
+        "price": 158.46,
         "trend": "Uptrend",
-        "rsi": 52.8,
+        "rsi": 54.4,
         "support": 156.8,
         "resistance": 158.6
       },
       {
         "pair": "AUD/USD",
-        "price": 0.70151,
+        "price": 0.70004,
         "trend": "Sideways",
-        "rsi": 70.9,
+        "rsi": 59.6,
         "support": 0.69109,
         "resistance": 0.70338
       },
       {
         "pair": "USD/CAD",
-        "price": 1.3935,
+        "price": 1.3966,
         "trend": "Sideways",
-        "rsi": 15.8,
+        "rsi": 24.5,
         "support": 1.3935,
         "resistance": 1.4262
       },
       {
         "pair": "USD/CHF",
-        "price": 0.81548,
+        "price": 0.81789,
         "trend": "Sideways",
-        "rsi": 29.1,
+        "rsi": 40.3,
         "support": 0.81548,
-        "resistance": 0.83372
+        "resistance": 0.83341
       },
       {
         "pair": "NZD/USD",
-        "price": 0.5637,
+        "price": 0.56215,
         "trend": "Downtrend",
-        "rsi": 56.6,
-        "support": 0.55891,
+        "rsi": 40.7,
+        "support": 0.55994,
         "resistance": 0.57029
       }
     ],
@@ -208,41 +208,6 @@
     ],
     "calendar": [
       {
-        "date": "2026-11-05T12:00+00:00",
-        "country": "GBP",
-        "title": "BOE Monetary Policy Report",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-11-05T12:00+00:00",
-        "country": "GBP",
-        "title": "Monetary Policy Summary",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-11-05T12:00+00:00",
-        "country": "GBP",
-        "title": "MPC Official Bank Rate Votes",
-        "forecast": "7-0-2",
-        "previous": "3-0-6"
-      },
-      {
-        "date": "2026-11-05T12:00+00:00",
-        "country": "GBP",
-        "title": "Official Bank Rate",
-        "forecast": "4.00%",
-        "previous": "3.75%"
-      },
-      {
-        "date": "2026-11-05T12:30+00:00",
-        "country": "GBP",
-        "title": "BOE Gov Bailey Speaks",
-        "forecast": "",
-        "previous": ""
-      },
-      {
         "date": "2026-11-06T13:30+00:00",
         "country": "CAD",
         "title": "Employment Change",
@@ -296,43 +261,43 @@
   "headlines": [
     {
       "source": "Investing.com",
-      "title": "Dollar slides as US election drives oil and Treasury yields lower; sterling gains",
-      "link": "https://www.investing.com/news/forex-news/dollar-edges-lower-as-us-election-outcome-cheers-global-markets-5001958"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Asian FX rises as dollar slides on U.S. vote, kiwi leads gains; yuan steadies",
+      "title": "Dollar flat as Wall Street rout lifts safe-haven yen; pound in focus as BOE hikes",
       "link": "https://www.investing.com/news/forex-news/asian-fx-rises-as-dollar-slips-on-us-vote-kiwi-leads-gains-yuan-steadies-in-asia-5002136"
     },
     {
       "source": "Investing.com",
-      "title": "Crypto tracks stocks higher after Democrat midterm wins",
-      "link": "https://www.investing.com/news/forex-news/crypto-dips-on-democrat-midterm-wins-binance-hack-dent-optimism-4997586"
+      "title": "Dollar little changed as oil prices bounce, payrolls eyed",
+      "link": "https://www.investing.com/news/forex-news/dollar-edges-lower-as-us-election-outcome-cheers-global-markets-5001958"
     },
     {
       "source": "Investing.com",
-      "title": "Dollar slips to over one-month low on U.S. midterm results, mixed economic data",
-      "link": "https://www.investing.com/news/forex-news/asian-currencies-rise-as-dollar-retreats-from-monthly-rally-yuan-remains-under-pr-4997237"
+      "title": "U.S. Treasuries hover near 2-month lows on 20% weekly oil crash, midterm sweep",
+      "link": "https://www.investing.com/news/forex-news/german-yields-slide-to-aug-lows-as-20-weekly-oil-crash-deflates-inflation-fears-5002466"
     },
     {
       "source": "Investing.com",
-      "title": "Treasuries rally as Democrats sweep into Congress",
-      "link": "https://www.investing.com/news/forex-news/german-yields-steady-as-us-midterm-shifts-and-eurozone-cpi-loom-4997605"
+      "title": "Sterling today: Pound flat as BoE hikes 25 bps, dollar steadies before payrolls",
+      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-ahead-of-boe-decision-as-dollar-slide-pauses-5003115"
     },
     {
       "source": "Investing.com",
-      "title": "Deutsche Bank sees lower policy risk supporting euro amid debt ceiling focus",
-      "link": "https://www.investing.com/news/forex-news/deutsche-bank-sees-lower-policy-risk-supporting-euro-amid-debt-ceiling-focus-93CH-4998725"
+      "title": "This FX trade is the best hedge for the AI drawdown: Goldman",
+      "link": "https://www.investing.com/news/forex-news/goldman-says-this-fx-trade-is-the-best-hedge-for-the-ai-drawdown-5003326"
     },
     {
       "source": "Investing.com",
-      "title": "Sterling today: Pound gains as dollar slips on Democratic midterm sweep",
-      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-gains-as-dollar-slips-on-democratic-midterm-sweep-4998167"
+      "title": "Citi sees dollar weakening against yen after U.S. midterms",
+      "link": "https://www.investing.com/news/forex-news/citi-sees-dollar-weakening-against-yen-after-us-midterms-93CH-5003299"
     },
     {
       "source": "Investing.com",
-      "title": "India rupee’s recovery may find fresh legs from equity flows, dollar weakness",
-      "link": "https://www.investing.com/news/forex-news/india-rupees-recovery-may-find-fresh-legs-from-equity-flows-dollar-weakness-4997157"
+      "title": "Goldman Sachs sees USD/CNH entry opportunity on policy move",
+      "link": "https://www.investing.com/news/forex-news/goldman-sachs-sees-usdcnh-entry-opportunity-on-policy-move-93CH-5003076"
+    },
+    {
+      "source": "Investing.com",
+      "title": "HSBC sees Democratic midterm strength weighing on dollar near-term",
+      "link": "https://www.investing.com/news/forex-news/hsbc-sees-democratic-midterm-strength-weighing-on-dollar-nearterm-93CH-5002986"
     }
   ],
   "articles": [
