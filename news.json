@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-06T18:41+00:00",
-  "summary": "Global markets are reacting to a combination of strong U.S. payrolls, a tech and AI-related stock rout following U.S. midterm results, and central bank actions. The U.S. dollar is finding safe-haven demand amidst equity volatility and higher Treasury yields driven by solid jobs data. Meanwhile, the Bank of England has hiked interest rates by 25 basis points to 4%, keeping the British pound in focus.",
+  "updated": "2026-11-06T21:32+00:00",
+  "summary": "Global markets are reacting to a combination of a stellar U.S. jobs report bolstering the U.S. dollar and lingering political shifts following the U.S. midterm elections. Meanwhile, the Bank of England's recent 25 basis point rate hike to 4% has kept the pound in focus amid broader economic pressures and inflation concerns. Equity markets have experienced turbulence, notably with AI stocks facing corrections due to potential regulatory headwinds from the recent political sweep.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Weighed down by a firm U.S. dollar, strong payrolls data, and an existing downside trend."
+      "reason": "Strong U.S. employment data is driving dollar strength against a downtrending euro."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "Caught between a 25 bps BoE rate hike and broader safe-haven demand supporting the U.S. dollar."
+      "reason": "The recent BoE rate hike provides some support, but a firm dollar keeps the pair trading sideways."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Supported by rising U.S. Treasury yields and an active uptrend keeping the pair elevated."
+      "reason": "The pair maintains an ongoing uptrend supported by resilient U.S. yield dynamics and economic data."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Pulling back amid a stronger dollar and shifting market yields, despite strong long-term net positioning."
+      "reason": "Gold faces crosscurrents from strong U.S. payrolls lifting yields and ongoing safe-haven demand."
     }
   ],
   "watch": [
-    "BOJ Gov Ueda Speaks",
-    "NZD Parliamentary Elections",
-    "U.S. macroeconomic data releases",
-    "Global equity market and AI sector volatility"
+    "U.S. inflation and monetary policy commentary",
+    "Post-midterm political developments and AI regulatory news",
+    "Global oil price movements",
+    "New Zealand Parliamentary Elections"
   ],
-  "fundamentals": "Macro drivers are currently centered on resilient U.S. labor market data supporting the case for further interest rate vigilance, counterbalanced by political shifts from the U.S. midterms affecting tech and AI sentiment. Central banks like the Bank of England are proceeding with tightening cycles to combat inflation, while global growth concerns persist. These competing forces are bolstering safe-haven demand for the greenback while putting pressure on risk assets and commodities.",
-  "technical_view": "EUR/USD sits in a downtrend near 1.1165 with an RSI of 43.3, keeping pressure on support at 1.113. USD/JPY maintains an uptrend near 158.33, while GBP/USD trades sideways around 1.3385 as it digests recent central bank policy decisions.",
-  "cot_view": "Commitments of Traders data shows net short positioning remains heavy across major currencies like the EUR and GBP, while the Japanese Yen and Gold maintain strong net long positions. Specifically, Gold net longs stand at a robust 186,451 contracts, reflecting underlying structural support despite recent price pullbacks.",
+  "fundamentals": "Macro drivers are heavily influenced by strong U.S. employment figures that keep the Federal Reserve on alert for persistent inflation, leading officials to signal further gradual rate hikes. Concurrently, the Bank of England has raised interest rates to 4% in response to domestic economic conditions, though policymakers expect nearing the end of the tightening cycle. Political shifts from the U.S. midterm elections have also introduced uncertainty regarding trade policy and regulatory scrutiny on technology sectors. Meanwhile, commodity pressures, including fluctuating oil prices and rising food costs, continue to impact global market sentiment.",
+  "technical_view": "EUR/USD remains in a clear downtrend trading near 1.1165 with an RSI of 43.3, while GBP/USD displays a sideways pattern around 1.3385 supported by an RSI of 55.1. USD/JPY continues to hold an uptrend structure near 158.33 with a neutral RSI of 50.9.",
+  "cot_view": "Commitments of Traders data shows heavily net-short positioning in EUR and GBP, reflecting persistent weakness against the dollar. Conversely, JPY and Gold maintain strong net-long positions, highlighting ongoing defensive allocations despite recent macroeconomic pressures.",
   "market": {
     "strength": {
       "1": {
@@ -126,94 +126,87 @@
     "cot": [
       {
         "name": "EUR",
-        "date": "2026-10-27",
-        "long": 230646,
-        "short": 374540,
-        "net": -143894,
-        "change": -9370,
-        "pct_long": 38.1
+        "date": "2026-11-03",
+        "long": 229383,
+        "short": 387174,
+        "net": -157791,
+        "change": -13897,
+        "pct_long": 37.2
       },
       {
         "name": "GBP",
-        "date": "2026-10-27",
-        "long": 56645,
-        "short": 136059,
-        "net": -79414,
-        "change": 1006,
-        "pct_long": 29.4
+        "date": "2026-11-03",
+        "long": 63780,
+        "short": 123601,
+        "net": -59821,
+        "change": 19593,
+        "pct_long": 34.0
       },
       {
         "name": "JPY",
-        "date": "2026-10-27",
-        "long": 225516,
-        "short": 123925,
-        "net": 101591,
-        "change": 31713,
+        "date": "2026-11-03",
+        "long": 227198,
+        "short": 124877,
+        "net": 102321,
+        "change": 730,
         "pct_long": 64.5
       },
       {
         "name": "AUD",
-        "date": "2026-10-27",
-        "long": 101057,
-        "short": 229372,
-        "net": -128315,
-        "change": -1023,
-        "pct_long": 30.6
+        "date": "2026-11-03",
+        "long": 101093,
+        "short": 230550,
+        "net": -129457,
+        "change": -1142,
+        "pct_long": 30.5
       },
       {
         "name": "CAD",
-        "date": "2026-10-27",
-        "long": 89942,
-        "short": 156366,
-        "net": -66424,
-        "change": 8285,
-        "pct_long": 36.5
+        "date": "2026-11-03",
+        "long": 99234,
+        "short": 141009,
+        "net": -41775,
+        "change": 24649,
+        "pct_long": 41.3
       },
       {
         "name": "CHF",
-        "date": "2026-10-27",
-        "long": 26254,
-        "short": 46303,
-        "net": -20049,
-        "change": -1899,
-        "pct_long": 36.2
+        "date": "2026-11-03",
+        "long": 29482,
+        "short": 46071,
+        "net": -16589,
+        "change": 3460,
+        "pct_long": 39.0
       },
       {
         "name": "NZD",
-        "date": "2026-10-27",
-        "long": 18062,
-        "short": 75752,
-        "net": -57690,
-        "change": 459,
-        "pct_long": 19.3
+        "date": "2026-11-03",
+        "long": 18469,
+        "short": 78484,
+        "net": -60015,
+        "change": -2325,
+        "pct_long": 19.0
       },
       {
         "name": "USD Index",
-        "date": "2026-10-27",
-        "long": 31254,
-        "short": 17133,
-        "net": 14121,
-        "change": -923,
-        "pct_long": 64.6
+        "date": "2026-11-03",
+        "long": 33054,
+        "short": 18864,
+        "net": 14190,
+        "change": 69,
+        "pct_long": 63.7
       },
       {
         "name": "Gold",
-        "date": "2026-10-27",
-        "long": 223724,
-        "short": 37273,
-        "net": 186451,
-        "change": -13414,
-        "pct_long": 85.7
+        "date": "2026-11-03",
+        "long": 220530,
+        "short": 40982,
+        "net": 179548,
+        "change": -6903,
+        "pct_long": 84.3
       }
     ],
     "calendar": [
-      {
-        "date": "2026-11-06T16:00+00:00",
-        "country": "JPY",
-        "title": "BOJ Gov Ueda Speaks",
-        "forecast": "",
-        "previous": ""
-      },
       {
         "date": "2026-11-06T21:45+00:00",
         "country": "NZD",
@@ -226,13 +219,18 @@
   "headlines": [
     {
       "source": "Investing.com",
-      "title": "U.S. Treasuries fall as blowout payrolls lift yields across the curve",
-      "link": "https://www.investing.com/news/forex-news/jgb-yields-plunge-to-july-lows-as-wall-st-tech-tout-sparks-haven-rush-5006590"
+      "title": "US Treasury sanctions Canadian money services firms over Iran-related transactions",
+      "link": "https://www.investing.com/news/forex-news/us-treasury-sanctions-canadian-money-services-firms-over-iranrelated-transactions-5009126"
     },
     {
       "source": "Investing.com",
-      "title": "Dollar rebounds as tech rout and strong U.S. jobs data lift safe-haven demand anew",
+      "title": "Dollar sees best day since June after stellar jobs report, set for weekly gain",
       "link": "https://www.investing.com/news/forex-news/asian-fx-mixed-as-yen-gains-on-risk-aversion-taiwan-dollar-breaks-33-amid-ai-rout-5006410"
+    },
+    {
+      "source": "Investing.com",
+      "title": "U.S. Treasuries fall as blowout payrolls lift yields across the curve",
+      "link": "https://www.investing.com/news/forex-news/jgb-yields-plunge-to-july-lows-as-wall-st-tech-tout-sparks-haven-rush-5006590"
     },
     {
       "source": "Investing.com",
@@ -258,11 +256,6 @@
       "source": "Investing.com",
       "title": "Dollar little changed as oil prices bounce, payrolls eyed",
       "link": "https://www.investing.com/news/forex-news/dollar-edges-lower-as-us-election-outcome-cheers-global-markets-5001958"
-    },
-    {
-      "source": "Investing.com",
-      "title": "U.S. Treasuries hover near 2-month lows on 20% weekly oil crash, midterm sweep",
-      "link": "https://www.investing.com/news/forex-news/german-yields-slide-to-aug-lows-as-20-weekly-oil-crash-deflates-inflation-fears-5002466"
     }
   ],
   "articles": [
