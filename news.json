@@ -1,26 +1,26 @@
 {
-  "updated": "2026-11-06T03:43+00:00",
-  "summary": "Global markets are currently navigating a mix of political and monetary policy shifts, highlighted by the Democrats' midterm sweep in the U.S. which has sparked calls for tougher scrutiny and a moratorium on AI data centers. Meanwhile, the Bank of England hiked interest rates by 25 basis points to 4%, boosting the pound, while the U.S. dollar faced headwinds from a sharp drop in oil prices and falling Treasury yields. Safe-haven flows also found support in the yen as Wall Street experienced a tech sector correction.",
+  "updated": "2026-11-06T06:57+00:00",
+  "summary": "Global markets are navigating a risk-off rotation sparked by a Wall Street tech rout and a U.S. midterm election sweep by Democrats, who are pushing for tougher restrictions on AI infrastructure and data centers. Concurrently, the Bank of England delivered a 25 basis point rate hike to 4%, supporting the pound, while safe-haven flows benefited the Japanese yen and pressured Treasury yields. Traders are now closely eyeing upcoming U.S. non-farm payrolls and potential Federal Reserve shifts toward renewed monetary tightening.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Neutral",
-      "reason": "Trading in a sideways channel as dollar consolidation meets steady European fundamentals."
+      "reason": "Trading sideways near 1.1224 as broad dollar movements remain restrained ahead of key U.S. employment data."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "Supported by the recent Bank of England rate hike and strong historical positioning."
+      "reason": "Supported by a 25 bps rate hike from the Bank of England and strong broader pound performance."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bearish",
-      "reason": "Weighing on potential U.S. political shifts and safe-haven buying driving the yen higher."
+      "reason": "Weighing under safe-haven inflows into the yen and declining U.S. Treasury yields amid the broader tech correction."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Benefiting from safe-haven demand amidst equity market corrections and falling yields."
+      "reason": "Finding strong demand as a safe-haven asset amid Wall Street equity corrections and falling Treasury yields."
     }
   ],
   "watch": [
@@ -29,9 +29,9 @@
     "CAD Employment Change and Unemployment Rate",
     "BOJ Gov Ueda Speech"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by the aftermath of the U.S. midterm elections, where a Democratic sweep has introduced policy uncertainties regarding trade and AI infrastructure regulation. Central banks remain in focus with the Bank of England delivering a 25 bps rate hike while Federal Reserve officials hint at the necessity of resuming gradual rate hikes due to persistent inflation concerns. Additionally, a steep correction in oil prices and a tech sector sell-off are dampening risk sentiment, putting pressure on U.S. yields and altering near-term currency valuations.",
-  "technical_view": "EUR/USD, GBP/USD, and USD/JPY remain trapped in range-bound sideways patterns or steady uptrends, with RSI levels hovering mostly around neutral mid-lines. EUR/USD trades near 1.1224 with immediate support at 1.113, while GBP/USD sits at 1.3459 with resistance looming near 1.3499.",
-  "cot_view": "Commitments of Traders data shows net short positions heavily dominating EUR, GBP, and AUD, highlighting persistent institutional skepticism toward European and Antipodean currencies. Conversely, JPY net longs and Gold net longs remain robust, reflecting strong safe-haven accumulation by market participants.",
+  "fundamentals": "Macro drivers are heavily influenced by the U.S. midterm election results where a Democratic sweep has introduced political headwinds for tech sectors and AI infrastructure buildouts, dragging down Wall Street and pulling Treasury yields lower. At the same time, central bank divergence remains a key theme as the Bank of England hiked rates to 4% while Federal Reserve officials signal potential needs to resume gradual tightening to combat persistent inflation. Meanwhile, safe-haven flows have dominated currency markets, bolstering the Japanese yen as risk sentiment deteriorates across global equities.",
+  "technical_view": "EUR/USD and GBP/USD continue to hover in sideways consolidation ranges, with GBP/USD holding a higher RSI near 63.4 beneath immediate resistance at 1.34998. USD/JPY maintains an uptrend channel structure overall despite recent yen strength, trading below its 158.6 resistance level.",
+  "cot_view": "Commitments of Traders data shows net short positioning remains heavy across European currencies like EUR and GBP, while JPY net longs have expanded significantly with strong commercial and speculative support. Gold maintains a massive net long positioning base of over 186,000 contracts despite minor weekly reductions.",
   "market": {
     "strength": {
       "1": {
@@ -261,6 +261,16 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "JGB yields plunge to July lows as Wall St tech tout sparks haven rush",
+      "link": "https://www.investing.com/news/forex-news/jgb-yields-plunge-to-july-lows-as-wall-st-tech-tout-sparks-haven-rush-5006590"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Asian FX mixed as yen gains on risk aversion, Taiwan dollar breaks 33 amid AI rout",
+      "link": "https://www.investing.com/news/forex-news/asian-fx-mixed-as-yen-gains-on-risk-aversion-taiwan-dollar-breaks-33-amid-ai-rout-5006410"
+    },
+    {
+      "source": "Investing.com",
       "title": "Chinese firms’ profit margins trail global peers as domestic demand stays weak",
       "link": "https://www.investing.com/news/forex-news/chinese-firms-profit-margins-trail-global-peers-as-domestic-demand-stays-weak-5006210"
     },
@@ -288,16 +298,6 @@
       "source": "Investing.com",
       "title": "This FX trade is the best hedge for the AI drawdown: Goldman",
       "link": "https://www.investing.com/news/forex-news/goldman-says-this-fx-trade-is-the-best-hedge-for-the-ai-drawdown-5003326"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Citi sees dollar weakening against yen after U.S. midterms",
-      "link": "https://www.investing.com/news/forex-news/citi-sees-dollar-weakening-against-yen-after-us-midterms-93CH-5003299"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Goldman Sachs sees USD/CNH entry opportunity on policy move",
-      "link": "https://www.investing.com/news/forex-news/goldman-sachs-sees-usdcnh-entry-opportunity-on-policy-move-93CH-5003076"
     }
   ],
   "articles": [
