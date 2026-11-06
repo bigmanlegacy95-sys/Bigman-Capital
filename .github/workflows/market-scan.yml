@@ -2,7 +2,12 @@ name: Update deep market scan
 on:
   schedule:
     - cron: "*/30 * * * 1-5"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      test_telegram:
+        description: "Only send a Telegram test message"
+        type: boolean
+        default: false
 permissions:
   contents: write
 jobs:
@@ -14,11 +19,26 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install yfinance pandas numpy
+      - name: Send Telegram test
+        if: ${{ inputs.test_telegram }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_MIN_GRADE: "A"
+        run: python scripts/market_scan.py --test-telegram
       - name: Run scan
+        if: ${{ !inputs.test_telegram }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_MIN_GRADE: "A"          # A+, A, B or C
+          TELEGRAM_STYLES: "scalp,intraday,swing"
+          TELEGRAM_COOLDOWN_HOURS: "8"
+          SITE_URL: ""                      # optional: your website address, added to each message
         run: python scripts/market_scan.py
       - name: Commit if changed
+        if: ${{ !inputs.test_telegram }}
         run: |
           git config user.name "scan-bot"
           git config user.email "scan-bot@users.noreply.github.com"
