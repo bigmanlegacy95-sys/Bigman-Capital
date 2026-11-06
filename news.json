@@ -1,125 +1,125 @@
 {
-  "updated": "2026-11-06T12:49+00:00",
-  "summary": "Global markets are currently experiencing a flight to safety driven by a sharp correction in the technology sector and AI-related stocks, alongside political shifts following U.S. midterm elections. The US dollar has found a haven bid amid the stock market rout, while Treasury yields hover near multi-month lows. Meanwhile, central bank decisions remain in focus with the Bank of England implementing a 25 basis point rate hike.",
+  "updated": "2026-11-06T15:39+00:00",
+  "summary": "Global markets are reacting to a mix of strong U.S. payrolls data and a technology stock rout that has boosted safe-haven demand for the U.S. dollar and Japanese yen. Meanwhile, political developments including the U.S. midterm elections and potential shifts in AI infrastructure spending are influencing treasury yields and broader risk sentiment. Central bank commentary, particularly regarding potential future rate hikes from Fed officials and recent actions by the Bank of England, continues to steer currency valuations.",
   "outlook": [
     {
       "pair": "EUR/USD",
-      "bias": "Neutral",
-      "reason": "Price action remains range-bound as the pair consolidates near technical resistance."
+      "bias": "Bearish",
+      "reason": "The pair remains in a downtrend as a resilient dollar benefits from safe-haven flows and robust U.S. employment data."
     },
     {
       "pair": "GBP/USD",
-      "bias": "Bullish",
-      "reason": "The pound demonstrates resilience following a recent Bank of England rate hike despite broad dollar firmness."
+      "bias": "Neutral",
+      "reason": "Sterling trades sideways as the Bank of England's recent rate hike is counterbalanced by firm dollar demand ahead of key U.S. data."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair maintains an ongoing uptrend supported by persistent dollar demand and relative yield dynamics."
+      "reason": "The pair sustains an uptrend supported by elevated U.S. yields and safe-haven dynamics despite broader equity market corrections."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Safe-haven inflows tied to the equity market sell-off and falling yields provide underlying support for gold."
+      "reason": "Gold maintains a heavily net-long institutional positioning despite recent minor reductions, backed by ongoing macro uncertainty."
     }
   ],
   "watch": [
-    "U.S. Non-Farm Payrolls and Unemployment Rate",
-    "U.S. Average Hourly Earnings",
+    "U.S. Non-Farm Employment Change and Unemployment Rate",
+    "U.S. Average Hourly Earnings m/m",
     "Canadian Employment Change and Unemployment Rate",
-    "BOJ Governor Ueda Speech"
+    "BOJ Gov Ueda Speech"
   ],
-  "fundamentals": "Macroeconomic drivers are currently split between risk-off sentiment stemming from tech equity sell-offs and shifting political landscapes following the U.S. midterms. Central bank policy expectations remain dynamic as officials weigh persistent inflation pressures against slowing growth metrics. Upcoming labor market data releases from the U.S. and Canada will play a crucial role in shaping near-term monetary policy expectations.",
-  "technical_view": "EUR/USD and GBP/USD are trading sideways with neutral-to-firm momentum indicators, while USD/JPY continues to respect a defined uptrend structure. RSI readings across major pairs generally reflect balanced momentum without immediate overbought or oversold extremes.",
-  "cot_view": "Commitments of Traders data indicates large net-short positions in major currencies like the EUR and GBP against a net-long stance on the US Dollar Index. Meanwhile, market participants maintain a heavy net-long bias in Japanese Yen and Gold positioning.",
+  "fundamentals": "Macro drivers are currently dominated by shifting monetary policy expectations and geopolitical developments following the U.S. midterm elections. Fed officials signaling the potential return to rate hikes alongside blowout payroll figures have supported Treasury yields and the dollar. Simultaneously, a sharp tech stock correction and falling oil prices have sparked safe-haven flows into the greenback and Japanese yen.",
+  "technical_view": "EUR/USD sits in a clear downtrend with an RSI of 43.3, testing immediate support near 1.113. USD/JPY maintains its uptrend at 158.33 with an RSI around 50.9, while GBP/USD exhibits sideways price action with an RSI of 55.1, holding comfortably between support at 1.32354 and resistance at 1.34998.",
+  "cot_view": "Commitments of Traders data shows massive net-long positioning in Gold at over 186,000 contracts despite a recent pullback. JPY net longs stand strong at over 101,000 contracts, reflecting sustained demand, while EUR and GBP maintain substantial net-short positions.",
   "market": {
     "strength": {
       "1": {
-        "EUR": -0.15,
-        "GBP": -0.07,
-        "AUD": 0.02,
-        "NZD": -0.05,
-        "JPY": 0.09,
-        "CAD": 0.01,
-        "CHF": -0.07,
-        "USD": 0.23
+        "EUR": 0.11,
+        "GBP": 0.08,
+        "AUD": -1.22,
+        "NZD": -0.75,
+        "JPY": 0.72,
+        "CAD": -0.08,
+        "CHF": 0.51,
+        "USD": 0.63
       },
       "5": {
-        "EUR": 0.48,
-        "GBP": 0.7,
-        "AUD": -0.72,
-        "NZD": -0.27,
-        "JPY": -0.62,
-        "CAD": -0.15,
-        "CHF": 0.94,
-        "USD": -0.36
+        "EUR": 0.55,
+        "GBP": 0.5,
+        "AUD": -1.58,
+        "NZD": -1.03,
+        "JPY": -0.07,
+        "CAD": -0.08,
+        "CHF": 1.1,
+        "USD": 0.61
       },
       "20": {
-        "EUR": -0.61,
-        "GBP": 0.96,
-        "AUD": -0.13,
-        "NZD": -0.37,
-        "JPY": -1.06,
-        "CAD": 1.17,
-        "CHF": 0.99,
-        "USD": -0.95
+        "EUR": -0.44,
+        "GBP": 1.17,
+        "AUD": -1.66,
+        "NZD": -1.33,
+        "JPY": -0.13,
+        "CAD": 1.06,
+        "CHF": 1.41,
+        "USD": -0.08
       }
     },
     "technical": [
       {
         "pair": "EUR/USD",
-        "price": 1.1224,
-        "trend": "Sideways",
-        "rsi": 46.5,
+        "price": 1.1165,
+        "trend": "Downtrend",
+        "rsi": 43.3,
         "support": 1.113,
         "resistance": 1.1267
       },
       {
         "pair": "GBP/USD",
-        "price": 1.34591,
+        "price": 1.33849,
         "trend": "Sideways",
-        "rsi": 63.4,
-        "support": 1.32203,
+        "rsi": 55.1,
+        "support": 1.32354,
         "resistance": 1.34998
       },
       {
         "pair": "USD/JPY",
-        "price": 158.46,
+        "price": 158.33,
         "trend": "Uptrend",
-        "rsi": 54.4,
+        "rsi": 50.9,
         "support": 156.8,
         "resistance": 158.6
       },
       {
         "pair": "AUD/USD",
-        "price": 0.70004,
-        "trend": "Sideways",
-        "rsi": 59.6,
-        "support": 0.69109,
+        "price": 0.6871,
+        "trend": "Downtrend",
+        "rsi": 31.9,
+        "support": 0.6871,
         "resistance": 0.70338
       },
       {
         "pair": "USD/CAD",
-        "price": 1.3966,
-        "trend": "Sideways",
-        "rsi": 24.5,
+        "price": 1.4066,
+        "trend": "Uptrend",
+        "rsi": 49.0,
         "support": 1.3935,
         "resistance": 1.4262
       },
       {
         "pair": "USD/CHF",
-        "price": 0.81789,
+        "price": 0.8189,
         "trend": "Sideways",
-        "rsi": 40.3,
+        "rsi": 40.2,
         "support": 0.81548,
         "resistance": 0.83341
       },
       {
         "pair": "NZD/USD",
-        "price": 0.56215,
+        "price": 0.55435,
         "trend": "Downtrend",
-        "rsi": 40.7,
-        "support": 0.55994,
+        "rsi": 28.5,
+        "support": 0.55435,
         "resistance": 0.57029
       }
     ],
@@ -261,23 +261,23 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "U.S. Treasuries fall as blowout payrolls lift yields across the curve",
+      "link": "https://www.investing.com/news/forex-news/jgb-yields-plunge-to-july-lows-as-wall-st-tech-tout-sparks-haven-rush-5006590"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Dollar rebounds as tech rout and strong U.S. jobs data lift safe-haven demand anew",
+      "link": "https://www.investing.com/news/forex-news/asian-fx-mixed-as-yen-gains-on-risk-aversion-taiwan-dollar-breaks-33-amid-ai-rout-5006410"
+    },
+    {
+      "source": "Investing.com",
       "title": "Sterling today: Pound slips as dollar holds firm before U.S. payrolls",
       "link": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-as-dollar-holds-firm-before-us-payrolls-5007166"
     },
     {
       "source": "Investing.com",
-      "title": "Dollar rebounds as global tech sell-off sparks haven bid",
-      "link": "https://www.investing.com/news/forex-news/asian-fx-mixed-as-yen-gains-on-risk-aversion-taiwan-dollar-breaks-33-amid-ai-rout-5006410"
-    },
-    {
-      "source": "Investing.com",
       "title": "UBS sees euro-Norwegian krone pullback as stretched",
       "link": "https://www.investing.com/news/forex-news/ubs-sees-euronorwegian-krone-pullback-as-stretched-93CH-5007021"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Global bonds rally as Tech-equity carnage sparks flight to safety",
-      "link": "https://www.investing.com/news/forex-news/jgb-yields-plunge-to-july-lows-as-wall-st-tech-tout-sparks-haven-rush-5006590"
     },
     {
       "source": "Investing.com",
