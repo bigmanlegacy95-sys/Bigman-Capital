@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-05T21:38+00:00",
-  "summary": "Financial markets are navigating the aftermath of the U.S. midterm elections alongside a sharp decline in technology shares. The U.S. dollar is trading flat to steady as investors position ahead of the upcoming non-farm payrolls report. Meanwhile, the British pound is in focus following the Bank of England's interest rate increase to 4.0%, and safe-haven demand has offered support to the Japanese yen.",
+  "updated": "2026-11-06T00:43+00:00",
+  "summary": "Global markets are navigating a shift following the U.S. midterm elections, where Democratic victories have sparked a rotation out of tech stocks due to fears of tighter AI infrastructure scrutiny. Meanwhile, the Bank of England raised interest rates to 4%, helping the pound hit milestone levels, while the U.S. dollar remained relatively steady ahead of upcoming payrolls data and safe-haven flows into the yen. Commodity pressures, including a steep weekly drop in oil prices, continue to influence broader macroeconomic crosscurrents.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Neutral",
-      "reason": "The pair remains in a sideways technical range ahead of key U.S. labor market data."
+      "reason": "Price action remains in a sideways trend near 1.1224 amid a steady U.S. dollar."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "The Bank of England's 25 basis point rate hike provides monetary policy support despite resistance near 1.35."
+      "reason": "The Bank of England's 25 bps rate hike to 4% has supported the pound's strong performance."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bearish",
-      "reason": "Safe-haven flows into the yen and midterm political shifts could pressure the pair near resistance."
+      "reason": "Safe-haven yen demand and a Wall Street tech rout are pressuring the pair within an uptrend."
     },
     {
-      "pair": "XAU/USD (Gold)",
-      "bias": "Neutral",
-      "reason": "Support from falling Treasury yields is balanced by a recent decline in net speculative long positions."
+      "pair": "XAU/USD",
+      "bias": "Bullish",
+      "reason": "Strong net long positioning supports gold despite recent profit-taking and macro shifts."
     }
   ],
   "watch": [
-    "U.S. Non-Farm Employment Change and Unemployment Rate",
-    "Bank of Japan Governor Ueda speech",
-    "Canada Employment Change and Unemployment Rate",
-    "Post-U.S. midterm election policy and AI regulatory developments"
+    "U.S. Non-Farm Employment Change",
+    "U.S. Unemployment Rate",
+    "CAD Employment Change and Unemployment Rate",
+    "BOJ Governor Ueda Speech"
   ],
-  "fundamentals": "Currency markets are absorbing the outcome of the U.S. midterm elections, where analysts note that Democratic strength could weigh on the U.S. dollar in the near term. The Bank of England raised its benchmark interest rate by 25 basis points to 4.0%, marking its first hike in over three years amid persistent inflation concerns. At the same time, equity turbulence caused by proposed scrutiny on data centers and a weekly plunge in oil prices have pushed Treasury yields lower. Market participants are now awaiting the U.S. non-farm payrolls data for guidance on future Federal Reserve monetary policy.",
-  "technical_view": "EUR/USD continues to trade sideways with an RSI of 46.5, contained between support at 1.1130 and resistance at 1.1267. GBP/USD displays a sideways trend but is pressing against resistance at 1.34998 with an RSI of 63.4. USD/JPY retains an uptrend at 158.46, hovering just beneath its immediate technical resistance level at 158.60.",
-  "cot_view": "Commitments of Traders data shows substantial safe-haven positioning in the Japanese yen, which holds a net long posture of 101,591 contracts following a weekly gain of 31,713 contracts. Gold remains heavily long with 85.7% of market positioning, although traders trimmed net longs by 13,414 contracts. Conversely, speculative positioning in the euro and sterling remains net negative, though the British pound experienced a slight reduction in net shorts.",
+  "fundamentals": "Macro drivers are heavily influenced by the U.S. midterm election outcome, which introduced regulatory concerns for the technology and AI sectors, pulling down equities and weighing on near-term dollar sentiment. Meanwhile, central bank divergence remains a key theme as the Bank of England presses on with interest rate hikes to combat inflation. Energy price volatility, specifically a sharp drop in oil, is adding an extra layer of complexity to global inflation expectations and Treasury yields.",
+  "technical_view": "EUR/USD and GBP/USD are trading sideways with RSI readings near 46.5 and 63.4 respectively, indicating balanced momentum. USD/JPY maintains an uptrend structure at 158.46, though recent safe-haven inflows into the yen are testing immediate technical boundaries.",
+  "cot_view": "Commitments of Traders data shows persistent net short positioning in EUR, GBP, and AUD, highlighting prevailing bearish sentiment against the greenback. Conversely, JPY and Gold maintain strong net long positions, reflecting continued institutional demand for safe havens and precious metals.",
   "market": {
     "strength": {
       "1": {
@@ -301,6 +301,29 @@
     }
   ],
   "articles": [
+    {
+      "date": "2026-11-06",
+      "title": "Dollar Holds Steady as Wall Street Rout and Central Bank Decisions Shape FX Markets",
+      "intro": "Foreign exchange markets navigate a complex landscape today as a Wall Street equity rout drives safe-haven flows while the Bank of England implements a notable rate hike. Traders are keeping a close watch on shifting central bank policies and upcoming labor market data.",
+      "sections": [
+        {
+          "h": "Market mood",
+          "p": "Market sentiment reflects notable caution as major tech stocks plunge amid growing concerns over an AI slowdown and a steep weekly oil crash. This Wall Street sell-off has lifted safe-haven assets, boosting the Japanese yen while the US dollar remains largely flat as investors await crucial payroll figures."
+        },
+        {
+          "h": "Key drivers",
+          "p": "Central bank policy remains a primary focal point for currency participants. The Bank of England has hiked interest rates by 25 basis points to 4% in the first increase in over three years, pushing the pound to its highest level since the Brexit referendum. Meanwhile, institutional perspectives are shifting, with HSBC pointing to Democratic midterm strength as a near-term weight on the dollar, and Citi anticipating further dollar weakness against the yen post-midterms."
+        },
+        {
+          "h": "Technical and positioning",
+          "p": "Current technical data shows USD/JPY holding an uptrend at 158.46 with an RSI of 54.4, facing immediate resistance near 158.6 and support at 156.8. GBP/USD trades sideways at 1.34591 with an RSI of 63.4, sitting near resistance at 1.34998 and support at 1.32203. Commitment of Traders data reveals net-long positioning remaining robust in the Japanese yen at 101,591 contracts, alongside continued net-short positioning in the euro and British pound."
+        },
+        {
+          "h": "What to watch next",
+          "p": "Market participants should prepare for heightened volatility with upcoming high-impact releases. The US economic docket features Non-Farm Employment Change, Average Hourly Earnings, and the Unemployment Rate, alongside Canadian employment data. Additionally, traders should monitor scheduled remarks from BOJ Governor Ueda and upcoming New Zealand parliamentary elections."
+        }
+      ]
+    },
     {
       "date": "2026-11-05",
       "title": "Dollar Eases as U.S. Midterm Results Shift Global Market Sentiment",
