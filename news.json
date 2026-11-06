@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-06T00:43+00:00",
-  "summary": "Global markets are navigating a shift following the U.S. midterm elections, where Democratic victories have sparked a rotation out of tech stocks due to fears of tighter AI infrastructure scrutiny. Meanwhile, the Bank of England raised interest rates to 4%, helping the pound hit milestone levels, while the U.S. dollar remained relatively steady ahead of upcoming payrolls data and safe-haven flows into the yen. Commodity pressures, including a steep weekly drop in oil prices, continue to influence broader macroeconomic crosscurrents.",
+  "updated": "2026-11-06T03:43+00:00",
+  "summary": "Global markets are currently navigating a mix of political and monetary policy shifts, highlighted by the Democrats' midterm sweep in the U.S. which has sparked calls for tougher scrutiny and a moratorium on AI data centers. Meanwhile, the Bank of England hiked interest rates by 25 basis points to 4%, boosting the pound, while the U.S. dollar faced headwinds from a sharp drop in oil prices and falling Treasury yields. Safe-haven flows also found support in the yen as Wall Street experienced a tech sector correction.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Neutral",
-      "reason": "Price action remains in a sideways trend near 1.1224 amid a steady U.S. dollar."
+      "reason": "Trading in a sideways channel as dollar consolidation meets steady European fundamentals."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bullish",
-      "reason": "The Bank of England's 25 bps rate hike to 4% has supported the pound's strong performance."
+      "reason": "Supported by the recent Bank of England rate hike and strong historical positioning."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bearish",
-      "reason": "Safe-haven yen demand and a Wall Street tech rout are pressuring the pair within an uptrend."
+      "reason": "Weighing on potential U.S. political shifts and safe-haven buying driving the yen higher."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Strong net long positioning supports gold despite recent profit-taking and macro shifts."
+      "reason": "Benefiting from safe-haven demand amidst equity market corrections and falling yields."
     }
   ],
   "watch": [
-    "U.S. Non-Farm Employment Change",
-    "U.S. Unemployment Rate",
+    "U.S. Non-Farm Employment Change and Unemployment Rate",
+    "U.S. Average Hourly Earnings m/m",
     "CAD Employment Change and Unemployment Rate",
-    "BOJ Governor Ueda Speech"
+    "BOJ Gov Ueda Speech"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by the U.S. midterm election outcome, which introduced regulatory concerns for the technology and AI sectors, pulling down equities and weighing on near-term dollar sentiment. Meanwhile, central bank divergence remains a key theme as the Bank of England presses on with interest rate hikes to combat inflation. Energy price volatility, specifically a sharp drop in oil, is adding an extra layer of complexity to global inflation expectations and Treasury yields.",
-  "technical_view": "EUR/USD and GBP/USD are trading sideways with RSI readings near 46.5 and 63.4 respectively, indicating balanced momentum. USD/JPY maintains an uptrend structure at 158.46, though recent safe-haven inflows into the yen are testing immediate technical boundaries.",
-  "cot_view": "Commitments of Traders data shows persistent net short positioning in EUR, GBP, and AUD, highlighting prevailing bearish sentiment against the greenback. Conversely, JPY and Gold maintain strong net long positions, reflecting continued institutional demand for safe havens and precious metals.",
+  "fundamentals": "Macro drivers are heavily influenced by the aftermath of the U.S. midterm elections, where a Democratic sweep has introduced policy uncertainties regarding trade and AI infrastructure regulation. Central banks remain in focus with the Bank of England delivering a 25 bps rate hike while Federal Reserve officials hint at the necessity of resuming gradual rate hikes due to persistent inflation concerns. Additionally, a steep correction in oil prices and a tech sector sell-off are dampening risk sentiment, putting pressure on U.S. yields and altering near-term currency valuations.",
+  "technical_view": "EUR/USD, GBP/USD, and USD/JPY remain trapped in range-bound sideways patterns or steady uptrends, with RSI levels hovering mostly around neutral mid-lines. EUR/USD trades near 1.1224 with immediate support at 1.113, while GBP/USD sits at 1.3459 with resistance looming near 1.3499.",
+  "cot_view": "Commitments of Traders data shows net short positions heavily dominating EUR, GBP, and AUD, highlighting persistent institutional skepticism toward European and Antipodean currencies. Conversely, JPY net longs and Gold net longs remain robust, reflecting strong safe-haven accumulation by market participants.",
   "market": {
     "strength": {
       "1": {
@@ -261,6 +261,11 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Chinese firms’ profit margins trail global peers as domestic demand stays weak",
+      "link": "https://www.investing.com/news/forex-news/chinese-firms-profit-margins-trail-global-peers-as-domestic-demand-stays-weak-5006210"
+    },
+    {
+      "source": "Investing.com",
       "title": "Dollar flat as Wall Street rout lifts safe-haven yen; pound in focus as BOE hikes",
       "link": "https://www.investing.com/news/forex-news/asian-fx-rises-as-dollar-slips-on-us-vote-kiwi-leads-gains-yuan-steadies-in-asia-5002136"
     },
@@ -293,11 +298,6 @@
       "source": "Investing.com",
       "title": "Goldman Sachs sees USD/CNH entry opportunity on policy move",
       "link": "https://www.investing.com/news/forex-news/goldman-sachs-sees-usdcnh-entry-opportunity-on-policy-move-93CH-5003076"
-    },
-    {
-      "source": "Investing.com",
-      "title": "HSBC sees Democratic midterm strength weighing on dollar near-term",
-      "link": "https://www.investing.com/news/forex-news/hsbc-sees-democratic-midterm-strength-weighing-on-dollar-nearterm-93CH-5002986"
     }
   ],
   "articles": [
