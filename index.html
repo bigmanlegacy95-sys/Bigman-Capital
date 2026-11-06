@@ -223,6 +223,15 @@ html[data-theme=light] #splash{background:#f7f5ef}
 .mup::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--up);animation:pl 1.8s infinite}
 .cw{position:relative;overflow:hidden;width:100%;max-width:520px;border:1px solid var(--gold);border-radius:20px;background:#fff;pointer-events:none;user-select:none;-webkit-user-select:none;touch-action:pan-y}
 .cw iframe{position:absolute;left:0;top:0;border:0;transform-origin:0 0;background:#fff}
+#scan::before{background-image:url(wolf-mist.jpg);opacity:.17}
+.lr{display:grid;grid-template-columns:96px 1fr auto;gap:10px;align-items:center;padding:9px 8px;border-bottom:1px solid var(--line);font-size:.9rem;border-left:3px solid transparent}
+.lr.up{border-left-color:var(--down)}.lr.dn{border-left-color:var(--up)}.lr b{font-variant-numeric:tabular-nums}.lr small{color:var(--mute);white-space:nowrap}
+.lr.now{background:rgba(201,162,75,.18);border-radius:8px;font-weight:700;border-left-color:var(--gold)}
+.sg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin:18px 0}
+.kv{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-bottom:1px solid var(--line);font-size:.92rem}.kv span:first-child{color:var(--mute)}
+.bar{height:10px;border-radius:99px;background:rgba(255,255,255,.08);overflow:hidden;margin:8px 0}.bar span{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--gold2))}
+html[data-theme=light] .bar{background:rgba(0,0,0,.08)}
+#sco .at{font-size:1.7rem;margin:4px 0 8px}
 </style>
 </head>
 <body>
@@ -234,7 +243,7 @@ html[data-theme=light] #splash{background:#f7f5ef}
 <div id="ann" hidden></div>
 <nav><a class="logo" href="#top"><img class="lm" src="wolf-icon-64.png" alt="" width="34" height="34"><span><b>BigMan</b> Capital</span></a>
 <button class="menu" id="mb" aria-expanded="false" aria-controls="lk">Menu</button>
-<div class="links" id="lk"><a href="#about">About</a><a href="#services">Services</a><a href="#tools">Tools</a><a href="#store">Store</a><a href="#pulse">Market</a><a href="#livestream">Stream</a><a href="#live">Charts</a><a href="#journal">Journal</a><a href="#learn">Learn</a><a href="#partners">Partners</a><a href="#book">Book</a><a href="#contact">Contact</a></div><button class="thb inst" id="ib">Install app</button><button class="thb" id="sb" aria-label="Search the site">Search</button><button class="thb" id="th">Light</button></nav>
+<div class="links" id="lk"><a href="#about">About</a><a href="#services">Services</a><a href="#tools">Tools</a><a href="#store">Store</a><a href="#pulse">Market</a><a href="#scan">Scan</a><a href="#livestream">Stream</a><a href="#live">Charts</a><a href="#journal">Journal</a><a href="#learn">Learn</a><a href="#partners">Partners</a><a href="#book">Book</a><a href="#contact">Contact</a></div><button class="thb inst" id="ib">Install app</button><button class="thb" id="sb" aria-label="Search the site">Search</button><button class="thb" id="th">Light</button></nav>
 
 <div id="home">
 <section class="hero" id="top">
@@ -316,6 +325,17 @@ html[data-theme=light] #splash{background:#f7f5ef}
 <div class="tw" style="margin-top:14px"><table id="ot"></table></div></div>
 </div>
 <p class="note">For information only. This is not financial advice and results are never guaranteed. Forex trading is high risk.</p></div>
+</section>
+
+<section id="scan">
+<div class="tag">Deep scan</div><h2 class="h">Deep market scan</h2>
+<p class="sub">Pick a pair and your trading style. The scan reads structure, liquidity, momentum and key levels on three timeframes, then gives you a bias, a trade plan and every level that matters. It is analysis, not advice.</p>
+<div class="of"><div><label for="scp">Pair</label><select id="scp"></select></div></div>
+<label style="display:block;margin:6px 0">Trading style</label>
+<div class="seg" id="scs"><button data-s="scalp">Scalp</button><button class="on" data-s="intraday">Intraday</button><button data-s="swing">Swing</button></div>
+<div class="cta" style="justify-content:flex-start"><button class="btn gold" id="scgo">Run deep scan</button></div>
+<div class="pulse" id="scl" hidden style="margin-top:20px"><p class="sum" id="sct" style="margin:0 0 12px"></p><div class="st2"><span class="sf pos" id="scb" style="width:0;transition:width .6s"></span></div></div>
+<div id="sco" style="margin-top:20px"></div>
 </section>
 
 <section id="ideas">
@@ -711,217 +731,4 @@ function gl(){const q=$("gq").value.toLowerCase(),g=$("gg");g.textContent="";con
 if(!L.length)g.textContent="No match. Try another word.";else if(lim<L.length){const m=el("button","btn ghost","Show all "+L.length+" terms");m.style.gridColumn="1/-1";m.onclick=()=>{GX=true;gl()};g.append(m)}}
 $("gq").oninput=gl;gl();
 const cb=(t,fn)=>{const b=el("button","btn ghost",t);b.onclick=()=>{fn();b.textContent="Done";setTimeout(()=>b.textContent=t,1500)};$("cta").append(b)};
-const cpy=v=>()=>{const ok=()=>toast("Copied"),no=()=>{const t=document.createElement("textarea");t.value=v;t.style.cssText="position:fixed;opacity:0";document.body.append(t);t.select();let r=false;try{r=document.execCommand("copy")}catch(e){}t.remove();toast(r?"Copied":"Press and hold to copy: "+v)};try{navigator.clipboard.writeText(v).then(ok,no)}catch(e){no()}};
-cb("Copy email",cpy(EM));cb("Copy number",cpy("+254 729 393 153"));
-cb("Share this site",()=>{const u=location.href.split("#")[0];navigator.share?navigator.share({title:"BigMan Capital",url:u}).catch(()=>{}):cpy(u)()});
-addEventListener("scroll",()=>{$("tt").hidden=scrollY<700});
-
-</script>
-<script>
-/* ===== AFFILIATE LINKS: add your partners here =====
-   Each entry: {name:"Name",tag:"One line about it",features:["Point one","Point two"],link:"https://your-affiliate-link"}
-   You can also put them in brokers.json or props.json next to this file. */
-const PARTNERS={brokers:[
-{name:"Exness",tag:"Online forex and CFD broker",features:["Trade forex and gold","MetaTrader 4 and 5 platforms","Check it is licensed in your country before depositing"],link:"https://one.exnessonelink.com/a/pf5lxpdd55"},
-{name:"JustMarkets",tag:"Online forex and CFD broker",features:["Trade forex and gold","MetaTrader 4 and 5 platforms","Check it is licensed in your country before depositing"],link:"https://one.justmarkets.link/a/xrd460qvgj"}
-],props:[]};
-let PT={brokers:[...PARTNERS.brokers],props:[...PARTNERS.props]},PK="brokers";
-function pfm(g){const c=el("div","card");c.style.gridColumn="1/-1";c.append(el("h3","","Compare prop firms"),el("p","","Compare prop firms by price, rules, drawdown limits and discounts on Prop Firm Match, then pick the one that fits your plan."));
-const a=el("div","cta");a.style.justifyContent="flex-start";const sh=el("button","btn gold","Show here"),op=el("a","btn ghost","Open in new tab");op.href=PFM_URL;op.target="_blank";op.rel="noopener sponsored";a.append(sh,op);
-const f=el("iframe","ofr");f.title="Prop Firm Match";f.hidden=true;f.referrerPolicy="no-referrer";f.setAttribute("sandbox","allow-scripts allow-same-origin allow-forms allow-popups");
-sh.onclick=()=>{f.src=PFM_URL;f.hidden=false;note.textContent="Loading. If the box stays blank, Prop Firm Match does not allow embedding. Use Open in new tab."};
-const note=el("p","note","Some sites do not allow themselves to be shown inside other websites. If the box stays blank, use Open in new tab.");c.append(a,note,f);g.append(c)}
-function ptr(){const g=$("bgrid");g.textContent="";if(PK=="compare"){pfm(g);return}const L=PT[PK];
-if(!L.length){const c=el("div","card");c.append(el("h3","","Partner links coming soon"),el("p","","We will list our recommended "+(PK=="brokers"?"brokers":"prop firms")+" here. Message us if you want a recommendation now."));g.append(c);return}
-L.forEach(b=>{const c=el("div","card");c.append(el("h3","",b.name),el("p","",b.tag||""));if((b.features||[]).length){const u=el("ul","bl");b.features.forEach(f=>u.append(el("li","",f)));c.append(u)}
-if(/^https?:\/\//.test(b.link)){const a=el("a","btn gold",PK=="brokers"?"Open account":"Start challenge");a.href=b.link;a.target="_blank";a.rel="noopener sponsored";a.style.marginTop="16px";c.append(a)}g.append(c)})}
-$q("#pseg button").forEach(b=>b.onclick=()=>{$q("#pseg button").forEach(x=>x.classList.toggle("on",x===b));PK=b.dataset.p;ptr()});
-["brokers","props"].forEach(k=>fetch(k+".json?"+Date.now()).then(r=>r.json()).then(a=>{if(Array.isArray(a)){PT[k]=PT[k].concat(a);ptr()}}).catch(()=>{}));ptr();
-$q("#oseg button").forEach(b=>b.onclick=()=>{$q("#oseg button").forEach(x=>x.classList.toggle("on",x===b));$q(".op").forEach(q=>q.hidden=q.id!==b.dataset.o)});
-const OP={EURUSD:{inv:"eur-usd",cme:"fx/g10/euro-fx",bc:"6E"},GBPUSD:{inv:"gbp-usd",cme:"fx/g10/british-pound",bc:"6B"},USDJPY:{inv:"usd-jpy",cme:"fx/g10/japanese-yen",bc:"6J"},AUDUSD:{inv:"aud-usd",cme:"fx/g10/australian-dollar",bc:"6A"},USDCAD:{inv:"usd-cad",cme:"fx/g10/canadian-dollar",bc:"6C"},XAUUSD:{inv:"xau-usd",cme:"metals/precious/gold",bc:"GC"}};
-const OSRC={gg:()=>"https://www.barchart.com/futures/quotes/GCZ26/volatility-greeks/IY1X26?futuresOptionsView=split&moneyness=10",inv:p=>`https://www.investing.com/currencies/${p.inv}-options`,cme:p=>`https://www.cmegroup.com/markets/${p.cme}.quotes.options.html`,bc:p=>`https://www.barchart.com/futures/quotes/${p.bc}*0/options`,oas:()=>"https://www.optionsanalysissuite.com/options-chain",cu:()=>$("ocu").value.trim()};
-const ourl=()=>OSRC[$("osrc").value](OP[$("opair").value]);
-$("osrc").onchange=()=>{$("ocw").hidden=$("osrc").value!="cu"};
-$("oload").onclick=()=>{const u=ourl();if(!/^https:\/\//.test(u)){$("omsg").textContent="Enter a link that starts with https://";return}$("ofr").src=u;$("ofr").hidden=false;$("omsg").textContent="Loading. If the box stays blank, that site does not allow embedding. Use Open in new tab."};
-$("oopen").onclick=()=>{const u=ourl();if(/^https:\/\//.test(u))open(u,"_blank","noopener")};
-function cnd(x){const t=1/(1+.2316419*Math.abs(x)),d=.3989423*Math.exp(-x*x/2),q=d*t*(.3193815+t*(-.3565638+t*(1.781478+t*(-1.821256+t*1.330274))));return x>0?1-q:q}
-const npdf=x=>Math.exp(-x*x/2)/Math.sqrt(2*Math.PI);
-function gk(S,K,T,v,rd,rf){const sq=v*Math.sqrt(T),d1=(Math.log(S/K)+(rd-rf+.5*v*v)*T)/sq,d2=d1-sq,ef=Math.exp(-rf*T),ed=Math.exp(-rd*T);return{c:S*ef*cnd(d1)-K*ed*cnd(d2),p:K*ed*cnd(-d2)-S*ef*cnd(-d1),dc:ef*cnd(d1),dp:-ef*cnd(-d1),g:ef*npdf(d1)/(S*sq),vg:S*ef*npdf(d1)*Math.sqrt(T)/100}}
-function och(){const S=N("os"),v=N("ovl")/100,T=N("od")/365,rd=N("orr")/100,rf=N("orf")/100,st=N("ost"),t=$("ot");t.textContent="";
-if(!(S>0&&v>0&&T>0&&st>0)){t.textContent="Fill in spot, volatility, days and strike step.";return}
-const hd=el("tr");["Strike","Call","Call delta","Put","Put delta","Gamma","Vega"].forEach(x=>hd.append(el("th","",x)));t.append(hd);const K0=Math.round(S/st)*st;
-for(let i=-5;i<=5;i++){const K=K0+i*st,o=gk(S,K,T,v,rd,rf),r=el("tr");[K.toFixed(5),o.c.toFixed(5),o.dc.toFixed(3),o.p.toFixed(5),o.dp.toFixed(3),o.g.toFixed(3),o.vg.toFixed(5)].forEach((x,j)=>{const c=el("td","",x);if(i==0)c.style.color="var(--gold2)";r.append(c)});t.append(r)}}
-["os","ovl","od","orr","orf","ost"].forEach(i=>$(i).oninput=och);och();
-function gex(){const S=N("gs"),v=N("gv")/100,T=N("gd")/365,cz=N("gc"),rows=$("gcsv").value.trim().split(/\n+/).map(l=>l.trim().split(/[,\s;]+/).map(Number)).filter(r=>r.length>=3&&r.every(x=>!isNaN(x))).sort((a,b)=>a[0]-b[0]);
-if(!(S>0&&v>0&&T>0)||!rows.length){$("gres").textContent="Enter spot, volatility, days and at least one strike row.";return}
-const net=sp=>rows.reduce((a,r)=>a+gk(sp,r[0],T,v,0,0).g*(r[1]-r[2])*cz*sp*sp*.01/1e6,0),bars=rows.map(r=>[r[0],gk(S,r[0],T,v,0,0).g*(r[1]-r[2])*cz*S*S*.01/1e6]);
-const c=$("gcv"),x=c.getContext("2d"),w=c.width,h=c.height,m=Math.max(...bars.map(b=>Math.abs(b[1])))||1,bw=w/bars.length,mid=h/2-12;x.clearRect(0,0,w,h);
-x.strokeStyle="rgba(165,168,176,.4)";x.beginPath();x.moveTo(0,mid);x.lineTo(w,mid);x.stroke();x.font="12px Inter,sans-serif";x.textAlign="center";
-const ev=Math.ceil(bars.length/12);
-bars.forEach((b,i)=>{const bh=Math.abs(b[1])/m*(mid-14);x.fillStyle=b[1]>=0?"#4fd18b":"#ff6b6b";x.fillRect(i*bw+bw*.15,b[1]>=0?mid-bh:mid,bw*.7,bh);if(i%ev==0){x.fillStyle="#a5a8b0";x.fillText(String(+b[0].toFixed(5)),i*bw+bw/2,h-6)}});
-const lo=bars[0][0],hi=bars[bars.length-1][0];if(S>=lo&&S<=hi){let i0=0;while(i0<bars.length-2&&bars[i0+1][0]<=S)i0++;const fr=(S-bars[i0][0])/((bars[i0+1]||[hi+1])[0]-bars[i0][0]||1),px=(i0+.5+Math.min(1,fr))*bw;x.setLineDash([5,5]);x.strokeStyle="#e8c978";x.beginPath();x.moveTo(px,6);x.lineTo(px,h-22);x.stroke();x.setLineDash([]);x.fillStyle="#e8c978";x.fillText("Spot",px,14)}
-const cw=bars.reduce((a,b)=>b[1]>a[1]?b:a),pw=bars.reduce((a,b)=>b[1]<a[1]?b:a);let fl=null,pv=net(S*.95);
-for(let k=1;k<=100;k++){const sp=S*(.95+k*.001),nv=net(sp);if(pv*nv<0){fl=sp;break}pv=nv}
-$("gres").textContent=`Biggest positive gamma: ${+cw[0].toFixed(5)}. Biggest negative gamma: ${+pw[0].toFixed(5)}. Zero-gamma level: ${fl?fl.toFixed(5):"not found within 5% of spot"}. Net gamma at spot: ${net(S).toFixed(2)}M per 1% move. Estimate from the numbers you entered, not live data.`}
-$("gdraw").onclick=gex;$("gsam").onclick=()=>{$("gs").value="1.0850";$("gv").value="7";$("gd").value="14";$("gcsv").value="1.0700,800,1500\n1.0750,1200,2100\n1.0800,2600,3100\n1.0850,4200,1800\n1.0900,3900,900\n1.0950,2500,500\n1.1000,1800,300";gex();$("gres").textContent+=" These are sample numbers for demonstration only."};
-function k8(){const h=N("f1"),l=N("f2"),up=$("f3").value=="up";if(!(h>l)){$("f4").textContent="Swing high must be above swing low.";return}const r=h-l,f=v=>v.toFixed(5),R=[.236,.382,.5,.618,.786].map(q=>`${(q*100).toFixed(1)}% ${f(up?h-q*r:l+q*r)}`).join(", "),E=[1.272,1.618].map(q=>`${(q*100).toFixed(1)}% ${f(up?l+q*r:h-q*r)}`).join(", ");$("f4").textContent=`Pullback levels: ${R}. Targets beyond the swing: ${E}.`}
-["f1","f2"].forEach(i=>$(i).oninput=k8);$("f3").onchange=k8;k8();
-
-</script>
-<script>
-function payBtn(c,p){if(/^https:\/\//.test(p.pay||"")){const l=el("a","btn gold","Pay online");l.href=p.pay;l.target="_blank";l.rel="noopener";c.append(l);return}
-if(PAY.paystackKey&&p.amount){const b=el("button","btn gold","Pay with M-Pesa or card");b.onclick=()=>paystack(p.name,p.amount);c.append(b)}}
-function paystack(name,amt){const em=prompt("Your email for the receipt");if(!em)return;
-const go=()=>PaystackPop.setup({key:PAY.paystackKey,email:em,amount:Math.round(amt*100),currency:PAY.currency,ref:"BM"+Date.now(),metadata:{product:name},callback:function(r){alert("Payment received. Reference "+r.reference+". We will send your order on WhatsApp or email.")},onClose:function(){}}).openIframe();
-if(window.PaystackPop)return go();const sc=document.createElement("script");sc.src="https://js.paystack.co/v1/inline.js";sc.onload=go;document.head.append(sc)}
-if(ANALYTICS.plausible){const a=document.createElement("script");a.defer=true;a.dataset.domain=ANALYTICS.plausible;a.src="https://plausible.io/js/script.js";document.head.append(a)}
-$("th").textContent=TH()=="light"?"Dark":"Light";
-$("th").onclick=()=>{const t=TH()=="light"?"dark":"light";document.documentElement.dataset.theme=t;$("th").textContent=t=="light"?"Dark":"Light";const on=document.querySelector("#lseg button.on");if(on)live(on.dataset.k);tv($("tvt"),"ticker-tape",TICK)};
-// live stream
-(function(){const p=$("lvp"),h=location.hostname||"localhost";let src="";
-if(LIVE.youtubeVideo)src=`https://www.youtube.com/embed/${encodeURIComponent(LIVE.youtubeVideo)}?rel=0`;
-else if(LIVE.youtubeChannel)src=`https://www.youtube.com/embed/live_stream?channel=${encodeURIComponent(LIVE.youtubeChannel)}&rel=0`;
-else if(LIVE.twitch)src=`https://player.twitch.tv/?channel=${encodeURIComponent(LIVE.twitch)}&parent=${h}&muted=true`;
-if(src){const f=el("iframe");f.src=src;f.title="Live stream";f.allow="autoplay; encrypted-media; picture-in-picture; fullscreen";f.allowFullscreen=true;p.append(f)}
-else{p.classList.add("ph");const d=el("div");d.append(el("h3","at","We go live on TikTok"),el("p","sub","Tap the button to watch when we are live. Check the schedule for the next session."));const a=el("a","btn gold","Watch on TikTok");a.href=LIVE.tiktok;a.target="_blank";a.rel="noopener";d.append(a);p.append(d)}
-if(LIVE.youtubeVideo){const f=el("iframe","lvchat");f.src=`https://www.youtube.com/live_chat?v=${encodeURIComponent(LIVE.youtubeVideo)}&embed_domain=${h}`;f.title="Live chat";$("lvc").append(f)}
-const sd=$("lvs"),nx=(LIVE.schedule||[]).map(x=>({t:x.title,d:new Date(x.date)})).filter(x=>x.d>new Date()).sort((a,b)=>a.d-b.d);
-sd.append(el("div","tag","Next live"));
-const cd=el("div","cd","");const ti=el("p","","");
-if(nx.length){ti.textContent=nx[0].t+" · "+nx[0].d.toLocaleString([],{weekday:"short",month:"short",day:"numeric",hour:"2-digit",minute:"2-digit",timeZoneName:"short"});const tk=()=>{let d=Math.max(0,nx[0].d-new Date())/1000,dd=Math.floor(d/86400),hh=Math.floor(d%86400/3600),mm=Math.floor(d%3600/60),ss=Math.floor(d%60);cd.textContent=(dd?dd+"d ":"")+[hh,mm,ss].map(v=>String(v).padStart(2,"0")).join(":")};tk();setInterval(tk,1000)}
-else{cd.textContent="To be announced";ti.textContent="Follow us on TikTok to hear about the next live first."}
-sd.append(cd,ti);
-const bt=(t,h,g)=>{const a=el("a","btn "+(g?"gold":"ghost"),t);a.href=h;a.target="_blank";a.rel="noopener";a.style.cssText="margin:12px 8px 0 0";return a};
-sd.append(bt("Watch on TikTok",LIVE.tiktok,1));
-if(LIVE.youtubeVideo)sd.append(bt("Watch on YouTube","https://www.youtube.com/watch?v="+encodeURIComponent(LIVE.youtubeVideo)));else if(LIVE.youtubeChannel)sd.append(bt("Watch on YouTube","https://www.youtube.com/channel/"+encodeURIComponent(LIVE.youtubeChannel)+"/live"));
-if(nx.length){const ics=el("button","btn ghost","Add to calendar");ics.style.marginTop="12px";ics.onclick=()=>{const f=d=>d.toISOString().replace(/[-:]|\.\d{3}/g,""),e=new Date(nx[0].d.getTime()+36e5),c=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//BigMan Capital//EN","BEGIN:VEVENT","UID:"+nx[0].d.getTime()+"@bigmancapital","DTSTAMP:"+f(new Date()),"DTSTART:"+f(nx[0].d),"DTEND:"+f(e),"SUMMARY:BigMan Capital live: "+nx[0].t,"URL:"+LIVE.tiktok,"END:VEVENT","END:VCALENDAR"].join("\r\n"),a=document.createElement("a");a.href=URL.createObjectURL(new Blob([c],{type:"text/calendar"}));a.download="bigman-live.ics";a.click()};sd.append(ics);
-sd.append(bt("Remind me on WhatsApp",wa("Hello BigMan Capital,\n\nPlease remind me about the next live session: "+nx[0].t+".")));
-if(nx.length>1){sd.append(el("h4","","Later sessions"));nx.slice(1,5).forEach(x=>{const r=el("div","lrow");r.append(el("b","",x.t),el("span","",x.d.toLocaleString([],{month:"short",day:"numeric",hour:"2-digit",minute:"2-digit"})));sd.append(r)})}}
-})();
-// booking
-(function(){const b=$("bk");if(/^https:\/\//.test(BOOK)){const f=el("iframe","ofr");f.src=BOOK;f.title="Book a consultation";b.append(f);return}
-b.innerHTML=`<div class="cbox" style="margin-top:0"><div class="of"><div><label for="bn">Your name</label><input id="bn"></div><div><label for="bs">Service</label><select id="bs"><option>Account Management</option><option>Trading Classes</option><option>Coaching</option><option>Mentorship</option><option>Trading Automations</option><option>Prop Firm Pathway</option></select></div><div><label for="bd">Preferred date</label><input id="bd" type="date"></div><div><label for="bt">Preferred time</label><input id="bt" type="time" value="10:00"></div></div><div class="cta"><a id="bw" class="btn gold" target="_blank" rel="noopener">Request on WhatsApp</a><a id="be" class="btn ghost">Request by email</a></div><p class="note">This sends a booking request. We reply to confirm the time.</p></div>`;
-$("bd").min=new Date().toISOString().slice(0,10);
-const u=()=>{const n=$("bn").value.trim(),m=`Hello BigMan Capital,\n\nI'd like to book a free consultation about ${$("bs").value}.\nPreferred: ${$("bd").value||"any day"} at ${$("bt").value} (${Intl.DateTimeFormat().resolvedOptions().timeZone}).`+(n?`\nMy name: ${n}`:"");$("bw").href=wa(m);$("be").href=`mailto:${EM}?subject=${encodeURIComponent("Consultation request")}&body=${encodeURIComponent(m)}`};
-["bn","bs","bd","bt"].forEach(i=>{$(i).oninput=u;$(i).onchange=u});u()})();
-// track record and reviews
-if(/^https:\/\//.test(TRACK.link||"")){$("track").hidden=false;const t=$("trk"),box=el("div");t.append(box);
-const c=el("div","cta");c.style.justifyContent="flex-start";const ob=el("a","btn gold","View on Myfxbook");ob.href=TRACK.link;ob.target="_blank";ob.rel="noopener";c.append(ob);t.append(c);
-const money=v=>"$"+Number(v).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2}),pct=(v,sg)=>(sg&&v>0?"+":"")+Number(v).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2})+"%";
-function card(d){box.textContent="";const m=el("div","mfx");const row=(k,v,f,cl)=>{if(v===undefined||v===null||v===""||isNaN(parseFloat(v)))return;const n=parseFloat(v),r=el("div","mr");r.append(el("span","",k),el("b",cl?(n>0?"pos":n<0?"neg":""):"",f(n)));m.append(r)};
-row("Gain",d.gain,v=>pct(v,1),1);row("Abs. gain",d.absGain,v=>pct(v,1),1);row("Daily",d.daily,v=>pct(v));row("Monthly",d.monthly,v=>pct(v));row("Drawdown",d.drawdown,v=>pct(v));m.append(el("div","md"));
-row("Balance",d.balance,money);row("Equity",d.equity,money);row("Profit",d.profit,money,1);row("Interest",d.interest,money);m.append(el("div","md"));row("Deposits",d.deposits,money);row("Withdrawals",d.withdrawals,money);m.append(el("div","md"));
-const up=el("div","mup","");const tm=new Date(d.updated||d.lastUpdateDate);const ago=()=>{if(isNaN(tm)){up.textContent="Live from Myfxbook";return}const mi=Math.max(0,Math.round((Date.now()-tm)/60000));up.textContent="Updated "+(mi<1?"just now":mi<60?mi+" minutes ago":mi<1440?Math.round(mi/60)+" hours ago":tm.toLocaleDateString())};ago();setInterval(ago,60000);m.append(up);box.append(m)}
-function crop(){const W=TRACK_CROP.w,T=TRACK_CROP.top,H=TRACK_CROP.h;box.textContent="";const w=el("div","cw");w.style.aspectRatio=W+"/"+H;const f=el("iframe");f.title="Live results";f.setAttribute("scrolling","no");f.tabIndex=-1;f.referrerPolicy="no-referrer";f.setAttribute("sandbox","allow-scripts allow-same-origin");f.style.width=W+"px";f.style.height=(T+H+600)+"px";w.append(f);box.append(w);
-const fit=()=>{const k=w.clientWidth/W;f.style.transform="translate(0,"+(-T*k)+"px) scale("+k+")"};const load=()=>{f.src=TRACK.link+(TRACK.link.indexOf("?")<0?"?":"&")+"_="+Date.now()};
-fit();addEventListener("resize",fit);if(window.ResizeObserver)new ResizeObserver(fit).observe(w);load();setInterval(load,Math.max(30,TRACK_CROP.refresh)*1000)}
-fetch("results.json?"+Date.now()).then(r=>r.ok?r.json():Promise.reject()).then(d=>{if(d&&(d.gain!==undefined||d.balance!==undefined))card(d);else crop();setInterval(()=>fetch("results.json?"+Date.now()).then(r=>r.json()).then(d=>{if(d&&box.querySelector(".mfx"))card(d)}).catch(()=>{}),300000)}).catch(crop)}
-if(TESTIMONIALS.length){$("reviews").hidden=false;TESTIMONIALS.forEach(x=>{const c=el("div","card");c.append(el("p","q","“"+x.text+"”"),el("b","",x.name),el("p","",x.role||""));$("rvg").append(c)})}
-// course
-let CD=[];try{CD=JSON.parse(localStorage.getItem("bm_course")||"[]")}catch(e){}
-function tgl(i){CD=CD.includes(i)?CD.filter(x=>x!=i):CD.concat(i);try{localStorage.setItem("bm_course",JSON.stringify(CD))}catch(e){}crs()}
-function ytid(u){const m=String(u).match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{11})/);return m?m[1]:(/^[\w-]{11}$/.test(String(u).trim())?String(u).trim():"")}
-function lsn(i){const l=COURSE[i],d=$("pm");d.textContent="";const x=el("button","dx","Close");x.onclick=()=>d.close();
-const box=el("div");box.style.marginTop="14px";
-const yt=el("a","btn ghost","Open on YouTube");yt.target="_blank";yt.rel="noopener";yt.hidden=!l.v;if(l.v)yt.href="https://www.youtube.com/watch?v="+l.v;
-const fd=el("a","btn ghost","Find another short video");fd.href="https://www.youtube.com/results?search_query="+encodeURIComponent(l.q)+"&sp=EgIYAw%253D%253D";fd.target="_blank";fd.rel="noopener";
-const play=id=>{box.textContent="";const f=el("iframe");f.src="https://www.youtube-nocookie.com/embed/"+id+"?rel=0";f.title=l.t;f.allow="encrypted-media; picture-in-picture; fullscreen";f.allowFullscreen=true;f.style.cssText="width:100%;aspect-ratio:16/9;border:0;border-radius:12px";box.append(f);yt.href="https://www.youtube.com/watch?v="+id;yt.hidden=false};
-if(l.v)play(l.v);else box.append(el("p","sub","No video is attached to this lesson yet. Use the buttons below to find a short one, or paste a YouTube link to play it here."));
-const dn=el("button","btn gold",CD.includes(i)?"Done":"Mark done");dn.onclick=()=>{tgl(i);dn.textContent=CD.includes(i)?"Done":"Mark done"};
-const ac=el("div","cta");ac.style.marginTop="14px";ac.append(yt,fd,dn);if(i<COURSE.length-1){const n=el("button","btn ghost","Next lesson");n.onclick=()=>lsn(i+1);ac.append(n)}
-const pi=el("input");pi.placeholder="Paste a YouTube link to play it here";pi.style.marginTop="16px";const pb=el("button","btn ghost","Play here");pb.onclick=()=>{const id=ytid(pi.value);if(id)play(id);else{pi.value="";pi.placeholder="That is not a valid YouTube link"}};
-const ul=el("ul","tick");l.p.forEach(t=>ul.append(el("li","",t)));
-d.append(x,el("span","soon ok","Lesson "+(i+1)+" of "+COURSE.length),el("h2","",l.t),box,ac,el("h3","","What you learn"),el("p","",l.s),ul,pi,pb,el("p","note","Videos are made by independent creators and are for education only. They are not financial advice, and no strategy wins every trade."));d.showModal();d.scrollTop=0}
-function crs(){const g=$("crs");g.textContent="";COURSE.forEach((l,i)=>{const dn=CD.includes(i),c=el("div","card");c.append(el("div","num",String(i+1)),el("h3","",l.t),el("small","pl",l.m),el("p","",l.s.split(". ")[0]+"."));
-const w=el("button","btn "+(dn?"ghost":"gold"),"Watch lesson");w.style.cssText="margin:12px 8px 0 0;animation:none";w.onclick=()=>lsn(i);
-const k=el("button","btn ghost",dn?"Done":"Mark done");k.style.cssText="margin-top:12px;animation:none";k.onclick=()=>tgl(i);c.append(w,k);g.append(c)});
-$("crp").textContent=CD.length+" of "+COURSE.length+" lessons done";$("crb").style.width=CD.length/COURSE.length*100+"%";$("crdone").hidden=CD.length<COURSE.length}
-crs();
-// articles
-$("agrid").innerHTML=Object.keys(POSTS).map(k=>`<a class="card" href="#post-${k}"><h3>${POSTS[k].t}</h3><span class="more">Read the guide</span></a>`).join("");
-// daily brief signup
-(function(){const c=$("chn");c.innerHTML='<h3 style="font-size:1.6rem;color:var(--gold2);margin-bottom:8px">Get the daily brief</h3><p class="sub" style="margin:0 0 14px">Market notes and live session alerts, sent to you.</p><div class="cta" id="chb" style="justify-content:flex-start;margin-top:0"></div>';
-const a=(t,h,g)=>{const l=el("a","btn "+(g?"gold":"ghost"),t);l.href=h;l.target="_blank";l.rel="noopener";$("chb").append(l)};
-if(/^https:\/\//.test(CHANNEL.whatsapp))a("Join WhatsApp channel",CHANNEL.whatsapp,1);if(/^https:\/\//.test(CHANNEL.telegram))a("Join Telegram",CHANNEL.telegram,1);
-a("Ask for it on WhatsApp",wa("Hello BigMan Capital,\n\nPlease add me to your daily market brief and live session alerts."),!(CHANNEL.whatsapp||CHANNEL.telegram));a("Ask by email","mailto:"+EM+"?subject="+encodeURIComponent("Daily brief"))})();
-// install app and service worker
-
-try{if("serviceWorker" in navigator&&/^https?:$/.test(location.protocol)&&navigator.serviceWorker)navigator.serviceWorker.register("sw.js").catch(()=>{})}catch(e){}
-
-</script>
-<script>
-const KZ=[["Asian",1200,1440],["London",120,300],["New York",420,600],["London close",600,720]];
-function kz(){const p=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"numeric",minute:"numeric",hour12:false}).formatToParts(new Date()),n=(+p.find(x=>x.type=="hour").value%24)*60+ +p.find(x=>x.type=="minute").value;
-$("kz").innerHTML=KZ.map(([a,s,e])=>{const on=n>=s&&n<e,w=(s-n+1440)%1440,t=on?"Active now":"Starts in "+Math.floor(w/60)+"h "+w%60+"m",f=v=>String(v/60%24).padStart(2,"0")+":00";return`<div class="sch ${on?"op":""}"><i></i><b>${a}</b><small>${f(s)} to ${f(e)} · ${t}</small></div>`}).join("")}
-kz();setInterval(kz,60000);
-const ck9=()=>{const a=[...document.querySelectorAll("#k9 input")],n=a.filter(x=>x.checked).length;$("ck9").textContent=n==a.length?"All "+n+" checks done. The setup matches the model.":n+" of "+a.length+" checks done. If a check is missing, wait."};
-document.querySelectorAll("#k9 input").forEach(x=>x.onchange=ck9);ck9();
-{const l=el("a","btn ghost","Leave a review");l.href=wa("Hello BigMan Capital,\n\nI'd like to share my experience with your service.");l.target="_blank";l.rel="noopener";$("cta").append(l)}
-let ogl=false;document.querySelector('#tabs [data-t="t6"]').addEventListener("click",()=>{if(!ogl){ogl=true;$("oload").click()}});
-</script>
-<script>
-
-function toast(t){let e=$("toast");if(!e){e=el("div");e.id="toast";e.setAttribute("role","status");document.body.append(e)}e.textContent=t;e.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>e.hidden=true,2400)}
-const nav=h=>{if(location.hash==h)route();else location.hash=h};
-const SI=[];
-[["About us","#about"],["Services","#services"],["Find your service","#finder"],["Free ICT course","#course"],["Live stream","#livestream"],["Calculators and tools","#tools"],["Market pulse and options","#pulse"],["Daily brief","#brief"],["Charts and heatmap","#live"],["Trade log","#log"],["Store","#store"],["Trading journal","#journal"],["Partners and brokers","#partners"],["Book a consultation","#book"],["Articles","#articles"],["Glossary","#learn"],["FAQ","#faq"],["Contact","#contact"],["Privacy policy","#privacy"],["Terms and conditions","#terms"]].forEach(([t,h])=>SI.push({t,k:"section",go:()=>nav(h)}));
-Object.keys(S).forEach(k=>SI.push({t:S[k].t,k:"service",x:S[k].tag,go:()=>nav("#svc-"+k)}));
-COURSE.forEach((l,i)=>SI.push({t:"Lesson "+(i+1)+": "+l.t,k:"lesson",x:l.s,go:()=>{nav("#course");lsn(i)}}));
-Object.keys(POSTS).forEach(k=>SI.push({t:POSTS[k].t,k:"article",go:()=>nav("#post-"+k)}));
-GL.forEach(g=>SI.push({t:g[0],k:"glossary",x:g[1],go:()=>{GX=true;$("gq").value=g[0];gl();nav("#learn")}}));
-$q("#cseg button").forEach(b=>SI.push({t:b.textContent+" calculator",k:"tool",go:()=>{nav("#tools");b.click()}}));
-$q("#tabs button").forEach(b=>SI.push({t:"Market: "+b.textContent,k:"market",go:()=>{nav("#pulse");b.click()}}));
-const opn=(o)=>{nav("#pulse");document.querySelector('#tabs [data-t="t6"]').click();document.querySelector('#oseg [data-o="'+o+'"]').click()};
-SI.push({t:"Gold options and volatility greeks",k:"market",x:"xauusd barchart delta gamma vega iv",go:()=>opn("o1")},{t:"Options chain viewer",k:"market",x:"strike price delta investing cme barchart",go:()=>opn("o1")},{t:"Gamma exposure chart",k:"market",x:"gex gamma bar chart strikes walls",go:()=>opn("o2")},{t:"Options chain model",k:"market",x:"black scholes garman kohlhagen greeks",go:()=>opn("o3")},{t:"Market sessions and killzones clock",k:"tool",x:"london new york asian time",go:()=>nav("#tools")},{t:"TikTok",k:"link",x:"follow video live",go:()=>nav("#tiktok")},{t:"WhatsApp and email us",k:"link",x:"chat message contact phone",go:()=>nav("#contact")},{t:"Install the app",k:"link",x:"home screen phone",go:()=>nav("#contact")});
-function sf(){const q=$("sq").value.trim().toLowerCase(),r=$("srx");r.textContent="";
-let L=q?SI.filter(x=>(x.t+" "+(x.x||"")+" "+x.k).toLowerCase().includes(q)).sort((a,b)=>(b.t.toLowerCase().includes(q))-(a.t.toLowerCase().includes(q))):SI.filter(x=>x.k=="section");L=L.slice(0,10);
-if(!L.length){r.append(el("p","sub","Nothing found. Try another word, or jump to:"));SI.filter(x=>x.k=="section").slice(0,6).forEach(x=>{const b=el("button","sri");b.append(el("b","",x.t),el("small","",x.k));b.onclick=()=>{$("sp").close();x.go()};r.append(b)});return}
-L.forEach(x=>{const b=el("button","sri");b.append(el("b","",x.t),el("small","",x.k));b.onclick=()=>{$("sp").close();x.go()};r.append(b)})}
-const so=()=>{const d=$("sp");if(d.open)return;d.showModal();$("sq").value="";sf();$("sq").focus()};
-$("sb").onclick=so;$("dks").onclick=so;$("spx").onclick=()=>$("sp").close();$("sq").oninput=sf;
-$("sq").onkeydown=e=>{if(e.key=="Enter"){e.preventDefault();const b=$("srx").querySelector("button");if(b)b.click()}};
-$("sp").onclick=e=>{if(e.target==$("sp"))$("sp").close()};
-addEventListener("keydown",e=>{const t=e.target&&e.target.tagName;if(((e.key=="k"||e.key=="K")&&(e.ctrlKey||e.metaKey))||(e.key=="/"&&!/INPUT|TEXTAREA|SELECT/.test(t))){e.preventDefault();so()}});
-// currency converter
-const CUR=["USD","KES","EUR","GBP","JPY","AUD","CAD","CHF","NZD","ZAR","NGN","UGX","TZS","AED","INR"];let FXR=null,FXT="";
-CUR.forEach(c=>{$("cvf").append(new Option(c,c));$("cvt").append(new Option(c,c))});$("cvf").value="USD";$("cvt").value="KES";
-function cvx(){const a=N("cva"),f=$("cvf").value,t=$("cvt").value;if(!FXR){return}if(!(a>=0)){$("cvr").textContent="Enter an amount.";return}const r=FXR[t]/FXR[f];$("cvr").textContent=`${a.toLocaleString()} ${f} = ${(a*r).toLocaleString(undefined,{maximumFractionDigits:2})} ${t}. Rate: 1 ${f} = ${r.toLocaleString(undefined,{maximumFractionDigits:4})} ${t}.`+(FXT?" Updated "+FXT.slice(0,16)+" UTC.":"")}
-function cvl(){if(FXR||cvl.b)return;cvl.b=1;$("cvr").textContent="Loading live rates…";fetch("https://open.er-api.com/v6/latest/USD").then(r=>r.json()).then(d=>{if(d&&d.rates){FXR=d.rates;FXT=d.time_last_update_utc||"";cvx()}else throw 0}).catch(()=>{cvl.b=0;$("cvr").textContent="Live rates could not load. Check your connection and reopen this tab."})}
-["cva","cvf","cvt"].forEach(i=>{$(i).oninput=cvx;$(i).onchange=cvx});$("cvs").onclick=()=>{const f=$("cvf").value;$("cvf").value=$("cvt").value;$("cvt").value=f;cvx()};
-document.querySelector('#cseg [data-c="k10"]').addEventListener("click",cvl);
-// announcement bar for next live
-{const n=(LIVE.schedule||[]).map(x=>({t:x.title,d:new Date(x.date)})).filter(x=>x.d>new Date()).sort((a,b)=>a.d-b.d)[0];if(n){const a=$("ann");a.hidden=false;a.append("Next live: "+n.t+" · "+n.d.toLocaleString([],{weekday:"short",hour:"2-digit",minute:"2-digit"}));const l=el("a","","Details");l.href="#livestream";a.append(l)}}
-// track WhatsApp taps when analytics is on
-document.addEventListener("click",e=>{const a=e.target.closest&&e.target.closest("a[href*='wa.me']");if(a&&window.plausible)plausible("WhatsApp click")});
-// FAQ rich results
-{const q=[...document.querySelectorAll("#faq details")].map(d=>({"@type":"Question",name:d.querySelector("summary").textContent,acceptedAnswer:{"@type":"Answer",text:d.querySelector("p").textContent}}));const sc=document.createElement("script");sc.type="application/ld+json";sc.text=JSON.stringify({"@context":"https://schema.org","@type":"FAQPage",mainEntity:q});document.head.append(sc)}
-
-// install app button (always visible unless already installed)
-function inst(){const e=window.DIP;if(e){e.prompt();if(e.userChoice)e.userChoice.then(r=>{window.DIP=null;if(r&&r.outcome=="accepted")toast("Installing…")});return}
-const ua=navigator.userAgent,inapp=/FBAN|FBAV|Instagram|TikTok|musical_ly|Line\/|Snapchat|; wv\)/i.test(ua),ios=/iphone|ipad|ipod/i.test(ua);
-const m=inapp?"This in-app browser cannot install apps. Tap the menu and choose Open in Chrome (or Safari), then tap Install app again.":ios?"On iPhone or iPad: tap the Share icon in Safari, then choose Add to Home Screen. Apple does not allow one-tap install.":/android/i.test(ua)?"Your browser has not offered one-tap install yet. Wait a few seconds and tap again, or use the browser menu (three dots) and choose Install app.":"Your browser has not offered one-tap install yet. Wait a few seconds and tap again, or click the install icon at the right of the address bar.";
-const d=$("pm");d.textContent="";const x=el("button","dx","Close");x.onclick=()=>d.close();d.append(x,el("h2","","Install BigMan Capital"),el("p","sub",m),el("p","note","The site must be opened over https for install to work."));d.showModal()}
-$("ib").onclick=$("ib2").onclick=inst;cb("Install app",inst);
-SI.push({t:"Install the app",k:"link",x:"home screen phone download",go:inst});
-const hideInst=()=>{document.querySelectorAll(".inst").forEach(b=>b.hidden=true);[...$("cta").querySelectorAll("button")].filter(b=>/Install/.test(b.textContent)).forEach(b=>b.hidden=true)};
-if(matchMedia("(display-mode: standalone)").matches||navigator.standalone)hideInst();
-addEventListener("appinstalled",hideInst);
-</script>
-<script>
-
-// trade ideas
-function idr(list){const g=$("idg");g.textContent="";const ok=u=>/^https:\/\//.test(u||"");
-list.forEach(x=>{const c=el("div","card");let img="",link="";if(ok(x.chart)){const m=x.chart.match(/tradingview\.com\/x\/([A-Za-z0-9]+)/);if(m){link=x.chart;img="https://s3.tradingview.com/"+m[1][0].toLowerCase()+"/"+m[1]+"_mid.png"}else if(/\.(png|jpe?g|webp)(\?|$)/i.test(x.chart))img=x.chart;else link=x.chart}
-if(img){const i=el("img","idimg");i.src=img;i.alt=(x.pair||"")+" chart";i.loading="lazy";i.onerror=()=>i.remove();if(link){const a=el("a");a.href=link;a.target="_blank";a.rel="noopener";a.append(i);c.append(a)}else c.append(i)}
-const buy=/buy|long/i.test(x.side||""),b=el("span","badge "+(buy?"Bullish":"Bearish"),x.side||"");c.append(b,el("small","pl",[x.pair,x.date].filter(Boolean).join(" · ")),el("h3","",x.title||""),el("p","",x.reason||""));
-const lv=el("div","lv");[["Entry",x.entry],["Stop",x.sl],["Target",x.tp],["Status",x.status]].forEach(([k,v])=>{if(v){const s=el("span","",k+" ");s.append(el("b","",String(v)));lv.append(s)}});c.append(lv);
-if(link){const a=el("a","btn ghost","Open chart on TradingView");a.href=link;a.target="_blank";a.rel="noopener";a.style.marginTop="14px";c.append(a)}g.append(c)});
-if(!list.length){const c=el("div","card");c.append(el("h3","","No trade ideas posted yet"),el("p","","We share our setups in the live sessions and on TikTok. Join us there for the next one."));g.append(c)}}
-idr(IDEAS);
-{const bt=(t,h,g)=>{const a=el("a","btn "+(g?"gold":"ghost"),t);a.href=h;if(/^https/.test(h)){a.target="_blank";a.rel="noopener"}$("idc").append(a)};
-bt("Watch the live","#livestream",1);bt("Follow on TikTok","https://www.tiktok.com/@"+TIK);if(/^https:\/\//.test(TVPROFILE))bt("Follow on TradingView",TVPROFILE)}
-SI.push({t:"Trade ideas",k:"section",x:"setups entry stop target chart",go:()=>nav("#ideas")},{t:"Compare prop firms (Prop Firm Match)",k:"section",x:"propfirmmatch challenge rules discount",go:()=>{nav("#partners");document.querySelector('#pseg [data-p="compare"]').click()}});
-SI.push({t:"Our results on Myfxbook",k:"section",x:"track record verified performance",go:()=>nav("#track")});
-</script>
-</body>
-</html>
+const cpy=v=>()=>{const ok=()=>toast("Copied"),no=()=>{const t=document.createElement("textarea");t.value=v;t.style.cssText="position:fixed;opacity:0";document.body.append(t);t.select();let r=false;try{r=document.execCommand("copy")}catch(e){}t.remo
