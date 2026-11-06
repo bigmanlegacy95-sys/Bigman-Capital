@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-06T15:39+00:00",
-  "summary": "Global markets are reacting to a mix of strong U.S. payrolls data and a technology stock rout that has boosted safe-haven demand for the U.S. dollar and Japanese yen. Meanwhile, political developments including the U.S. midterm elections and potential shifts in AI infrastructure spending are influencing treasury yields and broader risk sentiment. Central bank commentary, particularly regarding potential future rate hikes from Fed officials and recent actions by the Bank of England, continues to steer currency valuations.",
+  "updated": "2026-11-06T18:41+00:00",
+  "summary": "Global markets are reacting to a combination of strong U.S. payrolls, a tech and AI-related stock rout following U.S. midterm results, and central bank actions. The U.S. dollar is finding safe-haven demand amidst equity volatility and higher Treasury yields driven by solid jobs data. Meanwhile, the Bank of England has hiked interest rates by 25 basis points to 4%, keeping the British pound in focus.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The pair remains in a downtrend as a resilient dollar benefits from safe-haven flows and robust U.S. employment data."
+      "reason": "Weighed down by a firm U.S. dollar, strong payrolls data, and an existing downside trend."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "Sterling trades sideways as the Bank of England's recent rate hike is counterbalanced by firm dollar demand ahead of key U.S. data."
+      "reason": "Caught between a 25 bps BoE rate hike and broader safe-haven demand supporting the U.S. dollar."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair sustains an uptrend supported by elevated U.S. yields and safe-haven dynamics despite broader equity market corrections."
+      "reason": "Supported by rising U.S. Treasury yields and an active uptrend keeping the pair elevated."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Bullish",
-      "reason": "Gold maintains a heavily net-long institutional positioning despite recent minor reductions, backed by ongoing macro uncertainty."
+      "bias": "Neutral",
+      "reason": "Pulling back amid a stronger dollar and shifting market yields, despite strong long-term net positioning."
     }
   ],
   "watch": [
-    "U.S. Non-Farm Employment Change and Unemployment Rate",
-    "U.S. Average Hourly Earnings m/m",
-    "Canadian Employment Change and Unemployment Rate",
-    "BOJ Gov Ueda Speech"
+    "BOJ Gov Ueda Speaks",
+    "NZD Parliamentary Elections",
+    "U.S. macroeconomic data releases",
+    "Global equity market and AI sector volatility"
   ],
-  "fundamentals": "Macro drivers are currently dominated by shifting monetary policy expectations and geopolitical developments following the U.S. midterm elections. Fed officials signaling the potential return to rate hikes alongside blowout payroll figures have supported Treasury yields and the dollar. Simultaneously, a sharp tech stock correction and falling oil prices have sparked safe-haven flows into the greenback and Japanese yen.",
-  "technical_view": "EUR/USD sits in a clear downtrend with an RSI of 43.3, testing immediate support near 1.113. USD/JPY maintains its uptrend at 158.33 with an RSI around 50.9, while GBP/USD exhibits sideways price action with an RSI of 55.1, holding comfortably between support at 1.32354 and resistance at 1.34998.",
-  "cot_view": "Commitments of Traders data shows massive net-long positioning in Gold at over 186,000 contracts despite a recent pullback. JPY net longs stand strong at over 101,000 contracts, reflecting sustained demand, while EUR and GBP maintain substantial net-short positions.",
+  "fundamentals": "Macro drivers are currently centered on resilient U.S. labor market data supporting the case for further interest rate vigilance, counterbalanced by political shifts from the U.S. midterms affecting tech and AI sentiment. Central banks like the Bank of England are proceeding with tightening cycles to combat inflation, while global growth concerns persist. These competing forces are bolstering safe-haven demand for the greenback while putting pressure on risk assets and commodities.",
+  "technical_view": "EUR/USD sits in a downtrend near 1.1165 with an RSI of 43.3, keeping pressure on support at 1.113. USD/JPY maintains an uptrend near 158.33, while GBP/USD trades sideways around 1.3385 as it digests recent central bank policy decisions.",
+  "cot_view": "Commitments of Traders data shows net short positioning remains heavy across major currencies like the EUR and GBP, while the Japanese Yen and Gold maintain strong net long positions. Specifically, Gold net longs stand at a robust 186,451 contracts, reflecting underlying structural support despite recent price pullbacks.",
   "market": {
     "strength": {
       "1": {
@@ -207,41 +207,6 @@
       }
     ],
     "calendar": [
-      {
-        "date": "2026-11-06T13:30+00:00",
-        "country": "CAD",
-        "title": "Employment Change",
-        "forecast": "14.6K",
-        "previous": "-68.3K"
-      },
-      {
-        "date": "2026-11-06T13:30+00:00",
-        "country": "CAD",
-        "title": "Unemployment Rate",
-        "forecast": "6.5%",
-        "previous": "6.5%"
-      },
-      {
-        "date": "2026-11-06T13:30+00:00",
-        "country": "USD",
-        "title": "Average Hourly Earnings m/m",
-        "forecast": "0.3%",
-        "previous": "0.1%"
-      },
-      {
-        "date": "2026-11-06T13:30+00:00",
-        "country": "USD",
-        "title": "Non-Farm Employment Change",
-        "forecast": "65K",
-        "previous": "29K"
-      },
-      {
-        "date": "2026-11-06T13:30+00:00",
-        "country": "USD",
-        "title": "Unemployment Rate",
-        "forecast": "4.2%",
-        "previous": "4.2%"
-      },
       {
         "date": "2026-11-06T16:00+00:00",
         "country": "JPY",
