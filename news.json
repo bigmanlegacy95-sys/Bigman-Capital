@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-06T21:32+00:00",
-  "summary": "Global markets are reacting to a combination of a stellar U.S. jobs report bolstering the U.S. dollar and lingering political shifts following the U.S. midterm elections. Meanwhile, the Bank of England's recent 25 basis point rate hike to 4% has kept the pound in focus amid broader economic pressures and inflation concerns. Equity markets have experienced turbulence, notably with AI stocks facing corrections due to potential regulatory headwinds from the recent political sweep.",
+  "updated": "2026-11-07T00:40+00:00",
+  "summary": "Global markets are currently digesting a robust U.S. jobs report that propelled the dollar to its best day since June, alongside shifting political dynamics following the U.S. midterm elections. Meanwhile, the Bank of England has delivered a 25 basis point rate hike to 4%, while persistent inflation pressures globally continue to drive monetary policy expectations. Equity markets face headwinds as tech and AI sectors experience corrections and regulatory scrutiny increases.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Strong U.S. employment data is driving dollar strength against a downtrending euro."
+      "reason": "Strong U.S. employment data and rising Treasury yields are boosting the dollar at the expense of the euro."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "The recent BoE rate hike provides some support, but a firm dollar keeps the pair trading sideways."
+      "reason": "A 25 bps rate hike by the Bank of England provides some support, but it is countered by broad dollar strength."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair maintains an ongoing uptrend supported by resilient U.S. yield dynamics and economic data."
+      "reason": "Uptrend momentum remains intact as the pair holds near key resistance levels backed by Treasury yield differentials."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Gold faces crosscurrents from strong U.S. payrolls lifting yields and ongoing safe-haven demand."
+      "reason": "Gold faces crosscurrents from a surging U.S. dollar and fluctuating risk sentiment across global equity markets."
     }
   ],
   "watch": [
-    "U.S. inflation and monetary policy commentary",
-    "Post-midterm political developments and AI regulatory news",
-    "Global oil price movements",
-    "New Zealand Parliamentary Elections"
+    "U.S. Consumer Price Index and inflation reports",
+    "Upcoming Federal Reserve commentary on rate paths",
+    "NZD Parliamentary Elections on November 6",
+    "Broader developments in U.S.-China relations post-midterms"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by strong U.S. employment figures that keep the Federal Reserve on alert for persistent inflation, leading officials to signal further gradual rate hikes. Concurrently, the Bank of England has raised interest rates to 4% in response to domestic economic conditions, though policymakers expect nearing the end of the tightening cycle. Political shifts from the U.S. midterm elections have also introduced uncertainty regarding trade policy and regulatory scrutiny on technology sectors. Meanwhile, commodity pressures, including fluctuating oil prices and rising food costs, continue to impact global market sentiment.",
-  "technical_view": "EUR/USD remains in a clear downtrend trading near 1.1165 with an RSI of 43.3, while GBP/USD displays a sideways pattern around 1.3385 supported by an RSI of 55.1. USD/JPY continues to hold an uptrend structure near 158.33 with a neutral RSI of 50.9.",
-  "cot_view": "Commitments of Traders data shows heavily net-short positioning in EUR and GBP, reflecting persistent weakness against the dollar. Conversely, JPY and Gold maintain strong net-long positions, highlighting ongoing defensive allocations despite recent macroeconomic pressures.",
+  "fundamentals": "Macroeconomic conditions are heavily influenced by strong labor market reports in the United States, which keep the threat of prolonged high inflation and potential Federal Reserve rate hikes in focus. Concurrently, central banks like the Bank of England are proceeding with tightening measures, raising rates to 4% to combat domestic pressures. Political shifts from the U.S. midterms are also introducing fresh regulatory conversations, notably surrounding AI infrastructure and trade policies, affecting risk sentiment globally.",
+  "technical_view": "EUR/USD sits in a downtrend below resistance at 1.267 with an RSI of 43.3, whereas GBP/USD remains range-bound with a neutral RSI of 55.1. USD/JPY maintains an uptrend structure near 158.33, keeping close attention on the 158.6 resistance boundary.",
+  "cot_view": "Commitments of Traders data shows EUR holding a substantial net-short position of -157,791 contracts, reflecting prevailing bearish sentiment. Conversely, JPY and Gold maintain strong net-long positioning at 102,321 and 179,548 contracts respectively, indicating lingering defensive allocations.",
   "market": {
     "strength": {
       "1": {
@@ -259,6 +259,29 @@
     }
   ],
   "articles": [
+    {
+      "date": "2026-11-07",
+      "title": "US Dollar Surges on Stellar Jobs Report as Treasury Yields Rise",
+      "intro": "The US dollar recorded its best day since June following a stellar jobs report that lifted yields across the curve. Meanwhile, global markets navigate shifting interest rate expectations and ongoing geopolitical developments.",
+      "sections": [
+        {
+          "h": "Market mood",
+          "p": "Market sentiment is heavily influenced by the recent blowout U.S. payrolls data, which drove U.S. Treasuries lower and lifted yields across the curve. Risk appetite remains cautious as traders digest the broader implications of strong employment figures against a backdrop of global monetary policy adjustments and ongoing macroeconomic data releases."
+        },
+        {
+          "h": "Key drivers",
+          "p": "The primary catalyst for currency movements is the robust U.S. jobs report, which propelled the dollar to its best session since June and positioned the currency for a solid weekly gain. In other central bank developments, interest rates have been hiked to 4% in the UK's first increase in over three years, keeping the pound in focus alongside earlier 25 bps adjustments. Additionally, regulatory news noted that U.S. Treasury sanctions were imposed on Canadian money services firms over Iran-related transactions."
+        },
+        {
+          "h": "Technical and positioning",
+          "p": "Technical indicators reflect divergent pair dynamics, with EUR/USD trading in a downtrend at 1.1165 (RSI 43.3) and USD/JPY pushing an uptrend at 158.33 (RSI 50.9). AUD/USD and NZD/USD remain under downward pressure with RSI readings at 31.9 and 28.5 respectively. Commitment of Traders data shows net positioning heavily skewed toward USD Index longs at 63.7% and Gold net longs holding strong at 179,548 contracts."
+        },
+        {
+          "h": "What to watch next",
+          "p": "Traders should monitor upcoming tier-one economic data releases and central bank commentary for further clues on monetary policy paths. Specifically, keep an eye on New Zealand parliamentary elections scheduled for November 6, 2026, alongside ongoing developments in global yield curves and currency support and resistance levels."
+        }
+      ]
+    },
     {
       "date": "2026-11-06",
       "title": "Dollar Holds Steady as Wall Street Rout and Central Bank Decisions Shape FX Markets",
