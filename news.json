@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-08T17:36+00:00",
-  "summary": "Global markets are reacting to a combination of a robust U.S. jobs report and shifting political landscapes following the U.S. midterm elections, where Democrats took control of Congress. Investors are also digesting monetary policy moves, including a 25 basis point rate hike from the Bank of England alongside ongoing concerns about inflation and AI infrastructure debt risks. Consequently, the U.S. dollar has strengthened on the back of stellar payrolls while Treasury yields and oil prices have seen significant downward pressure.",
+  "updated": "2026-11-08T21:40+00:00",
+  "summary": "Markets are reacting to a stellar US jobs report that propelled the dollar to its best day since June while weighing down Treasury yields amid a broader selloff in tech and AI-related stocks following the US midterm elections. Meanwhile, the Bank of England enacted a 25 basis point rate hike to 4%, keeping the pound in focus as sticky inflation prompts expectations of further monetary tightening. Investors are also digesting falling oil prices, shifting political dynamics, and ongoing concerns regarding debt risks in the AI infrastructure sector.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The pair sits in a technical downtrend alongside negative net institutional positioning."
+      "reason": "Weighed down by broad dollar strength following strong US payroll data and a confirmed downtrend."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "Price action remains sideways despite the recent Bank of England rate hike."
+      "reason": "Trading sideways as a 25 bps BoE rate hike provides support against a firm US dollar."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair maintains a broader technical uptrend supported by strong U.S. dollar momentum."
+      "reason": "Supported by an ongoing uptrend and strong US economic indicators lifting Treasury yields."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Net long positioning remains heavily dominant despite recent weekly position adjustments."
+      "reason": "Maintains a heavily net-long institutional positioning despite broader macroeconomic shifts."
     }
   ],
   "watch": [
-    "US Core CPI m/m",
-    "US CPI m/m",
-    "UK GDP m/m",
-    "US Core PPI m/m"
+    "US Core CPI m/m data",
+    "US CPI m/m data",
+    "UK GDP m/m data",
+    "US Core PPI m/m data"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by strong U.S. employment data pointing to persistent inflation pressures, prompting expectations of further gradual Federal Reserve rate hikes. Meanwhile, U.S. midterms have introduced political shifts that could impact trade relations and bring heightened scrutiny to tech and AI sector spending. Global growth concerns, particularly around weak domestic demand in China and shifting oil prices, continue to shape broader risk sentiment.",
-  "technical_view": "EUR/USD is in a downtrend trading near 1.1165 with an RSI of 43.3, while GBP/USD displays a sideways pattern around 1.3385 and an RSI of 55.1. USD/JPY maintains an uptrend near 158.33 with neutral momentum, while gold holds massive net long institutional interest despite slight contractions.",
-  "cot_view": "Commitments of Traders data shows the US Dollar Index holds a strong net long position of 14,190 contracts with 63.7% long bias. EUR and GBP remain heavily net short with -157,791 and -59,821 contracts respectively, whereas Gold boasts a massive net long position of 179,548 contracts.",
+  "fundamentals": "Macro drivers are heavily influenced by robust US employment data and persistent inflationary pressures that are keeping Federal Reserve officials on alert for additional rate hikes. Concurrently, political shifts following the US midterm elections have introduced uncertainty regarding tech regulation and trade relations, adding volatility to equity and bond markets. In the UK, the Bank of England's decision to raise interest rates to 4% highlights central bank efforts to cool domestic inflation despite mounting pressure on household finances.",
+  "technical_view": "EUR/USD sits in a clear downtrend near 1.1165 with an RSI of 43.3, while GBP/USD trades sideways with a neutral RSI of 55.1. USD/JPY maintains its upward trajectory near 158.33, and gold exhibits strong net-long positioning supported by sustained market interest.",
+  "cot_view": "Commitments of Traders data shows EUR holding a substantial net-short position of -157,791 contracts, reflecting strong bearish sentiment against the European currency. Conversely, Japanese Yen and Gold maintain dominant net-long positions, with Gold showing strong institutional backing at 84.3% long.",
   "market": {
     "strength": {
       "1": {
