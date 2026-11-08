@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-08T00:11+00:00",
-  "summary": "Markets are reacting to a robust U.S. jobs report that propelled the dollar to its best day since June while Treasury yields rose. Meanwhile, political developments including Democratic midterm sweeps are fueling discussions around potential AI regulation and shifting fiscal outlooks. Central banks remain in focus as the Bank of England recently enacted a rate hike and Fed officials continue to weigh persistent inflation pressures.",
+  "updated": "2026-11-08T09:51+00:00",
+  "summary": "Markets are reacting to a robust U.S. jobs report that propelled the dollar to its best day since June and pushed Treasury yields up. Simultaneously, the Bank of England delivered a 25 basis point rate hike to 4%, while political shifts following the U.S. midterms introduced new regulatory concerns for tech and AI sectors. Oil price volatility and ongoing inflation pressures continue to shape broader macroeconomic sentiment.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The pair sits in a downtrend supported by dollar strength following a blowout U.S. payrolls report."
+      "reason": "The pair remains in a downtrend supported by dollar strength following a stellar U.S. jobs report."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "The currency pair is moving sideways as a Bank of England rate hike offsets initial dollar gains."
+      "reason": "The Bank of England's rate hike offers some support, but the pair trades sideways as a firm dollar keeps gains in check."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair maintains an overall uptrend supported by elevated U.S. yields despite intermittent safe-haven yen buying."
+      "reason": "The pair maintains an overall uptrend, though safe-haven flows from recent Wall Street corrections introduce some short-term volatility."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Gold positioning remains fundamentally strong though pressured by recent dollar resilience and fluctuating Treasury yields."
+      "reason": "Gold sentiment balances strong net-long positioning against rising Treasury yields and a robust U.S. dollar."
     }
   ],
   "watch": [
-    "U.S. inflation data and Federal Reserve commentary",
-    "Political updates following the U.S. midterm elections",
-    "Global equity market movements and tech sector volatility",
-    "Bank of England policy updates and economic data releases"
+    "US Core CPI m/m",
+    "US CPI m/m",
+    "UK GDP m/m",
+    "US Core PPI m/m"
   ],
-  "fundamentals": "Macroeconomic drivers are heavily influenced by resilient labor market data out of the United States, keeping the Federal Reserve on alert regarding persistent inflation. Central bank monetary policy divergence remains a central theme, with the Bank of England enacting rate hikes while policymakers debate the gradual pace of future tightening. Additionally, political shifts from the U.S. midterms are introducing new regulatory considerations, particularly surrounding the technology and healthcare sectors, which are impacting broader market sentiment and safe-haven flows.",
-  "technical_view": "EUR/USD remains in a clear downtrend trading below resistance at 1.1267 with an RSI of 43.3, while USD/JPY holds an uptrend near 158.33 approaching resistance at 158.60. GBP/USD trades sideways with an RSI of 55.1, reflecting balanced momentum between support at 1.3235 and resistance at 1.3499.",
-  "cot_view": "COT positioning shows heavy net short exposure in EUR, GBP, and AUD against a dominant net long stance in the USD Index. Gold maintains a substantial net long position of nearly 180,000 contracts despite minor weekly reductions, highlighting ongoing institutional interest.",
+  "fundamentals": "Strong US payroll figures have reinforced expectations of persistent inflation and further gradual Federal Reserve rate hikes, driving US yields and bolstering the dollar. Meanwhile, the Bank of England raised rates to 4%, navigating domestic pressures while traders parse the policy implications of the recent US midterm election results. Concerns over AI infrastructure debt and broader equity corrections have also contributed to shifting safe-haven flows across global asset classes.",
+  "technical_view": "EUR/USD remains in a downtrend trading near support at 1.113 with an RSI of 43.3, while USD/JPY holds an uptrend near 158.33 with an RSI of 50.9. GBP/USD exhibits sideways price action with an RSI of 55.1, staying bound between support at 1.3235 and resistance at 1.3499.",
+  "cot_view": "Commitments of Traders data shows EUR and GBP maintaining sizeable net-short positions of -157,791 and -59,821 contracts respectively, reflecting ongoing bearish sentiment against the greenback. Conversely, Gold retains a dominant net-long position of 179,548 contracts, highlighting strong underlying investor preference despite recent yield pressures.",
   "market": {
     "strength": {
       "1": {
@@ -204,6 +204,43 @@
         "net": 179548,
         "change": -6903,
         "pct_long": 84.3
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-10T13:30+00:00",
+        "country": "USD",
+        "title": "Core CPI m/m",
+        "forecast": "0.2%",
+        "previous": "0.3%"
+      },
+      {
+        "date": "2026-11-10T13:30+00:00",
+        "country": "USD",
+        "title": "CPI m/m",
+        "forecast": "0.3%",
+        "previous": "0.6%"
+      },
+      {
+        "date": "2026-11-12T07:00+00:00",
+        "country": "GBP",
+        "title": "GDP m/m",
+        "forecast": "0.0%",
+        "previous": "0.1%"
+      },
+      {
+        "date": "2026-11-13T13:30+00:00",
+        "country": "USD",
+        "title": "Core PPI m/m",
+        "forecast": "0.3%",
+        "previous": "0.7%"
+      },
+      {
+        "date": "2026-11-13T13:30+00:00",
+        "country": "USD",
+        "title": "PPI m/m",
+        "forecast": "0.4%",
+        "previous": "1.3%"
       }
     ]
   },
