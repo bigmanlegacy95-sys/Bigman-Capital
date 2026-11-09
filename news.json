@@ -1,124 +1,124 @@
 {
-  "updated": "2026-11-09T04:37+00:00",
-  "summary": "Global markets are digesting strong US payroll gains and persistent inflation pressures that have kept Federal Reserve rate hike expectations alive. Meanwhile, US midterm election results showing Democratic wins have triggered a selloff in tech and AI-related stocks due to expected regulatory headwinds. Safe-haven flows and shifting political dynamics are shaping cross-asset sentiment as traders look ahead to upcoming US inflation data.",
+  "updated": "2026-11-09T15:09+00:00",
+  "summary": "Global markets are adjusting following a blowout U.S. jobs report and the results of the U.S. midterm elections, which saw Democrats sweep back into control of Congress and prompt a rotation out of tech and AI stocks. The U.S. dollar has retreated slightly from its post-payrolls spike as traders look ahead to upcoming inflation data and Treasury auctions. Meanwhile, Fed officials continue to signal potential future rate hikes amid persistent inflationary pressures.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The pair remains in a downtrend supported by recent dollar strength and a weak technical posture."
+      "reason": "The pair remains in a daily downtrend with heavy net-short institutional positioning."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "Price action is sideways with mixed macroeconomic drivers and a neutral RSI reading."
+      "reason": "Price action is currently sideways as the pound attempts to stabilize against a fluctuating dollar."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair maintains an upward trend as broader US dollar resilience offsets safe-haven yen demand."
+      "reason": "The pair maintains its broader uptrend supported by elevated U.S. yields."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Neutral",
-      "reason": "Market positioning shows strong net-long bias, but ongoing shifts in Treasury yields and inflation expectations create crosscurrents."
+      "bias": "Bullish",
+      "reason": "Gold retains a massive net-long positioning profile despite recent minor corrections."
     }
   ],
   "watch": [
-    "US Core CPI m/m",
-    "US CPI m/m",
-    "UK GDP m/m",
-    "US Core PPI m/m"
+    "U.S. Core CPI m/m and CPI m/m data releases",
+    "U.S. Treasury auction results",
+    "U.K. GDP m/m release",
+    "U.S. Core PPI m/m and PPI m/m data releases"
   ],
-  "fundamentals": "Macroeconomic sentiment is heavily influenced by robust US employment data and commentary from Federal Reserve officials warning of continued inflation pressures and potential gradual rate hikes. Political shifts following the US midterms have introduced regulatory concerns, notably impacting technology sectors and boosting safe-haven demand at times. Upcoming inflation releases will be critical for shaping future monetary policy expectations and currency valuations.",
-  "technical_view": "EUR/USD is trading in a downtrend near 1.1165 with an RSI of 43.3, while GBP/USD displays a sideways pattern around 1.3385. USD/JPY continues its uptrend near 158.33 with an RSI of 50.9, staying below immediate resistance.",
-  "cot_view": "Commitments of Traders data shows EUR and GBP maintaining sizeable net-short positions, reflecting lingering bearish sentiment against the US dollar. Conversely, JPY and Gold retain solid net-long positions, highlighting defensive positioning among market participants.",
+  "fundamentals": "Macro drivers are heavily influenced by the aftermath of a stronger-than-expected jobs report and lingering fears of sticky inflation, which have kept the prospect of further Federal Reserve rate hikes alive. Political shifts from the U.S. midterms are introducing fresh regulatory scrutiny, particularly regarding AI and data centers, creating broader equity market volatility. Traders are now focusing heavily on upcoming U.S. consumer and producer price inflation reports to gauge the near-term trajectory of monetary policy.",
+  "technical_view": "EUR/USD trades within a clear downtrend near 1.1192 with an RSI of 47.6, while GBP/USD displays a sideways pattern around 1.3416. USD/JPY preserves its upward trajectory at 157.95, finding local support near 156.80.",
+  "cot_view": "Commitments of Traders data highlights significant net-short exposure in EUR (-157,791 contracts) and GBP (-59,821 contracts), keeping downside pressure active for those currencies. Conversely, Gold maintains a dominant net-long stance at 179,548 contracts, reflecting strong underlying bullish conviction despite weekly reductions.",
   "market": {
     "strength": {
       "1": {
-        "EUR": 0.11,
-        "GBP": 0.08,
-        "AUD": -1.22,
-        "NZD": -0.75,
-        "JPY": 0.72,
-        "CAD": -0.08,
-        "CHF": 0.51,
-        "USD": 0.63
+        "EUR": -0.01,
+        "GBP": -0.03,
+        "AUD": 0.08,
+        "NZD": 0.99,
+        "JPY": -0.02,
+        "CAD": -0.52,
+        "CHF": -0.24,
+        "USD": -0.26
       },
       "5": {
-        "EUR": 0.55,
-        "GBP": 0.5,
-        "AUD": -1.58,
-        "NZD": -1.03,
-        "JPY": -0.07,
-        "CAD": -0.08,
-        "CHF": 1.1,
-        "USD": 0.61
+        "EUR": 0.16,
+        "GBP": 0.34,
+        "AUD": -1.26,
+        "NZD": 0.13,
+        "JPY": 0.34,
+        "CAD": -0.55,
+        "CHF": 0.48,
+        "USD": 0.37
       },
       "20": {
-        "EUR": -0.44,
-        "GBP": 1.17,
-        "AUD": -1.66,
-        "NZD": -1.33,
-        "JPY": -0.13,
-        "CAD": 1.06,
-        "CHF": 1.41,
-        "USD": -0.08
+        "EUR": -0.37,
+        "GBP": 0.89,
+        "AUD": -1.62,
+        "NZD": -0.24,
+        "JPY": -0.07,
+        "CAD": 0.65,
+        "CHF": 1.24,
+        "USD": -0.48
       }
     },
     "technical": [
       {
         "pair": "EUR/USD",
-        "price": 1.1165,
+        "price": 1.11929,
         "trend": "Downtrend",
-        "rsi": 43.3,
+        "rsi": 47.6,
         "support": 1.113,
         "resistance": 1.1267
       },
       {
         "pair": "GBP/USD",
-        "price": 1.33849,
+        "price": 1.3416,
         "trend": "Sideways",
-        "rsi": 55.1,
-        "support": 1.32354,
+        "rsi": 56.4,
+        "support": 1.32464,
         "resistance": 1.34998
       },
       {
         "pair": "USD/JPY",
-        "price": 158.33,
+        "price": 157.95,
         "trend": "Uptrend",
-        "rsi": 50.9,
+        "rsi": 48.3,
         "support": 156.8,
-        "resistance": 158.6
+        "resistance": 158.46
       },
       {
         "pair": "AUD/USD",
-        "price": 0.6871,
+        "price": 0.68942,
         "trend": "Downtrend",
-        "rsi": 31.9,
+        "rsi": 36.7,
         "support": 0.6871,
         "resistance": 0.70338
       },
       {
         "pair": "USD/CAD",
-        "price": 1.4066,
+        "price": 1.4103,
         "trend": "Uptrend",
-        "rsi": 49.0,
+        "rsi": 56.3,
         "support": 1.3935,
-        "resistance": 1.4262
+        "resistance": 1.4241
       },
       {
         "pair": "USD/CHF",
-        "price": 0.8189,
+        "price": 0.81873,
         "trend": "Sideways",
-        "rsi": 40.2,
+        "rsi": 41.8,
         "support": 0.81548,
         "resistance": 0.83341
       },
       {
         "pair": "NZD/USD",
-        "price": 0.55435,
+        "price": 0.56129,
         "trend": "Downtrend",
-        "rsi": 28.5,
+        "rsi": 40.8,
         "support": 0.55435,
         "resistance": 0.57029
       }
@@ -247,6 +247,21 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "U.S. treasuries tread water after jobs shock as CPI, auction gauntlet looms",
+      "link": "https://www.investing.com/news/forex-news/eurozone-yields-consolidate-after-us-payrolls-shock-5010731"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Dollar retreats from post-jobs spike as traders brace for U.S. CPI test",
+      "link": "https://www.investing.com/news/forex-news/asia-fx-gains-as-dollar-steadies-after-strong-us-jobs-data-china-cpi-in-focus-5010449"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Sterling today: Pound firms as dollar retreats from Friday rally",
+      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-firms-as-dollar-retreats-from-friday-rally-5010899"
+    },
+    {
+      "source": "Investing.com",
       "title": "US dollar holds onto payrolls gains, NZ dollar rises after election",
       "link": "https://www.investing.com/news/forex-news/us-dollar-holds-onto-payrolls-gains-nz-dollar-rises-after-election-5010398"
     },
@@ -269,21 +284,6 @@
       "source": "Investing.com",
       "title": "U.S. Treasuries fall as blowout payrolls lift yields across the curve",
       "link": "https://www.investing.com/news/forex-news/jgb-yields-plunge-to-july-lows-as-wall-st-tech-tout-sparks-haven-rush-5006590"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Sterling today: Pound slips as dollar holds firm before U.S. payrolls",
-      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-as-dollar-holds-firm-before-us-payrolls-5007166"
-    },
-    {
-      "source": "Investing.com",
-      "title": "UBS sees euro-Norwegian krone pullback as stretched",
-      "link": "https://www.investing.com/news/forex-news/ubs-sees-euronorwegian-krone-pullback-as-stretched-93CH-5007021"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Chinese firms’ profit margins trail global peers as domestic demand stays weak",
-      "link": "https://www.investing.com/news/forex-news/chinese-firms-profit-margins-trail-global-peers-as-domestic-demand-stays-weak-5006210"
     }
   ],
   "articles": [
