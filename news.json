@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-08T21:40+00:00",
-  "summary": "Markets are reacting to a stellar US jobs report that propelled the dollar to its best day since June while weighing down Treasury yields amid a broader selloff in tech and AI-related stocks following the US midterm elections. Meanwhile, the Bank of England enacted a 25 basis point rate hike to 4%, keeping the pound in focus as sticky inflation prompts expectations of further monetary tightening. Investors are also digesting falling oil prices, shifting political dynamics, and ongoing concerns regarding debt risks in the AI infrastructure sector.",
+  "updated": "2026-11-09T04:37+00:00",
+  "summary": "Global markets are digesting strong US payroll gains and persistent inflation pressures that have kept Federal Reserve rate hike expectations alive. Meanwhile, US midterm election results showing Democratic wins have triggered a selloff in tech and AI-related stocks due to expected regulatory headwinds. Safe-haven flows and shifting political dynamics are shaping cross-asset sentiment as traders look ahead to upcoming US inflation data.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Weighed down by broad dollar strength following strong US payroll data and a confirmed downtrend."
+      "reason": "The pair remains in a downtrend supported by recent dollar strength and a weak technical posture."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "Trading sideways as a 25 bps BoE rate hike provides support against a firm US dollar."
+      "reason": "Price action is sideways with mixed macroeconomic drivers and a neutral RSI reading."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Supported by an ongoing uptrend and strong US economic indicators lifting Treasury yields."
+      "reason": "The pair maintains an upward trend as broader US dollar resilience offsets safe-haven yen demand."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Bullish",
-      "reason": "Maintains a heavily net-long institutional positioning despite broader macroeconomic shifts."
+      "bias": "Neutral",
+      "reason": "Market positioning shows strong net-long bias, but ongoing shifts in Treasury yields and inflation expectations create crosscurrents."
     }
   ],
   "watch": [
-    "US Core CPI m/m data",
-    "US CPI m/m data",
-    "UK GDP m/m data",
-    "US Core PPI m/m data"
+    "US Core CPI m/m",
+    "US CPI m/m",
+    "UK GDP m/m",
+    "US Core PPI m/m"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by robust US employment data and persistent inflationary pressures that are keeping Federal Reserve officials on alert for additional rate hikes. Concurrently, political shifts following the US midterm elections have introduced uncertainty regarding tech regulation and trade relations, adding volatility to equity and bond markets. In the UK, the Bank of England's decision to raise interest rates to 4% highlights central bank efforts to cool domestic inflation despite mounting pressure on household finances.",
-  "technical_view": "EUR/USD sits in a clear downtrend near 1.1165 with an RSI of 43.3, while GBP/USD trades sideways with a neutral RSI of 55.1. USD/JPY maintains its upward trajectory near 158.33, and gold exhibits strong net-long positioning supported by sustained market interest.",
-  "cot_view": "Commitments of Traders data shows EUR holding a substantial net-short position of -157,791 contracts, reflecting strong bearish sentiment against the European currency. Conversely, Japanese Yen and Gold maintain dominant net-long positions, with Gold showing strong institutional backing at 84.3% long.",
+  "fundamentals": "Macroeconomic sentiment is heavily influenced by robust US employment data and commentary from Federal Reserve officials warning of continued inflation pressures and potential gradual rate hikes. Political shifts following the US midterms have introduced regulatory concerns, notably impacting technology sectors and boosting safe-haven demand at times. Upcoming inflation releases will be critical for shaping future monetary policy expectations and currency valuations.",
+  "technical_view": "EUR/USD is trading in a downtrend near 1.1165 with an RSI of 43.3, while GBP/USD displays a sideways pattern around 1.3385. USD/JPY continues its uptrend near 158.33 with an RSI of 50.9, staying below immediate resistance.",
+  "cot_view": "Commitments of Traders data shows EUR and GBP maintaining sizeable net-short positions, reflecting lingering bearish sentiment against the US dollar. Conversely, JPY and Gold retain solid net-long positions, highlighting defensive positioning among market participants.",
   "market": {
     "strength": {
       "1": {
@@ -247,6 +247,16 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "US dollar holds onto payrolls gains, NZ dollar rises after election",
+      "link": "https://www.investing.com/news/forex-news/us-dollar-holds-onto-payrolls-gains-nz-dollar-rises-after-election-5010398"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Cryptocurrencies slide to two-month lows after US midterms",
+      "link": "https://www.investing.com/news/forex-news/cryptocurrencies-slide-to-twomonth-lows-after-us-midterms-5010335"
+    },
+    {
+      "source": "Investing.com",
       "title": "US Treasury sanctions Canadian money services firms over Iran-related transactions",
       "link": "https://www.investing.com/news/forex-news/us-treasury-sanctions-canadian-money-services-firms-over-iranrelated-transactions-5009126"
     },
@@ -274,19 +284,32 @@
       "source": "Investing.com",
       "title": "Chinese firms’ profit margins trail global peers as domestic demand stays weak",
       "link": "https://www.investing.com/news/forex-news/chinese-firms-profit-margins-trail-global-peers-as-domestic-demand-stays-weak-5006210"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar flat as Wall Street rout lifts safe-haven yen; pound in focus as BOE hikes",
-      "link": "https://www.investing.com/news/forex-news/asian-fx-rises-as-dollar-slips-on-us-vote-kiwi-leads-gains-yuan-steadies-in-asia-5002136"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar little changed as oil prices bounce, payrolls eyed",
-      "link": "https://www.investing.com/news/forex-news/dollar-edges-lower-as-us-election-outcome-cheers-global-markets-5001958"
     }
   ],
   "articles": [
+    {
+      "date": "2026-11-09",
+      "title": "US Dollar Holds Payroll Gains as Markets Weigh Macro Drivers",
+      "intro": "The US dollar is maintaining its robust posture following a stellar jobs report, while traders navigate shifting monetary policy expectations and geopolitical headlines. Understanding the underlying technical positioning can help market participants navigate the current session.",
+      "sections": [
+        {
+          "h": "Market mood",
+          "p": "Risk sentiment remains cautious across global markets following recent developments in the US midterms and broader macroeconomic pressures. The US dollar continues to hold onto payrolls gains after seeing its best day since June driven by a blowout employment report, while cryptocurrencies slide to two-month lows and Wall Street routs have occasionally lifted safe-haven assets like the yen."
+        },
+        {
+          "h": "Key drivers",
+          "p": "The primary catalyst remains the stronger-than-expected US employment data, which has lifted Treasury yields across the curve and kept the dollar well-supported. Meanwhile, regional developments such as the New Zealand dollar rising after its election, ongoing geopolitical friction including US Treasury sanctions on Canadian money services firms over Iran-related transactions, and domestic factors like central bank decisions continue to dictate cross-asset flows."
+        },
+        {
+          "h": "Technical and positioning",
+          "p": "Looking at major currency pairs, EUR/USD trades at 1.1165 in a downtrend with an RSI of 43.3, finding immediate support at 1.113 and resistance at 1.1267. USD/JPY holds an uptrend at 158.33 with an RSI of 50.9, anchored by support at 156.8 and resistance at 158.6. Commitment of Traders data shows net positioning remains heavily short on EUR at -157,791 contracts, while JPY net longs sit strong at 102,321 contracts."
+        },
+        {
+          "h": "What to watch next",
+          "p": "Traders should monitor the upcoming US economic calendar, notably the Core CPI m/m and CPI m/m releases scheduled for November 10, alongside subsequent UK GDP and US PPI figures later in the week. These upcoming inflation indicators will likely set the near-term directional bias for greenback pairs."
+        }
+      ]
+    },
     {
       "date": "2026-11-08",
       "title": "Dollar Surges on Stellar Jobs Report as Treasury Yields Climb",
