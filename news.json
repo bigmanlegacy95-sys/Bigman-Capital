@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-09T15:09+00:00",
-  "summary": "Global markets are adjusting following a blowout U.S. jobs report and the results of the U.S. midterm elections, which saw Democrats sweep back into control of Congress and prompt a rotation out of tech and AI stocks. The U.S. dollar has retreated slightly from its post-payrolls spike as traders look ahead to upcoming inflation data and Treasury auctions. Meanwhile, Fed officials continue to signal potential future rate hikes amid persistent inflationary pressures.",
+  "updated": "2026-11-10T01:10+00:00",
+  "summary": "Foreign exchange markets are currently digesting a strong U.S. jobs report and shifting political dynamics following recent midterm elections, while bracing for upcoming U.S. inflation data. The U.S. dollar has pulled back slightly from its recent robust gains as traders pause ahead of the CPI test. Meanwhile, equity and tech sectors face headwinds from corporate scandals and policy discussions around AI infrastructure spending.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The pair remains in a daily downtrend with heavy net-short institutional positioning."
+      "reason": "The pair remains in a downtrend with strong dollar momentum weighing on the euro."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "Price action is currently sideways as the pound attempts to stabilize against a fluctuating dollar."
+      "reason": "Sterling is attempting to firm up as the dollar consolidates, but faces local economic challenges."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair maintains its broader uptrend supported by elevated U.S. yields."
+      "reason": "The pair maintains an overall uptrend supported by elevated U.S. yields and strong labor market data."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Bullish",
-      "reason": "Gold retains a massive net-long positioning profile despite recent minor corrections."
+      "bias": "Neutral",
+      "reason": "Gold positioning remains net long, but recent treasury yield behavior and dollar strength limit upside."
     }
   ],
   "watch": [
-    "U.S. Core CPI m/m and CPI m/m data releases",
-    "U.S. Treasury auction results",
-    "U.K. GDP m/m release",
-    "U.S. Core PPI m/m and PPI m/m data releases"
+    "U.S. CPI m/m and Core CPI m/m data releases",
+    "U.K. Monthly GDP data",
+    "U.S. Core PPI and PPI m/m data releases",
+    "Developments around U.S. fiscal and AI infrastructure policy"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by the aftermath of a stronger-than-expected jobs report and lingering fears of sticky inflation, which have kept the prospect of further Federal Reserve rate hikes alive. Political shifts from the U.S. midterms are introducing fresh regulatory scrutiny, particularly regarding AI and data centers, creating broader equity market volatility. Traders are now focusing heavily on upcoming U.S. consumer and producer price inflation reports to gauge the near-term trajectory of monetary policy.",
-  "technical_view": "EUR/USD trades within a clear downtrend near 1.1192 with an RSI of 47.6, while GBP/USD displays a sideways pattern around 1.3416. USD/JPY preserves its upward trajectory at 157.95, finding local support near 156.80.",
-  "cot_view": "Commitments of Traders data highlights significant net-short exposure in EUR (-157,791 contracts) and GBP (-59,821 contracts), keeping downside pressure active for those currencies. Conversely, Gold maintains a dominant net-long stance at 179,548 contracts, reflecting strong underlying bullish conviction despite weekly reductions.",
+  "fundamentals": "Macro drivers are heavily influenced by persistent inflation concerns, strong employment data that keeps further Federal Reserve rate hikes on the table, and political shifts following the U.S. midterm elections. Additionally, stress in AI debt markets and broader equity corrections are injecting caution into broader risk sentiment. Traders are closely monitoring upcoming consumer and producer price inflation prints to gauge the path of monetary policy.",
+  "technical_view": "EUR/USD trades within a defined downtrend near 1.1193 with an RSI of 47.6, while USD/JPY holds an uptrend near 157.95. GBP/USD is exhibiting sideways consolidation near 1.3416 with a neutral RSI of 56.4.",
+  "cot_view": "Commitments of Traders data shows EUR and GBP remaining heavily net short against the US Dollar Index, which retains a strong net long position of over 14,000 contracts. Gold continues to display a dominant net long positioning of nearly 180,000 contracts despite recent weekly reductions.",
   "market": {
     "strength": {
       "1": {
@@ -247,13 +247,13 @@
   "headlines": [
     {
       "source": "Investing.com",
-      "title": "U.S. treasuries tread water after jobs shock as CPI, auction gauntlet looms",
-      "link": "https://www.investing.com/news/forex-news/eurozone-yields-consolidate-after-us-payrolls-shock-5010731"
+      "title": "Dollar slips, taking a breather after last week’s advance a day ahead of CPI test",
+      "link": "https://www.investing.com/news/forex-news/asia-fx-gains-as-dollar-steadies-after-strong-us-jobs-data-china-cpi-in-focus-5010449"
     },
     {
       "source": "Investing.com",
-      "title": "Dollar retreats from post-jobs spike as traders brace for U.S. CPI test",
-      "link": "https://www.investing.com/news/forex-news/asia-fx-gains-as-dollar-steadies-after-strong-us-jobs-data-china-cpi-in-focus-5010449"
+      "title": "U.S. treasuries tread water after jobs shock as CPI, auction gauntlet looms",
+      "link": "https://www.investing.com/news/forex-news/eurozone-yields-consolidate-after-us-payrolls-shock-5010731"
     },
     {
       "source": "Investing.com",
@@ -287,6 +287,29 @@
     }
   ],
   "articles": [
+    {
+      "date": "2026-11-10",
+      "title": "Dollar Takes a Breather Ahead of Key U.S. Inflation Data",
+      "intro": "The US dollar is taking a breather and slipping slightly after its recent advance, stepping back as markets await a critical inflation test. Meanwhile, global currency pairs are reacting to shifting macroeconomic dynamics and upcoming data releases.",
+      "sections": [
+        {
+          "h": "Market mood",
+          "p": "The broader market sentiment reflects cautious consolidation. The dollar is retreating slightly from its Friday rally following a stellar jobs report that initially lifted Treasury yields across the curve. Traders are balancing post-payroll gains against impending domestic economic data releases."
+        },
+        {
+          "h": "Key drivers",
+          "p": "Attention is firmly fixed on the upcoming U.S. consumer price index (CPI) release, which serves as a major test for the greenback following the recent jobs shock. Additionally, U.S. treasuries are treading water as a broader auction gauntlet looms. Other focal points include geopolitical ripples from US Treasury sanctions on Canadian money services firms over Iran-related transactions, and developments surrounding upcoming economic targets."
+        },
+        {
+          "h": "Technical and positioning",
+          "p": "On the technical front, major pairs show mixed trends. EUR/USD sits in a downtrend at 1.11929 with an RSI of 47.6, supported at 1.113 and resistant at 1.1267. GBP/USD trades sideways at 1.3416 with an RSI of 56.4, supported at 1.32464 and resistant at 1.34998. USD/JPY maintains an uptrend at 157.95 with an RSI of 48.3, supported at 156.8 and resistant at 158.46. Commitment of Traders data shows net positioning heavily skewed in certain areas, with the USD Index holding a net long position of 14,190 and Gold maintaining a strong net long position of 179,548."
+        },
+        {
+          "h": "What to watch next",
+          "p": "Market participants should closely monitor the upcoming U.S. Core CPI m/m and CPI m/m releases scheduled for November 10, alongside subsequent PPI figures later in the week. Later in the week, attention will also shift toward UK monthly GDP figures on November 12."
+        }
+      ]
+    },
     {
       "date": "2026-11-09",
       "title": "US Dollar Holds Payroll Gains as Markets Weigh Macro Drivers",
