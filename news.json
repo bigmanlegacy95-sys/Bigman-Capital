@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-10T01:10+00:00",
-  "summary": "Foreign exchange markets are currently digesting a strong U.S. jobs report and shifting political dynamics following recent midterm elections, while bracing for upcoming U.S. inflation data. The U.S. dollar has pulled back slightly from its recent robust gains as traders pause ahead of the CPI test. Meanwhile, equity and tech sectors face headwinds from corporate scandals and policy discussions around AI infrastructure spending.",
+  "updated": "2026-11-10T10:45+00:00",
+  "summary": "Foreign exchange markets are currently digesting shifting U.S. political dynamics following a Democratic midterm sweep alongside persistent Federal Reserve tightening bets. Traders are largely taking a breather and nursing recent dollar losses as they await crucial upcoming U.S. inflation data and Treasury auctions. Meanwhile, sinking global oil prices have helped calm inflation jitters in Europe, keeping euro yields pinned near recent lows.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The pair remains in a downtrend with strong dollar momentum weighing on the euro."
+      "reason": "Pair remains in a downtrend with strong net short positioning."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "Sterling is attempting to firm up as the dollar consolidates, but faces local economic challenges."
+      "reason": "Price action is currently sideways amid conflicting dollar momentum."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair maintains an overall uptrend supported by elevated U.S. yields and strong labor market data."
+      "reason": "Persistent uptrend remains intact with a robust net long bias."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Neutral",
-      "reason": "Gold positioning remains net long, but recent treasury yield behavior and dollar strength limit upside."
+      "bias": "Bullish",
+      "reason": "Committed net long positioning underscores strong overall demand."
     }
   ],
   "watch": [
     "U.S. CPI m/m and Core CPI m/m data releases",
-    "U.K. Monthly GDP data",
-    "U.S. Core PPI and PPI m/m data releases",
-    "Developments around U.S. fiscal and AI infrastructure policy"
+    "U.S. Treasury auctions and debt market developments",
+    "U.K. GDP m/m release",
+    "U.S. PPI and Core PPI data releases"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by persistent inflation concerns, strong employment data that keeps further Federal Reserve rate hikes on the table, and political shifts following the U.S. midterm elections. Additionally, stress in AI debt markets and broader equity corrections are injecting caution into broader risk sentiment. Traders are closely monitoring upcoming consumer and producer price inflation prints to gauge the path of monetary policy.",
-  "technical_view": "EUR/USD trades within a defined downtrend near 1.1193 with an RSI of 47.6, while USD/JPY holds an uptrend near 157.95. GBP/USD is exhibiting sideways consolidation near 1.3416 with a neutral RSI of 56.4.",
-  "cot_view": "Commitments of Traders data shows EUR and GBP remaining heavily net short against the US Dollar Index, which retains a strong net long position of over 14,000 contracts. Gold continues to display a dominant net long positioning of nearly 180,000 contracts despite recent weekly reductions.",
+  "fundamentals": "Macro drivers are dominated by expectations of further Federal Reserve rate hikes following a robust jobs report, though upcoming inflation prints will dictate the pace. Political developments, including the Democratic sweep in the U.S. midterms and potential shifts in U.S.-China trade relations, are introducing fresh policy uncertainties. Additionally, cooling energy and oil prices are dampening near-term inflationary pressures across Europe while keeping global bond yields reactive.",
+  "technical_view": "EUR/USD trades within a defined downtrend with an RSI of 47.6, holding below immediate resistance at 1.267. GBP/USD displays neutral sideways momentum with an RSI of 56.4, sandwiched between support at 1.32464 and resistance at 1.34998. USD/JPY maintains its uptrend with an RSI of 48.3, hovering near support at 156.8 and resistance at 158.46.",
+  "cot_view": "Commitment of Traders data reveals heavily net short positions for EUR and GBP, reflecting persistent dollar strength and bearish sentiment against the greenback. Conversely, JPY and Gold maintain solid net long positioning, with Gold holding an extensive 84.3% long ratio despite minor weekly long liquidation.",
   "market": {
     "strength": {
       "1": {
@@ -247,6 +247,21 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Dollar nurses losses as traders brace for crucial U.S. inflation test",
+      "link": "https://www.investing.com/news/forex-news/asia-fx-subdued-dollar-holds-losses-ahead-of-us-inflation-data-5014050"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Euro yields linger  at 1-month lows as sinking oil calms inflation jitters",
+      "link": "https://www.investing.com/news/forex-news/euro-yields-linger--at-1month-lows-as-sinking-oil-calms-inflation-jitters-5014393"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Sterling today: Pound slips as dollar steadies on Fed tightening bets",
+      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-as-dollar-steadies-on-fed-tightening-bets-5014423"
+    },
+    {
+      "source": "Investing.com",
       "title": "Dollar slips, taking a breather after last week’s advance a day ahead of CPI test",
       "link": "https://www.investing.com/news/forex-news/asia-fx-gains-as-dollar-steadies-after-strong-us-jobs-data-china-cpi-in-focus-5010449"
     },
@@ -269,21 +284,6 @@
       "source": "Investing.com",
       "title": "Cryptocurrencies slide to two-month lows after US midterms",
       "link": "https://www.investing.com/news/forex-news/cryptocurrencies-slide-to-twomonth-lows-after-us-midterms-5010335"
-    },
-    {
-      "source": "Investing.com",
-      "title": "US Treasury sanctions Canadian money services firms over Iran-related transactions",
-      "link": "https://www.investing.com/news/forex-news/us-treasury-sanctions-canadian-money-services-firms-over-iranrelated-transactions-5009126"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar sees best day since June after stellar jobs report, set for weekly gain",
-      "link": "https://www.investing.com/news/forex-news/asian-fx-mixed-as-yen-gains-on-risk-aversion-taiwan-dollar-breaks-33-amid-ai-rout-5006410"
-    },
-    {
-      "source": "Investing.com",
-      "title": "U.S. Treasuries fall as blowout payrolls lift yields across the curve",
-      "link": "https://www.investing.com/news/forex-news/jgb-yields-plunge-to-july-lows-as-wall-st-tech-tout-sparks-haven-rush-5006590"
     }
   ],
   "articles": [
