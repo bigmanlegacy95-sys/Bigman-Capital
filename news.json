@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-11T01:00+00:00",
-  "summary": "Foreign exchange markets are primarily driven by a surging US dollar following hotter-than-expected October inflation data and resilient labor market reports, which have heightened expectations for a supersized Federal Reserve rate hike. Fed officials, including Governor Waller and Daly, have opened the door to continued policy tightening and potential half-point increases. Meanwhile, international counterparts face downward pressure against the greenback amid shifting domestic political landscapes and global economic concerns.",
+  "updated": "2026-11-11T10:19+00:00",
+  "summary": "Financial markets are largely responding to hotter-than-expected U.S. inflation data, which has revived expectations for aggressive Federal Reserve policy tightening. U.S. Treasury yields have climbed sharply across the curve as commentary from Fed officials keeps the door open for supersized rate hikes. Consequently, the U.S. dollar has demonstrated renewed strength against most major currency peers, keeping the yen and sterling under pressure. Concurrently, global sovereign bonds have retreated as investors reprice baseline expectations for benchmark interest rates.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Strong US inflation and rising Treasury yields continue to bolster the dollar against the euro."
+      "reason": "Renewed U.S. dollar strength from elevated inflation and hawkish Fed rhetoric continues to cap upside progress."
     },
     {
       "pair": "GBP/USD",
-      "bias": "Bearish",
-      "reason": "The pound remains pressured as the dollar steadies on firm Fed tightening bets ahead of key UK GDP data."
+      "bias": "Neutral",
+      "reason": "Technical uptrend conditions face strong headwinds from broader dollar resilience ahead of upcoming UK growth data."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Spiking US yields and a strong US macroeconomic backdrop support upside momentum in the pair."
+      "reason": "Rising Treasury yields and persistent policy divergence keep the pair trending higher toward key resistance at 158.46."
     },
     {
-      "pair": "XAU/USD",
-      "bias": "Neutral",
-      "reason": "Gold faces crosscurrents from soaring Treasury yields and a strong US dollar despite lingering macroeconomic uncertainty."
+      "pair": "XAU/USD (Gold)",
+      "bias": "Bearish",
+      "reason": "Spiking Treasury yields and expectations of further Fed rate hikes present headwinds for non-yielding bullion."
     }
   ],
   "watch": [
-    "US Core PPI m/m",
-    "US PPI m/m",
-    "UK GDP m/m",
-    "Fed official commentary on rate hikes"
+    "UK GDP m/m release",
+    "U.S. PPI and Core PPI data",
+    "Federal Reserve policy commentary and rate hike expectations",
+    "U.S. Treasury yield developments"
   ],
-  "fundamentals": "Macroeconomic drivers are heavily influenced by sticky US inflation, where October prices rose higher than expected due to shelter, food, and energy costs. Combined with a resilient labor market, Federal Reserve officials are signaling the necessity of further monetary tightening, raising the prospect of larger interest rate hikes. This dynamic has driven US Treasury yields sharply higher, reinforcing broad-based demand for the US dollar across global markets.",
-  "technical_view": "EUR/USD trades sideways with an RSI near 47.9, sitting between support at 1.113 and resistance at 1.1267. GBP/USD maintains an uptrend with an RSI of 52.1, holding above support at 1.32466, while USD/JPY extends an uptrend with an RSI of 52.9, approaching immediate resistance at 158.46.",
-  "cot_view": "Commitments of Traders data shows net-short positioning remains heavy for EUR and GBP, reflecting underlying bearish sentiment against the European currencies. Conversely, market participants maintain a strong net-long bias in the USD Index and Japanese Yen, highlighting diverging positioning as US tightening expectations take center stage.",
+  "fundamentals": "The primary macro catalyst driving current market dynamics is a warmer-than-anticipated U.S. CPI print showing monthly increases across shelter, food, and energy. Federal Reserve policymakers, including Governor Waller, have subsequently acknowledged the possibility of a half-point rate increase if inflation persistence warrants. This outlook has triggered a spike in Treasury yields and reaffirmed the resilient backdrop of the U.S. labor market. Markets now look toward upcoming producer price indices and regional growth figures to evaluate the durability of these inflationary pressures.",
+  "technical_view": "USD/JPY maintains an active uptrend at 158.18 with a balanced RSI of 52.9, hovering just beneath key resistance at 158.46. EUR/USD remains range-bound in a sideways trend at 1.1214 with a neutral RSI of 47.9, finding intermediate support at 1.1130. Meanwhile, GBP/USD reflects an underlying technical uptrend at 1.34226, though price action remains contained below the 1.34998 resistance band.",
+  "cot_view": "Commitments of Traders data reveals that positioning in Gold remains heavily long at 84.3%, despite a reduction of 6,903 contracts over the reporting period. The U.S. Dollar Index holds a net-long bias of 63.7%, aligning with broader institutional demand for dollar assets. Conversely, net positioning remains negative for the euro and sterling, with EUR net shorts deepening by 13,897 contracts.",
   "market": {
     "strength": {
       "1": {
@@ -233,6 +233,21 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Sterling today: Pound edges lower as Fed hike bets, hot CPI buoy dollar",
+      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-edges-lower-as-fed-hike-bets-hot-cpi-buoy-dollar-5018102"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Global bonds fall as hot U.S. CPI and Fed rhetoric stoke fears of 50-bps hike",
+      "link": "https://www.investing.com/news/forex-news/global-bonds-fall-as-hot-us-cpi-and-fed-rhetoric-stoke-fears-of-50bps-hike-5018037"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Dollar holds gains as Fed hike bets rise after hot U.S. CPI; yen near 6-wk low",
+      "link": "https://www.investing.com/news/forex-news/asian-fx-steadies-after-falling-on-hot-us-cpi-yen-near-6wk-low-5017608"
+    },
+    {
+      "source": "Investing.com",
       "title": "Dollar jumps as hot CPI and Waller comments bring supersized Fed hike into play",
       "link": "https://www.investing.com/news/forex-news/asia-fx-subdued-dollar-holds-losses-ahead-of-us-inflation-data-5014050"
     },
@@ -255,24 +270,32 @@
       "source": "Investing.com",
       "title": "U.S. treasuries tread water after jobs shock as CPI, auction gauntlet looms",
       "link": "https://www.investing.com/news/forex-news/eurozone-yields-consolidate-after-us-payrolls-shock-5010731"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Sterling today: Pound firms as dollar retreats from Friday rally",
-      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-firms-as-dollar-retreats-from-friday-rally-5010899"
-    },
-    {
-      "source": "Investing.com",
-      "title": "US dollar holds onto payrolls gains, NZ dollar rises after election",
-      "link": "https://www.investing.com/news/forex-news/us-dollar-holds-onto-payrolls-gains-nz-dollar-rises-after-election-5010398"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Cryptocurrencies slide to two-month lows after US midterms",
-      "link": "https://www.investing.com/news/forex-news/cryptocurrencies-slide-to-twomonth-lows-after-us-midterms-5010335"
     }
   ],
   "articles": [
+    {
+      "date": "2026-11-11",
+      "title": "Dollar Stays Firm as Hot U.S. Inflation Fuels Rate Hike Bets",
+      "intro": "The U.S. dollar is holding onto strong gains following higher-than-expected October inflation data and resilient labor market reports. Global bond markets have reacted sharply as traders weigh the growing possibility of aggressive Federal Reserve monetary policy tightening.",
+      "sections": [
+        {
+          "h": "Market mood",
+          "p": "Risk sentiment remains cautious across global markets as hot U.S. inflation data and firm rhetoric from Fed officials spark fears of a supersized 50-basis-point rate hike. Global bonds have fallen alongside rising Treasury yields, keeping the greenback supported near recent highs while other major currencies and assets navigate heightened volatility."
+        },
+        {
+          "h": "Key drivers",
+          "p": "The primary catalyst for current forex price action is the combination of higher-than-expected U.S. consumer price figures and a robust labor market. These economic releases have shifted market expectations regarding the future path of U.S. interest rates, driving up Treasury yields and cementing the dollar's dominance. Meanwhile, sterling has experienced mixed sessions, edging lower as the dollar steadies on these tightening bets."
+        },
+        {
+          "h": "Technical and positioning",
+          "p": "Analyzing the major pairs, EUR/USD trades sideways at 1.1214 with an RSI of 47.9, bounded by support at 1.113 and resistance at 1.1267. GBP/USD maintains an uptrend at 1.34226 with an RSI of 52.1, holding above support at 1.32466. USD/JPY continues its uptrend near a six-week low at 158.18 with an RSI of 52.9, approaching resistance at 158.46. AUD/USD shows a downtrend at 0.69037 with an oversold RSI of 28.3. Commitment of Traders data shows net short positions persisting for EUR, GBP, AUD, CAD, CHF, and NZD, while JPY and the USD Index maintain net long positioning."
+        },
+        {
+          "h": "What to watch next",
+          "p": "Traders should monitor upcoming macroeconomic releases for further directional cues. The UK calendar features GDP m/m data forecasted at 0.0%, while the U.S. docket highlights Core PPI m/m and PPI m/m data scheduled for release on November 13, which will offer additional insight into producer-level price pressures."
+        }
+      ]
+    },
     {
       "date": "2026-11-10",
       "title": "Dollar Takes a Breather Ahead of Key U.S. Inflation Data",
