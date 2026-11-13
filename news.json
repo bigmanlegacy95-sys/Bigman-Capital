@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-13T01:40+00:00",
-  "summary": "Global currency markets are being heavily driven by a resurgent U.S. dollar, which scaled fresh multi-month peaks following hotter-than-expected inflation data and increasingly hawkish rhetoric from Federal Reserve officials including Waller and Goolsbee. This has revived fears of potential 50-basis-point interest rate hikes, putting broad downward pressure on major pairs and pushing the USD/JPY toward the psychological 160 level. Meanwhile, regional data points such as strong 0.7% UK GDP growth have offered limited cushioning against broader dollar strength.",
+  "updated": "2026-11-13T10:30+00:00",
+  "summary": "Global markets are currently driven by a hawkish Federal Reserve narrative, with rising inflation reports fueling expectations of further U.S. interest rate hikes and pushing the dollar toward multi-month highs. Meanwhile, regional pressures continue to weigh on other currencies, with the Japanese yen testing the 160 level and prompting renewed intervention threats from authorities. In the UK, despite positive GDP growth figures showing surprising resilience, the pound remains somewhat pressured against a broadly bid dollar.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The US dollar is surging on hawkish Fed expectations while EUR faces contrarian rate cuts."
+      "reason": "Higher Euro yields and a hawkish Fed supporting the greenback keep the pair under heavy downside pressure."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bearish",
-      "reason": "Despite strong UK GDP growth, the pound is dipping as hawkish Fed policy dominates."
+      "reason": "Sterling dips despite robust UK economic growth as relentless dollar strength driven by rate hike bets dominates."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Persistent dollar strength and retail yen selling have pushed the pair toward the 160 handle."
+      "reason": "The pair tests the 160 threshold in an ongoing uptrend, though rising risks of official currency intervention loom."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Treasury yields holding near highs create headwinds, though safe-haven dynamics provide mixed signals."
+      "reason": "Gold balances strong net long positioning against aggressive US rate hike expectations and a surging dollar."
     }
   ],
   "watch": [
-    "U.S. Core PPI m/m data release",
-    "U.S. PPI m/m data release",
-    "Fed speakers and further inflation commentary",
-    "Broad global bond market performance"
+    "Core PPI m/m data release",
+    "PPI m/m data release",
+    "USD/JPY intervention developments at the 160 level",
+    "U.S.-China diplomatic updates ahead of the Trump-Xi summit"
   ],
-  "fundamentals": "The macroeconomic landscape is currently dominated by hotter-than-expected U.S. consumer price inflation, which has forced a sharp repricing of Federal Reserve rate expectations and revived fears of aggressive policy tightening. Treasury yields are holding near multi-week highs as officials weigh potential December rate moves, giving strong broad-based momentum to the U.S. dollar. Conversely, localized economic resilience like the UK's 0.7% quarterly GDP growth is being overshadowed by the overwhelming greenback strength and global bond market volatility.",
-  "technical_view": "EUR/USD is in a downtrend trading near support at 1.1080 with an RSI of 40.0, indicating mild downside momentum. USD/JPY sits firmly in an uptrend at resistance near 159.7 with an overbought RSI of 75.8, reflecting strong bullish pressure.",
-  "cot_view": "Commitments of Traders data shows EUR net positioning remains heavily short at -157,791 contracts, aligning with the downward price action. Meanwhile, JPY net long positioning remains positive at 102,321 contracts despite ongoing spot weakness and retail selling pressures.",
+  "fundamentals": "The macroeconomic landscape is dominated by persistent U.S. inflation pressures, which have led Federal Reserve officials to signal additional rate hikes and potentially larger policy moves in December. This hawkish shift has driven U.S. Treasury yields higher and pushed the dollar index toward a 19-month peak. Conversely, resilient localized data like the UK's 0.7% quarterly GDP growth provide some underlying economic stability, though global capital flows remain heavily skewed toward USD-denominated assets due to widening rate differentials.",
+  "technical_view": "EUR/USD sits in a downtrend near support at 1.10809 with an RSI of 40, reflecting persistent weakness. USD/JPY maintains a strong uptrend testing resistance at 159.7 with an overbought RSI of 75.8, while GBP/USD trades sideways around 1.32556 in neutral momentum.",
+  "cot_view": "COT positioning shows deep net-short bias for EUR (-157,791 contracts) and GBP (-59,821 contracts), confirming broad institutional preference for the US dollar. Meanwhile, speculative accounts maintain a solid net-long position in JPY (+102,321 contracts) and a heavy net-long bias in Gold (+179,548 contracts).",
   "market": {
     "strength": {
       "1": {
@@ -226,6 +226,26 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Sterling today: Pound steady as hawkish Fed keeps dollar bid",
+      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-steady-as-hawkish-fed-keeps-dollar-bid-5024553"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Euro yields hit multi-week highs as hawkish Fed shatters global bond rally",
+      "link": "https://www.investing.com/news/forex-news/euro-yields-hit-multiweek-highs-as-hawkish-fed-shatters-global-bond-rally-5024281"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Dollar near 19-mth high on rate hike bets; yen back on intervention watch",
+      "link": "https://www.investing.com/news/forex-news/asia-fx-yen-intervention-in-focus-as-rate-hike-bets-put-dollar-near-19mth-high-5024024"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Japanese yen tests 160 again, drawing intervention threats",
+      "link": "https://www.investing.com/news/forex-news/japanese-yen-tests-160-again-drawing-intervention-threats-5023989"
+    },
+    {
+      "source": "Investing.com",
       "title": "Dollar scales fresh 19-month peak, yen hits 160 for first time since September",
       "link": "https://www.investing.com/news/forex-news/asia-fx-holds-losses-as-dollar-hits-19mth-high-yen-nears-160-5020289"
     },
@@ -243,26 +263,6 @@
       "source": "Investing.com",
       "title": "Sterling today: Pound dips on hawkish Fed despite 0.7% GDP growth",
       "link": "https://www.investing.com/news/forex-news/sterling-today-pound-dips-on-hawkish-fed-despite-07-gdp-growth-5020808"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Public funds ploughing cash into AI will ’own’ megatrends shaping economy",
-      "link": "https://www.investing.com/news/forex-news/public-funds-ploughing-cash-into-ai-will-own-megatrends-shaping-economy-5020427"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Indonesian rupiah hits record low amid MSCI downgrade concerns",
-      "link": "https://www.investing.com/news/forex-news/indonesian-rupiah-hits-record-low-amid-msci-downgrade-concerns-5020336"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar extends surge on raised Fed rate hike expectations, hits over 19-month high",
-      "link": "https://www.investing.com/news/forex-news/asian-fx-steadies-after-falling-on-hot-us-cpi-yen-near-6wk-low-5017608"
-    },
-    {
-      "source": "Investing.com",
-      "title": "A contrarian ECB rate bet targets 2.5% deposit rate through mid-March",
-      "link": "https://www.investing.com/news/forex-news/a-contrarian-ecb-rate-bet-targets-25-deposit-rate-through-midmarch-93CH-5019580"
     }
   ],
   "articles": [
