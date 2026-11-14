@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-14T01:16+00:00",
-  "summary": "Global markets are being driven by a surging U.S. dollar, which logged its biggest weekly gain since September amid hawkish Fed signals and stronger-than-expected inflation data that point to potential rate hikes. Concurrently, geopolitical and corporate tensions are rising following the abrupt resignation of Nvidia's CEO and growing scrutiny over U.S.-China relations ahead of an upcoming summit. Meanwhile, the Japanese yen has weakened back to the 160 level against the dollar, sparking renewed intervention threats from authorities.",
+  "updated": "2026-11-14T17:39+00:00",
+  "summary": "Global foreign exchange markets are currently being driven by a surging U.S. dollar, supported by hawkish Federal Reserve expectations following stronger-than-expected inflation reports and rising Treasury yields. Meanwhile, corporate and geopolitical developments, including leadership turmoil at Nvidia and upcoming Trump-Xi diplomatic meetings, are heavily influencing broader risk sentiment. Currency pairs like USD/JPY are drawing intense market scrutiny as the yen tests the psychological 160 level and prompts potential intervention threats.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The pair is in a downtrend trading near support at 1.1052 as the U.S. dollar rallies on hawkish Fed expectations."
+      "reason": "The U.S. dollar is surging broadly on hawkish Fed hike certainty, keeping the pair pressured near support."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bearish",
-      "reason": "Despite resilient UK economic growth, the pound remains under pressure as an aggressively bid U.S. dollar dominates."
+      "reason": "While the UK economy shows surprising resilience, the persistently strong greenback keeps upward momentum limited."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair is testing the critical 160 resistance level in an established uptrend, supported by persistent dollar strength despite intervention risks."
+      "reason": "The pair tests the 160 handle amid strong upward technical momentum, despite looming threats of currency intervention."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Gold faces headwinds from surging Treasury yields and a strong dollar, though safe-haven demand provides a mixed technical backdrop."
+      "reason": "Gold balances strong long-term positioning against severe headwinds from a surging U.S. dollar and elevated Treasury yields."
     }
   ],
   "watch": [
-    "U.S. Federal Reserve rate decision and commentary",
-    "Japanese monetary authority intervention headlines around the 160 JPY level",
-    "Upcoming Trump-Xi summit and geopolitical developments",
-    "High-impact U.S. consumer and producer inflation data releases"
+    "U.S. Federal Reserve rate expectations and inflation commentary",
+    "Japanese monetary authority intervention headlines around the 160 USD/JPY level",
+    "Upcoming Trump-Xi political summit and U.S.-China relations",
+    "Broader developments regarding tech sector leadership transitions"
   ],
-  "fundamentals": "Macroeconomic drivers are heavily influenced by sticky U.S. inflation data, prompting policymakers like Fed Governor Waller and Chicago Fed's Goolsbee to signal the need for further monetary tightening. This hawkish shift has driven Treasury yields to sharp weekly spikes and propelled the U.S. dollar to a 19-month peak. Globally, political and corporate shocks—ranging from the Nvidia leadership crisis to shifting U.S.-China trade relations—add layers of complexity to risk sentiment.",
-  "technical_view": "EUR/USD is testing key support at 1.1052 in a defined downtrend with an RSI of 38.3, pointing toward ongoing downward momentum. USD/JPY sits firmly at the 160 resistance barrier with an overbought RSI of 74.2, highlighting intense upside pressure alongside immediate intervention risks.",
-  "cot_view": "Commitments of Traders data shows massive net-short positioning in EUR (-157,791 contracts) and AUD, confirming institutional alignment with the broader dollar strength. Conversely, Net-long positioning remains robust in JPY (+102,321 contracts) and Gold (+179,548 contracts), signaling underlying defensive stances despite recent price pressures.",
+  "fundamentals": "Stubbornly high inflation readings and hawkish signals from Fed officials like Austan Goolsbee have galvanized expectations that the central bank must maintain restrictive policy. This has propelled U.S. Treasury yields upward and sent the dollar index to significant multi-month highs. Globally, regional economies are absorbing external shocks, from political shifts and corporate governance crises in major tech entities to localized currency pressures in commodities like copper and oil.",
+  "technical_view": "EUR/USD sits in a clear downtrend with an RSI of 38.3, testing immediate support at 1.1052. USD/JPY trades firmly in an uptrend pressing the 160 resistance boundary with an overbought RSI of 74.2, signaling acute intervention risk.",
+  "cot_view": "Commitments of Traders data shows net short positioning persisting across major European currencies and the British pound, reflecting entrenched bearish sentiment against the greenback. Conversely, Gold maintains a dominant net long position of nearly 180,000 contracts despite recent reductions in net length.",
   "market": {
     "strength": {
       "1": {
