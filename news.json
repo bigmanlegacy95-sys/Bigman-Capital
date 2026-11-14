@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-13T19:12+00:00",
-  "summary": "Global foreign exchange markets are currently driven by broad U.S. dollar strength, underpinned by hawkish Federal Reserve signals and firmer inflation data that have pushed Treasury yields higher. Meanwhile, the Japanese yen has weakened to test the key 160 level against the dollar, sparking renewed intervention threats from Japanese authorities. In the UK, a surprisingly robust 0.7% third-quarter GDP growth print has provided some domestic support, though the pound remains constrained by the overwhelming dominance of the greenback.",
+  "updated": "2026-11-14T01:16+00:00",
+  "summary": "Global markets are being driven by a surging U.S. dollar, which logged its biggest weekly gain since September amid hawkish Fed signals and stronger-than-expected inflation data that point to potential rate hikes. Concurrently, geopolitical and corporate tensions are rising following the abrupt resignation of Nvidia's CEO and growing scrutiny over U.S.-China relations ahead of an upcoming summit. Meanwhile, the Japanese yen has weakened back to the 160 level against the dollar, sparking renewed intervention threats from authorities.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Persistent dollar strength driven by hawkish Fed expectations keeps the pair under downward pressure."
+      "reason": "The pair is in a downtrend trading near support at 1.1052 as the U.S. dollar rallies on hawkish Fed expectations."
     },
     {
       "pair": "GBP/USD",
-      "bias": "Neutral",
-      "reason": "Strong UK economic growth offsets some dollar pressure, keeping the pair consolidating in a sideways trend."
+      "bias": "Bearish",
+      "reason": "Despite resilient UK economic growth, the pound remains under pressure as an aggressively bid U.S. dollar dominates."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Upward momentum remains strong as the pair hits the 160 threshold, though intervention risks loom large."
+      "reason": "The pair is testing the critical 160 resistance level in an established uptrend, supported by persistent dollar strength despite intervention risks."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Gold balances strong safe-haven geopolitical risks against the headwinds of surging Treasury yields and a strong dollar."
+      "reason": "Gold faces headwinds from surging Treasury yields and a strong dollar, though safe-haven demand provides a mixed technical backdrop."
     }
   ],
   "watch": [
     "U.S. Federal Reserve rate decision and commentary",
-    "Japanese verbal intervention and currency defense measures",
-    "U.S. inflation data releases",
-    "Upcoming Trump-Xi summit developments"
+    "Japanese monetary authority intervention headlines around the 160 JPY level",
+    "Upcoming Trump-Xi summit and geopolitical developments",
+    "High-impact U.S. consumer and producer inflation data releases"
   ],
-  "fundamentals": "Macro drivers are heavily skewed by aggressive Federal Reserve rhetoric, with policymakers pointing to sticky inflation and signaling potential rate hikes ahead. This hawkish shift has driven U.S. Treasury yields to multi-month highs and fueled a powerful rally across the broader dollar index. Concurrently, geopolitical tensions surrounding U.S.-China relations and supply chain shifts involving major technology firms add layers of macroeconomic uncertainty. Regional growth divergences, such as the UK's surprise economic resilience, offer isolated pockets of fundamental support but struggle to override the overarching strength of U.S. monetary policy.",
-  "technical_view": "EUR/USD sits in a clear downtrend near support at 1.1052 with an RSI of 38.3, indicating lingering downside momentum. USD/JPY trades firmly in an uptrend testing the psychological 160 resistance level with an elevated RSI of 74.2, signaling overbought conditions that warrant caution.",
-  "cot_view": "Commitments of Traders data shows net short positioning persisting heavily across most major currencies against the US Dollar Index, which maintains a solid net long standing of 14,190 contracts. The Japanese yen retains a net long position of 102,321 contracts, reflecting strong speculative interest that contrasts with the spot exchange rate testing multi-month lows. Gold continues to display a dominant net long positioning of 179,548 contracts, highlighting enduring macro support despite recent weekly reductions.",
+  "fundamentals": "Macroeconomic drivers are heavily influenced by sticky U.S. inflation data, prompting policymakers like Fed Governor Waller and Chicago Fed's Goolsbee to signal the need for further monetary tightening. This hawkish shift has driven Treasury yields to sharp weekly spikes and propelled the U.S. dollar to a 19-month peak. Globally, political and corporate shocks—ranging from the Nvidia leadership crisis to shifting U.S.-China trade relations—add layers of complexity to risk sentiment.",
+  "technical_view": "EUR/USD is testing key support at 1.1052 in a defined downtrend with an RSI of 38.3, pointing toward ongoing downward momentum. USD/JPY sits firmly at the 160 resistance barrier with an overbought RSI of 74.2, highlighting intense upside pressure alongside immediate intervention risks.",
+  "cot_view": "Commitments of Traders data shows massive net-short positioning in EUR (-157,791 contracts) and AUD, confirming institutional alignment with the broader dollar strength. Conversely, Net-long positioning remains robust in JPY (+102,321 contracts) and Gold (+179,548 contracts), signaling underlying defensive stances despite recent price pressures.",
   "market": {
     "strength": {
       "1": {
@@ -210,13 +210,23 @@
   "headlines": [
     {
       "source": "Investing.com",
-      "title": "Canadian dollar holds near one-month low as U.S. producer inflation keeps Fed bets",
-      "link": "https://www.investing.com/news/forex-news/canadian-dollar-holds-near-onemonth-low-as-us-producer-inflation-keeps-fed-bets-5025909"
+      "title": "Brazil’s Bolsonaro shrugs off fugitive label, eyes future Brazil presidential bid",
+      "link": "https://www.investing.com/news/forex-news/brazils-bolsonaro-shrugs-off-fugitive-label-eyes-future-brazil-presidential-bid-5026806"
     },
     {
       "source": "Investing.com",
-      "title": "U.S. dollar eyes biggest weekly gain since September as inflation boosts Fed rate",
+      "title": "U.S. dollar surges to biggest weekly gain since September on Fed hike certainty",
       "link": "https://www.investing.com/news/forex-news/asia-fx-yen-intervention-in-focus-as-rate-hike-bets-put-dollar-near-19mth-high-5024024"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Chile peso hits 19-month low as copper drops, US rate outlook weighs",
+      "link": "https://www.investing.com/news/forex-news/chile-peso-hits-19month-low-as-copper-drops-us-rate-outlook-weighs-93CH-5026374"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Canadian dollar holds near one-month low as U.S. producer inflation keeps Fed bets",
+      "link": "https://www.investing.com/news/forex-news/canadian-dollar-holds-near-onemonth-low-as-us-producer-inflation-keeps-fed-bets-5025909"
     },
     {
       "source": "Investing.com",
@@ -237,19 +247,32 @@
       "source": "Investing.com",
       "title": "Dollar scales fresh 19-month peak, yen hits 160 for first time since September",
       "link": "https://www.investing.com/news/forex-news/asia-fx-holds-losses-as-dollar-hits-19mth-high-yen-nears-160-5020289"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Is dollar finally ready to break out? BCA weighs in",
-      "link": "https://www.investing.com/news/forex-news/is-dollar-finally-ready-to-break-out-bca-weighs-in-5022178"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Treasury yields hold near 2-week highs as traders await next signal",
-      "link": "https://www.investing.com/news/forex-news/eurozone-yields-hold-near-1week-highs-investors-weigh-hawkish-fed-bets-5020470"
     }
   ],
   "articles": [
+    {
+      "date": "2026-11-14",
+      "title": "U.S. Dollar Surges to Biggest Weekly Gain Since September on Fed Hike Certainty",
+      "intro": "The greenback scales a fresh 19-month peak as hawkish Federal Reserve signals drive aggressive market positioning. Meanwhile, the Japanese yen tests the critical 160 level, drawing intense intervention threats.",
+      "sections": [
+        {
+          "h": "Market mood",
+          "p": "Global currency markets are firmly dominated by dollar strength, propelled by growing certainty surrounding future Federal Reserve rate hikes. Treasury yields have logged their steepest weekly spikes since April 2025, keeping safe-haven demand elevated. Commodity-linked currencies are feeling the pressure as the robust dollar and shifting rate outlook weigh heavily on raw materials, with the Chilean peso hitting a 19-month low."
+        },
+        {
+          "h": "Key drivers",
+          "p": "Hawkish Fed signals and U.S. producer inflation keeping rate hike bets alive are the primary catalysts driving foreign exchange flows this week. As Treasury yields hold near recent highs, sterling remains relatively steady against the bid dollar. On the other side of the globe, the Japanese yen is back under heavy scrutiny, testing 160 for the first time since September and immediately triggering fresh intervention warnings from authorities."
+        },
+        {
+          "h": "Technical and positioning",
+          "p": "Technical indicators reflect strong momentum across several major pairs. USD/JPY is currently tracking an uptrend with an RSI of 74.2, testing its resistance at the 160.0 level. Similarly, USD/CAD sits right at its resistance of 1.4258 with an RSI of 74.2. On the downside, AUD/USD shows deeply oversold conditions with an RSI of 18.9, trading near support at 0.67852. Commitment of Traders data shows net short positions persisting heavily for the euro at -157,791 contracts, while net longs for the Japanese yen stand at 102,321 contracts."
+        },
+        {
+          "h": "What to watch next",
+          "p": "Traders should closely monitor upcoming U.S. Treasury yield movements and any official commentary regarding currency intervention as USD/JPY hovers at the psychological 160 threshold. Keeping an eye on broader commodity trends will also be essential for gauging the next moves in commodity-linked pairs like the Canadian dollar and Australian dollar."
+        }
+      ]
+    },
     {
       "date": "2026-11-13",
       "title": "Dollar Scales Fresh 19-Month Peak as Global Bonds Reel from US Inflation Pressures",
