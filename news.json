@@ -1,240 +1,212 @@
 {
-  "updated": "2026-11-16T10:37+00:00",
-  "summary": "Global foreign exchange markets are currently being driven by a surging U.S. dollar, which has hit multi-month peaks following hawkish Federal Reserve signals and stronger-than-expected inflation data. Meanwhile, the Japanese yen has weakened significantly due to domestic GDP contractions, pushing the currency into suspected intervention territory. Risk sentiment is also being weighed down by a deepening slowdown in China and geopolitical anxieties.",
+  "updated": "2026-11-16T21:38+00:00",
+  "summary": "Global currency markets are being heavily influenced by broad U.S. dollar strength, driven by hawkish Federal Reserve expectations and surging Treasury yields. Meanwhile, soft Japanese GDP data has kept the yen under pressure, and China's deepening economic slowdown continues to weigh on risk-correlated commodities and currencies. Traders are actively monitoring incoming inflation data and central bank commentary for further direction.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Persistent dollar strength and soft technical momentum keep the pair under pressure."
+      "reason": "The pair is in a downtrend as aggressive dollar buying and rising U.S. yields dominate the macroeconomic landscape."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bearish",
-      "reason": "Hawkish Fed bets continue to prop up the greenback while the pound extends its recent slide."
+      "reason": "Sterling continues to extend its slide against a heavily bid dollar bolstered by hawkish Fed bets."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Soft Japanese GDP data and stark monetary policy divergence support the ongoing upside trend."
+      "reason": "Soft Japanese GDP data and widening yield differentials keep the dollar strongly supported against the yen."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Gold faces headwinds from surging Treasury yields and a strong dollar despite heavy net long positioning."
+      "reason": "Gold faces headwinds from surging Treasury yields and a strong dollar, despite holding large net long positioning."
     }
   ],
   "watch": [
-    "CAD CPI m/m data",
-    "US Core Retail Sales m/m",
-    "UK CPI y/y data",
+    "U.S. Core Retail Sales m/m",
+    "UK CPI y/y",
+    "BOE Gov Bailey Speaks",
     "FOMC Meeting Minutes"
   ],
-  "fundamentals": "The macroeconomic landscape is defined by aggressive repricing of Federal Reserve interest rate expectations after sticky inflation readings forced officials to signal further tightening. In contrast, Japan continues to struggle with domestic economic contraction, keeping the yen pinned near intervention thresholds. Furthermore, external headwinds from China's disappointing industrial output and retail sales add to global risk aversion, bolstering safe-haven demand for the greenback.",
-  "technical_view": "EUR/USD sits in a clear downtrend near support at 1.1052 with an RSI of 38.3, indicating lingering weakness. USD/JPY trades at 160.0 in a strong uptrend with an elevated RSI of 74.2, signaling overbought conditions but strong persistent momentum.",
-  "cot_view": "Commitments of Traders data shows net short positioning remains heavy for EUR (-157,791 contracts) and GBP (-59,821 contracts), aligning with the prevailing dollar strength. Conversely, speculative accounts retain a large net long position in Gold (179,548 contracts) and JPY (102,321 contracts), highlighting divergence between spot price action and historical positioning.",
+  "fundamentals": "Macro drivers are currently centered on persistent U.S. inflation concerns and hawkish signals from Federal Reserve officials, which have propelled Treasury yields to one-month highs and boosted the greenback. Conversely, disappointing growth out of Japan and a deepening economic slowdown in China have weakened local currencies and added global growth anxieties. Upcoming data releases, including US retail sales and UK inflation, will be pivotal in shaping near-term monetary policy expectations.",
+  "technical_view": "EUR/USD is locked in a clear downtrend with an RSI of 38.3 pressing near support at 1.10139. USD/JPY maintains a firm uptrend trading near 159.6 with an RSI of 66.8, approaching psychological resistance near 160.0. GBP/USD sits in a sideways trend around 1.31984 with an RSI of 40.0.",
+  "cot_view": "Commitments of Traders data shows EUR and GBP holding substantial net short positions of -136,396 and -43,216 contracts respectively, reflecting underlying bearish sentiment against the USD. Conversely, JPY maintains a net long position of 123,113 contracts, while Gold remains heavily net long at 190,107 contracts despite recent macro pressures.",
   "market": {
     "strength": {
       "1": {
-        "EUR": 0.03,
-        "GBP": 0.07,
-        "AUD": -0.23,
-        "NZD": -0.15,
-        "JPY": 0.1,
-        "CAD": 0.23,
-        "CHF": -0.34,
-        "USD": 0.29
+        "EUR": -0.18,
+        "GBP": -0.05,
+        "AUD": -0.25,
+        "NZD": -0.14,
+        "JPY": 0.42,
+        "CAD": -0.02,
+        "CHF": 0.06,
+        "USD": 0.17
       },
       "5": {
-        "EUR": 0.03,
-        "GBP": -0.14,
-        "AUD": -0.2,
-        "NZD": 0.84,
-        "JPY": 0.0,
-        "CAD": -0.3,
-        "CHF": -1.28,
-        "USD": 1.05
+        "EUR": -0.13,
+        "GBP": -0.16,
+        "AUD": -0.53,
+        "NZD": -0.28,
+        "JPY": 0.43,
+        "CAD": 0.19,
+        "CHF": -0.99,
+        "USD": 1.46
       },
       "20": {
-        "EUR": -0.4,
-        "GBP": 0.57,
-        "AUD": -1.11,
-        "NZD": -0.94,
-        "JPY": 0.15,
-        "CAD": 0.7,
-        "CHF": -0.34,
-        "USD": 1.38
+        "EUR": -0.26,
+        "GBP": 0.63,
+        "AUD": -1.67,
+        "NZD": -1.14,
+        "JPY": 0.77,
+        "CAD": 0.14,
+        "CHF": -0.08,
+        "USD": 1.62
       }
     },
     "technical": [
       {
         "pair": "EUR/USD",
-        "price": 1.1052,
+        "price": 1.10139,
         "trend": "Downtrend",
         "rsi": 38.3,
-        "support": 1.1052,
+        "support": 1.10139,
         "resistance": 1.1267
       },
       {
         "pair": "GBP/USD",
-        "price": 1.32266,
+        "price": 1.31984,
         "trend": "Sideways",
-        "rsi": 40.5,
-        "support": 1.32266,
+        "rsi": 40.0,
+        "support": 1.31984,
         "resistance": 1.34998
       },
       {
         "pair": "USD/JPY",
-        "price": 160.0,
+        "price": 159.6,
         "trend": "Uptrend",
-        "rsi": 74.2,
+        "rsi": 66.8,
         "support": 156.8,
         "resistance": 160.0
       },
       {
         "pair": "AUD/USD",
-        "price": 0.67852,
+        "price": 0.67568,
         "trend": "Downtrend",
-        "rsi": 18.9,
-        "support": 0.67852,
+        "rsi": 16.1,
+        "support": 0.67568,
         "resistance": 0.70338
       },
       {
         "pair": "USD/CAD",
-        "price": 1.4258,
+        "price": 1.4285,
         "trend": "Sideways",
-        "rsi": 74.2,
+        "rsi": 76.3,
         "support": 1.3935,
-        "resistance": 1.4258
+        "resistance": 1.4285
       },
       {
         "pair": "USD/CHF",
-        "price": 0.8384,
+        "price": 0.8393,
         "trend": "Sideways",
-        "rsi": 64.1,
+        "rsi": 62.8,
         "support": 0.81548,
-        "resistance": 0.8384
+        "resistance": 0.8393
       },
       {
         "pair": "NZD/USD",
-        "price": 0.55322,
+        "price": 0.55151,
         "trend": "Downtrend",
-        "rsi": 32.9,
-        "support": 0.55322,
+        "rsi": 28.1,
+        "support": 0.55151,
         "resistance": 0.57029
       }
     ],
     "cot": [
       {
         "name": "EUR",
-        "date": "2026-11-03",
-        "long": 229383,
-        "short": 387174,
-        "net": -157791,
-        "change": -13897,
-        "pct_long": 37.2
+        "date": "2026-11-10",
+        "long": 227478,
+        "short": 363874,
+        "net": -136396,
+        "change": 21395,
+        "pct_long": 38.5
       },
       {
         "name": "GBP",
-        "date": "2026-11-03",
-        "long": 63780,
-        "short": 123601,
-        "net": -59821,
-        "change": 19593,
-        "pct_long": 34.0
+        "date": "2026-11-10",
+        "long": 62005,
+        "short": 105221,
+        "net": -43216,
+        "change": 16605,
+        "pct_long": 37.1
       },
       {
         "name": "JPY",
-        "date": "2026-11-03",
-        "long": 227198,
-        "short": 124877,
-        "net": 102321,
-        "change": 730,
-        "pct_long": 64.5
+        "date": "2026-11-10",
+        "long": 249759,
+        "short": 126646,
+        "net": 123113,
+        "change": 20792,
+        "pct_long": 66.4
       },
       {
         "name": "AUD",
-        "date": "2026-11-03",
-        "long": 101093,
-        "short": 230550,
-        "net": -129457,
-        "change": -1142,
-        "pct_long": 30.5
+        "date": "2026-11-10",
+        "long": 98447,
+        "short": 250200,
+        "net": -151753,
+        "change": -22296,
+        "pct_long": 28.2
       },
       {
         "name": "CAD",
-        "date": "2026-11-03",
-        "long": 99234,
-        "short": 141009,
-        "net": -41775,
-        "change": 24649,
-        "pct_long": 41.3
+        "date": "2026-11-10",
+        "long": 107703,
+        "short": 140295,
+        "net": -32592,
+        "change": 9183,
+        "pct_long": 43.4
       },
       {
         "name": "CHF",
-        "date": "2026-11-03",
-        "long": 29482,
-        "short": 46071,
-        "net": -16589,
-        "change": 3460,
-        "pct_long": 39.0
+        "date": "2026-11-10",
+        "long": 32614,
+        "short": 41767,
+        "net": -9153,
+        "change": 7436,
+        "pct_long": 43.8
       },
       {
         "name": "NZD",
-        "date": "2026-11-03",
-        "long": 18469,
-        "short": 78484,
-        "net": -60015,
-        "change": -2325,
-        "pct_long": 19.0
+        "date": "2026-11-10",
+        "long": 17881,
+        "short": 73247,
+        "net": -55366,
+        "change": 4649,
+        "pct_long": 19.6
       },
       {
         "name": "USD Index",
-        "date": "2026-11-03",
-        "long": 33054,
-        "short": 18864,
-        "net": 14190,
-        "change": 69,
-        "pct_long": 63.7
+        "date": "2026-11-10",
+        "long": 34776,
+        "short": 20963,
+        "net": 13813,
+        "change": -377,
+        "pct_long": 62.4
       },
       {
         "name": "Gold",
-        "date": "2026-11-03",
-        "long": 220530,
-        "short": 40982,
-        "net": 179548,
-        "change": -6903,
-        "pct_long": 84.3
+        "date": "2026-11-10",
+        "long": 226234,
+        "short": 36127,
+        "net": 190107,
+        "change": 10559,
+        "pct_long": 86.2
       }
     ],
     "calendar": [
-      {
-        "date": "2026-11-16T13:30+00:00",
-        "country": "CAD",
-        "title": "CPI m/m",
-        "forecast": "0.3%",
-        "previous": "0.1%"
-      },
-      {
-        "date": "2026-11-16T13:30+00:00",
-        "country": "CAD",
-        "title": "Median CPI y/y",
-        "forecast": "2.0%",
-        "previous": "1.9%"
-      },
-      {
-        "date": "2026-11-16T13:30+00:00",
-        "country": "CAD",
-        "title": "Trimmed CPI y/y",
-        "forecast": "1.9%",
-        "previous": "1.8%"
-      },
-      {
-        "date": "2026-11-16T17:00+00:00",
-        "country": "USD",
-        "title": "Fed Chairman Warsh Speaks",
-        "forecast": "",
-        "previous": ""
-      },
       {
         "date": "2026-11-16T22:50+00:00",
         "country": "AUD",
@@ -290,24 +262,31 @@
         "title": "Employment Change",
         "forecast": "25.2K",
         "previous": "-39.3K"
+      },
+      {
+        "date": "2026-11-19T00:30+00:00",
+        "country": "AUD",
+        "title": "Unemployment Rate",
+        "forecast": "4.7%",
+        "previous": "4.7%"
       }
     ]
   },
   "headlines": [
     {
       "source": "Investing.com",
-      "title": "Dollar at 19-month peaks as Japan GDP contraction pins yen in intervention zone",
+      "title": "Dollar rally gathers pace as Japan’s economic slump puts yen under pressure",
       "link": "https://www.investing.com/news/forex-news/asia-fx-muted-as-dollar-holds-near-19mth-high-yen-steady-after-weak-gdp-5028358"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Treasury yields pause near 1-month highs as traders brace for Fed signals",
+      "link": "https://www.investing.com/news/forex-news/eurozone-yields-stall-after-volatile-week-as-traders-brace-for-ai-megatests-5028425"
     },
     {
       "source": "Investing.com",
       "title": "Sterling today: Pound extends slide as dollar firms on hawkish Fed bets",
       "link": "https://www.investing.com/news/forex-news/sterling-today-pound-extends-slide-as-dollar-firms-on-hawkish-fed-bets-5028808"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Eurozone yields stall after volatile week as traders brace for AI mega-tests",
-      "link": "https://www.investing.com/news/forex-news/eurozone-yields-stall-after-volatile-week-as-traders-brace-for-ai-megatests-5028425"
     },
     {
       "source": "Investing.com",
