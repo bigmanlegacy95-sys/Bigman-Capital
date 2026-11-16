@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-15T20:08+00:00",
-  "summary": "The US dollar surged to its biggest weekly gain since September as hot consumer price inflation data and hawkish Federal Reserve signals drove Treasury yields sharply higher. Meanwhile, the Japanese yen tested the psychological 160 level against the dollar, drawing renewed currency intervention threats from authorities. Broader market sentiment is also digesting geopolitical developments, including unfolding political fallout surrounding Nvidia's leadership.",
+  "updated": "2026-11-16T00:44+00:00",
+  "summary": "The U.S. dollar surged to its biggest weekly gain since September, driven by hawkish Federal Reserve expectations and robust inflation data that prompted comments from policymakers like Goolsbee about potential further rate hikes. Meanwhile, Treasury yields logged steep weekly spikes, and the Japanese yen tested the critical 160 level once again, prompting direct intervention threats. In geopolitical news, markets digested political developments surrounding U.S.-China relations and Nvidia leadership changes.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Hawkish Fed signals and strong US inflation data continue to fuel dollar strength."
+      "reason": "The pair remains in a downtrend as broad dollar strength dominates following hawkish Fed rate hike bets."
     },
     {
       "pair": "GBP/USD",
-      "bias": "Bearish",
-      "reason": "The pound remains constrained near sideways ranges as broad US dollar demand persists."
+      "bias": "Neutral",
+      "reason": "Sterling trades sideways near 1.3226 as domestic stability offsets a strongly bid U.S. dollar."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Upward momentum pushes the pair toward 160, though intervention risks loom large."
+      "reason": "An ongoing uptrend has pushed the pair to test the psychological 160.0 resistance level amid widening rate differentials."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Surging Treasury yields and a strong dollar offset traditional safe-haven demand."
+      "reason": "Gold faces headwinds from surging U.S. Treasury yields and a robust dollar despite geopolitical uncertainties."
     }
   ],
   "watch": [
-    "Fed Chairman Warsh Speaks",
-    "US Core Retail Sales m/m",
-    "UK CPI y/y",
-    "FOMC Meeting Minutes"
+    "US Fed Chairman Warsh Speaks (Nov 16)",
+    "US Core Retail Sales m/m (Nov 17)",
+    "UK CPI y/y (Nov 18)",
+    "FOMC Meeting Minutes (Nov 18)"
   ],
-  "fundamentals": "Recent US macroeconomic releases, notably stronger-than-expected inflation metrics, have prompted Federal Reserve officials to emphasize the need for continued policy tightening. This hawkish repricing sent Treasury yields logging their steepest weekly spikes since April 2025 and propelled the greenback to multi-month highs. Globally, currency pairs are reacting heavily to the diverging monetary policy expectations between a resilient US economy and lagging foreign counterparts, alongside localized intervention risks in Japan.",
-  "technical_view": "EUR/USD sits in a clear downtrend near 1.1052 with an RSI of 38.3, reflecting persistent selling pressure. USD/JPY trades right at the 160 resistance barrier with an overbought RSI of 74.2, signaling extreme upside momentum and heightened sensitivity to potential intervention.",
-  "cot_view": "EUR positioning shows a hefty net-short bias of 157,791 contracts, confirming prevailing bearish market sentiment. Conversely, JPY maintains a net-long position of 102,321 contracts, reflecting strong historical speculative buying despite recent spot depreciation.",
+  "fundamentals": "The macroeconomic environment is currently dominated by re-emerging U.S. inflationary pressures and a hawkish pivot in Federal Reserve expectations, following stronger-than-expected consumer price data. Treasury yields have surged as traders price in a more aggressive policy path, directly boosting the U.S. dollar index to fresh multi-month peaks. Meanwhile, international central banks face localized pressures, with the Bank of Japan struggling against a weakening yen near the 160 threshold while currency intervention warnings loom.",
+  "technical_view": "EUR/USD sits in a clear downtrend with an RSI of 38.3, testing key support at 1.1052. USD/JPY maintains strong upside momentum in an uptrend, trading directly against resistance at 160.0 with an elevated RSI of 74.2.",
+  "cot_view": "COT positioning highlights a substantial net short bias in EUR (-157,791 contracts) and GBP (-59,821 contracts), supporting the dominant strength of the U.S. dollar index. Conversely, JPY maintains a net long position of 102,321 contracts, reflecting persistent speculative divergence against spot price action.",
   "market": {
     "strength": {
       "1": {
@@ -271,13 +271,6 @@
         "previous": "3.5%"
       },
       {
-        "date": "2026-11-18T07:30+00:00",
-        "country": "GBP",
-        "title": "BOE Gov Bailey Speaks",
-        "forecast": "",
-        "previous": ""
-      },
-      {
         "date": "2026-11-18T15:00+00:00",
         "country": "GBP",
         "title": "BOE Gov Bailey Speaks",
@@ -290,6 +283,13 @@
         "title": "FOMC Meeting Minutes",
         "forecast": "",
         "previous": ""
+      },
+      {
+        "date": "2026-11-19T00:30+00:00",
+        "country": "AUD",
+        "title": "Employment Change",
+        "forecast": "25.2K",
+        "previous": "-39.3K"
       }
     ]
   },
@@ -336,6 +336,29 @@
     }
   ],
   "articles": [
+    {
+      "date": "2026-11-16",
+      "title": "U.S. Dollar Surges to Fresh Peaks on Hawkish Fed Signals",
+      "intro": "The greenback scaled a fresh 19-month peak, driven by strong Fed hike certainty and surging Treasury yields. Meanwhile, the Japanese yen tested the 160 level once again, prompting intervention threats.",
+      "sections": [
+        {
+          "h": "Market mood",
+          "p": "The broader foreign exchange market is dominated by aggressive U.S. dollar strength as hawkish Federal Reserve signals drive Treasury yields to log their steepest weekly spikes since April 2025. Commodities and risk-correlated currencies are feeling the weight of the surging dollar, with the Chilean peso hitting a 19-month low as copper drops."
+        },
+        {
+          "h": "Key drivers",
+          "p": "Persistent U.S. producer inflation continues to cement Fed hike bets, keeping the dollar heavily bid. Globally, the Japanese yen is testing 160 for the first time since September, drawing verbal intervention threats from authorities. Sterling remains relatively steady near 1.32266 despite the dominant greenback momentum."
+        },
+        {
+          "h": "Technical and positioning",
+          "p": "USD/JPY trades in an uptrend at 160.0 with an RSI of 74.2, signaling overbought conditions. EUR/USD is in a downtrend at 1.1052 with an RSI of 38.3. Commitment of Traders data shows net-long positioning concentrated in the USD Index at 63.7% and Japanese yen net longs at 102,321 contracts."
+        },
+        {
+          "h": "What to watch next",
+          "p": "Traders should monitor upcoming high-impact events on the economic calendar, including Canadian CPI data, remarks from Fed officials, and the release of the FOMC Meeting Minutes later in the week."
+        }
+      ]
+    },
     {
       "date": "2026-11-15",
       "title": "US Dollar Surges to Fresh Peaks on Hawkish Fed Signals",
