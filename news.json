@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-16T21:38+00:00",
-  "summary": "Global currency markets are being heavily influenced by broad U.S. dollar strength, driven by hawkish Federal Reserve expectations and surging Treasury yields. Meanwhile, soft Japanese GDP data has kept the yen under pressure, and China's deepening economic slowdown continues to weigh on risk-correlated commodities and currencies. Traders are actively monitoring incoming inflation data and central bank commentary for further direction.",
+  "updated": "2026-11-17T06:29+00:00",
+  "summary": "Global foreign exchange markets are currently dominated by broad U.S. dollar strength, which has hit a 19-month peak driven by hawkish Federal Reserve rate hike expectations and rising Treasury yields. Meanwhile, regional currencies face additional pressures from soft domestic data, such as weak Japanese GDP and slowing Chinese industrial output. Traders are closely monitoring incoming central bank communications and inflation data to gauge the persistence of tighter monetary policy.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The pair is in a downtrend as aggressive dollar buying and rising U.S. yields dominate the macroeconomic landscape."
+      "reason": "The pair remains in a downward trend as persistent U.S. dollar strength and aggressive Fed tightening bets weigh heavily on the euro."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bearish",
-      "reason": "Sterling continues to extend its slide against a heavily bid dollar bolstered by hawkish Fed bets."
+      "reason": "Sterling extends its slide against a dominant dollar amid firming hawkish rate expectations from the Federal Reserve."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Soft Japanese GDP data and widening yield differentials keep the dollar strongly supported against the yen."
+      "reason": "The pair maintains a strong upward trajectory supported by soft Japanese GDP data and sustained dollar demand."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Gold faces headwinds from surging Treasury yields and a strong dollar, despite holding large net long positioning."
+      "reason": "Gold balances strong net-long positioning against the headwinds of surging Treasury yields and a robust U.S. dollar."
     }
   ],
   "watch": [
-    "U.S. Core Retail Sales m/m",
-    "UK CPI y/y",
-    "BOE Gov Bailey Speaks",
-    "FOMC Meeting Minutes"
+    "Core Retail Sales m/m (USD)",
+    "CPI y/y (GBP)",
+    "BOE Gov Bailey Speaks (GBP)",
+    "FOMC Meeting Minutes (USD)"
   ],
-  "fundamentals": "Macro drivers are currently centered on persistent U.S. inflation concerns and hawkish signals from Federal Reserve officials, which have propelled Treasury yields to one-month highs and boosted the greenback. Conversely, disappointing growth out of Japan and a deepening economic slowdown in China have weakened local currencies and added global growth anxieties. Upcoming data releases, including US retail sales and UK inflation, will be pivotal in shaping near-term monetary policy expectations.",
-  "technical_view": "EUR/USD is locked in a clear downtrend with an RSI of 38.3 pressing near support at 1.10139. USD/JPY maintains a firm uptrend trading near 159.6 with an RSI of 66.8, approaching psychological resistance near 160.0. GBP/USD sits in a sideways trend around 1.31984 with an RSI of 40.0.",
-  "cot_view": "Commitments of Traders data shows EUR and GBP holding substantial net short positions of -136,396 and -43,216 contracts respectively, reflecting underlying bearish sentiment against the USD. Conversely, JPY maintains a net long position of 123,113 contracts, while Gold remains heavily net long at 190,107 contracts despite recent macro pressures.",
+  "fundamentals": "Macroeconomic drivers are centered on the widening policy divergence between a hawkish Federal Reserve and other global central banks, propelled by sticky inflation concerns. Treasury yields have logged sharp weekly spikes, reflecting heightened conviction that U.S. interest rates will stay higher for longer. Concurrently, softening economic momentum in Asia and Europe, highlighted by disappointing Chinese output and soft Japanese GDP figures, has reinforced safe-haven flows into the U.S. currency. Upcoming data releases, including U.S. retail sales and FOMC meeting minutes, will be critical in determining if this dollar-centric momentum has further room to run.",
+  "technical_view": "EUR/USD is currently tracking a clear downtrend near 1.1013 with an RSI of 38.3, indicating ongoing selling pressure without yet entering oversold territory. USD/JPY trades firmly in an uptrend at 159.6 with an RSI of 66.8, approaching immediate resistance near the 160.0 handle.",
+  "cot_view": "The latest Commitment of Traders report shows a substantial net-short position in EUR (-136,396 contracts) and GBP (-43,216 contracts), reflecting strong institutional bearish sentiment. Conversely, Gold maintains a heavy net-long positioning of 190,107 contracts, demonstrating underlying resilience despite recent dollar strength.",
   "market": {
     "strength": {
       "1": {
@@ -208,20 +208,6 @@
     ],
     "calendar": [
       {
-        "date": "2026-11-16T22:50+00:00",
-        "country": "AUD",
-        "title": "RBA Gov Bullock Speaks",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "date": "2026-11-17T02:00+00:00",
-        "country": "NZD",
-        "title": "Inflation Expectations q/q",
-        "forecast": "",
-        "previous": "2.34%"
-      },
-      {
         "date": "2026-11-17T13:30+00:00",
         "country": "USD",
         "title": "Core Retail Sales m/m",
@@ -232,7 +218,7 @@
         "date": "2026-11-17T13:30+00:00",
         "country": "USD",
         "title": "Retail Sales m/m",
-        "forecast": "0.2%",
+        "forecast": "0.1%",
         "previous": "0.8%"
       },
       {
@@ -260,7 +246,7 @@
         "date": "2026-11-19T00:30+00:00",
         "country": "AUD",
         "title": "Employment Change",
-        "forecast": "25.2K",
+        "forecast": "25.5K",
         "previous": "-39.3K"
       },
       {
@@ -275,7 +261,12 @@
   "headlines": [
     {
       "source": "Investing.com",
-      "title": "Dollar rally gathers pace as Japan’s economic slump puts yen under pressure",
+      "title": "Asia FX subdued as dollar hits 19-mth peak on Fed tightening bets",
+      "link": "https://www.investing.com/news/forex-news/asia-fx-subdued-as-dollar-hits-19mth-peak-on-fed-tightening-bets-5031600"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Dollar hits 19-month high as hawkish Fed signals bolster rate hike bets",
       "link": "https://www.investing.com/news/forex-news/asia-fx-muted-as-dollar-holds-near-19mth-high-yen-steady-after-weak-gdp-5028358"
     },
     {
@@ -307,14 +298,32 @@
       "source": "Investing.com",
       "title": "Chile peso hits 19-month low as copper drops, US rate outlook weighs",
       "link": "https://www.investing.com/news/forex-news/chile-peso-hits-19month-low-as-copper-drops-us-rate-outlook-weighs-93CH-5026374"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Canadian dollar holds near one-month low as U.S. producer inflation keeps Fed bets",
-      "link": "https://www.investing.com/news/forex-news/canadian-dollar-holds-near-onemonth-low-as-us-producer-inflation-keeps-fed-bets-5025909"
     }
   ],
   "articles": [
+    {
+      "date": "2026-11-17",
+      "title": "US Dollar Reaches 19-Month Peak as Fed Tightening Bets Drive Market",
+      "intro": "The US dollar surged to a 19-month high amid hawkish Federal Reserve signals, while global currencies faced broad downward pressure. Treasury yields paused near one-month highs as traders braced for further policy updates.",
+      "sections": [
+        {
+          "h": "Market mood",
+          "p": "Asia FX remained subdued and the dollar hit a 19-month peak on firming Fed tightening bets. The US dollar logged its biggest weekly gain since September on rate hike certainty, while Treasury yields recorded their steepest weekly spikes since April 2025. Sterling extended its slide as the dollar firmed, the Chilean peso hit a 19-month low due to falling copper and US rate outlooks, and the Canadian dollar held near a one-month low. Meanwhile, the yen stayed steady against the euro and dollar following soft Japanese GDP data."
+        },
+        {
+          "h": "Key drivers",
+          "p": "Hawkish Federal Reserve signals and rate hike expectations remain the primary catalysts dictating currency valuations across major pairs. Commodity price movements, such as dropping copper prices impacting the Chilean peso, alongside domestic economic indicators like Japanese GDP, continue to shape regional FX dynamics while traders monitor upcoming central bank communications."
+        },
+        {
+          "h": "Technical and positioning",
+          "p": "Technical indicators show mixed trends with several pairs resting near key boundaries. EUR/USD trades in a downtrend at 1.10139 with an RSI of 38.3. USD/CAD sits at 1.4285 with an elevated RSI of 76.3 in a sideways trend. AUD/USD is in a downtrend at 0.67568 with an oversold RSI of 16.1. USD/JPY maintains an uptrend at 159.6 with an RSI of 66.8. Commitment of Traders data shows net shorts for EUR at -136,396, GBP at -43,216, and AUD at -151,753, contrasted by net longs for JPY at 123,113 and Gold at 190,107."
+        },
+        {
+          "h": "What to watch next",
+          "p": "Traders should monitor upcoming high-impact economic data releases this week. Key events include US Core Retail Sales and Retail Sales on November 17, UK CPI and a speech by BOE Gov Bailey on November 18, along with the FOMC Meeting Minutes later that day. Australian employment change and unemployment rate figures are scheduled for November 19."
+        }
+      ]
+    },
     {
       "date": "2026-11-16",
       "title": "U.S. Dollar Surges to Fresh Peaks on Hawkish Fed Signals",
