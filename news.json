@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-18T02:43+00:00",
-  "summary": "Global markets are reacting to a combination of geopolitical high-level meetings, shifting central bank expectations, and persistent geopolitical friction regarding tech supply chains. The US dollar has faced slight profit-taking after reaching multi-month peaks on hawkish Federal Reserve signals, while yields hover near one-month highs. Meanwhile, developments in China, including trade deal extensions and a slowing domestic recovery, continue to influence risk appetite across currency and commodity assets.",
+  "updated": "2026-11-18T11:08+00:00",
+  "summary": "The US dollar is taking a brief pause after touching a fresh 19-month peak, driven by persistent Federal Reserve interest rate hike bets and elevated Treasury yields. In Europe and the UK, persistent inflation pressures and resilient labour data are offering some local yield support, though broad dollar strength continues to dominate currency pairs. Meanwhile, geopolitical attention is focused on high-stakes leadership discussions at the APEC summit alongside signs of slowing momentum in China.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The pair remains in a clear downtrend with RSI near support levels as the broader dollar retains fundamental strength."
+      "reason": "Persistent dollar strength keeps the pair pinned to key support despite elevated euro-area yields."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "Price action is sideways despite UK jobs data as traders weigh dollar pauses against domestic economic pressures."
+      "reason": "Resilient UK inflation and employment data are balanced against broad US dollar momentum."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair maintains an upward trajectory supported by soft Japanese GDP data and firming US yields."
+      "reason": "The pair maintains upward momentum toward key resistance around 160.0 as US yields remain elevated."
     },
     {
-      "pair": "XAU/USD",
-      "bias": "Bullish",
-      "reason": "Gold continues to hold a heavy net-long institutional positioning despite recent macroeconomic fluctuations."
+      "pair": "XAU/USD (Gold)",
+      "bias": "Neutral",
+      "reason": "Strong speculative net-long positioning faces sustained pressure from firm Treasury yields and a robust dollar."
     }
   ],
   "watch": [
-    "UK CPI y/y data",
-    "BOE Gov Bailey Speech",
+    "BOE Gov Bailey Speaks",
     "FOMC Meeting Minutes",
-    "AUD Employment Change and Unemployment Rate"
+    "Australia Employment Change",
+    "Australia Unemployment Rate"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by shifting expectations around Federal Reserve policy, with officials signaling a cautious stance on inflation amid resilient domestic data. Concurrently, US-China trade dynamics and high-level summits involving global leaders are steering risk sentiment. European developments, including chip sector initiatives and UK employment prints, further compound regional currency valuations.",
-  "technical_view": "EUR/USD trades within a defined downtrend near 1.0989 with an RSI of 37.8, while USD/JPY sustains an uptrend at 159.3 with an RSI of 62.3. GBP/USD continues to chop sideways near 1.3191, reflecting a lack of strong directional momentum in the short term.",
-  "cot_view": "Commitments of Traders data shows EUR and GBP maintaining sizeable net-short positions of approximately -136k and -43k contracts respectively. Conversely, JPY and Gold show heavy net-long positioning, with Gold holding a dominant net-long posture of over 190k contracts.",
+  "fundamentals": "Persistent expectations of tight Federal Reserve policy and elevated US Treasury yields have reinforced the US dollar's multi-month highs. Although the UK reported sticky inflation at 3.6% and euro yields held firm on inflation concerns, these domestic factors have struggled to overcome US interest rate divergence. Furthermore, economic deceleration in China and ongoing geopolitical developments around the APEC summit continue to influence broader risk appetite.",
+  "technical_view": "EUR/USD remains in a clear downtrend, testing immediate support at 1.0989 with an RSI of 37.8 reflecting persistent selling pressure. USD/JPY exhibits an established uptrend with an RSI of 62.3, trading near 159.3 as it tests major overhead resistance at 160.0. GBP/USD is trading sideways right along support at 1.31912, where a decisive break or bounce could dictate the near-term direction.",
+  "cot_view": "Positioning data reveals speculative market participants hold substantial net-short exposure in the euro and the British pound, despite minor short-covering in the latest reporting week. Conversely, the Japanese yen shows a sizable net-long standing among reporting traders, creating a sharp divergence from spot price action. Gold continues to reflect heavily skewed bullish sentiment, with net-long positions standing at 86.2% of total open interest.",
   "market": {
     "strength": {
       "1": {
@@ -208,13 +208,6 @@
     ],
     "calendar": [
       {
-        "date": "2026-11-18T07:00+00:00",
-        "country": "GBP",
-        "title": "CPI y/y",
-        "forecast": "3.6%",
-        "previous": "3.5%"
-      },
-      {
         "date": "2026-11-18T15:00+00:00",
         "country": "GBP",
         "title": "BOE Gov Bailey Speaks",
@@ -247,6 +240,31 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Dollar holds near 19-mth high in 7th daily advance on Fed hike bets",
+      "link": "https://www.investing.com/news/forex-news/asia-fx-subdued-as-dollar-holds-near-19mth-high-on-fed-hike-bets-5034711"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Sterling today: Pound slips as U.S. rate bets outweigh UK CPI rise to 3.6%",
+      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-as-us-rate-bets-outweigh-uk-cpi-rise-to-36-5035366"
+    },
+    {
+      "source": "Investing.com",
+      "title": "After $6.3 billion crypto heist, Binance plans Asia expansion",
+      "link": "https://www.investing.com/news/forex-news/after-63-billion-crypto-heist-binance-plans-foray-into-5-asian-markets-5034971"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Euro yields anchor near 1-month highs as traders brace for sticky inflation print",
+      "link": "https://www.investing.com/news/forex-news/euro-yields-anchor-near-1month-highs-as-traders-brace-for-sticky-inflation-print-5034892"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Canada adjusts China ties, Carney says, aiming to clinch right deal with US",
+      "link": "https://www.investing.com/news/forex-news/canada-adjusts-china-ties-carney-says-aiming-to-clinch-right-deal-with-us-5035098"
+    },
+    {
+      "source": "Investing.com",
       "title": "Dollar finally dips after fresh 19-month peak, set to snap five-day win streak",
       "link": "https://www.investing.com/news/forex-news/asia-fx-subdued-as-dollar-hits-19mth-peak-on-fed-tightening-bets-5031600"
     },
@@ -259,31 +277,6 @@
       "source": "Investing.com",
       "title": "U.S. Treasury yields catch their breath near one-month highs",
       "link": "https://www.investing.com/news/forex-news/euro-yields-hold-near-1month-peaks-on-relentless-us-treasury-pull-5031817"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Citi forecasts Brazilian real to weaken to 5.50 per dollar in 2027",
-      "link": "https://www.investing.com/news/forex-news/citi-forecasts-brazilian-real-to-weaken-to-550-per-dollar-in-2027-93CH-5032448"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Sterling today: Pound set to snap slide as dollar pauses; UK jobless dips to 4.6%",
-      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-set-to-snap-slide-as-dollar-pauses-uk-jobless-dips-to-46-5032079"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar hits 19-month high as hawkish Fed signals bolster rate hike bets",
-      "link": "https://www.investing.com/news/forex-news/asia-fx-muted-as-dollar-holds-near-19mth-high-yen-steady-after-weak-gdp-5028358"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Treasury yields pause near 1-month highs as traders brace for Fed signals",
-      "link": "https://www.investing.com/news/forex-news/eurozone-yields-stall-after-volatile-week-as-traders-brace-for-ai-megatests-5028425"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Sterling today: Pound extends slide as dollar firms on hawkish Fed bets",
-      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-extends-slide-as-dollar-firms-on-hawkish-fed-bets-5028808"
     }
   ],
   "articles": [
