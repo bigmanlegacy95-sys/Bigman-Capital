@@ -1,124 +1,124 @@
 {
-  "updated": "2026-11-19T11:07+00:00",
-  "summary": "Global markets are primarily driven by hawkish signals from Federal Reserve officials and newly released minutes pointing to potential further rate hikes and worries over inflation impacts. Meanwhile, geopolitical attention is focused on high-level meetings between Trump, Xi, and Putin in China alongside massive developments in the tech sector, such as Anthropic's record-breaking IPO. The U.S. dollar has remained strong near multi-month peaks, overshadowing gains from other major currencies like the pound despite rising domestic inflation.",
+  "updated": "2026-11-19T19:57+00:00",
+  "summary": "Global foreign exchange markets are being heavily driven by broad U.S. dollar strength, which has pushed the dollar index to a 52-week high amid safe-haven demand and hawkish Federal Reserve minutes. Remarks from Fed officials, including Waller, have stoked expectations for potential further rate hikes or even aggressive policy tightening to combat sticky inflation. Meanwhile, geopolitical developments involving high-level meetings between global leaders in China and ongoing domestic economic pressures, such as rising UK inflation, are taking a backseat to overarching dollar momentum.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Weighed down by persistent dollar strength and hawkish Fed signals relative to the ECB."
+      "reason": "The euro remains under pressure as the dollar surges on hawkish Fed signals and safe-haven flows."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bearish",
-      "reason": "Sterling gains are being completely eclipsed by dominant U.S. rate expectations and dollar demand."
+      "reason": "Sterling continues to slide primarily due to relentless dollar strength rather than domestic weakness alone."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair maintains a clear uptrend supported by wide rate differentials and dollar resilience."
+      "reason": "The pair maintains an upward trajectory supported by strong dollar momentum and diverging rate expectations."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Caught between safe-haven support and strong headwinds from a towering greenback and elevated yields."
+      "reason": "Gold positioning remains robust, but intense dollar strength and hawkish rate views create a mixed environment."
     }
   ],
   "watch": [
-    "Fed rate hike probabilities and further central bank commentary",
-    "High-level geopolitical meetings between U.S., Chinese, and Russian leaders",
-    "U.S. and UK macroeconomic inflation prints",
-    "Major tech sector earnings and market performance like Anthropic and Nvidia"
+    "U.S. Federal Reserve policy signals and inflation commentary",
+    "Global geopolitical developments from APEC leader meetings",
+    "UK inflation and energy price updates",
+    "Major macroeconomic data releases impacting central bank rate paths"
   ],
-  "fundamentals": "Macro drivers are dominated by hawkish monetary policy expectations from the Federal Reserve, where officials are contemplating more aggressive tightening or even a half-point rate hike due to sticky inflation concerns. In the UK, inflation has risen to 3.6% and energy bills are climbing, yet sterling remains pressured because U.S. rate bets completely outweigh domestic catalysts. Geopolitical dynamics at the APEC meetings involving major world leaders are also framing broader risk sentiment.",
-  "technical_view": "EUR/USD sits in a clear downtrend near 1.0968 with an RSI of 36.7, reflecting persistent downward pressure. GBP/USD trades sideways around 1.3168 with an RSI of 37.8, while USD/JPY extends an uptrend at 159.42 with an RSI of 62.4, heading toward the 160.0 resistance level.",
-  "cot_view": "EUR positioning shows a substantial net short of 136,396 contracts, highlighting heavy bearish sentiment against the euro. GBP positioning similarly reflects a net short of 43,216 contracts. Gold maintains a very strong net long position of 190,107 contracts, demonstrating solid underlying investor demand despite short-term dollar strength.",
+  "fundamentals": "The macroeconomic landscape is currently dominated by a remarkably resilient U.S. dollar, backed by safe-haven demand and a distinctly hawkish Federal Reserve. FOMC minutes and commentary from officials point to persistent inflation concerns that could warrant further policy tightening or larger rate hikes. Concurrently, international economies face localized pressures, such as rising energy bills and inflation spikes in the UK, while high-level diplomatic meetings in China capture global attention without displacing the dominant USD narrative.",
+  "technical_view": "EUR/USD is in a confirmed downtrend trading near 1.0992 with an RSI of 34.7, approaching key support at 1.0968. GBP/USD is moving sideways near 1.3151 with a low RSI of 27.2, reflecting oversold conditions, while USD/JPY holds a strong uptrend near 159.97 with an elevated RSI of 76.1 approaching resistance at 160.0.",
+  "cot_view": "Commitments of Traders data shows leveraged accounts maintaining a large net-short position in EUR (-136,396 contracts) and GBP (-43,216 contracts), aligning with their respective downward price pressures. Conversely, market participants hold a strong net-long stance in the USD Index (138,3,net) and a massive net-long position in Gold (190,107 contracts), highlighting strong underlying safe-haven allocations.",
   "market": {
     "strength": {
       "1": {
-        "EUR": -0.08,
-        "GBP": -0.06,
-        "AUD": 0.06,
-        "NZD": 0.09,
-        "JPY": 0.04,
-        "CAD": 0.02,
-        "CHF": -0.19,
-        "USD": 0.11
+        "EUR": 0.22,
+        "GBP": -0.13,
+        "AUD": -0.3,
+        "NZD": 0.52,
+        "JPY": -0.35,
+        "CAD": 0.03,
+        "CHF": 0.01,
+        "USD": -0.0
       },
       "5": {
-        "EUR": -0.43,
-        "GBP": -0.04,
-        "AUD": -0.86,
-        "NZD": -0.54,
-        "JPY": 0.88,
-        "CAD": 0.51,
-        "CHF": -0.52,
-        "USD": 1.0
+        "EUR": -0.13,
+        "GBP": -0.11,
+        "AUD": -0.93,
+        "NZD": 0.13,
+        "JPY": 0.5,
+        "CAD": 0.32,
+        "CHF": -0.45,
+        "USD": 0.67
       },
       "20": {
-        "EUR": -0.26,
-        "GBP": 0.36,
+        "EUR": 0.19,
+        "GBP": 0.41,
         "AUD": -2.2,
-        "NZD": -1.32,
-        "JPY": 1.14,
-        "CAD": 0.29,
-        "CHF": -0.12,
-        "USD": 2.11
+        "NZD": -0.63,
+        "JPY": 0.26,
+        "CAD": 0.23,
+        "CHF": -0.35,
+        "USD": 2.09
       }
     },
     "technical": [
       {
         "pair": "EUR/USD",
-        "price": 1.0968,
+        "price": 1.0992,
         "trend": "Downtrend",
-        "rsi": 36.7,
+        "rsi": 34.7,
         "support": 1.0968,
         "resistance": 1.1267
       },
       {
         "pair": "GBP/USD",
-        "price": 1.31685,
+        "price": 1.31513,
         "trend": "Sideways",
-        "rsi": 37.8,
-        "support": 1.31685,
+        "rsi": 27.2,
+        "support": 1.31513,
         "resistance": 1.34998
       },
       {
         "pair": "USD/JPY",
-        "price": 159.42,
+        "price": 159.97,
         "trend": "Uptrend",
-        "rsi": 62.4,
+        "rsi": 76.1,
         "support": 156.8,
         "resistance": 160.0
       },
       {
         "pair": "AUD/USD",
-        "price": 0.67313,
+        "price": 0.67114,
         "trend": "Downtrend",
-        "rsi": 15.2,
-        "support": 0.67313,
+        "rsi": 14.5,
+        "support": 0.67114,
         "resistance": 0.70328
       },
       {
         "pair": "USD/CAD",
-        "price": 1.4305,
+        "price": 1.43,
         "trend": "Sideways",
-        "rsi": 84.9,
+        "rsi": 89.3,
         "support": 1.3935,
         "resistance": 1.4305
       },
       {
         "pair": "USD/CHF",
-        "price": 0.84272,
+        "price": 0.84261,
         "trend": "Uptrend",
-        "rsi": 67.1,
+        "rsi": 77.5,
         "support": 0.81548,
         "resistance": 0.84272
       },
       {
         "pair": "NZD/USD",
-        "price": 0.54975,
+        "price": 0.55264,
         "trend": "Downtrend",
-        "rsi": 33.1,
+        "rsi": 34.8,
         "support": 0.54975,
         "resistance": 0.57029
       }
@@ -210,6 +210,31 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Offshore yuan dip looks like a liquidity blip, not a trend shift",
+      "link": "https://www.investing.com/news/forex-news/offshore-yuan-dip-looks-like-a-liquidity-blip-not-a-trend-shift-93CH-5039801"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Dollar index hits 52-week high, driven by haven demand and rate expectations",
+      "link": "https://www.investing.com/news/forex-news/dollar-index-hits-52week-high-driven-by-haven-demand-and-rate-expectations-93CH-5039556"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Brazilian real near 52-week lows as fiscal concerns weigh on currency",
+      "link": "https://www.investing.com/news/forex-news/brazilian-real-near-52week-lows-as-fiscal-concerns-weigh-on-currency-93CH-5039497"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Mexican peso falls to 52-week low as Banxico-Fed rate gap narrows",
+      "link": "https://www.investing.com/news/forex-news/mexican-peso-falls-to-52week-low-as-banxicofed-rate-gap-narrows-93CH-5039488"
+    },
+    {
+      "source": "Investing.com",
+      "title": "The AI boom is keeping the dollar strong: What comes next in 2027?",
+      "link": "https://www.investing.com/news/forex-news/the-ai-boom-is-keeping-the-dollar-strong-what-comes-next-in-2027-5038464"
+    },
+    {
+      "source": "Investing.com",
       "title": "Dollar idles near 19-month peak on hawkish Fed minutes",
       "link": "https://www.investing.com/news/forex-news/dollar-hits-fresh-19mth-peak-on-hawkish-fed-aussie-slides-after-weak-jobs-data-5037703"
     },
@@ -222,31 +247,6 @@
       "source": "Investing.com",
       "title": "Euro yields idle near 1-month peaks on hawkish Fed and ECB rhetoric trap",
       "link": "https://www.investing.com/news/forex-news/euro-yields-idle-near-1month-peaks-on-hawkish-fed-and-ecb-rhetoric-trap-5037883"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar pinned at 19-month high amid hawkish signals from Fed’s Waller, minutes",
-      "link": "https://www.investing.com/news/forex-news/asia-fx-subdued-as-dollar-holds-near-19mth-high-on-fed-hike-bets-5034711"
-    },
-    {
-      "source": "Investing.com",
-      "title": "GBP/USD slide driven by dollar strength, not sterling weakness",
-      "link": "https://www.investing.com/news/forex-news/gbpusd-slide-driven-by-dollar-strength-not-sterling-weakness-93CH-5036710"
-    },
-    {
-      "source": "Investing.com",
-      "title": "After $6.3 billion crypto heist, Binance plans Asia expansion",
-      "link": "https://www.investing.com/news/forex-news/after-63-billion-crypto-heist-binance-plans-foray-into-5-asian-markets-5034971"
-    },
-    {
-      "source": "Investing.com",
-      "title": "U.S. Treasury yields retreat to near one-week lows ahead of Fed minutes",
-      "link": "https://www.investing.com/news/forex-news/euro-yields-anchor-near-1month-highs-as-traders-brace-for-sticky-inflation-print-5034892"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Sterling today: Pound slips as U.S. rate bets outweigh UK CPI rise to 3.6%",
-      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-as-us-rate-bets-outweigh-uk-cpi-rise-to-36-5035366"
     }
   ],
   "articles": [
