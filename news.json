@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-19T02:15+00:00",
-  "summary": "Global markets are reacting to hawkish signals from Federal Reserve officials, including Waller hinting at potential half-point rate hikes to combat persistent inflation pressures. Meanwhile, a high-profile diplomatic gathering involving leaders Trump, Xi, and Putin at the APEC summit is drawing attention alongside rising UK inflation and energy bill forecasts. The US dollar continues to maintain strong overall momentum despite slight intraday dips from multi-month highs.",
+  "updated": "2026-11-19T11:07+00:00",
+  "summary": "Global markets are primarily driven by hawkish signals from Federal Reserve officials and newly released minutes pointing to potential further rate hikes and worries over inflation impacts. Meanwhile, geopolitical attention is focused on high-level meetings between Trump, Xi, and Putin in China alongside massive developments in the tech sector, such as Anthropic's record-breaking IPO. The U.S. dollar has remained strong near multi-month peaks, overshadowing gains from other major currencies like the pound despite rising domestic inflation.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Hawkish Fed signals and US dollar strength keep the pair under persistent downtrend pressure."
+      "reason": "Weighed down by persistent dollar strength and hawkish Fed signals relative to the ECB."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bearish",
-      "reason": "Upward UK inflation is overshadowed by stronger US rate bets, weighing heavily on the pound."
+      "reason": "Sterling gains are being completely eclipsed by dominant U.S. rate expectations and dollar demand."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Firming US Treasury yields and resilient dollar demand support ongoing upside momentum."
+      "reason": "The pair maintains a clear uptrend supported by wide rate differentials and dollar resilience."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Gold faces crosscurrents from a robust US dollar and fluctuating macroeconomic sentiment."
+      "reason": "Caught between safe-haven support and strong headwinds from a towering greenback and elevated yields."
     }
   ],
   "watch": [
-    "Trilateral meeting between Trump, Xi, and Putin at APEC",
-    "US Treasury yield movements",
-    "Further Federal Reserve commentary on rate trajectories",
-    "Global inflation and energy price updates"
+    "Fed rate hike probabilities and further central bank commentary",
+    "High-level geopolitical meetings between U.S., Chinese, and Russian leaders",
+    "U.S. and UK macroeconomic inflation prints",
+    "Major tech sector earnings and market performance like Anthropic and Nvidia"
   ],
-  "fundamentals": "The macroeconomic landscape is heavily influenced by Federal Reserve communications indicating that sticky inflation might require more aggressive monetary tightening, including potential half-point hikes. This hawkish shift has bolstered US Treasury yields and sustained demand for the greenback. Concurrently, regional pressures such as rising UK inflation and upcoming energy price hikes contrast with geopolitical developments at the APEC summit where major world leaders are convening.",
-  "technical_view": "EUR/USD sits in a clear downtrend with an RSI of 36.7 hovering near crucial support. USD/JPY maintains an uptrend with an RSI of 62.4, pressing toward the 160.0 resistance boundary.",
-  "cot_view": "The Commitments of Traders data shows EUR and GBP holding significant net-short positions, reinforcing the bearish bias against a net-long US Dollar Index. Gold maintains a strong net-long positioning of over 190,000 contracts despite recent dollar strength.",
+  "fundamentals": "Macro drivers are dominated by hawkish monetary policy expectations from the Federal Reserve, where officials are contemplating more aggressive tightening or even a half-point rate hike due to sticky inflation concerns. In the UK, inflation has risen to 3.6% and energy bills are climbing, yet sterling remains pressured because U.S. rate bets completely outweigh domestic catalysts. Geopolitical dynamics at the APEC meetings involving major world leaders are also framing broader risk sentiment.",
+  "technical_view": "EUR/USD sits in a clear downtrend near 1.0968 with an RSI of 36.7, reflecting persistent downward pressure. GBP/USD trades sideways around 1.3168 with an RSI of 37.8, while USD/JPY extends an uptrend at 159.42 with an RSI of 62.4, heading toward the 160.0 resistance level.",
+  "cot_view": "EUR positioning shows a substantial net short of 136,396 contracts, highlighting heavy bearish sentiment against the euro. GBP positioning similarly reflects a net short of 43,216 contracts. Gold maintains a very strong net long position of 190,107 contracts, demonstrating solid underlying investor demand despite short-term dollar strength.",
   "market": {
     "strength": {
       "1": {
@@ -205,25 +205,24 @@
         "change": 10559,
         "pct_long": 86.2
       }
-    ],
-    "calendar": [
-      {
-        "date": "2026-11-19T00:30+00:00",
-        "country": "AUD",
-        "title": "Employment Change",
-        "forecast": "25.5K",
-        "previous": "-39.3K"
-      },
-      {
-        "date": "2026-11-19T00:30+00:00",
-        "country": "AUD",
-        "title": "Unemployment Rate",
-        "forecast": "4.7%",
-        "previous": "4.7%"
-      }
     ]
   },
   "headlines": [
+    {
+      "source": "Investing.com",
+      "title": "Dollar idles near 19-month peak on hawkish Fed minutes",
+      "link": "https://www.investing.com/news/forex-news/dollar-hits-fresh-19mth-peak-on-hawkish-fed-aussie-slides-after-weak-jobs-data-5037703"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Sterling today: Pound flat as dollar holds firm; UK Gen Z confidence slumps",
+      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-flat-as-dollar-holds-firm-uk-gen-z-confidence-slumps-5038221"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Euro yields idle near 1-month peaks on hawkish Fed and ECB rhetoric trap",
+      "link": "https://www.investing.com/news/forex-news/euro-yields-idle-near-1month-peaks-on-hawkish-fed-and-ecb-rhetoric-trap-5037883"
+    },
     {
       "source": "Investing.com",
       "title": "Dollar pinned at 19-month high amid hawkish signals from Fed’s Waller, minutes",
@@ -248,21 +247,6 @@
       "source": "Investing.com",
       "title": "Sterling today: Pound slips as U.S. rate bets outweigh UK CPI rise to 3.6%",
       "link": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-as-us-rate-bets-outweigh-uk-cpi-rise-to-36-5035366"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Canada adjusts China ties, Carney says, aiming to clinch right deal with US",
-      "link": "https://www.investing.com/news/forex-news/canada-adjusts-china-ties-carney-says-aiming-to-clinch-right-deal-with-us-5035098"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar finally dips after fresh 19-month peak, set to snap five-day win streak",
-      "link": "https://www.investing.com/news/forex-news/asia-fx-subdued-as-dollar-hits-19mth-peak-on-fed-tightening-bets-5031600"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Canada and China extend trade deals as Xi meets Carney ahead of APEC summit",
-      "link": "https://www.investing.com/news/forex-news/canada-and-china-extend-trade-deals-as-xi-meets-carney-ahead-of-apec-summit-5031875"
     }
   ],
   "articles": [
