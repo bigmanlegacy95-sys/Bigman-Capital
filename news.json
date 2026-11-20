@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-20T02:00+00:00",
-  "summary": "Global foreign exchange markets are being heavily driven by a resurgent U.S. dollar, which has hit multi-month highs following hawkish signals from Federal Reserve officials and meeting minutes. Policymakers like Waller have raised the possibility of aggressive rate hikes, driven by ongoing inflation concerns and the broader macroeconomic impacts of the AI boom. Meanwhile, international geopolitics take center stage as leaders including Trump, Xi, and Putin gather for high-profile meetings in China.",
+  "updated": "2026-11-20T10:54+00:00",
+  "summary": "Global markets are reacting to a surge in safe-haven demand and shifting Federal Reserve expectations, driven by rising inflation concerns and global geopolitical meetings between U.S., Chinese, and Russian leaders. The U.S. dollar is sitting near a 19-month peak as Fed officials hint at potential aggressive rate hikes, while falling bond yields and an AI stock rout prompt a flight to safety. Meanwhile, local data highlights include a Japanese CPI jump bolstering the Yen and a retail sales beat supporting the British pound.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Hawkish Fed rhetoric and robust dollar strength continue to pressure the euro."
+      "reason": "Persistent dollar strength and flagged euro downside keep the pair under heavy pressure."
     },
     {
       "pair": "GBP/USD",
-      "bias": "Bearish",
-      "reason": "The pair slides primarily due to broad-based greenback momentum rather than domestic factors."
+      "bias": "Neutral",
+      "reason": "A UK retail sales beat offers slight support, but broader dollar dominance caps significant upside."
     },
     {
       "pair": "USD/JPY",
-      "bias": "Bullish",
-      "reason": "Persistent interest rate differentials and dollar dominance keep the pair pressing higher near resistance."
+      "bias": "Bearish",
+      "reason": "Hot Japanese inflation data has driven a notable jump in the Yen, challenging the dollar's momentum."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Neutral",
-      "reason": "Gold faces crosswinds from surging rate hike expectations countering safe-haven demand."
+      "bias": "Bullish",
+      "reason": "Broad market risk aversion and a flight to safety amid an AI rout and geopolitical meetings provide strong backing for gold."
     }
   ],
   "watch": [
-    "U.S. Federal Reserve commentary and inflation data releases",
-    "Trilateral meetings between Trump, Xi, and Putin in China",
-    "Global developments surrounding AI industry regulations and probes",
-    "Key geopolitical headlines and trade updates"
+    "Federal Reserve rate hike expectations and commentary",
+    "U.S. and China geopolitical developments following APEC meetings",
+    "Global bond yield movements and safe-haven flows",
+    "Upcoming inflation and consumer data releases"
   ],
-  "fundamentals": "The macroeconomic landscape is currently dominated by shifting monetary policy expectations in the United States, where sticky inflation and strong economic productivity tied to the AI sector are prompting Federal Reserve officials to signal potential rate hikes. This hawkish shift has driven the U.S. dollar index to multi-month highs, placing heavy depreciation pressure on major peers like the euro and British pound. Concurrently, high-level diplomatic meetings involving the U.S., China, and Russia at the APEC gathering introduce geopolitical crosswinds that could influence risk sentiment across global markets.",
-  "technical_view": "EUR/USD sits in a downtrend near support at 1.0968 with an RSI of 34.7, while USD/JPY holds an uptrend approaching key resistance at 160.0 with an overbought RSI of 76.1. GBP/USD trades sideways with an oversold RSI of 27.2, reflecting persistent downside momentum driven by the broader currency market.",
-  "cot_view": "Commitments of Traders data shows net short positioning persisting for EUR (-136,396) and GBP (-43,216), highlighting institutional favor toward the U.S. dollar. Conversely, JPY maintains a net long position of 123,113 contracts, and Gold retains a robust net long standing of 190,107 contracts despite recent dollar strength.",
+  "fundamentals": "Macro drivers are dominated by rising inflation fears and shifting monetary policy expectations, with Federal Reserve officials indicating that sticky price pressures might require more aggressive rate adjustments. Concurrently, a flight to safety triggered by global equity volatility and high-profile geopolitical summits in China are bolstering safe-haven assets. Currency performance diverges based on local central bank stances and domestic data resilience, such as recent retail beats in the UK and hot inflation readings in Japan.",
+  "technical_view": "EUR/USD sits in a downtrend near support at 1.0968 with an RSI of 34.7, while GBP/USD trades sideways near 1.3151 with an oversold RSI of 27.2. USD/JPY maintains an uptrend near 159.97, though its high RSI of 76.1 signals potential overextension.",
+  "cot_view": "Commitments of Traders data shows net short positions dominating EUR (-136,396) and GBP (-43,216), reflecting persistent structural weakness against the USD. Conversely, JPY maintains a substantial net long position of 123,113 contracts, and Gold retains an overwhelmingly bullish net long posture of 190,107 contracts.",
   "market": {
     "strength": {
       "1": {
@@ -210,6 +210,31 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "UBS flags further euro downside as dollar strength keeps EUR/USD under pressure",
+      "link": "https://www.investing.com/news/forex-news/ubs-flags-further-euro-downside-as-dollar-strength-keeps-eurusd-under-pressure-5041144"
+    },
+    {
+      "source": "Investing.com",
+      "title": "UBS sees sterling rebound later in 2027 as Fed rate cuts approach",
+      "link": "https://www.investing.com/news/forex-news/ubs-sees-sterling-rebound-later-in-2027-as-fed-rate-cuts-approach-5041141"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Global bond yields plunge as AI rout triggers flight to safety",
+      "link": "https://www.investing.com/news/forex-news/global-bond-yields-plunge-as-ai-rout-triggers-flight-to-safety-5040733"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Dollar takes a breather near 19-month peak; Yen jumps on hot CPI",
+      "link": "https://www.investing.com/news/forex-news/asia-fx-struggles-as-dollar-holds-near-19mth-high-aussie-hits-11month-low-5040667"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Sterling today: Pound edges up on UK retail beat, dollar caps gains",
+      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-edges-up-on-uk-retail-beat-dollar-caps-gains-5041015"
+    },
+    {
+      "source": "Investing.com",
       "title": "Dollar sits at over 19-month high on surge in Fed rate hike expectations",
       "link": "https://www.investing.com/news/forex-news/dollar-hits-fresh-19mth-peak-on-hawkish-fed-aussie-slides-after-weak-jobs-data-5037703"
     },
@@ -222,31 +247,6 @@
       "source": "Investing.com",
       "title": "Dollar index hits 52-week high, driven by haven demand and rate expectations",
       "link": "https://www.investing.com/news/forex-news/dollar-index-hits-52week-high-driven-by-haven-demand-and-rate-expectations-93CH-5039556"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Brazilian real near 52-week lows as fiscal concerns weigh on currency",
-      "link": "https://www.investing.com/news/forex-news/brazilian-real-near-52week-lows-as-fiscal-concerns-weigh-on-currency-93CH-5039497"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Mexican peso falls to 52-week low as Banxico-Fed rate gap narrows",
-      "link": "https://www.investing.com/news/forex-news/mexican-peso-falls-to-52week-low-as-banxicofed-rate-gap-narrows-93CH-5039488"
-    },
-    {
-      "source": "Investing.com",
-      "title": "The AI boom is keeping the dollar strong: What comes next in 2027?",
-      "link": "https://www.investing.com/news/forex-news/the-ai-boom-is-keeping-the-dollar-strong-what-comes-next-in-2027-5038464"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Sterling today: Pound flat as dollar holds firm; UK Gen Z confidence slumps",
-      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-flat-as-dollar-holds-firm-uk-gen-z-confidence-slumps-5038221"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Euro yields idle near 1-month peaks on hawkish Fed and ECB rhetoric trap",
-      "link": "https://www.investing.com/news/forex-news/euro-yields-idle-near-1month-peaks-on-hawkish-fed-and-ecb-rhetoric-trap-5037883"
     }
   ],
   "articles": [
