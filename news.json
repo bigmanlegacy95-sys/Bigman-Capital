@@ -1,124 +1,124 @@
 {
-  "updated": "2026-11-20T10:54+00:00",
-  "summary": "Global markets are reacting to a surge in safe-haven demand and shifting Federal Reserve expectations, driven by rising inflation concerns and global geopolitical meetings between U.S., Chinese, and Russian leaders. The U.S. dollar is sitting near a 19-month peak as Fed officials hint at potential aggressive rate hikes, while falling bond yields and an AI stock rout prompt a flight to safety. Meanwhile, local data highlights include a Japanese CPI jump bolstering the Yen and a retail sales beat supporting the British pound.",
+  "updated": "2026-11-20T19:37+00:00",
+  "summary": "Global markets are being driven by a surge in US dollar strength, fueled by rising Federal Reserve rate hike expectations and safe-haven demand triggered by a broader tech sector sell-off and AI equity rout. Meanwhile, geopolitical developments involving high-profile meetings between US, Chinese, and Russian leaders are keeping investors cautious. Regional data shows the Japanese Yen jumping on hot CPI figures, while sterling edges up following a UK retail sales beat.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Persistent dollar strength and flagged euro downside keep the pair under heavy pressure."
+      "reason": "Persistent dollar strength and downward pressure keep the pair in a clear downtrend."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "A UK retail sales beat offers slight support, but broader dollar dominance caps significant upside."
+      "reason": "Sideways technical momentum persists as UK retail data offsets broader greenback gains."
     },
     {
       "pair": "USD/JPY",
-      "bias": "Bearish",
-      "reason": "Hot Japanese inflation data has driven a notable jump in the Yen, challenging the dollar's momentum."
+      "bias": "Bullish",
+      "reason": "The pair maintains an overall uptrend supported by interest rate expectations, despite recent Japanese inflation data."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Bullish",
-      "reason": "Broad market risk aversion and a flight to safety amid an AI rout and geopolitical meetings provide strong backing for gold."
+      "bias": "Neutral",
+      "reason": "Strong safe-haven demand competes with broad dollar strength amid flight-to-safety dynamics."
     }
   ],
   "watch": [
-    "Federal Reserve rate hike expectations and commentary",
-    "U.S. and China geopolitical developments following APEC meetings",
-    "Global bond yield movements and safe-haven flows",
-    "Upcoming inflation and consumer data releases"
+    "US Federal Reserve rate expectations and commentary",
+    "Global tech sector performance and AI stock trends",
+    "Japanese inflation and monetary policy updates",
+    "Geopolitical developments from US-China-Russia meetings"
   ],
-  "fundamentals": "Macro drivers are dominated by rising inflation fears and shifting monetary policy expectations, with Federal Reserve officials indicating that sticky price pressures might require more aggressive rate adjustments. Concurrently, a flight to safety triggered by global equity volatility and high-profile geopolitical summits in China are bolstering safe-haven assets. Currency performance diverges based on local central bank stances and domestic data resilience, such as recent retail beats in the UK and hot inflation readings in Japan.",
-  "technical_view": "EUR/USD sits in a downtrend near support at 1.0968 with an RSI of 34.7, while GBP/USD trades sideways near 1.3151 with an oversold RSI of 27.2. USD/JPY maintains an uptrend near 159.97, though its high RSI of 76.1 signals potential overextension.",
-  "cot_view": "Commitments of Traders data shows net short positions dominating EUR (-136,396) and GBP (-43,216), reflecting persistent structural weakness against the USD. Conversely, JPY maintains a substantial net long position of 123,113 contracts, and Gold retains an overwhelmingly bullish net long posture of 190,107 contracts.",
+  "fundamentals": "Macro drivers are heavily influenced by shifting Federal Reserve expectations, with officials debating potential rate hikes or aggressive moves to counter sticky inflation amid concerns over the economic impact of the AI sector. A global flight to safety, triggered by plunging bond yields and a sharp equity sell-off in technology stocks, has provided strong tailwinds for the US dollar. Geopolitical tensions and trade dynamics involving the US, China, and Russia are adding further layers of uncertainty to international capital flows.",
+  "technical_view": "EUR/USD sits in a downtrend near 1.099 with an oversold RSI of 29.4, testing immediate support at 1.0968. GBP/USD moves sideways at 1.31247 with a depressed RSI of 23.1, while USD/JPY continues an uptrend trading at 158.64 with an RSI of 56.3.",
+  "cot_view": "Commitments of Traders data shows net short positioning remains heavy for EUR (-136,396 contracts) and GBP (-43,216 contracts), reflecting prevailing bearish sentiment. Conversely, JPY maintains a net long position of 123,113 contracts, and Gold retains a substantial net long stance of 190,107 contracts.",
   "market": {
     "strength": {
       "1": {
-        "EUR": 0.22,
-        "GBP": -0.13,
-        "AUD": -0.3,
-        "NZD": 0.52,
-        "JPY": -0.35,
-        "CAD": 0.03,
-        "CHF": 0.01,
-        "USD": -0.0
+        "EUR": -0.0,
+        "GBP": -0.19,
+        "AUD": -0.67,
+        "NZD": -0.39,
+        "JPY": 0.85,
+        "CAD": -0.03,
+        "CHF": 0.42,
+        "USD": 0.01
       },
       "5": {
-        "EUR": -0.13,
-        "GBP": -0.11,
-        "AUD": -0.93,
-        "NZD": 0.13,
-        "JPY": 0.5,
-        "CAD": 0.32,
-        "CHF": -0.45,
-        "USD": 0.67
+        "EUR": -0.16,
+        "GBP": -0.37,
+        "AUD": -1.36,
+        "NZD": -0.11,
+        "JPY": 1.26,
+        "CAD": 0.06,
+        "CHF": 0.3,
+        "USD": 0.4
       },
       "20": {
-        "EUR": 0.19,
-        "GBP": 0.41,
-        "AUD": -2.2,
-        "NZD": -0.63,
-        "JPY": 0.26,
-        "CAD": 0.23,
-        "CHF": -0.35,
-        "USD": 2.09
+        "EUR": 0.32,
+        "GBP": 0.31,
+        "AUD": -2.95,
+        "NZD": -1.09,
+        "JPY": 0.97,
+        "CAD": -0.05,
+        "CHF": 0.36,
+        "USD": 2.13
       }
     },
     "technical": [
       {
         "pair": "EUR/USD",
-        "price": 1.0992,
+        "price": 1.099,
         "trend": "Downtrend",
-        "rsi": 34.7,
+        "rsi": 29.4,
         "support": 1.0968,
         "resistance": 1.1267
       },
       {
         "pair": "GBP/USD",
-        "price": 1.31513,
+        "price": 1.31247,
         "trend": "Sideways",
-        "rsi": 27.2,
-        "support": 1.31513,
+        "rsi": 23.1,
+        "support": 1.31247,
         "resistance": 1.34998
       },
       {
         "pair": "USD/JPY",
-        "price": 159.97,
+        "price": 158.64,
         "trend": "Uptrend",
-        "rsi": 76.1,
-        "support": 156.8,
+        "rsi": 56.3,
+        "support": 157.25,
         "resistance": 160.0
       },
       {
         "pair": "AUD/USD",
-        "price": 0.67114,
+        "price": 0.66658,
         "trend": "Downtrend",
-        "rsi": 14.5,
-        "support": 0.67114,
+        "rsi": 13.6,
+        "support": 0.66658,
         "resistance": 0.70328
       },
       {
         "pair": "USD/CAD",
-        "price": 1.43,
+        "price": 1.4307,
         "trend": "Sideways",
-        "rsi": 89.3,
+        "rsi": 89.4,
         "support": 1.3935,
-        "resistance": 1.4305
+        "resistance": 1.4307
       },
       {
         "pair": "USD/CHF",
-        "price": 0.84261,
+        "price": 0.83922,
         "trend": "Uptrend",
-        "rsi": 77.5,
+        "rsi": 77.3,
         "support": 0.81548,
         "resistance": 0.84272
       },
       {
         "pair": "NZD/USD",
-        "price": 0.55264,
+        "price": 0.55039,
         "trend": "Downtrend",
-        "rsi": 34.8,
+        "rsi": 33.6,
         "support": 0.54975,
         "resistance": 0.57029
       }
