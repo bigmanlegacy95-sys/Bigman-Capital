@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-19T19:57+00:00",
-  "summary": "Global foreign exchange markets are being heavily driven by broad U.S. dollar strength, which has pushed the dollar index to a 52-week high amid safe-haven demand and hawkish Federal Reserve minutes. Remarks from Fed officials, including Waller, have stoked expectations for potential further rate hikes or even aggressive policy tightening to combat sticky inflation. Meanwhile, geopolitical developments involving high-level meetings between global leaders in China and ongoing domestic economic pressures, such as rising UK inflation, are taking a backseat to overarching dollar momentum.",
+  "updated": "2026-11-20T02:00+00:00",
+  "summary": "Global foreign exchange markets are being heavily driven by a resurgent U.S. dollar, which has hit multi-month highs following hawkish signals from Federal Reserve officials and meeting minutes. Policymakers like Waller have raised the possibility of aggressive rate hikes, driven by ongoing inflation concerns and the broader macroeconomic impacts of the AI boom. Meanwhile, international geopolitics take center stage as leaders including Trump, Xi, and Putin gather for high-profile meetings in China.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The euro remains under pressure as the dollar surges on hawkish Fed signals and safe-haven flows."
+      "reason": "Hawkish Fed rhetoric and robust dollar strength continue to pressure the euro."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bearish",
-      "reason": "Sterling continues to slide primarily due to relentless dollar strength rather than domestic weakness alone."
+      "reason": "The pair slides primarily due to broad-based greenback momentum rather than domestic factors."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair maintains an upward trajectory supported by strong dollar momentum and diverging rate expectations."
+      "reason": "Persistent interest rate differentials and dollar dominance keep the pair pressing higher near resistance."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Gold positioning remains robust, but intense dollar strength and hawkish rate views create a mixed environment."
+      "reason": "Gold faces crosswinds from surging rate hike expectations countering safe-haven demand."
     }
   ],
   "watch": [
-    "U.S. Federal Reserve policy signals and inflation commentary",
-    "Global geopolitical developments from APEC leader meetings",
-    "UK inflation and energy price updates",
-    "Major macroeconomic data releases impacting central bank rate paths"
+    "U.S. Federal Reserve commentary and inflation data releases",
+    "Trilateral meetings between Trump, Xi, and Putin in China",
+    "Global developments surrounding AI industry regulations and probes",
+    "Key geopolitical headlines and trade updates"
   ],
-  "fundamentals": "The macroeconomic landscape is currently dominated by a remarkably resilient U.S. dollar, backed by safe-haven demand and a distinctly hawkish Federal Reserve. FOMC minutes and commentary from officials point to persistent inflation concerns that could warrant further policy tightening or larger rate hikes. Concurrently, international economies face localized pressures, such as rising energy bills and inflation spikes in the UK, while high-level diplomatic meetings in China capture global attention without displacing the dominant USD narrative.",
-  "technical_view": "EUR/USD is in a confirmed downtrend trading near 1.0992 with an RSI of 34.7, approaching key support at 1.0968. GBP/USD is moving sideways near 1.3151 with a low RSI of 27.2, reflecting oversold conditions, while USD/JPY holds a strong uptrend near 159.97 with an elevated RSI of 76.1 approaching resistance at 160.0.",
-  "cot_view": "Commitments of Traders data shows leveraged accounts maintaining a large net-short position in EUR (-136,396 contracts) and GBP (-43,216 contracts), aligning with their respective downward price pressures. Conversely, market participants hold a strong net-long stance in the USD Index (138,3,net) and a massive net-long position in Gold (190,107 contracts), highlighting strong underlying safe-haven allocations.",
+  "fundamentals": "The macroeconomic landscape is currently dominated by shifting monetary policy expectations in the United States, where sticky inflation and strong economic productivity tied to the AI sector are prompting Federal Reserve officials to signal potential rate hikes. This hawkish shift has driven the U.S. dollar index to multi-month highs, placing heavy depreciation pressure on major peers like the euro and British pound. Concurrently, high-level diplomatic meetings involving the U.S., China, and Russia at the APEC gathering introduce geopolitical crosswinds that could influence risk sentiment across global markets.",
+  "technical_view": "EUR/USD sits in a downtrend near support at 1.0968 with an RSI of 34.7, while USD/JPY holds an uptrend approaching key resistance at 160.0 with an overbought RSI of 76.1. GBP/USD trades sideways with an oversold RSI of 27.2, reflecting persistent downside momentum driven by the broader currency market.",
+  "cot_view": "Commitments of Traders data shows net short positioning persisting for EUR (-136,396) and GBP (-43,216), highlighting institutional favor toward the U.S. dollar. Conversely, JPY maintains a net long position of 123,113 contracts, and Gold retains a robust net long standing of 190,107 contracts despite recent dollar strength.",
   "market": {
     "strength": {
       "1": {
@@ -210,6 +210,11 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Dollar sits at over 19-month high on surge in Fed rate hike expectations",
+      "link": "https://www.investing.com/news/forex-news/dollar-hits-fresh-19mth-peak-on-hawkish-fed-aussie-slides-after-weak-jobs-data-5037703"
+    },
+    {
+      "source": "Investing.com",
       "title": "Offshore yuan dip looks like a liquidity blip, not a trend shift",
       "link": "https://www.investing.com/news/forex-news/offshore-yuan-dip-looks-like-a-liquidity-blip-not-a-trend-shift-93CH-5039801"
     },
@@ -235,11 +240,6 @@
     },
     {
       "source": "Investing.com",
-      "title": "Dollar idles near 19-month peak on hawkish Fed minutes",
-      "link": "https://www.investing.com/news/forex-news/dollar-hits-fresh-19mth-peak-on-hawkish-fed-aussie-slides-after-weak-jobs-data-5037703"
-    },
-    {
-      "source": "Investing.com",
       "title": "Sterling today: Pound flat as dollar holds firm; UK Gen Z confidence slumps",
       "link": "https://www.investing.com/news/forex-news/sterling-today-pound-flat-as-dollar-holds-firm-uk-gen-z-confidence-slumps-5038221"
     },
@@ -250,6 +250,29 @@
     }
   ],
   "articles": [
+    {
+      "date": "2026-11-20",
+      "title": "Dollar Soars to 19-Month Highs Amid Hawkish Fed Expectations and Haven Demand",
+      "intro": "The US dollar sits at a 19-month high, driven by a surge in Federal Reserve rate hike expectations and safe-haven demand. Meanwhile, emerging market currencies face heavy selling pressure as global yield dynamics shift.",
+      "sections": [
+        {
+          "h": "Market mood",
+          "p": "Risk sentiment remains cautious as hawkish signals from the Federal Reserve dominate currency markets. The dollar index has printed a 52-week high, while European yields idle near one-month peaks due to hawkish Fed and ECB rhetoric traps. Across emerging markets, the Brazilian real trades near 52-week lows on fiscal concerns, and the Mexican peso has also slipped to a 52-week low as the Banxico-Fed rate gap narrows."
+        },
+        {
+          "h": "Key drivers",
+          "p": "Persistent greenback strength is the primary engine across asset classes today. Hawkish commentary from Fed officials, supported by recent meeting minutes, has fueled expectations for tighter monetary policy and sustained safe-haven demand linked in part to the broader AI boom narrative. Sterling remains flat, with GBP/USD sliding entirely due to broader dollar strength rather than domestic weakness. Elsewhere, the offshore yuan dip is viewed by analysts as a temporary liquidity blip rather than a fundamental trend shift."
+        },
+        {
+          "h": "Technical and positioning",
+          "p": "Technical indicators reflect strong greenback momentum and oversold conditions in select counterparts. USD/JPY trades in an uptrend at 159.97 with an RSI of 76.1, nearing resistance at 160.0. USD/CAD sits at 1.43 with an overbought RSI of 89.3. Conversely, AUD/USD shows extreme downside momentum with an RSI of 14.5 at 0.67114. Commitment of Traders data shows USD Index net longs at 13,813 with 62.4% long positioning, while Gold maintains strong net long positioning at 190,107."
+        },
+        {
+          "h": "What to watch next",
+          "p": "Traders should monitor key technical boundaries, particularly USD/JPY near the 160.0 resistance level and EUR/USD support at 1.0968. Further commentary from central bank officials will be crucial for gauging whether rate hike expectations will continue to underpin the dollar index or if current overbought conditions on pairs like USD/CAD and USD/CHF prompt a consolidation phase."
+        }
+      ]
+    },
     {
       "date": "2026-11-19",
       "title": "Daily Forex Brief: Dollar Pinned Near 19-Month Highs Amid Hawkish Signals",
