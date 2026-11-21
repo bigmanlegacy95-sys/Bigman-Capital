@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-20T19:37+00:00",
-  "summary": "Global markets are being driven by a surge in US dollar strength, fueled by rising Federal Reserve rate hike expectations and safe-haven demand triggered by a broader tech sector sell-off and AI equity rout. Meanwhile, geopolitical developments involving high-profile meetings between US, Chinese, and Russian leaders are keeping investors cautious. Regional data shows the Japanese Yen jumping on hot CPI figures, while sterling edges up following a UK retail sales beat.",
+  "updated": "2026-11-21T01:57+00:00",
+  "summary": "Global markets are currently navigating a significant tech stock sell-off and AI market correction, which has prompted safe-haven demand and driven the U.S. dollar to multi-month highs. Meanwhile, Federal Reserve officials have signaled potential aggressive rate hikes and worried about inflation persistence, contrasting with steady global economic developments like UK retail sales beats and ongoing international trade discussions. As traders flee risk assets, traditional safe havens and the greenback are experiencing heightened volatility.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Persistent dollar strength and downward pressure keep the pair in a clear downtrend."
+      "reason": "Persistent dollar strength and technical breakdown keep the euro under intense pressure."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "Sideways technical momentum persists as UK retail data offsets broader greenback gains."
+      "reason": "Sterling benefits from domestic retail resilience, but the surging U.S. dollar caps upside momentum."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair maintains an overall uptrend supported by interest rate expectations, despite recent Japanese inflation data."
+      "reason": "Strong uptrend momentum remains intact despite occasional safe-haven yen spikes."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Strong safe-haven demand competes with broad dollar strength amid flight-to-safety dynamics."
+      "reason": "Safe-haven flows contend with aggressive Fed rate hike expectations and heavy long liquidations."
     }
   ],
   "watch": [
-    "US Federal Reserve rate expectations and commentary",
-    "Global tech sector performance and AI stock trends",
-    "Japanese inflation and monetary policy updates",
-    "Geopolitical developments from US-China-Russia meetings"
+    "U.S. Federal Reserve rate decision and official commentary",
+    "Global equity market and tech sector performance",
+    "U.S. inflation data releases",
+    "Geopolitical developments regarding U.S.-China-Russia meetings"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by shifting Federal Reserve expectations, with officials debating potential rate hikes or aggressive moves to counter sticky inflation amid concerns over the economic impact of the AI sector. A global flight to safety, triggered by plunging bond yields and a sharp equity sell-off in technology stocks, has provided strong tailwinds for the US dollar. Geopolitical tensions and trade dynamics involving the US, China, and Russia are adding further layers of uncertainty to international capital flows.",
-  "technical_view": "EUR/USD sits in a downtrend near 1.099 with an oversold RSI of 29.4, testing immediate support at 1.0968. GBP/USD moves sideways at 1.31247 with a depressed RSI of 23.1, while USD/JPY continues an uptrend trading at 158.64 with an RSI of 56.3.",
-  "cot_view": "Commitments of Traders data shows net short positioning remains heavy for EUR (-136,396 contracts) and GBP (-43,216 contracts), reflecting prevailing bearish sentiment. Conversely, JPY maintains a net long position of 123,113 contracts, and Gold retains a substantial net long stance of 190,107 contracts.",
+  "fundamentals": "Macroeconomic drivers are currently dominated by shifting expectations around U.S. monetary policy, with Fed officials warning of possible aggressive rate hikes in response to sticky inflation. Simultaneously, a severe equity correction driven by the AI sector rout has injected risk-off sentiment into global markets, boosting the U.S. dollar. Regional data, such as UK retail sales beats, provide localized support, but overarching currency trends are heavily dictated by the shifting interest rate differential and flight-to-safety dynamics.",
+  "technical_view": "EUR/USD sits in a clear downtrend with an oversold RSI of 29.4 near support at 1.0968, while GBP/USD displays sideways price action and a deeply depressed RSI of 23.1. USD/JPY maintains a solid uptrend with an RSI of 56.3, holding comfortably below the 160.0 resistance level.",
+  "cot_view": "Commitments of Traders data shows EUR net positions remain heavily short at -142,710 contracts, reflecting persistent bearish sentiment. GBP net shorts stand at -32,304 contracts despite modest short-covering, while Gold maintains a substantial net long position of 166,132 contracts despite a recent reduction of nearly 24,000 lots.",
   "market": {
     "strength": {
       "1": {
@@ -126,88 +126,98 @@
     "cot": [
       {
         "name": "EUR",
-        "date": "2026-11-10",
-        "long": 227478,
-        "short": 363874,
-        "net": -136396,
-        "change": 21395,
-        "pct_long": 38.5
+        "date": "2026-11-17",
+        "long": 230074,
+        "short": 372784,
+        "net": -142710,
+        "change": -6314,
+        "pct_long": 38.2
       },
       {
         "name": "GBP",
-        "date": "2026-11-10",
-        "long": 62005,
-        "short": 105221,
-        "net": -43216,
-        "change": 16605,
-        "pct_long": 37.1
+        "date": "2026-11-17",
+        "long": 70999,
+        "short": 103303,
+        "net": -32304,
+        "change": 10912,
+        "pct_long": 40.7
       },
       {
         "name": "JPY",
-        "date": "2026-11-10",
-        "long": 249759,
-        "short": 126646,
-        "net": 123113,
-        "change": 20792,
-        "pct_long": 66.4
+        "date": "2026-11-17",
+        "long": 258756,
+        "short": 142439,
+        "net": 116317,
+        "change": -6796,
+        "pct_long": 64.5
       },
       {
         "name": "AUD",
-        "date": "2026-11-10",
-        "long": 98447,
-        "short": 250200,
-        "net": -151753,
-        "change": -22296,
-        "pct_long": 28.2
+        "date": "2026-11-17",
+        "long": 81148,
+        "short": 263208,
+        "net": -182060,
+        "change": -30307,
+        "pct_long": 23.6
       },
       {
         "name": "CAD",
-        "date": "2026-11-10",
-        "long": 107703,
-        "short": 140295,
-        "net": -32592,
-        "change": 9183,
-        "pct_long": 43.4
+        "date": "2026-11-17",
+        "long": 111591,
+        "short": 156639,
+        "net": -45048,
+        "change": -12456,
+        "pct_long": 41.6
       },
       {
         "name": "CHF",
-        "date": "2026-11-10",
-        "long": 32614,
-        "short": 41767,
-        "net": -9153,
-        "change": 7436,
-        "pct_long": 43.8
+        "date": "2026-11-17",
+        "long": 33456,
+        "short": 41737,
+        "net": -8281,
+        "change": 872,
+        "pct_long": 44.5
       },
       {
         "name": "NZD",
-        "date": "2026-11-10",
-        "long": 17881,
-        "short": 73247,
-        "net": -55366,
-        "change": 4649,
-        "pct_long": 19.6
+        "date": "2026-11-17",
+        "long": 17291,
+        "short": 80536,
+        "net": -63245,
+        "change": -7879,
+        "pct_long": 17.7
       },
       {
         "name": "USD Index",
-        "date": "2026-11-10",
-        "long": 34776,
-        "short": 20963,
-        "net": 13813,
-        "change": -377,
-        "pct_long": 62.4
+        "date": "2026-11-17",
+        "long": 36596,
+        "short": 23251,
+        "net": 13345,
+        "change": -468,
+        "pct_long": 61.1
       },
       {
         "name": "Gold",
-        "date": "2026-11-10",
-        "long": 226234,
-        "short": 36127,
-        "net": 190107,
-        "change": 10559,
-        "pct_long": 86.2
+        "date": "2026-11-17",
+        "long": 210051,
+        "short": 43919,
+        "net": 166132,
+        "change": -23975,
+        "pct_long": 82.7
       }
     ]
   },
   "headlines": [
+    {
+      "source": "Investing.com",
+      "title": "U.S. Treasury yields and global bond yields plunge as traders flee AI rout",
+      "link": "https://www.investing.com/news/forex-news/global-bond-yields-plunge-as-ai-rout-triggers-flight-to-safety-5040733"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Dollar set for 4-week win streak; yen jumps on safe-haven bid, hot inflation data",
+      "link": "https://www.investing.com/news/forex-news/asia-fx-struggles-as-dollar-holds-near-19mth-high-aussie-hits-11month-low-5040667"
+    },
     {
       "source": "Investing.com",
       "title": "UBS flags further euro downside as dollar strength keeps EUR/USD under pressure",
@@ -217,16 +227,6 @@
       "source": "Investing.com",
       "title": "UBS sees sterling rebound later in 2027 as Fed rate cuts approach",
       "link": "https://www.investing.com/news/forex-news/ubs-sees-sterling-rebound-later-in-2027-as-fed-rate-cuts-approach-5041141"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Global bond yields plunge as AI rout triggers flight to safety",
-      "link": "https://www.investing.com/news/forex-news/global-bond-yields-plunge-as-ai-rout-triggers-flight-to-safety-5040733"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar takes a breather near 19-month peak; Yen jumps on hot CPI",
-      "link": "https://www.investing.com/news/forex-news/asia-fx-struggles-as-dollar-holds-near-19mth-high-aussie-hits-11month-low-5040667"
     },
     {
       "source": "Investing.com",
@@ -250,6 +250,29 @@
     }
   ],
   "articles": [
+    {
+      "date": "2026-11-21",
+      "title": "Dollar Hits 52-Week High as Global Markets Reel From Tech Sell-Off",
+      "intro": "The US dollar is surging toward a four-week win streak, hitting a 52-week high driven by heavy safe-haven demand and shifting rate expectations. Meanwhile, global equities face severe pressure as a tech stock sell-off rattles investor sentiment.",
+      "sections": [
+        {
+          "h": "Market mood",
+          "p": "Market sentiment has turned defensive as traders flee an aggressive AI rout and tech stock sell-off, sparked by Anthropic shares sliding. While U.S. Treasury yields and global bond yields plunge from the flight to safety, the safe-haven dollar thrives, sitting at an over 19-month high. Conversely, emerging market currencies are feeling the strain, with both the Brazilian real and the Mexican peso tumbling to 52-week lows amid regional fiscal concerns and narrowing rate gaps."
+        },
+        {
+          "h": "Key drivers",
+          "p": "The primary catalyst for currency markets is a surge in Federal Reserve rate hike expectations, directly boosting the dollar index to a 52-week high. Concurrently, the Japanese yen has jumped on a safe-haven bid combined with hot domestic inflation data. In the UK, the pound managed a minor edge upward supported by a retail sales beat following a recent 'Be Ready' campaign, though broader dollar strength caps these gains. UBS maintains a cautious stance on the euro, flagging further downside as persistent dollar strength keeps EUR/USD pinned under pressure, while also forecasting a potential sterling rebound later in 2027 as Fed rate cuts eventually approach."
+        },
+        {
+          "h": "Technical and positioning",
+          "p": "Technical indicators reflect extreme momentum and oversold conditions across several major pairs. EUR/USD sits in a downtrend at 1.099 with an RSI of 29.4, hovering near support at 1.0968 against resistance at 1.1267. GBP/USD trades sideways at 1.31247 with an oversold RSI of 23.1 and immediate support matching its price level. USD/JPY maintains an uptrend at 158.64 with an RSI of 56.3, eyeing resistance at 160.0. Meanwhile, USD/CAD trades sideways at 1.4307 with an exceptionally high RSI of 89.4, and USD/CHF pushes higher in an uptrend at 0.83922 with a 77.3 RSI. Commitment of Traders data shows net-long positioning concentrated heavily in Gold at 82.7% and the Japanese yen at 64.5%, while extreme net-short positioning persists in AUD at 23.6% long and NZD at 17.7% long."
+        },
+        {
+          "h": "What to watch next",
+          "p": "Traders should closely monitor ongoing developments in the broader tech sector to gauge whether the equity sell-off deepens or stabilizes. Keep an eye on upcoming central bank commentary regarding rate expectations, alongside key technical support and resistance boundaries for major currency pairs like EUR/USD and USD/JPY."
+        }
+      ]
+    },
     {
       "date": "2026-11-20",
       "title": "Dollar Soars to 19-Month Highs Amid Hawkish Fed Expectations and Haven Demand",
