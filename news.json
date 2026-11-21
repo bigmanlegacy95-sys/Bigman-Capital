@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-21T10:38+00:00",
-  "summary": "Global markets are currently navigating a significant tech stock sell-off and AI market rout that has driven bond yields lower and fueled heavy safe-haven demand for the U.S. dollar. Meanwhile, Federal Reserve officials have leaned toward a more aggressive stance, hinting at potential rate hikes or shock moves due to lingering inflation risks. Geopolitical summits involving U.S., Chinese, and Russian leaders have also added a layer of caution across broader asset classes.",
+  "updated": "2026-11-21T18:41+00:00",
+  "summary": "Global financial markets are currently driven by intense safe-haven demand for the U.S. dollar, fueled by an AI-related tech sell-off and surging Federal Reserve rate hike expectations. Treasury yields and global bond yields have plunged as investors reallocate away from risk assets amid persistent inflation concerns. Meanwhile, geopolitical meetings involving global leaders in Asia and ongoing trade discussions add further layers of macro volatility.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Persistent dollar strength and downward pressure continue to weigh heavily on the euro."
+      "reason": "Relentless dollar strength and flagging euro fundamentals keep the pair under sustained downside pressure."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "A domestic retail sales beat provides some support, but gains remain capped by a dominant greenback."
+      "reason": "Pound resilience from UK retail data offsets dollar gains, leaving the pair trading in a cautious range."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair maintains an uptrend supported by strong safe-haven bids and shifting rate expectations."
+      "reason": "An ongoing uptrend persists as the dollar captures safe-haven flows despite sporadic yen spikes."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Gold faces crosscurrents from aggressive Fed policy pricing and broader risk-off market flows."
+      "reason": "Gold balances strong underlying net long positioning against aggressive dollar buying and shifting rate hike bets."
     }
   ],
   "watch": [
-    "U.S. inflation and Federal Reserve commentary",
-    "Tech sector stock performance and AI market developments",
-    "U.S.-China-Russia geopolitical updates",
-    "Global bond yield movements"
+    "Federal Reserve policy announcements and inflation commentary",
+    "Global tech stock performance and AI sector sentiment",
+    "U.S. Treasury yield movements and bond market liquidations",
+    "UK retail and macroeconomic data releases"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by shifting Federal Reserve expectations, where officials worry about inflation impacts and hint at potential rate hikes. Concurrently, a severe correction in tech equities and AI-related stocks has triggered global safe-haven flows into the U.S. dollar. Geopolitical meetings between major world leaders and ongoing trade dynamics add further complexity to global growth and currency valuations.",
-  "technical_view": "EUR/USD sits in a downtrend near 1.099 with an oversold RSI of 29.4, testing support near 1.0968. USD/JPY remains firmly in an uptrend at 158.64 with an RSI of 56.3, eyeing resistance near 160.0.",
-  "cot_view": "Commitments of Traders data shows EUR net positioning remains deeply short at -142,710 contracts, reflecting sustained bearish sentiment. Conversely, JPY net longs remain strong at 116,317 contracts alongside heavily net-long Gold positioning at 166,132 contracts.",
+  "fundamentals": "Macro drivers are dominated by rising Federal Reserve rate hike expectations following hot inflation prints and cautious central bank minutes. Global equity markets are suffering due to a significant tech and AI sector sell-off, prompting broad flight-to-safety flows into the U.S. dollar. Concurrently, international trade developments and geopolitical summits are influencing broader risk sentiment across global economies.",
+  "technical_view": "EUR/USD sits in a clear downtrend with an RSI of 29.4 indicating oversold conditions near support at 1.0968. USD/JPY maintains a solid uptrend with an RSI at 56.3, holding comfortably above its 157.25 support level.",
+  "cot_view": "Commiters of Traders data shows EUR net positions remain heavily short at -142,710 contracts, reinforcing underlying bearish sentiment. Gold maintains a substantial net long position of 166,132 contracts, highlighting strong structural institutional backing despite recent long liquidation.",
   "market": {
     "strength": {
       "1": {
@@ -210,8 +210,13 @@
   "headlines": [
     {
       "source": "Investing.com",
-      "title": "Bitcoin falls to its lowest in two years",
+      "title": "Bitcoin rises after falling to two-year low",
       "link": "https://www.investing.com/news/forex-news/bitcoin-falls-357-to-56814-5043137"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Bitcoin rises over 2% to more than $60,000",
+      "link": "https://www.investing.com/news/forex-news/bitcoin-rises-over-2-to-more-than-60000-5043497"
     },
     {
       "source": "Investing.com",
@@ -242,11 +247,6 @@
       "source": "Investing.com",
       "title": "Dollar sits at over 19-month high on surge in Fed rate hike expectations",
       "link": "https://www.investing.com/news/forex-news/dollar-hits-fresh-19mth-peak-on-hawkish-fed-aussie-slides-after-weak-jobs-data-5037703"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Offshore yuan dip looks like a liquidity blip, not a trend shift",
-      "link": "https://www.investing.com/news/forex-news/offshore-yuan-dip-looks-like-a-liquidity-blip-not-a-trend-shift-93CH-5039801"
     }
   ],
   "articles": [
