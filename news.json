@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-22T00:56+00:00",
-  "summary": "Global financial markets are reacting to a broad tech stock sell-off and rising safe-haven demand, driving bond yields down and boosting the U.S. dollar to multi-month highs. Expectations of potential aggressive Federal Reserve rate action are gaining traction as officials flag stubborn inflation concerns linked to technology impacts. Meanwhile, geopolitical meetings between U.S., Chinese, and Russian leaders in Asia and a new UK-EU trade agreement offer additional macro crosscurrents.",
+  "updated": "2026-11-22T10:42+00:00",
+  "summary": "Global financial markets are currently driven by strong dollar demand, propelled by rising Federal Reserve rate hike expectations and safe-haven flows amid an AI tech stock sell-off. Meanwhile, global bond yields have plunged as traders flee equities, while the Japanese yen jumps on its own safe-haven bidding and hot inflation data. Forex pairs are reacting heavily to this shifting macroeconomic landscape, keeping major currencies under pressure against a dominant greenback.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Persistent dollar strength and downside risks flagged by UBS keep the pair under heavy pressure."
+      "reason": "Persistent dollar strength and flagged euro downside keep the pair under sustained selling pressure."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "Sterling edges up on domestic retail data beats, but broad dollar gains cap upward momentum."
+      "reason": "The pound edges up on a UK retail sales beat, but broad dollar gains cap further upside momentum."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair remains in an uptrend supported by elevated U.S. rate expectations despite recent safe-haven yen bids."
+      "reason": "The pair maintains an overall uptrend supported by strong dollar momentum, despite occasional yen safe-haven inflows."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Strong safe-haven demand competes with aggressive rate hike pricing and a surging U.S. dollar index."
+      "reason": "Gold faces crosswinds from aggressive Fed rate hike expectations countering broader safe-haven demand."
     }
   ],
   "watch": [
-    "US Federal Reserve rate expectations and official commentary",
-    "Global tech sector performance and AI stock trends",
-    "UK retail and economic data releases",
-    "Geopolitical developments from US-China-Russia meetings"
+    "US Core PCE Price Index m/m",
+    "US Prelim GDP q/q",
+    "Australia CPI y/y",
+    "Federal Reserve communications and policy updates"
   ],
-  "fundamentals": "Macro drivers are dominated by rising concerns over sticky inflation and the potential for aggressive Fed policy shifts, contrasting with global equity sell-offs driven by the tech correction. Global bond yields have plunged as investors seek safety, yet the U.S. dollar maintains dominance due to surging rate-hike expectations. Regional updates, such as the new UK-EU trade agreement, provide localized support for European currencies, but broader dollar liquidity and haven flows dictate overall FX direction.",
-  "technical_view": "EUR/USD sits in a downtrend near 1.0990 with an oversold RSI of 29.4, while GBP/USD trades sideways around 1.3125 with an extremely depressed RSI of 23.1. USD/JPY maintains an uptrend at 158.64, holding comfortably above its immediate support level.",
-  "cot_view": "COT positioning shows large net-short stances persisting for EUR and GBP, reflecting underlying weakness against the greenback. Conversely, JPY maintains a sizeable net-long position of over 116,000 contracts, while Gold retains a strong net-long bias at more than 166,000 contracts despite recent long liquidations.",
+  "fundamentals": "Macro drivers are heavily influenced by shifting Federal Reserve expectations, with recent minutes and comments from officials like Waller pointing toward potential aggressive rate hikes or half-point moves to combat sticky inflation above the 2% target. Risk sentiment is simultaneously strained by a sharp tech sector sell-off and AI equity correction, driving global bond yields lower and boosting safe-haven assets. Concurrently, regional data like UK retail sales show surprising resilience, though broader structural trends leave currencies sensitive to incoming US growth and inflation prints.",
+  "technical_view": "EUR/USD sits in a clear downtrend with an RSI near oversold territory at 29.4, while GBP/USD trades sideways with an equally depressed RSI of 23.1 near support. USD/JPY maintains an active uptrend with an RSI of 56.3, holding comfortably above its support level.",
+  "cot_view": "Commitments of Traders data shows EUR holding a large net-short position of -142,710 contracts, reflecting strong institutional pessimism. GBP also remains net-short at -32,304 contracts despite recent minor positive positioning changes, while Gold maintains a substantial net-long stance of 166,132 contracts despite a reduction over the period.",
   "market": {
     "strength": {
       "1": {
@@ -204,6 +204,43 @@
         "net": 166132,
         "change": -23975,
         "pct_long": 82.7
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2026-11-25T00:30+00:00",
+        "country": "AUD",
+        "title": "CPI m/m",
+        "forecast": "0.4%",
+        "previous": "0.8%"
+      },
+      {
+        "date": "2026-11-25T00:30+00:00",
+        "country": "AUD",
+        "title": "CPI y/y",
+        "forecast": "4.8%",
+        "previous": "4.3%"
+      },
+      {
+        "date": "2026-11-25T00:30+00:00",
+        "country": "AUD",
+        "title": "Trimmed Mean CPI m/m",
+        "forecast": "0.3%",
+        "previous": "0.3%"
+      },
+      {
+        "date": "2026-11-25T13:30+00:00",
+        "country": "USD",
+        "title": "Core PCE Price Index m/m",
+        "forecast": "0.3%",
+        "previous": "0.3%"
+      },
+      {
+        "date": "2026-11-25T13:30+00:00",
+        "country": "USD",
+        "title": "Prelim GDP q/q",
+        "forecast": "3.5%",
+        "previous": "3.4%"
       }
     ]
   },
