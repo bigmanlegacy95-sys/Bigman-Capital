@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-23T01:23+00:00",
-  "summary": "Global markets are reacting to a potent mix of surging Federal Reserve rate hike expectations and a broader tech stock sell-off, driving the US dollar to fresh multi-month highs. Safe-haven demand has intensified alongside a plunge in global bond yields as traders grapple with artificial intelligence sector corrections and stubborn inflation pressures. Meanwhile, regional data points, such as a UK retail sales beat and ongoing trade developments, offer varying regional offsets against overall dollar strength.",
+  "updated": "2026-11-23T11:47+00:00",
+  "summary": "Global markets are navigating a complex mix of risk sentiment shifts, driven by a severe tech sector sell-off and broader macroeconomic uncertainties. While the US dollar has experienced some profit-taking off 19-month peaks amid a rebound in risk appetite, hawkish Federal Reserve commentary regarding persistent inflation continues to underpin demand. Meanwhile, international developments such as U.S.-China-Russia diplomatic meetings and shifting domestic retail conditions in the UK are adding unique cross-currents to foreign exchange valuations.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Persistent dollar strength and downside pressures keep the euro vulnerable."
+      "reason": "Persistent dollar strength and downside pressure keep the pair vulnerable near support levels."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "Pound edges up on domestic retail data but remains capped by a dominant dollar."
+      "reason": "Pound resilience from retail data counters broader dollar bids, keeping the pair in a sideways pattern."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Upward trend supported by shifting rate differentials and safe-haven dynamics."
+      "reason": "The pair remains in an established uptrend supported by strong dollar momentum."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Caught between safe-haven demand and strong headwinds from surging US yields and a powerful dollar."
+      "reason": "Market positioning shows strong long bias, but recent profit-taking cuts into net holdings amid safe-haven shifts."
     }
   ],
   "watch": [
     "US Core PCE Price Index m/m",
     "US Prelim GDP q/q",
-    "Australia CPI m/m and y/y",
-    "Federal Reserve communications and policy updates"
+    "Australia CPI m/y",
+    "Federal Reserve policy and rate hike commentary"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by shifting Federal Reserve expectations, with officials debating potential rate hikes or aggressive tightening to counter stubborn inflation above the 2% target. Global equity markets, particularly the tech sector, are experiencing correction territory pressures from an AI-related sell-off, which has triggered a flight to safety into the US dollar and traditional safe havens. Bond yields are plunging globally as risk sentiment sours, creating a complex backdrop for foreign exchange flows. Meanwhile, regional central bank stances and trade updates continue to dictate cross-currency valuations against the backdrop of broad USD momentum.",
-  "technical_view": "EUR/USD trades in a downtrend near 1.099 with an RSI of 29.4 indicating oversold conditions near support. GBP/USD is moving sideways at 1.312 with a heavily oversold RSI of 23.1, while USD/JPY maintains a steady uptrend at 158.64 with a balanced RSI of 56.3.",
-  "cot_view": "COT positioning reveals substantial net-short contracts in EUR (-142,710) and AUD, confirming institutional bearish sentiment against these currencies. Conversely, JPY maintains a solid net-long position of 116,317 contracts alongside a heavily net-long stance in Gold (166,132 contracts), highlighting underlying defensive positioning.",
+  "fundamentals": "Macro drivers are heavily influenced by the Federal Reserve's dilemma over persistent inflation running above the 2% target, with officials weighing potential rate hikes or even aggressive half-point moves. At the same time, a tech sector rout and shifting bond yields are causing volatility in global risk appetite, impacting safe-haven flows. Geopolitical summits involving the US, China, and Russia further complicate the broader economic landscape as trade tensions remain unresolved.",
+  "technical_view": "EUR/USD sits in a clear downtrend with an oversold RSI of 29.4 testing support at 1.0968, while GBP/USD trades sideways with deeply oversold momentum at 23.1 RSI near its current support. USD/JPY maintains its uptrend at 158.64 with moderate RSI momentum approaching the 160.0 resistance level.",
+  "cot_view": "Commitments of Traders data shows EUR continuing a heavy net short position of -142,710 contracts, reflecting sustained bearish sentiment. GBP also holds a net short stance at -32,304 contracts despite minor weekly long additions, whereas JPY maintains a solid net long position of 116,317 contracts alongside a heavily net long Gold positioning of 166,132 contracts.",
   "market": {
     "strength": {
       "1": {
@@ -247,6 +247,21 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Dollar off 19-month peaks as risk appetite rebounds in holiday-shortened week",
+      "link": "https://www.investing.com/news/forex-news/asia-fx-mixed-as-dollar-retreats-from-19month-high-yen-won-weaken-5044324"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Sterling today: Pound firms as equity rebound trims dollar bid",
+      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-firms-as-equity-rebound-trims-dollar-bid-5044762"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Global bond yields grip multi-week lows amid pandemic-scale tech rout",
+      "link": "https://www.investing.com/news/forex-news/global-bond-yields-grip-multiweek-lows-amid-pandemicscale-tech-rout-5044403"
+    },
+    {
+      "source": "Investing.com",
       "title": "Bitcoin rises after falling to two-year low",
       "link": "https://www.investing.com/news/forex-news/bitcoin-falls-357-to-56814-5043137"
     },
@@ -269,21 +284,6 @@
       "source": "Investing.com",
       "title": "UBS flags further euro downside as dollar strength keeps EUR/USD under pressure",
       "link": "https://www.investing.com/news/forex-news/ubs-flags-further-euro-downside-as-dollar-strength-keeps-eurusd-under-pressure-5041144"
-    },
-    {
-      "source": "Investing.com",
-      "title": "UBS sees sterling rebound later in 2027 as Fed rate cuts approach",
-      "link": "https://www.investing.com/news/forex-news/ubs-sees-sterling-rebound-later-in-2027-as-fed-rate-cuts-approach-5041141"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Sterling today: Pound edges up on UK retail beat, dollar caps gains",
-      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-edges-up-on-uk-retail-beat-dollar-caps-gains-5041015"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar sits at over 19-month high on surge in Fed rate hike expectations",
-      "link": "https://www.investing.com/news/forex-news/dollar-hits-fresh-19mth-peak-on-hawkish-fed-aussie-slides-after-weak-jobs-data-5037703"
     }
   ],
   "articles": [
