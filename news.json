@@ -1,125 +1,125 @@
 {
-  "updated": "2026-11-23T11:47+00:00",
-  "summary": "Global markets are navigating a complex mix of risk sentiment shifts, driven by a severe tech sector sell-off and broader macroeconomic uncertainties. While the US dollar has experienced some profit-taking off 19-month peaks amid a rebound in risk appetite, hawkish Federal Reserve commentary regarding persistent inflation continues to underpin demand. Meanwhile, international developments such as U.S.-China-Russia diplomatic meetings and shifting domestic retail conditions in the UK are adding unique cross-currents to foreign exchange valuations.",
+  "updated": "2026-11-23T23:22+00:00",
+  "summary": "The US dollar rallied to a near 20-month high, supported by a reignited AI trade and strong growth prospects following Jensen Huang's return to Nvidia. Meanwhile, Fed officials indicated that higher interest rates may be needed over time to address inflation risks tied to the AI sector. Geopolitical developments, including high-profile meetings between Trump, Xi, and Putin in China, also competed for market attention alongside shifting U.S. Treasury yields.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Persistent dollar strength and downside pressure keep the pair vulnerable near support levels."
+      "reason": "The US dollar is strengthening broadly against a weak euro as US growth prospects outperform."
     },
     {
       "pair": "GBP/USD",
-      "bias": "Neutral",
-      "reason": "Pound resilience from retail data counters broader dollar bids, keeping the pair in a sideways pattern."
+      "bias": "Bearish",
+      "reason": "Sideways-to-weak technical momentum and domestic headwinds weigh on the pound against a dominant dollar."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair remains in an established uptrend supported by strong dollar momentum."
+      "reason": "Uptrend momentum remains intact as resilient US yields and dollar strength keep the pair elevated."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Market positioning shows strong long bias, but recent profit-taking cuts into net holdings amid safe-haven shifts."
+      "reason": "Gold faces cross-currents from surging US yields and a dominant dollar despite heavy net-long positioning."
     }
   ],
   "watch": [
-    "US Core PCE Price Index m/m",
     "US Prelim GDP q/q",
-    "Australia CPI m/y",
-    "Federal Reserve policy and rate hike commentary"
+    "US Core PCE Price Index m/m",
+    "FOMC minutes and Fed speakers commentary",
+    "Global geopolitical developments and AI sector sentiment"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by the Federal Reserve's dilemma over persistent inflation running above the 2% target, with officials weighing potential rate hikes or even aggressive half-point moves. At the same time, a tech sector rout and shifting bond yields are causing volatility in global risk appetite, impacting safe-haven flows. Geopolitical summits involving the US, China, and Russia further complicate the broader economic landscape as trade tensions remain unresolved.",
-  "technical_view": "EUR/USD sits in a clear downtrend with an oversold RSI of 29.4 testing support at 1.0968, while GBP/USD trades sideways with deeply oversold momentum at 23.1 RSI near its current support. USD/JPY maintains its uptrend at 158.64 with moderate RSI momentum approaching the 160.0 resistance level.",
-  "cot_view": "Commitments of Traders data shows EUR continuing a heavy net short position of -142,710 contracts, reflecting sustained bearish sentiment. GBP also holds a net short stance at -32,304 contracts despite minor weekly long additions, whereas JPY maintains a solid net long position of 116,317 contracts alongside a heavily net long Gold positioning of 166,132 contracts.",
+  "fundamentals": "Macro drivers are heavily influenced by a resurgent US dollar, propelled by robust AI-driven tech sentiment and Federal Reserve commentary pointing to potential higher interest rates over time. FOMC minutes highlighted concerns that AI-related growth could impact inflation dynamics, keeping yields elevated. Meanwhile, international political summits involving the US, China, and Russia add a layer of global macroeconomic context without immediate direct currency impacts.",
+  "technical_view": "EUR/USD and GBP/USD show downward pressure with low RSI readings indicating deeply oversold conditions, while USD/JPY maintains a steady uptrend within striking distance of psychological resistance. Overall, the broader dollar complex shows extended rallies that flash caution due to overbought signals.",
+  "cot_view": "Commitments of Traders data shows EUR and GBP maintaining sizeable net-short positions, reinforcing the bearish bias against the US dollar. Conversely, Gold retains a heavily net-long positioning despite recent long liquidation pressures.",
   "market": {
     "strength": {
       "1": {
-        "EUR": -0.0,
-        "GBP": -0.19,
-        "AUD": -0.67,
-        "NZD": -0.39,
-        "JPY": 0.85,
-        "CAD": -0.03,
-        "CHF": 0.42,
-        "USD": 0.01
+        "EUR": -0.05,
+        "GBP": 0.02,
+        "AUD": -0.32,
+        "NZD": -0.6,
+        "JPY": 0.14,
+        "CAD": 0.03,
+        "CHF": 0.35,
+        "USD": 0.41
       },
       "5": {
-        "EUR": -0.16,
-        "GBP": -0.37,
-        "AUD": -1.36,
-        "NZD": -0.11,
-        "JPY": 1.26,
-        "CAD": 0.06,
-        "CHF": 0.3,
-        "USD": 0.4
+        "EUR": -0.03,
+        "GBP": -0.3,
+        "AUD": -1.42,
+        "NZD": -0.57,
+        "JPY": 0.98,
+        "CAD": 0.11,
+        "CHF": 0.59,
+        "USD": 0.65
       },
       "20": {
-        "EUR": 0.32,
-        "GBP": 0.31,
-        "AUD": -2.95,
-        "NZD": -1.09,
-        "JPY": 0.97,
-        "CAD": -0.05,
-        "CHF": 0.36,
-        "USD": 2.13
+        "EUR": 0.17,
+        "GBP": 0.34,
+        "AUD": -3.41,
+        "NZD": -1.7,
+        "JPY": 1.37,
+        "CAD": 0.07,
+        "CHF": 0.77,
+        "USD": 2.39
       }
     },
     "technical": [
       {
         "pair": "EUR/USD",
-        "price": 1.099,
+        "price": 1.0939,
         "trend": "Downtrend",
-        "rsi": 29.4,
-        "support": 1.0968,
+        "rsi": 28.6,
+        "support": 1.0939,
         "resistance": 1.1267
       },
       {
         "pair": "GBP/USD",
-        "price": 1.31247,
+        "price": 1.30734,
         "trend": "Sideways",
-        "rsi": 23.1,
-        "support": 1.31247,
+        "rsi": 21.5,
+        "support": 1.30734,
         "resistance": 1.34998
       },
       {
         "pair": "USD/JPY",
-        "price": 158.64,
+        "price": 159.07,
         "trend": "Uptrend",
-        "rsi": 56.3,
+        "rsi": 56.6,
         "support": 157.25,
         "resistance": 160.0
       },
       {
         "pair": "AUD/USD",
-        "price": 0.66658,
+        "price": 0.66168,
         "trend": "Downtrend",
-        "rsi": 13.6,
-        "support": 0.66658,
+        "rsi": 12.9,
+        "support": 0.66168,
         "resistance": 0.70328
       },
       {
         "pair": "USD/CAD",
-        "price": 1.4307,
-        "trend": "Sideways",
-        "rsi": 89.4,
+        "price": 1.4362,
+        "trend": "Uptrend",
+        "rsi": 90.6,
         "support": 1.3935,
-        "resistance": 1.4307
+        "resistance": 1.4362
       },
       {
         "pair": "USD/CHF",
-        "price": 0.83922,
+        "price": 0.83975,
         "trend": "Uptrend",
-        "rsi": 77.3,
+        "rsi": 77.5,
         "support": 0.81548,
         "resistance": 0.84272
       },
       {
         "pair": "NZD/USD",
-        "price": 0.55039,
+        "price": 0.54481,
         "trend": "Downtrend",
-        "rsi": 33.6,
-        "support": 0.54975,
+        "rsi": 29.4,
+        "support": 0.54481,
         "resistance": 0.57029
       }
     ],
@@ -218,7 +218,7 @@
         "date": "2026-11-25T00:30+00:00",
         "country": "AUD",
         "title": "CPI y/y",
-        "forecast": "4.8%",
+        "forecast": "4.7%",
         "previous": "4.3%"
       },
       {
@@ -247,43 +247,43 @@
   "headlines": [
     {
       "source": "Investing.com",
-      "title": "Dollar off 19-month peaks as risk appetite rebounds in holiday-shortened week",
+      "title": "Dollar at nearly 20-month high as AI trade reignites, boosting growth prospects",
       "link": "https://www.investing.com/news/forex-news/asia-fx-mixed-as-dollar-retreats-from-19month-high-yen-won-weaken-5044324"
     },
     {
       "source": "Investing.com",
-      "title": "Sterling today: Pound firms as equity rebound trims dollar bid",
-      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-firms-as-equity-rebound-trims-dollar-bid-5044762"
+      "title": "Dollar index technical outlook: rally extended but overbought signals flash caution",
+      "link": "https://www.investing.com/news/forex-news/dollar-index-technical-outlook-rally-extended-but-overbought-signals-flash-caution-93CH-5046271"
     },
     {
       "source": "Investing.com",
-      "title": "Global bond yields grip multi-week lows amid pandemic-scale tech rout",
+      "title": "India’s rupee carry trade: RBI support holds but risks are building",
+      "link": "https://www.investing.com/news/forex-news/indias-rupee-carry-trade-rbi-support-holds-but-risks-are-building-93CH-5046267"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Barclays’ USD/SEK tactical long: still attractive after a 10-day run?",
+      "link": "https://www.investing.com/news/forex-news/barclays-usdsek-tactical-long-still-attractive-after-a-10day-run-93CH-5046175"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Brazilian real stays weak despite global risk rebound, fiscal worries weigh",
+      "link": "https://www.investing.com/news/forex-news/brazilian-real-stays-weak-despite-global-risk-rebound-fiscal-worries-weigh-93CH-5046167"
+    },
+    {
+      "source": "Investing.com",
+      "title": "USD/JPY to return to the 140s in 2027: Deutsche Bank",
+      "link": "https://www.investing.com/news/forex-news/usdjpy-to-return-to-the-140s-in-2027-deutsche-bank-93CH-5045587"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Deutsche Bank raises dollar forecasts on AI boom strength",
+      "link": "https://www.investing.com/news/forex-news/deutsche-bank-raises-dollar-forecasts-on-ai-boom-strength-93CH-5045584"
+    },
+    {
+      "source": "Investing.com",
+      "title": "U.S. yields extend rally as tech wipeout collides with holiday-thinned week",
       "link": "https://www.investing.com/news/forex-news/global-bond-yields-grip-multiweek-lows-amid-pandemicscale-tech-rout-5044403"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Bitcoin rises after falling to two-year low",
-      "link": "https://www.investing.com/news/forex-news/bitcoin-falls-357-to-56814-5043137"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Bitcoin rises over 2% to more than $60,000",
-      "link": "https://www.investing.com/news/forex-news/bitcoin-rises-over-2-to-more-than-60000-5043497"
-    },
-    {
-      "source": "Investing.com",
-      "title": "U.S. Treasury yields and global bond yields plunge as traders flee AI rout",
-      "link": "https://www.investing.com/news/forex-news/global-bond-yields-plunge-as-ai-rout-triggers-flight-to-safety-5040733"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar set for 4-week win streak; yen jumps on safe-haven bid, hot inflation data",
-      "link": "https://www.investing.com/news/forex-news/asia-fx-struggles-as-dollar-holds-near-19mth-high-aussie-hits-11month-low-5040667"
-    },
-    {
-      "source": "Investing.com",
-      "title": "UBS flags further euro downside as dollar strength keeps EUR/USD under pressure",
-      "link": "https://www.investing.com/news/forex-news/ubs-flags-further-euro-downside-as-dollar-strength-keeps-eurusd-under-pressure-5041144"
     }
   ],
   "articles": [
