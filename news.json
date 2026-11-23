@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-22T10:42+00:00",
-  "summary": "Global financial markets are currently driven by strong dollar demand, propelled by rising Federal Reserve rate hike expectations and safe-haven flows amid an AI tech stock sell-off. Meanwhile, global bond yields have plunged as traders flee equities, while the Japanese yen jumps on its own safe-haven bidding and hot inflation data. Forex pairs are reacting heavily to this shifting macroeconomic landscape, keeping major currencies under pressure against a dominant greenback.",
+  "updated": "2026-11-23T01:23+00:00",
+  "summary": "Global markets are reacting to a potent mix of surging Federal Reserve rate hike expectations and a broader tech stock sell-off, driving the US dollar to fresh multi-month highs. Safe-haven demand has intensified alongside a plunge in global bond yields as traders grapple with artificial intelligence sector corrections and stubborn inflation pressures. Meanwhile, regional data points, such as a UK retail sales beat and ongoing trade developments, offer varying regional offsets against overall dollar strength.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "Persistent dollar strength and flagged euro downside keep the pair under sustained selling pressure."
+      "reason": "Persistent dollar strength and downside pressures keep the euro vulnerable."
     },
     {
       "pair": "GBP/USD",
       "bias": "Neutral",
-      "reason": "The pound edges up on a UK retail sales beat, but broad dollar gains cap further upside momentum."
+      "reason": "Pound edges up on domestic retail data but remains capped by a dominant dollar."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair maintains an overall uptrend supported by strong dollar momentum, despite occasional yen safe-haven inflows."
+      "reason": "Upward trend supported by shifting rate differentials and safe-haven dynamics."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Gold faces crosswinds from aggressive Fed rate hike expectations countering broader safe-haven demand."
+      "reason": "Caught between safe-haven demand and strong headwinds from surging US yields and a powerful dollar."
     }
   ],
   "watch": [
     "US Core PCE Price Index m/m",
     "US Prelim GDP q/q",
-    "Australia CPI y/y",
+    "Australia CPI m/m and y/y",
     "Federal Reserve communications and policy updates"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by shifting Federal Reserve expectations, with recent minutes and comments from officials like Waller pointing toward potential aggressive rate hikes or half-point moves to combat sticky inflation above the 2% target. Risk sentiment is simultaneously strained by a sharp tech sector sell-off and AI equity correction, driving global bond yields lower and boosting safe-haven assets. Concurrently, regional data like UK retail sales show surprising resilience, though broader structural trends leave currencies sensitive to incoming US growth and inflation prints.",
-  "technical_view": "EUR/USD sits in a clear downtrend with an RSI near oversold territory at 29.4, while GBP/USD trades sideways with an equally depressed RSI of 23.1 near support. USD/JPY maintains an active uptrend with an RSI of 56.3, holding comfortably above its support level.",
-  "cot_view": "Commitments of Traders data shows EUR holding a large net-short position of -142,710 contracts, reflecting strong institutional pessimism. GBP also remains net-short at -32,304 contracts despite recent minor positive positioning changes, while Gold maintains a substantial net-long stance of 166,132 contracts despite a reduction over the period.",
+  "fundamentals": "Macro drivers are heavily influenced by shifting Federal Reserve expectations, with officials debating potential rate hikes or aggressive tightening to counter stubborn inflation above the 2% target. Global equity markets, particularly the tech sector, are experiencing correction territory pressures from an AI-related sell-off, which has triggered a flight to safety into the US dollar and traditional safe havens. Bond yields are plunging globally as risk sentiment sours, creating a complex backdrop for foreign exchange flows. Meanwhile, regional central bank stances and trade updates continue to dictate cross-currency valuations against the backdrop of broad USD momentum.",
+  "technical_view": "EUR/USD trades in a downtrend near 1.099 with an RSI of 29.4 indicating oversold conditions near support. GBP/USD is moving sideways at 1.312 with a heavily oversold RSI of 23.1, while USD/JPY maintains a steady uptrend at 158.64 with a balanced RSI of 56.3.",
+  "cot_view": "COT positioning reveals substantial net-short contracts in EUR (-142,710) and AUD, confirming institutional bearish sentiment against these currencies. Conversely, JPY maintains a solid net-long position of 116,317 contracts alongside a heavily net-long stance in Gold (166,132 contracts), highlighting underlying defensive positioning.",
   "market": {
     "strength": {
       "1": {
@@ -287,6 +287,29 @@
     }
   ],
   "articles": [
+    {
+      "date": "2026-11-23",
+      "title": "Dollar Hits 52-Week High Amid Tech Sell-Off and Safe-Haven Demand",
+      "intro": "Global markets face intense pressure as a tech stock sell-off drags indices lower and traders flee an AI rout. Amid the broader market turbulence, the US dollar surges to a 52-week high, driven by safe-haven demand and shifting rate expectations.",
+      "sections": [
+        {
+          "h": "Market mood",
+          "p": "Risk sentiment remains fragile across global markets as a sharp tech stock sell-off drags equities down, accompanied by sliding Anthropic shares and growing worries over an AI crash in San Francisco. Meanwhile, U.S. Treasury yields and global bond yields plunge as investors aggressively seek safety, lifting the Japanese yen on a strong safe-haven bid and hot inflation data."
+        },
+        {
+          "h": "Key drivers",
+          "p": "The primary catalyst across the currency landscape is relentless dollar strength, with the dollar index hitting a 52-week high and cementing a four-week win streak. This momentum is fueled by a surge in Federal Reserve rate hike expectations and safe-haven flows. Elsewhere, the pound edges up slightly following a UK retail sales beat, though UBS continues to flag further EUR/USD downside under persistent greenback pressure, while eyeing a potential sterling rebound later in 2027 as Fed rate cuts approach."
+        },
+        {
+          "h": "Technical and positioning",
+          "p": "The technical landscape highlights strong momentum in USD pairs, with USD/CAD printing an extreme RSI of 89.4 near its 1.4307 resistance, and USD/CHF trading firmly in an uptrend with an RSI of 77.3. Conversely, AUD/USD is under severe downward pressure, showing an oversold RSI of 13.6 at its 0.66658 support level. Commitment of Traders data underscores this macro bias, showing net-long USD index positioning at 13,345 contracts, while EUR net shorts stand elevated at -142,710 contracts and JPY net longs hold strong at 116,317 contracts."
+        },
+        {
+          "h": "What to watch next",
+          "p": "Traders should closely monitor upcoming top-tier data releases for potential volatility catalysts. On November 25, Australia releases crucial monthly and yearly CPI figures alongside Trimmed Mean data, followed later in the day by U.S. Prelim GDP q/q forecasted at 3.5% and the Core PCE Price Index m/m expected at 0.3%."
+        }
+      ]
+    },
     {
       "date": "2026-11-22",
       "title": "Global Markets Shaken by Tech Rout as Dollar Surges to Fresh Highs",
