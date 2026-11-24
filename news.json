@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-23T23:22+00:00",
-  "summary": "The US dollar rallied to a near 20-month high, supported by a reignited AI trade and strong growth prospects following Jensen Huang's return to Nvidia. Meanwhile, Fed officials indicated that higher interest rates may be needed over time to address inflation risks tied to the AI sector. Geopolitical developments, including high-profile meetings between Trump, Xi, and Putin in China, also competed for market attention alongside shifting U.S. Treasury yields.",
+  "updated": "2026-11-24T08:21+00:00",
+  "summary": "Global markets are navigating renewed strength in the U.S. dollar, supported by expectations of higher interest rates over time and a resurgence in the artificial intelligence sector following Jensen Huang's return to Nvidia. Federal Reserve officials have pointed to potential rate hikes and inflation risks linked to the AI boom, helping push the dollar near 20-month highs. Meanwhile, geopolitical developments involving high-profile international meetings and ongoing global trade dynamics continue to influence investor sentiment.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bearish",
-      "reason": "The US dollar is strengthening broadly against a weak euro as US growth prospects outperform."
+      "reason": "The pair remains in a clear downtrend with oversold RSI levels as the US dollar strength persists."
     },
     {
       "pair": "GBP/USD",
-      "bias": "Bearish",
-      "reason": "Sideways-to-weak technical momentum and domestic headwinds weigh on the pound against a dominant dollar."
+      "bias": "Neutral",
+      "reason": "Price action is trading sideways while testing support levels amidst broader dollar dominance."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Uptrend momentum remains intact as resilient US yields and dollar strength keep the pair elevated."
+      "reason": "The pair maintains an established uptrend supported by Fed tightening bets and a strong dollar."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Gold faces cross-currents from surging US yields and a dominant dollar despite heavy net-long positioning."
+      "reason": "Gold faces headwinds from a surging U.S. dollar and rising treasury yields despite strong net long positioning."
     }
   ],
   "watch": [
-    "US Prelim GDP q/q",
-    "US Core PCE Price Index m/m",
-    "FOMC minutes and Fed speakers commentary",
-    "Global geopolitical developments and AI sector sentiment"
+    "U.S. Prelim GDP q/q",
+    "U.S. Core PCE Price Index m/m",
+    "Federal Reserve monetary policy and rate commentary",
+    "Developments in the AI sector and tech stock movements"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by a resurgent US dollar, propelled by robust AI-driven tech sentiment and Federal Reserve commentary pointing to potential higher interest rates over time. FOMC minutes highlighted concerns that AI-related growth could impact inflation dynamics, keeping yields elevated. Meanwhile, international political summits involving the US, China, and Russia add a layer of global macroeconomic context without immediate direct currency impacts.",
-  "technical_view": "EUR/USD and GBP/USD show downward pressure with low RSI readings indicating deeply oversold conditions, while USD/JPY maintains a steady uptrend within striking distance of psychological resistance. Overall, the broader dollar complex shows extended rallies that flash caution due to overbought signals.",
-  "cot_view": "Commitments of Traders data shows EUR and GBP maintaining sizeable net-short positions, reinforcing the bearish bias against the US dollar. Conversely, Gold retains a heavily net-long positioning despite recent long liquidation pressures.",
+  "fundamentals": "The macroeconomic backdrop is currently defined by resilient U.S. economic growth prospects and expectations that the Federal Reserve may implement higher interest rates over time to manage inflation risks. Renewed momentum in artificial intelligence, highlighted by developments at Nvidia, has fueled economic optimism and strengthened the U.S. dollar index. At the same time, shifting smart money positioning and ongoing global political summits add complex layers to overall market sentiment.",
+  "technical_view": "EUR/USD is in a downtrend at 1.0939 with an oversold RSI of 28.6, while GBP/USD sits sideways at 1.3073 with an RSI of 21.5. USD/JPY maintains an uptrend near 159.07, approaching its 160.0 resistance level.",
+  "cot_view": "Commitments of Traders data shows EUR and GBP holding significant net short positions of -142,710 and -32,304 contracts respectively, reflecting persistent bearish sentiment against the greenback. Conversely, Gold maintains a heavy net long position of 166,132 contracts, though long exposure saw a reduction over the reporting period.",
   "market": {
     "strength": {
       "1": {
@@ -247,6 +247,16 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Dollar holds near 20-mth high amid AI rally, Fed tightening bets",
+      "link": "https://www.investing.com/news/forex-news/asia-fx-subdued-as-dollar-holds-near-20mth-high-on-ai-rally-5046950"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Dollar perky as renewed AI euphoria fuels Fed hike bets",
+      "link": "https://www.investing.com/news/forex-news/dollar-climbs-as-renewed-ai-euphoria-fuels-fed-hike-bets-5046813"
+    },
+    {
+      "source": "Investing.com",
       "title": "Dollar at nearly 20-month high as AI trade reignites, boosting growth prospects",
       "link": "https://www.investing.com/news/forex-news/asia-fx-mixed-as-dollar-retreats-from-19month-high-yen-won-weaken-5044324"
     },
@@ -274,19 +284,32 @@
       "source": "Investing.com",
       "title": "USD/JPY to return to the 140s in 2027: Deutsche Bank",
       "link": "https://www.investing.com/news/forex-news/usdjpy-to-return-to-the-140s-in-2027-deutsche-bank-93CH-5045587"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Deutsche Bank raises dollar forecasts on AI boom strength",
-      "link": "https://www.investing.com/news/forex-news/deutsche-bank-raises-dollar-forecasts-on-ai-boom-strength-93CH-5045584"
-    },
-    {
-      "source": "Investing.com",
-      "title": "U.S. yields extend rally as tech wipeout collides with holiday-thinned week",
-      "link": "https://www.investing.com/news/forex-news/global-bond-yields-grip-multiweek-lows-amid-pandemicscale-tech-rout-5044403"
     }
   ],
   "articles": [
+    {
+      "date": "2026-11-24",
+      "title": "Dollar Holds Near 20-Month High as AI Rally and Fed Hikes Drive Momentum",
+      "intro": "The US dollar is maintaining a position near its 20-month high, supported by a resurgence in artificial intelligence euphoria and rising Federal Reserve tightening bets. Market participants continue to digest these macro shifts as broader risk assets react to shifting technological and economic landscapes.",
+      "sections": [
+        {
+          "h": "Market mood",
+          "p": "Renewed AI euphoria has fueled growth prospects and supported aggressive Fed hike expectations, pushing the dollar index near multi-month highs. Meanwhile, US yields have extended their rally as a tech sector rebound collides with a holiday-thinned trading week, keeping risk sentiment dynamic across global forex desks."
+        },
+        {
+          "h": "Key drivers",
+          "p": "The primary catalyst remains the strength of the AI trade, highlighted by market reactions to tech developments and corporate leadership shifts involving Nvidia. On the macroeconomic front, upcoming releases such as the US Prelim GDP q/q forecasted at 3.5% and the Core PCE Price Index m/m expected at 0.3% will heavily dictate near-term central bank policy paths."
+        },
+        {
+          "h": "Technical and positioning",
+          "p": "Technical indicators show the dollar index rally extended, though overbought signals are flashing caution. USD/CAD is trading in an uptrend with an RSI of 90.6 near resistance at 1.4362, while USD/CHF sits in an uptrend with an RSI of 77.5. Conversely, pairs like EUR/USD are in a downtrend trading near support at 1.0939 with an RSI of 28.6, and AUD/USD records an RSI of 12.9 ahead of upcoming Australian CPI data."
+        },
+        {
+          "h": "What to watch next",
+          "p": "Traders should monitor incoming domestic data releases, specifically Australia's CPI y/y forecast at 4.7% alongside US growth and inflation figures. Keeping an eye on positioning limits and potential mean-reversion signals will be essential as markets navigate overextended technical levels."
+        }
+      ]
+    },
     {
       "date": "2026-11-23",
       "title": "Dollar Hits 52-Week High Amid Tech Sell-Off and Safe-Haven Demand",
