@@ -1,84 +1,84 @@
 {
-  "updated": "2026-11-24T08:21+00:00",
-  "summary": "Global markets are navigating renewed strength in the U.S. dollar, supported by expectations of higher interest rates over time and a resurgence in the artificial intelligence sector following Jensen Huang's return to Nvidia. Federal Reserve officials have pointed to potential rate hikes and inflation risks linked to the AI boom, helping push the dollar near 20-month highs. Meanwhile, geopolitical developments involving high-profile international meetings and ongoing global trade dynamics continue to influence investor sentiment.",
+  "updated": "2026-11-25T03:56+00:00",
+  "summary": "Foreign exchange markets are currently navigating a retreating U.S. dollar as a fading AI-driven rally weighs on sentiment, alongside looming U.S. PCE data and tariff pressures from Washington. Political friction surrounding Nvidia and Jensen Huang's reinstatement have added broader macro uncertainty, driving a temporary safety bid into global bond yields. Meanwhile, major currencies like the euro and sterling are attempting to recover from recent dollar-led slides amid oversold technical conditions.",
   "outlook": [
     {
       "pair": "EUR/USD",
-      "bias": "Bearish",
-      "reason": "The pair remains in a clear downtrend with oversold RSI levels as the US dollar strength persists."
+      "bias": "Bullish",
+      "reason": "Oversold RSI conditions and a retreating dollar offer room for a corrective bounce toward 1.11+."
     },
     {
       "pair": "GBP/USD",
-      "bias": "Neutral",
-      "reason": "Price action is trading sideways while testing support levels amidst broader dollar dominance."
+      "bias": "Bullish",
+      "reason": "Extreme oversold momentum suggests scope for a relief rally despite underlying trend pressures."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair maintains an established uptrend supported by Fed tightening bets and a strong dollar."
+      "reason": "Persistent structural rate differentials support ongoing upside momentum toward 160.0."
     },
     {
       "pair": "XAU/USD",
       "bias": "Neutral",
-      "reason": "Gold faces headwinds from a surging U.S. dollar and rising treasury yields despite strong net long positioning."
+      "reason": "Safe-haven demand meets headwinds from shifting Treasury yields ahead of key U.S. PCE prints."
     }
   ],
   "watch": [
-    "U.S. Prelim GDP q/q",
     "U.S. Core PCE Price Index m/m",
-    "Federal Reserve monetary policy and rate commentary",
-    "Developments in the AI sector and tech stock movements"
+    "U.S. Prelim GDP q/q",
+    "U.S. tariff announcements targeting global trading partners",
+    "Developments regarding the Nvidia political and regulatory investigations"
   ],
-  "fundamentals": "The macroeconomic backdrop is currently defined by resilient U.S. economic growth prospects and expectations that the Federal Reserve may implement higher interest rates over time to manage inflation risks. Renewed momentum in artificial intelligence, highlighted by developments at Nvidia, has fueled economic optimism and strengthened the U.S. dollar index. At the same time, shifting smart money positioning and ongoing global political summits add complex layers to overall market sentiment.",
-  "technical_view": "EUR/USD is in a downtrend at 1.0939 with an oversold RSI of 28.6, while GBP/USD sits sideways at 1.3073 with an RSI of 21.5. USD/JPY maintains an uptrend near 159.07, approaching its 160.0 resistance level.",
-  "cot_view": "Commitments of Traders data shows EUR and GBP holding significant net short positions of -142,710 and -32,304 contracts respectively, reflecting persistent bearish sentiment against the greenback. Conversely, Gold maintains a heavy net long position of 166,132 contracts, though long exposure saw a reduction over the reporting period.",
+  "fundamentals": "Global macro conditions are dominated by shifting risk sentiment around the U.S. tech sector, ongoing political tensions over international trade, and upcoming U.S. inflation and growth prints. While the Federal Reserve hints at higher interest rates over time to manage inflation, market participants are weighing looming U.S. PCE data against potential global tariff impacts. Energy concerns in Europe, driven by cold snaps and domestic price cap adjustments, further complicate regional economic fundamentals.",
+  "technical_view": "Multiple major pairs display severely oversold conditions with RSI readings plunging below 20 (EUR/USD at 19.5, GBP/USD at 11.8), suggesting potential for short-term mean reversion. Conversely, USD/JPY remains firmly in an uptrend with an RSI of 56.9, holding above support at 157.25 as it tests higher resistance levels.",
+  "cot_view": "Commitments of Traders data shows net-short positioning remaining heavy for EUR (-142,710 contracts) and AUD, highlighting entrenched bearish sentiment prior to the recent dollar pullback. Meanwhile, Gold retains a strong net-long stance at 166,132 contracts, reflecting sustained institutional demand despite recent weekly long liquidations.",
   "market": {
     "strength": {
       "1": {
-        "EUR": -0.05,
-        "GBP": 0.02,
-        "AUD": -0.32,
-        "NZD": -0.6,
-        "JPY": 0.14,
+        "EUR": 0.01,
+        "GBP": -0.02,
+        "AUD": 0.16,
+        "NZD": 0.21,
+        "JPY": -0.21,
         "CAD": 0.03,
-        "CHF": 0.35,
-        "USD": 0.41
+        "CHF": 0.04,
+        "USD": -0.21
       },
       "5": {
-        "EUR": -0.03,
-        "GBP": -0.3,
-        "AUD": -1.42,
-        "NZD": -0.57,
-        "JPY": 0.98,
-        "CAD": 0.11,
-        "CHF": 0.59,
-        "USD": 0.65
+        "EUR": 0.09,
+        "GBP": -0.38,
+        "AUD": -1.06,
+        "NZD": -0.17,
+        "JPY": 0.47,
+        "CAD": 0.08,
+        "CHF": 0.64,
+        "USD": 0.33
       },
       "20": {
-        "EUR": 0.17,
-        "GBP": 0.34,
-        "AUD": -3.41,
-        "NZD": -1.7,
-        "JPY": 1.37,
-        "CAD": 0.07,
-        "CHF": 0.77,
-        "USD": 2.39
+        "EUR": 0.45,
+        "GBP": 0.4,
+        "AUD": -3.43,
+        "NZD": -1.94,
+        "JPY": 1.34,
+        "CAD": 0.0,
+        "CHF": 1.05,
+        "USD": 2.13
       }
     },
     "technical": [
       {
         "pair": "EUR/USD",
-        "price": 1.0939,
+        "price": 1.0963,
         "trend": "Downtrend",
-        "rsi": 28.6,
+        "rsi": 19.5,
         "support": 1.0939,
         "resistance": 1.1267
       },
       {
         "pair": "GBP/USD",
-        "price": 1.30734,
-        "trend": "Sideways",
-        "rsi": 21.5,
+        "price": 1.30979,
+        "trend": "Downtrend",
+        "rsi": 11.8,
         "support": 1.30734,
         "resistance": 1.34998
       },
@@ -86,41 +86,41 @@
         "pair": "USD/JPY",
         "price": 159.07,
         "trend": "Uptrend",
-        "rsi": 56.6,
+        "rsi": 56.9,
         "support": 157.25,
         "resistance": 160.0
       },
       {
         "pair": "AUD/USD",
-        "price": 0.66168,
+        "price": 0.66414,
         "trend": "Downtrend",
-        "rsi": 12.9,
+        "rsi": 11.7,
         "support": 0.66168,
         "resistance": 0.70328
       },
       {
         "pair": "USD/CAD",
-        "price": 1.4362,
+        "price": 1.4327,
         "trend": "Uptrend",
-        "rsi": 90.6,
+        "rsi": 91.5,
         "support": 1.3935,
         "resistance": 1.4362
       },
       {
         "pair": "USD/CHF",
-        "price": 0.83975,
+        "price": 0.83764,
         "trend": "Uptrend",
-        "rsi": 77.5,
+        "rsi": 82.9,
         "support": 0.81548,
         "resistance": 0.84272
       },
       {
         "pair": "NZD/USD",
-        "price": 0.54481,
+        "price": 0.54711,
         "trend": "Downtrend",
-        "rsi": 29.4,
+        "rsi": 31.1,
         "support": 0.54481,
-        "resistance": 0.57029
+        "resistance": 0.5637
       }
     ],
     "cot": [
@@ -208,27 +208,6 @@
     ],
     "calendar": [
       {
-        "date": "2026-11-25T00:30+00:00",
-        "country": "AUD",
-        "title": "CPI m/m",
-        "forecast": "0.4%",
-        "previous": "0.8%"
-      },
-      {
-        "date": "2026-11-25T00:30+00:00",
-        "country": "AUD",
-        "title": "CPI y/y",
-        "forecast": "4.7%",
-        "previous": "4.3%"
-      },
-      {
-        "date": "2026-11-25T00:30+00:00",
-        "country": "AUD",
-        "title": "Trimmed Mean CPI m/m",
-        "forecast": "0.3%",
-        "previous": "0.3%"
-      },
-      {
         "date": "2026-11-25T13:30+00:00",
         "country": "USD",
         "title": "Core PCE Price Index m/m",
@@ -247,46 +226,69 @@
   "headlines": [
     {
       "source": "Investing.com",
-      "title": "Dollar holds near 20-mth high amid AI rally, Fed tightening bets",
+      "title": "Dollar retreats from near 20-month peak, set for worst day in over two weeks",
       "link": "https://www.investing.com/news/forex-news/asia-fx-subdued-as-dollar-holds-near-20mth-high-on-ai-rally-5046950"
     },
     {
       "source": "Investing.com",
-      "title": "Dollar perky as renewed AI euphoria fuels Fed hike bets",
+      "title": "Dollar slips as Nvidia-fueled AI rally fades",
       "link": "https://www.investing.com/news/forex-news/dollar-climbs-as-renewed-ai-euphoria-fuels-fed-hike-bets-5046813"
     },
     {
       "source": "Investing.com",
-      "title": "Dollar at nearly 20-month high as AI trade reignites, boosting growth prospects",
-      "link": "https://www.investing.com/news/forex-news/asia-fx-mixed-as-dollar-retreats-from-19month-high-yen-won-weaken-5044324"
+      "title": "Canadian dollar rebounds from 19-month low as U.S. dollar retreats",
+      "link": "https://www.investing.com/news/forex-news/canadian-dollar-rebounds-from-19month-low-as-us-dollar-retreats-5048801"
     },
     {
       "source": "Investing.com",
-      "title": "Dollar index technical outlook: rally extended but overbought signals flash caution",
-      "link": "https://www.investing.com/news/forex-news/dollar-index-technical-outlook-rally-extended-but-overbought-signals-flash-caution-93CH-5046271"
+      "title": "Global yields fall as safe-haven bid meets looming U.S. PCE test",
+      "link": "https://www.investing.com/news/forex-news/global-yields-fall-as-safehaven-bid-meets-looming-us-pce-test-5047210"
     },
     {
       "source": "Investing.com",
-      "title": "India’s rupee carry trade: RBI support holds but risks are building",
-      "link": "https://www.investing.com/news/forex-news/indias-rupee-carry-trade-rbi-support-holds-but-risks-are-building-93CH-5046267"
+      "title": "Citi sees euro undervalued, eyes 1.11+ for renewed dollar bets",
+      "link": "https://www.investing.com/news/forex-news/citi-sees-euro-undervalued-eyes-111-for-renewed-dollar-bets-93CH-5047471"
     },
     {
       "source": "Investing.com",
-      "title": "Barclays’ USD/SEK tactical long: still attractive after a 10-day run?",
-      "link": "https://www.investing.com/news/forex-news/barclays-usdsek-tactical-long-still-attractive-after-a-10day-run-93CH-5046175"
+      "title": "European gas bucks energy sell-off as lingering cold snap offsets crude slump",
+      "link": "https://www.investing.com/news/forex-news/european-gas-bucks-energy-selloff-as-lingering-cold-snap-offsets-crude-slump-5047347"
     },
     {
       "source": "Investing.com",
-      "title": "Brazilian real stays weak despite global risk rebound, fiscal worries weigh",
-      "link": "https://www.investing.com/news/forex-news/brazilian-real-stays-weak-despite-global-risk-rebound-fiscal-worries-weigh-93CH-5046167"
+      "title": "Prolonged AI rout threatens USD safe-haven status, strategist warns",
+      "link": "https://www.investing.com/news/forex-news/prolonged-ai-rout-threatens-usd-safehaven-status-strategist-warns-93CH-5047441"
     },
     {
       "source": "Investing.com",
-      "title": "USD/JPY to return to the 140s in 2027: Deutsche Bank",
-      "link": "https://www.investing.com/news/forex-news/usdjpy-to-return-to-the-140s-in-2027-deutsche-bank-93CH-5045587"
+      "title": "UBS sees USD/JPY at 158 through 2027 on rate differentials",
+      "link": "https://www.investing.com/news/forex-news/ubs-sees-usdjpy-at-158-through-2027-on-rate-differentials-93CH-5047434"
     }
   ],
   "articles": [
+    {
+      "date": "2026-11-25",
+      "title": "Dollar Retreats from Recent Peaks as Markets Weigh Shifting Drivers",
+      "intro": "The US dollar is retreating from near 20-month highs, setting up for its worst day in over two weeks as sentiment shifts. Global yields are falling as a safe-haven bid meets a looming U.S. PCE test.",
+      "sections": [
+        {
+          "h": "Market mood",
+          "p": "The broader market mood reflects caution as global yields fall and safe-haven dynamics interact with shifting macroeconomic data. While the dollar had previously reached near 20-month highs driven by an AI trade reigniting growth prospects, the fading of the Nvidia-fueled AI rally has introduced fresh doubts. A prolonged AI rout now threatens the greenback's traditional safe-haven status, leaving traders to re-evaluate overall risk exposure across major currency pairs."
+        },
+        {
+          "h": "Key drivers",
+          "p": "Primary fundamental drivers today include the fading tech-led rally and looming high-impact economic data from the United States. Markets are closely tracking upcoming reports on the Core PCE Price Index and preliminary GDP figures, which will provide vital clues on inflation and growth. Meanwhile, institutional perspectives are mixed; Citi views the euro as undervalued and eyes levels above 1.11 for renewed dollar bets, whereas UBS maintains a longer-term structural view on USD/JPY remaining supported through 2027 based on persistent rate differentials."
+        },
+        {
+          "h": "Technical and positioning",
+          "p": "Technical indicators show extreme readings across several major pairs, highlighting potential exhaustion in prevailing trends. USD/CAD trades in an uptrend with an elevated RSI of 91.5, sitting near resistance at 1.4362 and support at 1.3935, while the Canadian dollar has rebounded from a 19-month low. Conversely, pairs like EUR/USD and GBP/USD show deeply oversold RSI levels of 19.5 and 11.8 respectively, both maintaining a downtrend structure. Commitment of Traders data indicates net-short positioning remains heavy in currencies like the Australian dollar and Euro, contrasted by net-long positioning in Japanese yen and the USD Index."
+        },
+        {
+          "h": "What to watch next",
+          "p": "Traders should closely monitor upcoming tier-one economic releases, specifically the U.S. Core PCE Price Index and Prelim GDP q/q scheduled for release on November 25, 2026. These data points will heavily influence Federal Reserve policy expectations and dictate whether the dollar resumes its prior strength or extends its current pullback. Keeping an eye on tech sector developments and broader equity sentiment will also be critical for assessing safe-haven flows."
+        }
+      ]
+    },
     {
       "date": "2026-11-24",
       "title": "Dollar Holds Near 20-Month High as AI Rally and Fed Hikes Drive Momentum",
