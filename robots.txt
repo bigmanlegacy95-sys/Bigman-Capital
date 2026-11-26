@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bigman-capital.vercel.app/sitemap.xml
