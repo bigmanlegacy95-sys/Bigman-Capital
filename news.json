@@ -1,124 +1,124 @@
 {
-  "updated": "2026-11-26T11:52+00:00",
-  "summary": "Global markets are reacting to a combination of sticky PCE inflation data, a broader sell-off in AI-related equities, and fresh U.S. tariff announcements targeting key trading partners including China and the EU. The U.S. dollar retreated slightly from recent peaks during the Thanksgiving holiday period, while safe-haven demand and bond market adjustments continued to influence cross-asset flows. Meanwhile, persistent concerns over inflation and upcoming central bank policy paths are maintaining heightened volatility across major currency pairs.",
+  "updated": "2026-11-26T20:55+00:00",
+  "summary": "Global currency markets are currently pausing as the U.S. celebrates the Thanksgiving holiday, following a volatile session driven by sharp swings in AI-related equities and sticky PCE inflation data. The U.S. dollar retreated from multi-month peaks, snapping a recent winning streak, while major pairs like EUR/USD and GBP/USD held narrow ranges. Meanwhile, macro attention remains centered on impending central bank paths and evolving global trade dynamics.",
   "outlook": [
     {
       "pair": "EUR/USD",
-      "bias": "Bearish",
-      "reason": "The pair remains in a clear downtrend with extreme oversold RSI levels pointing to ongoing downside pressure."
+      "bias": "Neutral",
+      "reason": "Prices hover near 1.0975 in a downtrend, but oversold RSI conditions suggest potential for consolidation or minor relief."
     },
     {
       "pair": "GBP/USD",
-      "bias": "Bearish",
-      "reason": "Technical indicators highlight a persistent downtrend alongside deeply oversold conditions as the dollar holds its range."
+      "bias": "Neutral",
+      "reason": "Sterling trades steadily around 1.3104 amidst broad dollar consolidation and local risk unwinds."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Price action shows a steady uptrend supported by favorable momentum and constructive RSI levels."
+      "reason": "The pair maintains an overall uptrend supported by resilient yield expectations and a price near 159.26."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Large net-long positioning and safe-haven flows provide underlying structural support despite recent headline volatility."
+      "reason": "Gold retains a strong net long institutional positioning despite recent minor liquidation phases."
     }
   ],
   "watch": [
     "U.S. PCE inflation data releases",
-    "Global trade policy updates regarding U.S. tariffs",
-    "Fed commentary on interest rate trajectories",
-    "Broad equity market sentiment and AI sector performance"
+    "NY cut large FX option expiries",
+    "Federal Reserve interest rate trajectory announcements",
+    "Global equity and AI sector volatility"
   ],
-  "fundamentals": "Sticky PCE inflation readings have locked in expectations for a December Federal Reserve rate hike, reinforcing the central bank's cautious stance on price pressures. Concurrently, new U.S. tariff announcements directed at China, the EU, and other partners have stoked global trade tensions, adding a layer of macro uncertainty. These factors, combined with a sharp correction in tech and AI equities, are driving capital flows into traditional safe havens and shaping broader currency valuations.",
-  "technical_view": "EUR/USD and GBP/USD are trading within established downtrends accompanied by severely depressed RSI readings below 20, suggesting extreme short-term downside momentum. Conversely, USD/JPY and USD/CHF maintain constructive uptrends with moderate RSI levels near 57 and 67 respectively, reflecting continued resilience in the greenback.",
-  "cot_view": "Commiters of Traders data shows EUR and GBP maintaining sizeable net-short positions, reinforcing the dominant bearish bias against the dollar. Meanwhile, Gold retains a robust net-long position at over 166,000 contracts despite minor long liquidation, highlighting sustained institutional confidence in the precious metal.",
+  "fundamentals": "Macro drivers are heavily influenced by sticky PCE inflation readings locking in expectations for Federal Reserve policy paths, alongside broader growth concerns linked to tech sector corrections. Central bank commentary continues to emphasize higher interest rates over time to tame persistent inflation pressures. Concurrently, shifting trade policy proposals and international negotiations are playing a secondary role in shaping risk sentiment across global forex markets.",
+  "technical_view": "EUR/USD and GBP/USD are currently exhibiting strong downside momentum with deeply oversold RSI readings near 29.5 and 21.5 respectively, pointing to potential exhaustion. Conversely, USD/JPY and USD/CHF maintain firm uptrends with neutral-to-high RSI levels near 57.9 and 68.7, indicating continued greenback strength where momentum persists.",
+  "cot_view": "Commitments of Traders data reveals heavily net-short positions in European currencies, with EUR net shorts at -142,710 and GBP net shorts at -32,304, highlighting persistent bearish sentiment. In contrast, Japanese Yen and Gold maintain strong net-long positioning at +116,317 and +166,132 respectively, reflecting safe-haven demand among institutional participants.",
   "market": {
     "strength": {
       "1": {
-        "EUR": -0.16,
-        "GBP": -0.19,
-        "AUD": -0.98,
-        "NZD": -0.2,
-        "JPY": -0.06,
-        "CAD": 0.58,
-        "CHF": 0.92,
-        "USD": 0.1
+        "EUR": 0.12,
+        "GBP": 0.09,
+        "AUD": 0.75,
+        "NZD": 0.18,
+        "JPY": -0.21,
+        "CAD": -0.05,
+        "CHF": -0.63,
+        "USD": -0.25
       },
       "5": {
-        "EUR": 0.01,
-        "GBP": -0.52,
-        "AUD": -2.09,
-        "NZD": -0.47,
-        "JPY": 0.37,
-        "CAD": 0.64,
-        "CHF": 1.74,
-        "USD": 0.31
+        "EUR": -0.09,
+        "GBP": -0.29,
+        "AUD": -1.07,
+        "NZD": -0.8,
+        "JPY": 0.51,
+        "CAD": 0.56,
+        "CHF": 1.1,
+        "USD": 0.07
       },
       "20": {
-        "EUR": 0.13,
-        "GBP": 0.19,
-        "AUD": -4.68,
-        "NZD": -0.91,
-        "JPY": 1.05,
-        "CAD": 0.43,
-        "CHF": 1.88,
-        "USD": 1.91
+        "EUR": 0.36,
+        "GBP": 0.16,
+        "AUD": -3.8,
+        "NZD": -0.7,
+        "JPY": 1.0,
+        "CAD": 0.11,
+        "CHF": 1.11,
+        "USD": 1.76
       }
     },
     "technical": [
       {
         "pair": "EUR/USD",
-        "price": 1.09351,
+        "price": 1.0975,
         "trend": "Downtrend",
-        "rsi": 20.1,
+        "rsi": 29.5,
         "support": 1.09351,
         "resistance": 1.1267
       },
       {
         "pair": "GBP/USD",
-        "price": 1.30598,
+        "price": 1.31038,
         "trend": "Downtrend",
-        "rsi": 11.9,
+        "rsi": 21.5,
         "support": 1.30598,
         "resistance": 1.34998
       },
       {
         "pair": "USD/JPY",
-        "price": 159.32,
+        "price": 159.26,
         "trend": "Uptrend",
-        "rsi": 57.2,
+        "rsi": 57.9,
         "support": 157.25,
         "resistance": 160.0
       },
       {
         "pair": "AUD/USD",
-        "price": 0.65699,
+        "price": 0.66353,
         "trend": "Downtrend",
-        "rsi": 10.5,
+        "rsi": 25.5,
         "support": 0.65699,
-        "resistance": 0.70254
+        "resistance": 0.70244
       },
       {
         "pair": "USD/CAD",
-        "price": 1.4258,
+        "price": 1.423,
         "trend": "Uptrend",
-        "rsi": 78.6,
+        "rsi": 68.7,
         "support": 1.3935,
         "resistance": 1.4362
       },
       {
         "pair": "USD/CHF",
-        "price": 0.83082,
+        "price": 0.83399,
         "trend": "Uptrend",
-        "rsi": 67.0,
+        "rsi": 68.7,
         "support": 0.81548,
         "resistance": 0.84272
       },
       {
         "pair": "NZD/USD",
-        "price": 0.54549,
+        "price": 0.54786,
         "trend": "Downtrend",
-        "rsi": 31.0,
+        "rsi": 41.6,
         "support": 0.54481,
         "resistance": 0.5637
       }
