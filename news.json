@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-26T01:32+00:00",
-  "summary": "Global markets are experiencing broad risk aversion today as an artificial intelligence-driven tech sell-off triggers safe-haven flows and puts downward pressure on equities. Concurrently, the U.S. dollar retreated from near 20-month highs as global bond yields fell ahead of critical upcoming U.S. PCE data. Macro pressures are also mounting in the UK and Europe, highlighted by domestic corporate collapses and looming energy price surges.",
+  "updated": "2026-11-26T11:52+00:00",
+  "summary": "Global markets are reacting to a combination of sticky PCE inflation data, a broader sell-off in AI-related equities, and fresh U.S. tariff announcements targeting key trading partners including China and the EU. The U.S. dollar retreated slightly from recent peaks during the Thanksgiving holiday period, while safe-haven demand and bond market adjustments continued to influence cross-asset flows. Meanwhile, persistent concerns over inflation and upcoming central bank policy paths are maintaining heightened volatility across major currency pairs.",
   "outlook": [
     {
       "pair": "EUR/USD",
-      "bias": "Bullish",
-      "reason": "The pair may see a corrective bounce toward 1.12 as the US dollar pulls back from recent peaks."
+      "bias": "Bearish",
+      "reason": "The pair remains in a clear downtrend with extreme oversold RSI levels pointing to ongoing downside pressure."
     },
     {
       "pair": "GBP/USD",
       "bias": "Bearish",
-      "reason": "Sterling slips as severe domestic economic strains and risk unwinds heavily pressure the currency."
+      "reason": "Technical indicators highlight a persistent downtrend alongside deeply oversold conditions as the dollar holds its range."
     },
     {
       "pair": "USD/JPY",
-      "bias": "Neutral",
-      "reason": "Safe-haven safe flows into the yen conflict with persistent upside trend momentum in the pair."
+      "bias": "Bullish",
+      "reason": "Price action shows a steady uptrend supported by favorable momentum and constructive RSI levels."
     },
     {
       "pair": "XAU/USD",
       "bias": "Bullish",
-      "reason": "Falling global bond yields and widespread risk aversion reinforce safe-haven demand for gold."
+      "reason": "Large net-long positioning and safe-haven flows provide underlying structural support despite recent headline volatility."
     }
   ],
   "watch": [
-    "U.S. PCE inflation data release",
-    "Global bond yield movements",
-    "Developments in equity and AI sector sentiment",
-    "UK energy cap and regulatory updates"
+    "U.S. PCE inflation data releases",
+    "Global trade policy updates regarding U.S. tariffs",
+    "Fed commentary on interest rate trajectories",
+    "Broad equity market sentiment and AI sector performance"
   ],
-  "fundamentals": "Macro drivers are currently dominated by a flight to safety as equity markets correct sharply following overextended gains in AI-related tech stocks. Central bank policy expectations remain sensitive to shifting inflation signals, with Fed officials pointing toward higher interest rates over time while markets await crucial PCE data. Meanwhile, regional economic stress is evident in Europe and the UK, where soaring energy bills and corporate insolvencies complicate the growth outlook.",
-  "technical_view": "EUR/USD and GBP/USD are both trading in clear downtrends with extremely oversold RSI readings near 20.1 and 11.9 respectively, suggesting potential exhaustion selling. Conversely, USD/JPY remains anchored in a broader uptrend supported above key moving averages despite recent corrective action.",
-  "cot_view": "Commitments of Traders data shows net short positioning remains heavily entrenched for EUR and GBP against the US dollar index, which holds a net long posture. Meanwhile, Gold maintains a very high net long positioning at over 166,000 contracts, reflecting strong underlying bullish sentiment among institutional participants.",
+  "fundamentals": "Sticky PCE inflation readings have locked in expectations for a December Federal Reserve rate hike, reinforcing the central bank's cautious stance on price pressures. Concurrently, new U.S. tariff announcements directed at China, the EU, and other partners have stoked global trade tensions, adding a layer of macro uncertainty. These factors, combined with a sharp correction in tech and AI equities, are driving capital flows into traditional safe havens and shaping broader currency valuations.",
+  "technical_view": "EUR/USD and GBP/USD are trading within established downtrends accompanied by severely depressed RSI readings below 20, suggesting extreme short-term downside momentum. Conversely, USD/JPY and USD/CHF maintain constructive uptrends with moderate RSI levels near 57 and 67 respectively, reflecting continued resilience in the greenback.",
+  "cot_view": "Commiters of Traders data shows EUR and GBP maintaining sizeable net-short positions, reinforcing the dominant bearish bias against the dollar. Meanwhile, Gold retains a robust net-long position at over 166,000 contracts despite minor long liquidation, highlighting sustained institutional confidence in the precious metal.",
   "market": {
     "strength": {
       "1": {
@@ -210,6 +210,21 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "Dollar takes Thanksgiving breather below 2026 peaks; Euro dips",
+      "link": "https://www.investing.com/news/forex-news/asia-fx-won-muted-after-bok-hikes-rates-dollar-steady-5052015"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Sterling today: Pound steady as dollar holds range on U.S. holiday",
+      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-steady-as-dollar-holds-range-on-us-holiday-5052307"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Global bond rally eases as sticky PCE locks in December Fed hike",
+      "link": "https://www.investing.com/news/forex-news/global-bond-rally-eases-as-sticky-pce-locks-in-december-fed-hike-5052104"
+    },
+    {
+      "source": "Investing.com",
       "title": "Dollar reverses course after earlier gains driven by hot U.S. data, AI rout",
       "link": "https://www.investing.com/news/forex-news/asia-fx-weakens-as-dollar-firms-on-tariff-risks-aussie-hits-11month-low-5049767"
     },
@@ -232,21 +247,6 @@
       "source": "Investing.com",
       "title": "Swiss franc safe-haven demand and USD/CHF technical outlook",
       "link": "https://www.investing.com/news/forex-news/swiss-franc-safehaven-demand-and-usdchf-technical-outlook-93CH-5050525"
-    },
-    {
-      "source": "Investing.com",
-      "title": "EUR/USD may rally to 1.12 before falling to 1.05, BCA says",
-      "link": "https://www.investing.com/news/forex-news/eurusd-may-rally-to-112-before-falling-to-105-bca-says-93CH-5050407"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar retreats from near 20-month peak, set for worst day in over two weeks",
-      "link": "https://www.investing.com/news/forex-news/asia-fx-subdued-as-dollar-holds-near-20mth-high-on-ai-rally-5046950"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar slips as Nvidia-fueled AI rally fades",
-      "link": "https://www.investing.com/news/forex-news/dollar-climbs-as-renewed-ai-euphoria-fuels-fed-hike-bets-5046813"
     }
   ],
   "articles": [
