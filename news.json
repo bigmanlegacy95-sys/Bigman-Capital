@@ -1,124 +1,124 @@
 {
-  "updated": "2026-11-27T03:29+00:00",
-  "summary": "Global markets have experienced a quieter session amid the U.S. Thanksgiving holiday lull, following an earlier reversal in the dollar driven by volatile AI-related stock swings and sticky PCE data. Central bank expectations remain anchored on a persistent inflation backdrop, with Fed officials pointing to higher rates over time. Meanwhile, regional currency movements remain constrained as traders look past immediate trade tensions and holiday-thinned liquidity.",
+  "updated": "2026-11-27T16:07+00:00",
+  "summary": "Global markets navigated holiday-thinned trading conditions while processing volatility from the AI and semiconductor sector alongside shifting Federal Reserve expectations. Sticky PCE inflation data locked in expectations for a December Fed hike, though U.S. Treasury yields paused after an eight-day rally. Meanwhile, the U.S. dollar drifted lower and is set to snap a four-week winning streak.",
   "outlook": [
     {
       "pair": "EUR/USD",
-      "bias": "Neutral",
-      "reason": "Trading near 1.0975 with deeply oversold momentum, caught between potential rallies to resistance and broader dollar rangebound conditions."
+      "bias": "Bullish",
+      "reason": "Oversold conditions and a weaker dollar support a potential recovery toward year-end."
     },
     {
       "pair": "GBP/USD",
-      "bias": "Bearish",
-      "reason": "Stuck in a clear downtrend with an extremely low RSI near 21.5 as risk unwinds weigh on the pound."
+      "bias": "Neutral",
+      "reason": "Risk rebounds offset Fed repricing, keeping the pound steady in a range."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "Maintaining an active uptrend below the 160.0 resistance level supported by resilient dollar demand."
+      "reason": "The pair maintains a broader uptrend supported by resilient interest rate differentials."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Neutral",
-      "reason": "Gold consolidates as sticky inflation prints and shifting equity market correlations create crosswinds for safe havens."
+      "bias": "Bullish",
+      "reason": "Net long positioning remains exceptionally high despite a recent reduction in contracts."
     }
   ],
   "watch": [
-    "Sticky US PCE inflation data releases",
-    "Federal Reserve rate path commentary",
-    "Nvidia and AI sector stock volatility",
-    "NY cut large FX option expiries"
+    "Sticky PCE inflation data releases and Fed rate path commentary",
+    "December Federal Reserve rate decision expectations",
+    "Nvidia volatility and broader AI sector sentiment",
+    "Holiday-thinned liquidity and year-end positioning flows"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by sticky PCE inflation readings locking in expectations for the Federal Reserve's path, alongside volatile tech sector sentiment tied to the AI trade and Nvidia developments. Central bankers continue to hint that interest rates may need to remain elevated over time to address stubborn inflationary pressures. Meanwhile, geopolitical trade dynamics, such as prospective tariff caps, continue to shape broader cross-border currency flows.",
-  "technical_view": "EUR/USD and GBP/USD are both exhibiting strong downtrend characteristics with deeply oversold RSI readings below 30, highlighting potential exhaustion near key supports. Conversely, USD/JPY and USD/CHF continue to ride clear uptrends with RSI metrics approaching overbought zones near 68.7, reflecting persistent underlying strength in the greenback.",
-  "cot_view": "Commitments of Traders data reveals heavily net-short positioning in major pairs like the Euro, Australian dollar, and New Zealand dollar, contrasting with strong net-long positioning in Japanese Yen and Gold. Commercial and speculative accounts maintain a solid net-long bias in the USD Index at roughly 61.1% of total open interest, signaling broader structural backing for the dollar.",
+  "fundamentals": "Macro drivers are heavily influenced by sticky U.S. PCE inflation locking in a December Fed rate hike, while comments from Fed officials indicate higher rates over time. Tech-sector volatility, particularly surrounding Nvidia and semiconductor trends, continues to inject risk-on and risk-off sentiment into broader asset classes. Meanwhile, currency markets are experiencing seasonal holiday-thinned liquidity pauses that are helping to stall the dollar's recent multi-week rally.",
+  "technical_view": "Both EUR/USD and GBP/USD are currently exhibiting deeply oversold RSI readings below 25 within established downtrends, suggesting potential for mean reversion or corrective bounces near key supports. Conversely, USD/JPY remains firmly in an uptrend with an RSI of 63.8, approaching resistance near the 160.0 handle.",
+  "cot_view": "Commitments of Traders data shows EUR and GBP maintaining sizeable net short positions, whereas JPY and Gold retain strong net long stances. Specifically, Gold boasts a heavy net long position of 166,132 contracts, indicating enduring structural bullish sentiment among market participants despite recent long liquidations.",
   "market": {
     "strength": {
       "1": {
-        "EUR": 0.12,
-        "GBP": 0.09,
-        "AUD": 0.75,
-        "NZD": 0.18,
-        "JPY": -0.21,
-        "CAD": -0.05,
-        "CHF": -0.63,
-        "USD": -0.25
+        "EUR": -0.17,
+        "GBP": 0.13,
+        "AUD": 0.5,
+        "NZD": 0.05,
+        "JPY": -0.18,
+        "CAD": -0.11,
+        "CHF": -0.21,
+        "USD": -0.0
       },
       "5": {
-        "EUR": -0.09,
-        "GBP": -0.29,
-        "AUD": -1.07,
-        "NZD": -0.8,
-        "JPY": 0.51,
-        "CAD": 0.56,
-        "CHF": 1.1,
-        "USD": 0.07
+        "EUR": -0.25,
+        "GBP": 0.03,
+        "AUD": 0.09,
+        "NZD": -0.36,
+        "JPY": -0.51,
+        "CAD": 0.49,
+        "CHF": 0.47,
+        "USD": 0.05
       },
       "20": {
-        "EUR": 0.36,
-        "GBP": 0.16,
-        "AUD": -3.8,
-        "NZD": -0.7,
-        "JPY": 1.0,
-        "CAD": 0.11,
-        "CHF": 1.11,
-        "USD": 1.76
+        "EUR": 0.16,
+        "GBP": 0.02,
+        "AUD": -2.98,
+        "NZD": -0.66,
+        "JPY": 0.65,
+        "CAD": 0.15,
+        "CHF": 0.56,
+        "USD": 2.09
       }
     },
     "technical": [
       {
         "pair": "EUR/USD",
-        "price": 1.0975,
+        "price": 1.0957,
         "trend": "Downtrend",
-        "rsi": 29.5,
+        "rsi": 24.0,
         "support": 1.09351,
         "resistance": 1.1267
       },
       {
         "pair": "GBP/USD",
-        "price": 1.31038,
+        "price": 1.31215,
         "trend": "Downtrend",
-        "rsi": 21.5,
+        "rsi": 19.3,
         "support": 1.30598,
         "resistance": 1.34998
       },
       {
         "pair": "USD/JPY",
-        "price": 159.26,
+        "price": 159.54,
         "trend": "Uptrend",
-        "rsi": 57.9,
-        "support": 157.25,
+        "rsi": 63.8,
+        "support": 157.9,
         "resistance": 160.0
       },
       {
         "pair": "AUD/USD",
-        "price": 0.66353,
+        "price": 0.66684,
         "trend": "Downtrend",
-        "rsi": 25.5,
+        "rsi": 27.0,
         "support": 0.65699,
-        "resistance": 0.70244
+        "resistance": 0.70151
       },
       {
         "pair": "USD/CAD",
-        "price": 1.423,
+        "price": 1.4245,
         "trend": "Uptrend",
-        "rsi": 68.7,
+        "rsi": 67.1,
         "support": 1.3935,
         "resistance": 1.4362
       },
       {
         "pair": "USD/CHF",
-        "price": 0.83399,
+        "price": 0.83572,
         "trend": "Uptrend",
-        "rsi": 68.7,
+        "rsi": 70.3,
         "support": 0.81548,
         "resistance": 0.84272
       },
       {
         "pair": "NZD/USD",
-        "price": 0.54786,
+        "price": 0.54813,
         "trend": "Downtrend",
-        "rsi": 41.6,
+        "rsi": 29.3,
         "support": 0.54481,
         "resistance": 0.5637
       }
@@ -210,6 +210,26 @@
   "headlines": [
     {
       "source": "Investing.com",
+      "title": "U.S. Treasury yields tick up, snapping eight-day rally as bond bulls pause",
+      "link": "https://www.investing.com/news/forex-news/global-bonds-cap-strong-weekly-rally-after-aidriven-flight-to-safety-5053055"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Sterling today: Pound edges higher as risk rebound offsets Fed repricing",
+      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-edges-higher-as-risk-rebound-offsets-fed-repricing-5053272"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Dollar drifts lower in holiday-thinned trade, set to snap 4-wk winning streak",
+      "link": "https://www.investing.com/news/forex-news/asia-fx-weakens-as-high-oil-prices-weigh-dollar-edges-lower-in-holiday-trade-5052845"
+    },
+    {
+      "source": "Investing.com",
+      "title": "Goldman Sachs sees EUR/USD recovering toward 1.12 by year-end",
+      "link": "https://www.investing.com/news/forex-news/goldman-sachs-sees-eurusd-recovering-toward-112-by-yearend-93CH-5053234"
+    },
+    {
+      "source": "Investing.com",
       "title": "Loonie weakens amid Thanksgiving holiday lull, Canadian labor market data",
       "link": "https://www.investing.com/news/forex-news/loonie-weakens-amid-thanksgiving-holiday-lull-canadian-labor-market-data-5052729"
     },
@@ -227,26 +247,6 @@
       "source": "Investing.com",
       "title": "Global bond rally eases as sticky PCE locks in December Fed hike",
       "link": "https://www.investing.com/news/forex-news/global-bond-rally-eases-as-sticky-pce-locks-in-december-fed-hike-5052104"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Dollar reverses course after earlier gains driven by hot U.S. data, AI rout",
-      "link": "https://www.investing.com/news/forex-news/asia-fx-weakens-as-dollar-firms-on-tariff-risks-aussie-hits-11month-low-5049767"
-    },
-    {
-      "source": "Investing.com",
-      "title": "US to cap India tariff at 17% if trade deal is reached, USTR says",
-      "link": "https://www.investing.com/news/forex-news/us-to-cap-india-tariff-at-17-if-trade-deal-is-reached-ustr-says-5051317"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Sterling today: Pound slips as risk unwind lifts dollar before PCE data",
-      "link": "https://www.investing.com/news/forex-news/sterling-today-pound-falls-as-risk-unwind-sends-funds-back-to-dollar-5050111"
-    },
-    {
-      "source": "Investing.com",
-      "title": "Large FX option expiries for NY cut on Wednesday",
-      "link": "https://www.investing.com/news/forex-news/large-fx-option-expiries-for-ny-cut-on-wednesday-93CH-5050589"
     }
   ],
   "articles": [
