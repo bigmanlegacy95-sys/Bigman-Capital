@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-28T01:04+00:00",
-  "summary": "Global markets are navigating a mix of holiday-thinned trade, a recent correction in equities tied to an AI and Nvidia-driven rout, and shifting central bank expectations. While the U.S. dollar is drifting lower and snapping a four-week winning streak, sticky PCE data has locked in expectations for a December Federal Reserve rate hike. Meanwhile, U.S. Treasury yields paused after an eight-day rally, leaving currency pairs reacting to mixed regional data and broader risk sentiment.",
+  "updated": "2026-11-28T11:21+00:00",
+  "summary": "Global markets are navigating a mix of holiday-thinned liquidity, sticky PCE inflation data, and an AI-driven equity correction that has pressured major risk assets. The US dollar has drifted lower to snap a four-week winning streak, while Treasury yields pause following an eight-day rally. Meanwhile, Federal Reserve officials continue to signal caution regarding future rate adjustments as growth and inflation dynamics evolve.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bullish",
-      "reason": "Oversold RSI levels and long-term recovery projections contrast with the near-term downtrend."
+      "reason": "Deeply oversold RSI conditions suggest scope for a recovery toward medium-term targets."
     },
     {
       "pair": "GBP/USD",
-      "bias": "Bullish",
-      "reason": "Risk rebounds and a steady pound help offset recent Fed repricing pressures despite a technical downtrend."
+      "bias": "Neutral",
+      "reason": "Sterling hovers near steady ranges as broader risk rebounds offset shifting Fed repricing."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair maintains a firm technical uptrend amid persistent interest rate differentials."
+      "reason": "Prevailing uptrend remains intact with prices pushing toward key psychological resistance levels."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Neutral",
-      "reason": "Gold consolidates as bond yields pause and market participants weigh sticky inflation against equity volatility."
+      "bias": "Bullish",
+      "reason": "Net long institutional positioning remains overwhelmingly strong despite recent long liquidations."
     }
   ],
   "watch": [
-    "December Federal Reserve rate hike expectations",
     "U.S. PCE inflation data releases",
-    "Nvidia market performance and broader AI sector volatility",
-    "Global bond yield movements"
+    "December Federal Reserve rate decision expectations",
+    "S&P 500 equity correction developments",
+    "Nvidia and AI sector market volatility"
   ],
-  "fundamentals": "Macro drivers are currently centered on sticky inflation prints locking in a December Fed rate hike, contrasting with a broader correction in equity markets driven by technology and AI volatility. The U.S. dollar is losing some momentum in holiday-thinned trading after a strong multi-week run, while international trade dynamics and global bond yields continue to guide cross-border capital flows. Central bankers remain vigilant as they attempt to balance persistent price pressures against tightening financial conditions.",
-  "technical_view": "Both EUR/USD and GBP/USD exhibit extreme oversold conditions on the RSI, reading well below 30 at 24.0 and 19.3 respectively, suggesting potential for mean reversion despite ongoing technical downtrends. Conversely, USD/JPY remains anchored in a firm uptrend with an RSI of 63.8, pressing toward resistance near 160.0.",
-  "cot_view": "Commitments of Traders data shows net short positioning persisting in major currencies like the EUR (-142,710 contracts) and GBP (-32,304 contracts), while JPY maintains a strong net long bias of 116,317 contracts. Gold retains a heavy net long positioning of 166,132 contracts despite a reduction of 23,975 contracts over the reporting period.",
+  "fundamentals": "The macroeconomic landscape is heavily influenced by sticky PCE inflation data, which locks in expectations for a December Federal Reserve rate hike while policymakers weigh incoming economic signals. At the same time, a broader equity market correction sparked by technology sector volatility and AI positioning shifts has weighed on risk sentiment. Bond markets are currently consolidating after a sharp rally, keeping currency pairs sensitive to shifting yield differentials.",
+  "technical_view": "Both EUR/USD and GBP/USD show heavily oversold conditions with RSI prints below 25, pointing to potential exhaustion in their current downtrends. Conversely, USD/JPY maintains a firm uptrend trading comfortably above its immediate support, while approaching major resistance near 160.0.",
+  "cot_view": "Commitments of Traders data reveals a heavily net-short bias in major currencies like the Euro and Australian Dollar, while institutional accounts retain a massive net-long stance in Gold despite minor profit-taking. Net longs in the Japanese Yen remain elevated, reflecting steady safe-haven positioning.",
   "market": {
     "strength": {
       "1": {
