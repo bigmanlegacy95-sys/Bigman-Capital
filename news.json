@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-27T16:07+00:00",
-  "summary": "Global markets navigated holiday-thinned trading conditions while processing volatility from the AI and semiconductor sector alongside shifting Federal Reserve expectations. Sticky PCE inflation data locked in expectations for a December Fed hike, though U.S. Treasury yields paused after an eight-day rally. Meanwhile, the U.S. dollar drifted lower and is set to snap a four-week winning streak.",
+  "updated": "2026-11-28T01:04+00:00",
+  "summary": "Global markets are navigating a mix of holiday-thinned trade, a recent correction in equities tied to an AI and Nvidia-driven rout, and shifting central bank expectations. While the U.S. dollar is drifting lower and snapping a four-week winning streak, sticky PCE data has locked in expectations for a December Federal Reserve rate hike. Meanwhile, U.S. Treasury yields paused after an eight-day rally, leaving currency pairs reacting to mixed regional data and broader risk sentiment.",
   "outlook": [
     {
       "pair": "EUR/USD",
       "bias": "Bullish",
-      "reason": "Oversold conditions and a weaker dollar support a potential recovery toward year-end."
+      "reason": "Oversold RSI levels and long-term recovery projections contrast with the near-term downtrend."
     },
     {
       "pair": "GBP/USD",
-      "bias": "Neutral",
-      "reason": "Risk rebounds offset Fed repricing, keeping the pound steady in a range."
+      "bias": "Bullish",
+      "reason": "Risk rebounds and a steady pound help offset recent Fed repricing pressures despite a technical downtrend."
     },
     {
       "pair": "USD/JPY",
       "bias": "Bullish",
-      "reason": "The pair maintains a broader uptrend supported by resilient interest rate differentials."
+      "reason": "The pair maintains a firm technical uptrend amid persistent interest rate differentials."
     },
     {
       "pair": "XAU/USD",
-      "bias": "Bullish",
-      "reason": "Net long positioning remains exceptionally high despite a recent reduction in contracts."
+      "bias": "Neutral",
+      "reason": "Gold consolidates as bond yields pause and market participants weigh sticky inflation against equity volatility."
     }
   ],
   "watch": [
-    "Sticky PCE inflation data releases and Fed rate path commentary",
-    "December Federal Reserve rate decision expectations",
-    "Nvidia volatility and broader AI sector sentiment",
-    "Holiday-thinned liquidity and year-end positioning flows"
+    "December Federal Reserve rate hike expectations",
+    "U.S. PCE inflation data releases",
+    "Nvidia market performance and broader AI sector volatility",
+    "Global bond yield movements"
   ],
-  "fundamentals": "Macro drivers are heavily influenced by sticky U.S. PCE inflation locking in a December Fed rate hike, while comments from Fed officials indicate higher rates over time. Tech-sector volatility, particularly surrounding Nvidia and semiconductor trends, continues to inject risk-on and risk-off sentiment into broader asset classes. Meanwhile, currency markets are experiencing seasonal holiday-thinned liquidity pauses that are helping to stall the dollar's recent multi-week rally.",
-  "technical_view": "Both EUR/USD and GBP/USD are currently exhibiting deeply oversold RSI readings below 25 within established downtrends, suggesting potential for mean reversion or corrective bounces near key supports. Conversely, USD/JPY remains firmly in an uptrend with an RSI of 63.8, approaching resistance near the 160.0 handle.",
-  "cot_view": "Commitments of Traders data shows EUR and GBP maintaining sizeable net short positions, whereas JPY and Gold retain strong net long stances. Specifically, Gold boasts a heavy net long position of 166,132 contracts, indicating enduring structural bullish sentiment among market participants despite recent long liquidations.",
+  "fundamentals": "Macro drivers are currently centered on sticky inflation prints locking in a December Fed rate hike, contrasting with a broader correction in equity markets driven by technology and AI volatility. The U.S. dollar is losing some momentum in holiday-thinned trading after a strong multi-week run, while international trade dynamics and global bond yields continue to guide cross-border capital flows. Central bankers remain vigilant as they attempt to balance persistent price pressures against tightening financial conditions.",
+  "technical_view": "Both EUR/USD and GBP/USD exhibit extreme oversold conditions on the RSI, reading well below 30 at 24.0 and 19.3 respectively, suggesting potential for mean reversion despite ongoing technical downtrends. Conversely, USD/JPY remains anchored in a firm uptrend with an RSI of 63.8, pressing toward resistance near 160.0.",
+  "cot_view": "Commitments of Traders data shows net short positioning persisting in major currencies like the EUR (-142,710 contracts) and GBP (-32,304 contracts), while JPY maintains a strong net long bias of 116,317 contracts. Gold retains a heavy net long positioning of 166,132 contracts despite a reduction of 23,975 contracts over the reporting period.",
   "market": {
     "strength": {
       "1": {
@@ -210,7 +210,7 @@
   "headlines": [
     {
       "source": "Investing.com",
-      "title": "U.S. Treasury yields tick up, snapping eight-day rally as bond bulls pause",
+      "title": "U.S. Treasury yields rally, snapping eight-day rally as bond bulls pause",
       "link": "https://www.investing.com/news/forex-news/global-bonds-cap-strong-weekly-rally-after-aidriven-flight-to-safety-5053055"
     },
     {
@@ -250,6 +250,29 @@
     }
   ],
   "articles": [
+    {
+      "date": "2026-11-28",
+      "title": "Dollar Takes Thanksgiving Breather as Bond Markets Pause",
+      "intro": "Major currency pairs experience measured price action during holiday-thinned trade as U.S. Treasury yields snap their recent rally. Traders monitor shifting macroeconomic drivers and positioning data closely as key technical levels come into focus.",
+      "sections": [
+        {
+          "h": "Market mood",
+          "p": "Global financial markets reflect a cautious sentiment as the dollar takes a Thanksgiving breather below recent peaks, and the global bond rally eases. The greenback is currently set to snap a four-week winning streak, drifting lower in holiday-thinned trade following a reversal from earlier gains driven by hot U.S. data and an AI rout. Meanwhile, the Loonie has weakened amid the Thanksgiving holiday lull and Canadian labor market data, while the pound holds steady as the dollar maintains a narrow range on the U.S. holiday."
+        },
+        {
+          "h": "Key drivers",
+          "p": "Fundamental cross-currents continue to shape foreign exchange dynamics. Sticky personal consumption expenditures (PCE) data locks in expectations for a December Federal Reserve rate hike, influencing recent Fed repricing. Despite these hawkish policy expectations, a broader risk rebound has offered some support to currencies like sterling. Elsewhere, longer-term institutional outlooks remain active, with Goldman Sachs seeing EUR/USD recovering toward 1.12 by year-end, even as near-term macroeconomic pressures persist."
+        },
+        {
+          "h": "Technical and positioning",
+          "p": "Current technical indicators highlight oversold conditions across several major pairs. EUR/USD trades at 1.0957 in a downtrend with an RSI of 24.0, holding near support at 1.09351 and resistance at 1.1267. GBP/USD prints at 1.31215 in a downtrend with a deeply depressed RSI of 19.3, supported at 1.30598 and capped by resistance at 1.34998. USD/JPY remains in an uptrend at 159.54 with an RSI of 63.8, while USD/CHF registers an elevated RSI of 70.3 at a price of 0.83572. Commitment of Traders data shows net short positioning persisting in major currencies like EUR at -142,710 contracts and AUD at -182,060 contracts, contrasted by net long positioning in JPY at 116,317 contracts and Gold at 166,132 contracts."
+        },
+        {
+          "h": "What to watch next",
+          "p": "Market participants should observe upcoming macroeconomic data releases and liquidity normalization following the Thanksgiving holiday break. Key focus areas include how currency pairs interact with their defined technical support and resistance boundaries, alongside any shifting central bank communications regarding upcoming rate decisions. Monitoring institutional positioning shifts will also help gauge whether current extreme RSI levels prompt mean reversion in the sessions ahead."
+        }
+      ]
+    },
     {
       "date": "2026-11-27",
       "title": "Forex Daily Brief: Dollar Takes Thanksgiving Breather as Sticky PCE Locks in Fed Outlook",
@@ -914,29 +937,6 @@
         {
           "h": "What to watch next",
           "p": "Traders should closely monitor upcoming high-impact economic events, particularly the Bank of Japan Policy Rate, Monetary Policy Statement, BOJ Outlook Report, and subsequent BOJ Press Conference scheduled for October 30, 2026. Keeping an eye on ongoing U.S. data releases and shifting Treasury yields will also be crucial for managing risk in the upcoming sessions."
-        }
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "title": "Dollar Rebounds and Central Bank Decisions Loom Ahead of Key Data",
-      "intro": "The US dollar hits a two-week high and rebounds as the euro slips on French worries and key central bank decisions approach. Meanwhile, sterling steadies and gilts tick up following Healey’s UK Budget.",
-      "sections": [
-        {
-          "h": "Market mood",
-          "p": "Market sentiment remains cautious as traders prepare for a heavy schedule of central bank rate decisions and tier-one economic data. The dollar index has found renewed strength, hitting a two-week high while Treasury yields nudge toward one-week highs. European currencies face pressure, with the euro slipping on French worries and the Polish zloty falling to its weakest level since November 2023. Sterling has steadied and gilts ticked up following Healey’s UK Budget, which unveiled a bank tax and energy bill support alongside unchanged tax thresholds."
-        },
-        {
-          "h": "Key drivers",
-          "p": "Attention is heavily focused on upcoming macroeconomic releases and monetary policy events. The Canadian dollar has held gains and steadied after a seven-day rally following a Bank of Canada rate hike, though it recently slipped as investors await further central bank clarity. Across the board, market participants are weighing the implications of upcoming US Advance GDP and Core PCE Price Index figures alongside looming Federal Reserve, ECB, and BOJ policy meetings."
-        },
-        {
-          "h": "Technical and positioning",
-          "p": "In currency markets, EUR/USD trades in a downtrend at 1.1133 with an RSI of 40.4, bounded by support at 1.1133 and resistance at 1.1298. GBP/USD holds a sideways trend at 1.32876 with an RSI of 61.3, looking toward support at 1.32008 and resistance at 1.34018. USD/CAD sits sideways at 1.4047 with an oversold RSI of 23.2, with support at 1.3995 and resistance at 1.4262. Commitment of Traders data shows net short positioning persisting in major currencies like EUR, GBP, and AUD, while USD Index net longs stand at 15,044 contracts with 65.1% of open interest on the long side."
-        },
-        {
-          "h": "What to watch next",
-          "p": "Traders should closely monitor the upcoming US Advance GDP q/q and Core PCE Price Index m/m releases scheduled for October 29, 2026. Additionally, the ECB Main Refinancing Rate and Monetary Policy Statement on October 29, followed by the BOJ Policy Rate and Outlook Report on October 30, will provide vital volatility catalysts for global FX pairs."
         }
       ]
     }
